@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GeoStatnice</title>
+    <title>Státnice Geografie</title>
+    <meta
+      name="description"
+      content="Interaktivní studijní web ke státnicím z geografie: okruhy, flashcards, kvízy, mnemotechniky a progres."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -15,94 +19,233 @@
   <body>
     <div class="page-shell">
       <header class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">Příprava na státnice ze zeměpisu</p>
-          <h1>Uč se okruhy, opakuj pojmy a zkoušej se nanečisto.</h1>
-          <p class="hero-text">
-            Jednoduchá studijní aplikace pro fyzickou i socioekonomickou geografii,
-            regiony světa a práci s mapou. Vyber téma a začni krátkým blokem.
-          </p>
-          <div class="hero-actions">
-            <button class="primary-button" id="start-learning">Začít učení</button>
-            <button class="ghost-button" id="show-random-card">Náhodná kartička</button>
+        <nav class="topbar">
+          <div>
+            <p class="eyebrow">Bc. státnice z geografie</p>
+            <p class="topbar-meta">PdF MU Brno · termín dle zadání 18. 5. 2025</p>
           </div>
-        </div>
-        <div class="hero-visual" aria-hidden="true">
-          <div class="orb orb-one"></div>
-          <div class="orb orb-two"></div>
-          <div class="globe-grid"></div>
-          <div class="globe-lines"></div>
-          <div class="hero-note">
-            <span>Dnes</span>
-            <strong id="daily-focus">Geomorfologie Evropy</strong>
-          </div>
+          <a class="inline-link" href="#okruhy">Přejít na okruhy</a>
+        </nav>
+
+        <div class="hero-grid">
+          <section class="hero-copy">
+            <p class="eyebrow">Interaktivní studijní web</p>
+            <h1>Všechny státnicové okruhy, flashcards a kvízy na jednom místě.</h1>
+            <p class="hero-text">
+              Web vznikl přímo z dodaného promptu. Má 19 okruhů, rozdělení A/B/C,
+              praktické části, mnemotechnické pomůcky, vlastní poznámky i progres
+              uložený v prohlížeči.
+            </p>
+
+            <div class="hero-actions">
+              <button class="primary-button" id="jump-to-active" type="button">
+                Otevřít aktivní okruh
+              </button>
+              <button class="ghost-button" id="draw-random-topic" type="button">
+                Vylosovat otázku
+              </button>
+            </div>
+
+            <div class="hero-ribbon">
+              <span>Profil studenta</span>
+              <strong>Fotografická paměť · mnemotechniky · konkrétní světové příklady</strong>
+            </div>
+          </section>
+
+          <aside class="hero-panel">
+            <div class="countdown-card">
+              <p class="card-label">Odpočet k termínu</p>
+              <strong id="countdown-primary">0 dní</strong>
+              <p id="countdown-secondary" class="muted">
+                Termín je převzatý přesně ze zadání.
+              </p>
+            </div>
+
+            <div class="stats-grid">
+              <article class="stat-card">
+                <span>Hotové</span>
+                <strong id="completed-count">0</strong>
+              </article>
+              <article class="stat-card">
+                <span>V procesu</span>
+                <strong id="in-progress-count">0</strong>
+              </article>
+              <article class="stat-card">
+                <span>Flashcards</span>
+                <strong id="mastered-cards-count">0</strong>
+              </article>
+              <article class="stat-card">
+                <span>Úspěšnost</span>
+                <strong id="quiz-average">0 %</strong>
+              </article>
+            </div>
+
+            <div class="exam-format">
+              <p class="card-label">Jak vypadá zkouška</p>
+              <ul>
+                <li>1 otázka z 19 okruhů</li>
+                <li>30 min příprava + 30 min odpověď</li>
+                <li>Každý okruh má části A, B a C</li>
+                <li>Povolené portfolio a atlas</li>
+              </ul>
+            </div>
+          </aside>
         </div>
       </header>
 
-      <main class="content-grid">
-        <section class="panel topics-panel" id="topics">
-          <div class="section-heading">
-            <p class="section-kicker">Studijní okruhy</p>
-            <h2>Vyber si blok podle tématu.</h2>
+      <main class="main-grid">
+        <section class="panel panel-list" id="okruhy">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Přehled okruhů</p>
+              <h2>19 státnicových okruhů</h2>
+            </div>
+            <div class="section-controls">
+              <input
+                id="topic-search"
+                class="search-input"
+                type="search"
+                placeholder="Hledat téma, část nebo klíčové slovo"
+              />
+              <div class="filter-row" id="filter-row">
+                <button class="filter-chip active" type="button" data-filter="all">Vše</button>
+                <button class="filter-chip" type="button" data-filter="practical">Praktické</button>
+                <button class="filter-chip" type="button" data-filter="A">A</button>
+                <button class="filter-chip" type="button" data-filter="B">B</button>
+                <button class="filter-chip" type="button" data-filter="C">C</button>
+              </div>
+            </div>
           </div>
+
           <div class="topic-list" id="topic-list"></div>
         </section>
 
-        <section class="panel study-panel">
-          <div class="section-heading">
-            <p class="section-kicker">Aktivní blok</p>
-            <h2 id="selected-topic-title">Fyzická geografie</h2>
-          </div>
-          <p class="selected-topic-summary" id="selected-topic-summary"></p>
-          <ul class="topic-points" id="selected-topic-points"></ul>
-          <div class="study-stats">
+        <section class="panel panel-detail" id="detail-panel">
+          <div class="detail-header">
             <div>
-              <span>Opakování</span>
-              <strong id="review-count">0</strong>
+              <p class="section-kicker">Detail okruhu</p>
+              <h2 id="detail-title">Okruh</h2>
             </div>
-            <div>
-              <span>Správně</span>
-              <strong id="correct-count">0</strong>
-            </div>
-            <div>
-              <span>Úspěšnost</span>
-              <strong id="success-rate">0 %</strong>
+            <div class="detail-actions">
+              <label class="status-label" for="status-select">Stav</label>
+              <select id="status-select" class="status-select">
+                <option value="not-started">Nezačato</option>
+                <option value="in-progress">V procesu</option>
+                <option value="done">Hotovo</option>
+              </select>
             </div>
           </div>
+
+          <p id="detail-summary" class="detail-summary"></p>
+
+          <div class="parts-grid" id="parts-grid"></div>
+
+          <div class="memory-grid">
+            <article class="memory-card">
+              <p class="card-label">Jak si to zapamatovat</p>
+              <h3 id="memory-acronym"></h3>
+              <p id="memory-visual"></p>
+            </article>
+            <article class="memory-card">
+              <p class="card-label">Srovnání dvou míst</p>
+              <h3 id="memory-comparison-title"></h3>
+              <p id="memory-comparison-body"></p>
+            </article>
+          </div>
+
+          <label class="notes-label" for="notes-area">Vlastní poznámky</label>
+          <textarea
+            id="notes-area"
+            class="notes-area"
+            rows="6"
+            placeholder="Sem si napiš vlastní příklady, příběhy, komisi oblíbené formulace nebo chyby, které nechceš zopakovat."
+          ></textarea>
+          <p class="muted">Poznámky i progres se ukládají do localStorage.</p>
         </section>
 
-        <section class="panel flashcard-panel">
-          <div class="section-heading">
-            <p class="section-kicker">Kartička</p>
-            <h2>Rychlé ověření pojmů.</h2>
+        <section class="panel panel-flashcards">
+          <div class="section-head tight">
+            <div>
+              <p class="section-kicker">Flashcards</p>
+              <h2 id="flashcards-title">8 karet pro aktivní okruh</h2>
+            </div>
+            <div class="shortcuts">
+              <span>Mezerník: otočit</span>
+              <span>← / →: předchozí a další</span>
+              <span>1 / 2: umím / neumím</span>
+            </div>
           </div>
+
           <button class="flashcard" id="flashcard" type="button" aria-live="polite">
-            <span class="flashcard-side flashcard-front">
-              <span class="flashcard-label">Otázka</span>
-              <strong id="flashcard-question"></strong>
+            <span class="flashcard-face flashcard-front">
+              <span class="card-label">Otázka</span>
+              <strong id="flashcard-front"></strong>
+              <small id="flashcard-hint"></small>
             </span>
-            <span class="flashcard-side flashcard-back">
-              <span class="flashcard-label">Odpověď</span>
-              <strong id="flashcard-answer"></strong>
+            <span class="flashcard-face flashcard-back">
+              <span class="card-label">Odpověď</span>
+              <strong id="flashcard-back"></strong>
+              <small id="flashcard-example"></small>
             </span>
           </button>
-          <div class="flashcard-actions">
-            <button class="ghost-button" id="flip-card">Otočit</button>
-            <button class="primary-button" id="next-card">Další kartička</button>
+
+          <div class="flashcard-toolbar">
+            <button class="ghost-button" id="flashcard-shuffle" type="button">Shuffle</button>
+            <button class="ghost-button" id="flashcard-skip" type="button">Přeskočit</button>
+            <button class="ghost-button" id="mark-unknown" type="button">2 · Neumím</button>
+            <button class="primary-button" id="mark-known" type="button">1 · Umím</button>
+          </div>
+
+          <div class="flashcard-progress">
+            <div>
+              <span>Karta</span>
+              <strong id="flashcard-position">1 / 8</strong>
+            </div>
+            <div>
+              <span>Znám u tohoto okruhu</span>
+              <strong id="flashcard-mastered-topic">0 / 8</strong>
+            </div>
+            <div>
+              <span>Celkem označeno jako umím</span>
+              <strong id="flashcard-mastered-total">0</strong>
+            </div>
           </div>
         </section>
 
-        <section class="panel quiz-panel">
-          <div class="section-heading">
-            <p class="section-kicker">Mini kvíz</p>
-            <h2>Jedna otázka, čtyři možnosti.</h2>
+        <section class="panel panel-quiz">
+          <div class="section-head tight">
+            <div>
+              <p class="section-kicker">Kvíz</p>
+              <h2 id="quiz-title">Kvíz k aktivnímu okruhu</h2>
+            </div>
+            <div class="quiz-mode-switch">
+              <button class="filter-chip active" type="button" data-quiz-mode="topic">
+                Jen tento okruh
+              </button>
+              <button class="filter-chip" type="button" data-quiz-mode="all">
+                Souhrnný kvíz
+              </button>
+            </div>
           </div>
+
           <div class="quiz-box">
-            <p class="quiz-question" id="quiz-question"></p>
+            <p class="quiz-type" id="quiz-type"></p>
+            <h3 id="quiz-question"></h3>
             <div class="quiz-options" id="quiz-options"></div>
+            <div class="quiz-fill" id="quiz-fill-wrap" hidden>
+              <input id="quiz-fill-input" type="text" class="search-input" placeholder="Napiš odpověď" />
+              <button class="primary-button" id="quiz-fill-submit" type="button">Ověřit</button>
+            </div>
             <p class="quiz-feedback" id="quiz-feedback"></p>
           </div>
-          <button class="ghost-button" id="next-question">Další otázka</button>
+
+          <div class="quiz-footer">
+            <div class="quiz-scoreboard">
+              <span>Správně v této sérii</span>
+              <strong id="quiz-score">0 / 0</strong>
+            </div>
+            <button class="ghost-button" id="next-question" type="button">Další otázka</button>
+          </div>
         </section>
       </main>
     </div>
