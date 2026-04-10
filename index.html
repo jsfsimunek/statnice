@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoStatnice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Příprava na státnice ze zeměpisu</p>
+          <h1>Uč se okruhy, opakuj pojmy a zkoušej se nanečisto.</h1>
+          <p class="hero-text">
+            Jednoduchá studijní aplikace pro fyzickou i socioekonomickou geografii,
+            regiony světa a práci s mapou. Vyber téma a začni krátkým blokem.
+          </p>
+          <div class="hero-actions">
+            <button class="primary-button" id="start-learning">Začít učení</button>
+            <button class="ghost-button" id="show-random-card">Náhodná kartička</button>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="globe-grid"></div>
+          <div class="globe-lines"></div>
+          <div class="hero-note">
+            <span>Dnes</span>
+            <strong id="daily-focus">Geomorfologie Evropy</strong>
+          </div>
+        </div>
+      </header>
+
+      <main class="content-grid">
+        <section class="panel topics-panel" id="topics">
+          <div class="section-heading">
+            <p class="section-kicker">Studijní okruhy</p>
+            <h2>Vyber si blok podle tématu.</h2>
+          </div>
+          <div class="topic-list" id="topic-list"></div>
+        </section>
+
+        <section class="panel study-panel">
+          <div class="section-heading">
+            <p class="section-kicker">Aktivní blok</p>
+            <h2 id="selected-topic-title">Fyzická geografie</h2>
+          </div>
+          <p class="selected-topic-summary" id="selected-topic-summary"></p>
+          <ul class="topic-points" id="selected-topic-points"></ul>
+          <div class="study-stats">
+            <div>
+              <span>Opakování</span>
+              <strong id="review-count">0</strong>
+            </div>
+            <div>
+              <span>Správně</span>
+              <strong id="correct-count">0</strong>
+            </div>
+            <div>
+              <span>Úspěšnost</span>
+              <strong id="success-rate">0 %</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel flashcard-panel">
+          <div class="section-heading">
+            <p class="section-kicker">Kartička</p>
+            <h2>Rychlé ověření pojmů.</h2>
+          </div>
+          <button class="flashcard" id="flashcard" type="button" aria-live="polite">
+            <span class="flashcard-side flashcard-front">
+              <span class="flashcard-label">Otázka</span>
+              <strong id="flashcard-question"></strong>
+            </span>
+            <span class="flashcard-side flashcard-back">
+              <span class="flashcard-label">Odpověď</span>
+              <strong id="flashcard-answer"></strong>
+            </span>
+          </button>
+          <div class="flashcard-actions">
+            <button class="ghost-button" id="flip-card">Otočit</button>
+            <button class="primary-button" id="next-card">Další kartička</button>
+          </div>
+        </section>
+
+        <section class="panel quiz-panel">
+          <div class="section-heading">
+            <p class="section-kicker">Mini kvíz</p>
+            <h2>Jedna otázka, čtyři možnosti.</h2>
+          </div>
+          <div class="quiz-box">
+            <p class="quiz-question" id="quiz-question"></p>
+            <div class="quiz-options" id="quiz-options"></div>
+            <p class="quiz-feedback" id="quiz-feedback"></p>
+          </div>
+          <button class="ghost-button" id="next-question">Další otázka</button>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
