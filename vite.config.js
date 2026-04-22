@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 // For user pages (username.github.io) use '/'
 export default defineConfig({
   plugins: [react()],
-  base: '/statnice-geografie/',
+  base: '/statnice/',
 })
