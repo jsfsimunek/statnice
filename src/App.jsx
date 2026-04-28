@@ -3,7 +3,7 @@ import Navigation from './components/Navigation.jsx'
 import OkruhPage from './components/OkruhPage.jsx'
 import OpakovaniPage from './components/OpakovaniPage.jsx'
 
-const OKRUHY_COUNT = 10
+const OKRUHY_COUNT = 19
 
 export default function App() {
   const [activeOkruh, setActiveOkruh] = useState(1)

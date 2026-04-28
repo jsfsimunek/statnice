@@ -1,0 +1,327 @@
+{
+  "id": 6,
+  "nazev": "Okruh 6",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "Představte českou kartografickou produkci včetně státních mapových děl a doložte na příkladech v portfoliu. Vyjmenujte a popište nejznámější staré mapy, uveďte zdroje starých map a zhodnoťte jejich využitelnost.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "Státní mapové dílo ČR – civilní",
+            "obsah": "Mapové dílo = mapy jednotného měřítka, zobrazení, znakového klíče, s nomenklaturou. Státní mapové dílo = budované státní zeměměřickou službou, definované nař. vlády 430/2006.\n\nCivilní státní mapové dílo:\nA) Katastrální mapy (1:1000, 1:2000, 1:2880…)\nB) Státní mapa 1:5000 (dříve SMO5)\nC) Základní mapy ČR – ZM 10, ZM 25, ZM 50, ZM 100, ZM 200\n   - Vznikly 1968 po sovětské invazi (utajování)\n   - Odvozená mapa (nové mapování neproběhlo)\n   - S-JTSK, Křovákovo zobrazení, Besselův elipsoid\nD) Mapa ČR 1:500 000\nE) Tematická mapová díla na podkladě ZM\n\nZABAGED = ZÁkladníBÁzeGEografickýchDat – digitální model ČR z ZM10, 106 typů objektů, aktualizace v 3letých cyklech, přístup přes WMS.",
+            "mnemotechnika": "ZM10 = nejpodrobnější ZM, ZM200 = nejméně podrobná. ZABAGED = Základní Baze Geo Dat."
+          },
+          {
+            "nadpis": "Státní mapové dílo ČR – vojenské",
+            "obsah": "Topografické mapy ČR:\n- Státní mapové dílo pro potřeby obrany státu\n- Jednotné dílo pro státy Varšavské smlouvy od roku 1953\n- Základní měřítko 1:25 000, řada TM25\n- Gauss-Krügerovo zobrazení, Krasovského elipsoid, S-42\n- Zpracovává Geografická služba Armády ČR v Dobrušce\n- Vydavatel: Generální štáb AČR\n- Zobrazují ČR + příhraničí\n- TM10, TM25, TM50, TM200",
+            "mnemotechnika": "TM = Topografická Mapa (vojenská). ZM = Základní Mapa (civilní)."
+          },
+          {
+            "nadpis": "Česká kartografická produkce",
+            "obsah": "Hlavní kartografická nakladatelství ČR:\n- Kartografie Praha – školní atlasy, turistické mapy, žákovský atlas\n- SHOCart – turistické a cyklomapy\n- Geodézie On-line (digitální mapy)\n\nOnline zdroje:\n- Geoportál ČÚZK: geoportal.cuzk.cz\n- Geoportál INSPIRE: geoportal.gov.cz\n- Nahlížení do katastru: nahlizenidokn.cuzk.cz\n- Stará mapová díla: oldmaps.geolab.cz, oldmapsonline.org",
+            "mnemotechnika": "ČÚZK = úředník s digitální mapou ČR; oldmaps.geolab.cz = digitální archiv historických map"
+          },
+          {
+            "nadpis": "Nejznámější staré mapy ČR a světa",
+            "obsah": "Staré mapy Čech:\n- Klaudiánova mapa Čech (1518) – první tištěná mapa Čech, Jan Klaudián\n- Fabriciova mapa Čech (1569) – Pavel Fabricius\n- Müllerova mapa Čech (1720) – Jan Kryštof Müller, velmi přesná, podklad pro mapy 18. století\n- Josefské a Stabilní katastrální mapování (2. pol. 18. / 19. stol.) – základ pro katastr\n\nSvětové staré mapy:\n- Ptolemaiova Geographia (~150 n. l.) – souřadnicový systém, zobrazení\n- Herefordská mappamundi (~1300) – mapa světa s Jeruzalémem ve středu\n- Waldseemüllerova mapa (1507) – první mapa s názvem „America\"\n- Mercatorova mapa (1569) – konformní válcové zobrazení dodnes v navigaci\n\nVyužitelnost starých map: historické bádání, rekonstrukce krajiny, vývoj sídel, archeologie, právní spory o hranice.",
+            "mnemotechnika": "Klaudián 1518 = první tištěná mapa Čech. Waldseemüller 1507 = Amerika poprvé pojmenována. Müller 1720 = nejlepší stará mapa Čech."
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Co je ZABAGED?",
+          "odpoved": "ZÁkladníBÁzeGEografickýchDat – digitální geografický model ČR odvozený z ZM10, 106 typů objektů, aktualizace každé 3 roky."
+        },
+        {
+          "otazka": "Jaký je rozdíl ZM a TM?",
+          "odpoved": "ZM (Základní mapa) = civilní státní mapové dílo, S-JTSK, Křovák. TM (Topografická mapa) = vojenské dílo, S-42, Gauss-Krüger."
+        },
+        {
+          "otazka": "Kdo vydává topografické mapy ČR?",
+          "odpoved": "Geografická služba AČR v Dobrušce, vydavatel Generální štáb AČR."
+        },
+        {
+          "otazka": "Co je Klaudiánova mapa?",
+          "odpoved": "První tištěná mapa Čech z roku 1518, autorem Jan Klaudián."
+        },
+        {
+          "otazka": "Co je Waldseemüllerova mapa z roku 1507?",
+          "odpoved": "První mapa světa, na níž je nový kontinent pojmenován Amerika (podle Ameriga Vespucciho)."
+        },
+        {
+          "otazka": "Co je Müllerova mapa Čech?",
+          "odpoved": "Mapa Čech z roku 1720 od Jana Kryštofa Müllera – velmi přesná, sloužila jako podklad pro mapy 18. stol."
+        },
+        {
+          "otazka": "K čemu slouží staré mapy dnes?",
+          "odpoved": "Historické bádání, rekonstrukce krajiny, vývoj sídel, archeologie, právní spory o hranice."
+        },
+        {
+          "otazka": "Kde najdeme staré mapy online?",
+          "odpoved": "oldmaps.geolab.cz, oldmapsonline.org, geoportal.cuzk.cz."
+        },
+        {
+          "otazka": "Jaká měřítková řada tvoří ZM ČR?",
+          "odpoved": "ZM10, ZM25, ZM50, ZM100, ZM200."
+        },
+        {
+          "otazka": "Co je Ptolemaiova Geographia?",
+          "odpoved": "Dílo z 2. stol. n. l. zavádějící souřadnicový systém a kartografická zobrazení – základ evropské kartografie."
+        },
+        {
+          "otazka": "Kdy vznikly Základní mapy ČR a proč?",
+          "odpoved": "V roce 1968 po sovětské invazi – z důvodu utajování (odvozená mapa, neprobíhalo nové mapování)."
+        },
+        {
+          "otazka": "Co je Stabilní katastrální mapování?",
+          "odpoved": "Mapování 19. stol. za Habsburků – základ pro moderní katastr nemovitostí v ČR."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "ZABAGED je zkratka pro:",
+          "moznosti": [
+            "Základní Atlas Bezpečnostní GEografické Databáze",
+            "ZÁkladníBÁzeGEografickýchDat",
+            "Zeměměřický Archiv Bezpečnostní GEodézie",
+            "Základní Adaptované BAsické GEodatové Dílo"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Topografické mapy (TM) jsou:",
+          "moznosti": [
+            "civilní státní mapové dílo",
+            "vojenské státní mapové dílo",
+            "turistické mapy",
+            "katastrální mapy"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Klaudiánova mapa (1518) je:",
+          "moznosti": [
+            "první tištěná mapa světa",
+            "první tištěná mapa Čech",
+            "první vojenská mapa ČR",
+            "Müllerova předchůdkyně"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Waldseemüllerova mapa (1507) je historicky významná, protože:",
+          "moznosti": [
+            "jako první zobrazila Antarktidu",
+            "zavedla souřadnicový systém",
+            "jako první pojmenovala nový kontinent Amerika",
+            "použila Mercatorovo zobrazení"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Základní mapy ČR (ZM) vznikly v roce:",
+          "moznosti": [
+            "1953",
+            "1968",
+            "1989",
+            "1995"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "ZM10 v ČR používá zobrazení:",
+          "moznosti": [
+            "Mercatorovo válcové",
+            "Gaussovo-Krügerovo",
+            "Křovákovo kuželové konformní",
+            "Lambertovo kuželové"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Katastrální mapy v ČR mají měřítko:",
+          "moznosti": [
+            "1:10 000",
+            "1:500 000",
+            "1:1 000 nebo 1:2 000",
+            "1:25 000"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Topografické mapy ČR jsou v souřadnicovém systému:",
+          "moznosti": [
+            "S-JTSK",
+            "WGS-84",
+            "S-42",
+            "BpV"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Staré mapy lze využít pro:",
+          "moznosti": [
+            "přesnou navigaci v terénu",
+            "historické bádání a rekonstrukci krajiny",
+            "vojenské operace",
+            "GPS navigaci"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Kdo zpracovává topografické mapy ČR dnes?",
+          "moznosti": [
+            "ČÚZK",
+            "Kartografie Praha",
+            "Geografická služba AČR v Dobrušce",
+            "VÚGTK"
+          ],
+          "spravna": 2
+        }
+      ]
+    },
+    {
+      "pismeno": "B",
+      "zneni": "Identifikujte a lokalizujte environmentální rizika spojená s hospodářským využíváním krajiny člověkem. Srovnejte rizika na příkladu různých typů krajiny v rámci zvolených biomů.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "Environmentální rizika – přehled",
+            "obsah": "Environmentální riziko: pravděpodobnost negativního dopadu lidské činnosti nebo přírodní události na ekosystémy, biodiverzitu nebo lidské zdraví.\n\nHlavní kategorie:\n1. Degradace půdy: eroze, acidifikace, zasolení, utužení, zástavba\n2. Deforestace: odlesňování → ztráta biodiverzity, eroze, klimatická změna\n3. Desertifikace: rozšiřování pouštního prostředí vlivem klimatu + nadměrného využívání\n4. Kontaminace: pesticidy, těžké kovy, průmyslové emise\n5. Narušení vodního režimu: přehrady, odvodnění, nadměrné čerpání podzemních vod\n6. Invazní druhy: vytlačení původních druhů zavlečenými organizmy\n7. Přílišná fragmentace krajiny: dálnice, zástavba → izolace populací",
+            "mnemotechnika": "DegDeFrDesKonVodInvFrag = 7 hlavních rizik. Každé jde ruku v ruce s využíváním krajiny."
+          },
+          {
+            "nadpis": "Rizika v tropickém deštném lese",
+            "obsah": "Biom: tropický deštný les (Amazonie, Kongo, Borneo)\n\nHlavní rizika:\n1. Deforestace: mýcení pro zemědělství (sójové plantáže v Brazílii, palma olejná v JV Asii), dobytkářství, těžba dřeva\n   → Ztráta 75 % druhů vázaných na les, eroze lateritické půdy, CO₂ emise\n2. Půdní degradace po odlesnění: lateritické půdy jsou po odlesnění rychle vymývány a stávají se neúrodnými\n3. Narušení vodního cyklu: les transpiruje obrovské množství vody → po odlesnění snížení srážek\n4. Zranitelnost biodiverzity: endemické druhy bez možnosti migrace\n5. Fragmentace: izolované 'ostrovy' lesa → snížení genové diverzity\n\nLokalizace: Brazílie (pás deforestace Arco do Desmatamento), Borneo (palma), Kongo (válečné konflikty + dřevo)",
+            "mnemotechnika": "TDL rizika = Deforestace+PůdaDegradace+VodníCyklus+Biodiverzita+Fragmentace"
+          },
+          {
+            "nadpis": "Rizika ve stepích a zemědělské krajině",
+            "obsah": "Biom: step, prérie, pampa\n\nHlavní rizika:\n1. Větrná a vodní eroze: orné půdy bez trvalé vegetace, černozem v ČR ohrožena vodní erozí\n2. Utužení půdy: těžká zemědělská technika → snížení pórovitosti, záplavy, eroze\n3. Acidifikace: dusíkatá hnojiva, kyselé srážky → pokles pH, ztráta biodiverzity\n4. Kontaminace pesticidy: herbicidy, insekticidy → ztráta opylovačů, útlum půdního edafonu\n5. Ztráta biodiverzity (agrocenózy): monokulturní zemědělství → málo druhů, invazní plevel\n6. Desertifikace: přepasení (overgrazing) v semiaridních stepích → degradace vegetace\n\nPříklady: Dust Bowl USA 1930 (větrná eroze), eroze černozemí Moravy",
+            "mnemotechnika": "Stepi: Eroze+Utužení+Acidifikace+Pesticidy+Monokultury+Desertifikace = 6 rizik zemědělství"
+          },
+          {
+            "nadpis": "Rizika ve středomořské krajině",
+            "obsah": "Biom: tvrdolisté lesy Středomoří\n\nHlavní rizika:\n1. Požáry: suché léto + větrné podmínky (tramontana, mistral) → časté rozsáhlé požáry\n   → Obnova pařezovými lesy (macchie, garrigue) místo původního lesa\n2. Degradace sekundárních formací: přepasení ovcemi a kozami → desertifikace\n3. Turistický tlak: eroze pobřeží, zástavba\n4. Invazní druhy: agáve, opuncie (zavlečeny z Ameriky), vytlačení původní flóry\n5. Eroze: skalnaté svahy po požárech + krátkodobé intenzivní srážky → sesuvy půdy\n\nHistorické využití: odlesnění Středomoří v antice pro stavbu lodí → vznik macchie a garrigue místo původních lesů\n\nPříklady: požáry Řecka 2023, sesuvy Itálie",
+            "mnemotechnika": "Středomoří rizika: Oheň+Přepasení+Turismus+Invaze+Eroze. Historicky: lesy → lodě → macchie."
+          },
+          {
+            "nadpis": "Desertifikace a rizika v semiaridních oblastech",
+            "obsah": "Desertifikace: degradace půd v suchých, polosuchých a suchých subhumidních oblastech v důsledku klimatické variability a lidských aktivit.\n\nPříčiny:\n- Přepasení (overgrazing): odstranění vegetace → eroze\n- Odlesnění: ztráta zadržování vody v půdě\n- Nevhodné zavlažování: salinizace půdy (sůl se hromadí po odparu vody)\n- Klimatická variabilita: prodlužování suchých období\n\nPostižené oblasti: Sahel (Afrika), Aral (Střední Asie), severní Čína, Indie\n\nDůsledky: ztráta úrodné půdy, migrace obyvatelstva, hladomory, konflikty\n\nOpatření:\n- Větrolamy (shelterbelt): China Green Wall\n- Kapkové závlahy\n- Rekultivace pomocí původních druhů (Farmer Managed Natural Regeneration – FMNR)\n\nPřípad Aralského jezera: zavlažování bavlny → pokles hladiny o 90 %, salinizace okolních půd",
+            "mnemotechnika": "Desertifikace = Přepasení+Odlesnění+Salinizace+Klima. Sahel+Aral = největší ohniska."
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Co je desertifikace?",
+          "odpoved": "Degradace půd v suchých a polosuchých oblastech vlivem klimatické variability a lidských aktivit (přepasení, odlesnění, nevhodné zavlažování)."
+        },
+        {
+          "otazka": "Proč jsou lateritické půdy tropického deštného lesa po odlesnění neúrodné?",
+          "odpoved": "Živiny jsou vázány v biomase, po odlesnění jsou vymývány rychle ze silně vyluhovaných lateritických půd."
+        },
+        {
+          "otazka": "Co je Arco do Desmatamento?",
+          "odpoved": "Pás deforestace v Brazílii na okraji Amazonie – hlavní fronta kácení pro zemědělství."
+        },
+        {
+          "otazka": "Co způsobilo Dust Bowl v USA v 30. letech 20. stol.?",
+          "odpoved": "Větrná eroze orných půd prérie po zornění trvalých travních porostů a suchu."
+        },
+        {
+          "otazka": "Jaký vliv má deforestace na vodní cyklus v tropickém lese?",
+          "odpoved": "Les transpiruje obrovské množství vody – po odlesnění klesají místní srážky, narušuje se vodní cyklus."
+        },
+        {
+          "otazka": "Co jsou macchie a garrigue?",
+          "odpoved": "Sekundární křovité formace ve Středomoří vzniklé po odlesnění a přepasení – náhrada původních lesů."
+        },
+        {
+          "otazka": "Proč způsobuje zavlažování v suchých oblastech salinizaci půdy?",
+          "odpoved": "Voda se odpařuje a soli zůstávají v půdě – hromadí se v povrchových horizontech."
+        },
+        {
+          "otazka": "Co je přepasení (overgrazing)?",
+          "odpoved": "Nadměrné spásání vegetace dobytkem, které překračuje regenerační schopnost ekosystému → eroze a desertifikace."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Největší environmentální riziko v tropickém deštném lese je:",
+          "moznosti": [
+            "záplavy",
+            "deforestace pro zemědělství a dobytkářství",
+            "vulkanická činnost",
+            "přepasení kozami"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Dust Bowl v USA byl způsoben:",
+          "moznosti": [
+            "průmyslovým znečištěním",
+            "větrnou erozí zorněných prériových půd",
+            "vodní erozí po povodních",
+            "desertifikací způsobenou přepasením"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Desertifikace nastává nejčastěji kombinací:",
+          "moznosti": [
+            "přepasení + nevhodné zavlažování + klimatická variabilita",
+            "deforestace + povodně + zemětřesení",
+            "znečištění + kyselé srážky + těžba",
+            "zástavba + fragmentace + invazní druhy"
+          ],
+          "spravna": 0
+        },
+        {
+          "otazka": "Macchie a garrigue ve Středomoří jsou:",
+          "moznosti": [
+            "původní klimaxové formace",
+            "sekundární formace vzniklé po odlesnění a přepasení",
+            "tropické pralesní formace",
+            "alpinská vegetace"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Salinizace půdy je typickým rizikem při:",
+          "moznosti": [
+            "větrné erozi stepí",
+            "zavlažování v suchých oblastech s intenzivním výparem",
+            "deforestaci tropických lesů",
+            "acidifikaci průmyslovými emisemi"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Lateritické půdy jsou chudé, protože:",
+          "moznosti": [
+            "jsou příliš studené pro tvorbu humusu",
+            "jsou silně vyluhované a živiny jsou vázány v biomase",
+            "mají příliš vysoké pH",
+            "jsou zasolené z moře"
+          ],
+          "spravna": 1
+        }
+      ]
+    },
+    {
+      "pismeno": "C",
+      "zneni": "Popište fáze vývoje měst (od předindustriálního po postindustriální) a uveďte aktuální trendy v ČR a ve světě.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "id": 3,
+  "nazev": "Okruh 3",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "S využitím atlasu popište obsah a náplň mapy. Představte základní kartografické vyjadřovací prostředky a metody. Navrhněte způsob využití vybraných metod a doložte s využitím map v atlase. Porovnejte obecně zeměpisnou a tematickou mapu s vysvětlením jejich využití pro praxi.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "Definice mapy a 3Z",
+            "obsah": "Mapa je zmenšený, generalizovaný, konvenční obraz Země (nebo nebeských těles), převedený do roviny pomocí matematicky definovaných vztahů, ukazující polohu, stav a vztahy přírodních, socioekonomických a technických objektů. (ČSN 730402)\n\nTři klíčové vlastnosti mapy:\n1. Zmenšení (měřítko)\n2. Zkreslení (zobrazení)\n3. Zjednodušení (generalizace)\n\nMapa není fotografie – je to abstraktní model reality selektivně zobrazující jen to, co je pro daný účel důležité.",
+            "mnemotechnika": "3Z mapy: Zmenšení + Zkreslení + Zjednodušení"
+          },
+          {
+            "nadpis": "Obsah mapy a kompoziční prvky",
+            "obsah": "Matematický základ: kartografické zobrazení, souřadnicová síť, měřítko, rám.\n\nGeografický obsah – obecně zeměpisné prvky: vodstvo, reliéf, sídla, komunikace, vegetace, hranice.\n\nDoplňkový obsah (kompozice):\nZÁKLADNÍ (povinné): mapové pole, název mapy, legenda, tiráž, měřítko\nNADSTAVBOVÉ: směrovka, lokalizační mapka, vedlejší mapy, tabulky, grafy, textová pole\n\nLegenda musí být: úplná, nezávislá, uspořádaná, v souladu s mapou, srozumitelná.",
+            "mnemotechnika": "NázLegTirMěřPole = 5 povinných prvků. Legenda = UNUUS (Úplná, Nezávislá, Uspořádaná, v souladu s mapou, Srozumitelná)"
+          },
+          {
+            "nadpis": "Kartografické znaky – typy",
+            "obsah": "Tři základní typy dle geometrie:\n\n1. BODOVÉ znaky (bodové jevy):\n- Geometrické (kruh, čtverec, trojúhelník)\n- Symbolické (miniatura objektu – letadlo pro letiště)\n- Obrázkové (realistické zobrazení)\n- Alfanumerické (čísla, písmena, kódy)\n\n2. LINIOVÉ znaky (liniové jevy): silnice, řeky, hranice, železnice\n- Jednoduché, složené, doprovodné\n\n3. PLOŠNÉ znaky (plošné jevy): lesy, vodní plochy, administrativní jednotky\n- Barevná výplň, šrafura, rastr\n\nGrafické proměnné (Bertin): tvar, velikost, barva, orientace, struktura, světlost",
+            "mnemotechnika": "BoLinPlo = 3 typy. TvVeBaOrStrSv = 6 grafických proměnných (Tvar, Velikost, Barva, Orientace, Struktura, Světlost)"
+          },
+          {
+            "nadpis": "Metody tematické kartografie",
+            "obsah": "1. Bodová metoda: 1 bod = N jednotek (počet obyvatel, kusů dobytka). Vhodná pro absolutní hodnoty.\n\n2. Kartogram: plošné jednotky barveny podle relativní hodnoty (hustota/km², %). Příklad: hustota obyvatel států světa.\n\n3. Kartodiagram: do plošných jednotek vloženy diagramy (sloupcové, kruhové). Příklad: objem sklizně dle krajů.\n\n4. Metoda izolinií: čáry spojují místa se stejnou hodnotou. Izohypsy (výšky), izobary (tlak), izotermy (teplota), izobaty (hloubky oceánu). Vhodná pro spojité jevy.\n\n5. Metoda barevných vrstev: barevné odlišení ploch mezi izoliniemi. Zvláštní případ: hypsometrie.\n\n6. Metoda areálů: ohraničení ploch výskytu jevu (areál rozšíření druhu).\n\n7. Stuhová metoda (tokové diagramy): šířka linie = intenzita pohybu. Migrace, obchod, doprava.\n\n8. Metoda pohybových šipek: směr a intenzita pohybu.",
+            "mnemotechnika": "BodKarKartIzoBarAreaStu = 7 hlavních metod tematické kartografie"
+          },
+          {
+            "nadpis": "Obecně zeměpisná vs. tematická mapa",
+            "obsah": "Obecně zeměpisná mapa:\n- Komplexní obsah bez dominantního tématu\n- Zobrazuje vodstvo, reliéf, sídla, komunikace, hranice\n- Cílem je věrně zachytit krajinu\n- Příklady: topografická mapa ZM10, turistická mapa, nástěnná mapa\n- Využití: orientace v terénu, územní plánování\n\nTematická mapa:\n- Jeden dominantní jev jako obsah, OZM jako podklad\n- Příklady: klimatická, geologická, hustota obyvatelstva, ekonomická\n- Využití: vědecká analýza, statistika, výuka, prezentace dat\n\nKlíčový rozdíl: OZM = CO je kde (topografie). Tematická = JAK MOC a PROČ (analýza).",
+            "mnemotechnika": "OZM = Orientace Zemi Mapuje (kde jsem). Tematická = Téma Enlightens Matérii Analýzou (proč a kolik)"
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Jaké jsou 3 klíčové vlastnosti mapy?",
+          "odpoved": "Zmenšení (měřítko), zkreslení (zobrazení), zjednodušení (generalizace)."
+        },
+        {
+          "otazka": "Co je tiráž?",
+          "odpoved": "Povinný kompoziční prvek – nakladatel, rok vydání, autoři, ISBN, souřadnicový systém."
+        },
+        {
+          "otazka": "Rozdíl kartogram vs. kartodiagram?",
+          "odpoved": "Kartogram: plošné jednotky barveny dle relativní hodnoty. Kartodiagram: do jednotek vloženy diagramy."
+        },
+        {
+          "otazka": "Co jsou izohypsy?",
+          "odpoved": "Izolinie spojující místa se stejnou nadmořskou výškou."
+        },
+        {
+          "otazka": "Co je metoda barevných vrstev?",
+          "odpoved": "Barevné odlišení ploch mezi izoliniemi. Hypsometrie je zvláštní případ pro výšky."
+        },
+        {
+          "otazka": "Rozdíl obecně zeměpisná vs. tematická mapa?",
+          "odpoved": "OZM: komplexní obsah, orientace v krajině. Tematická: jeden dominantní jev, analýza."
+        },
+        {
+          "otazka": "Co je stuhová metoda?",
+          "odpoved": "Tokové diagramy – linie znázorňují pohyb (migrace, obchod), šířka = intenzita."
+        },
+        {
+          "otazka": "Jaké jsou 4 druhy bodových znaků?",
+          "odpoved": "Geometrické, symbolické, obrázkové, alfanumerické."
+        },
+        {
+          "otazka": "Co jsou grafické proměnné (Bertin)?",
+          "odpoved": "Tvar, velikost, barva, orientace, struktura, světlost."
+        },
+        {
+          "otazka": "K čemu slouží legenda mapy?",
+          "odpoved": "K výkladu mapových znaků a vyjadřovacích prostředků. Musí být úplná, nezávislá, uspořádaná, srozumitelná."
+        },
+        {
+          "otazka": "Co je metoda areálů?",
+          "odpoved": "Ohraničení a vyplnění ploch výskytu jevu – areál rozšíření živočišného druhu."
+        },
+        {
+          "otazka": "Jaké jsou 5 povinných kompozičních prvků mapy?",
+          "odpoved": "Mapové pole, název, legenda, tiráž, měřítko."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Kartogram znázorňuje:",
+          "moznosti": [
+            "pohyb a tok jevů",
+            "relativní hodnoty v plošných jednotkách (hustota, %)",
+            "diagramy vložené do plošných jednotek",
+            "izolinie"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Izohypsy jsou:",
+          "moznosti": [
+            "izolinie stejného tlaku",
+            "izolinie stejné teploty",
+            "izolinie stejné nadmořské výšky",
+            "izolinie stejné hustoty"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Stuhová metoda zobrazuje:",
+          "moznosti": [
+            "plochu výskytu jevu",
+            "pohyb – směr a intenzitu",
+            "hustotu v plošných jednotkách",
+            "absolutní hodnoty v bodech"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Které z těchto není povinný kompoziční prvek mapy?",
+          "moznosti": [
+            "Legenda",
+            "Tiráž",
+            "Směrovka",
+            "Měřítko"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Tematická mapa oproti obecně zeměpisné:",
+          "moznosti": [
+            "zobrazuje komplexní obsah bez tématu",
+            "zobrazuje jeden dominantní jev",
+            "nepoužívá kartografické znaky",
+            "nemá legendu"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Bodová metoda funguje tak, že:",
+          "moznosti": [
+            "každý bod je jeden jev bez vztahu k množství",
+            "body spojují místa se stejnou hodnotou",
+            "1 bod = určitý počet jednotek (obyvatel, kusů)",
+            "body znázorňují intenzitu barvou"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Metoda barevných vrstev se používá pro:",
+          "moznosti": [
+            "kartogram hustoty obyvatelstva",
+            "hypsometrii a jiné spojité jevy",
+            "zobrazení pohybu zboží",
+            "areály rozšíření druhů"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Geometrické, symbolické, obrázkové a alfanumerické jsou typy:",
+          "moznosti": [
+            "liniových znaků",
+            "plošných znaků",
+            "bodových znaků",
+            "kompozičních prvků"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Legenda mapy musí být zejména:",
+          "moznosti": [
+            "co nejdelší a nejdetailnější",
+            "úplná, nezávislá, uspořádaná, srozumitelná",
+            "umístěna vždy vpravo dolů",
+            "pouze u tematických map"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Metoda areálů zobrazuje:",
+          "moznosti": [
+            "pohyb a intenzitu",
+            "výškové pásmo",
+            "plochu výskytu jevu",
+            "relativní hodnoty v administrativních jednotkách"
+          ],
+          "spravna": 2
+        }
+      ]
+    },
+    {
+      "pismeno": "B",
+      "zneni": "Představte vrstvy Země, endogenní a exogenní geologické procesy, jejich průběh a důsledky.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "C",
+      "zneni": "Doložte využití primárních a sekundárních dat v geografii.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

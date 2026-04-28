@@ -1,0 +1,36 @@
+{
+  "id": 11,
+  "nazev": "Okruh 11",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "S využitím portfolia navrhněte terénní výuku fyzické geografie pro základní školu. Popište cíl, výzkumné metody, data a předpokládaný výstup.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "B",
+      "zneni": "S využitím náčrtku popište složení a stavbu atmosféry a příčiny extrémních atmosférických jevů.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "C",
+      "zneni": "S pomocí atlasu zdůvodněte lokalizaci zemědělských oblastí světa a dopady zemědělství na ŽP.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

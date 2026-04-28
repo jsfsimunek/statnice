@@ -1,0 +1,36 @@
+{
+  "id": 17,
+  "nazev": "Okruh 17",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "Vyberte problém z vašeho okolí a doložte nástroje a metody geografie k jeho analýze a řešení.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "B",
+      "zneni": "Popište vztahy mezi horninovou stavbou území, georeliéfem a lidskými aktivitami.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "C",
+      "zneni": "Na konkrétní formě cestovního ruchu vysvětlete, jak může přispívat k rozvoji regionu.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

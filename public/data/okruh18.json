@@ -1,0 +1,131 @@
+{
+  "id": 18,
+  "nazev": "Okruh 18",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "S využitím portfolia představte na konkrétních příkladech využití moderních informačních technologií ve výuce zeměpisu se zaměřením na mobilní aplikace a online GIS.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "IT ve výuce zeměpisu – přehled nástrojů",
+            "obsah": "Moderní IT ve výuce zeměpisu rozdělujeme do kategorií:\n\n1. ONLINE MAPOVÉ APLIKACE:\n- Google Maps / Google Earth – navigace, prohlídka světa ve 3D, časosběr snímků\n- Mapy.cz (Seznam) – ČR, turistické mapy offline\n- ArcGIS Online (Esri) – tvorba interaktivních map, analýzy\n- uMap (OpenStreetMap) – žáci tvoří vlastní mapy online\n\n2. MOBILNÍ APLIKACE (GIS/GPS):\n- Locus Map, OruxMaps – turistická navigace s offline mapami\n- ČHMÚ – meteorologické mapy a radary\n- iNaturalist – mapování biodiverzity žáky\n- Collector for ArcGIS – sběr geodat v terénu\n- EarthViewer (Howard Hughes) – geologická evoluce Země\n\n3. VZDĚLÁVACÍ GEO-PLATFORMY:\n- Google Earth Education\n- ArcGIS StoryMaps – interaktivní příběhy s mapami\n- NASA Worldview – satelitní snímky denně aktualizované\n- Copernicus / ESA EO College – vzdělávání DPZ\n\n4. GEOPROSTOROVÉ DOVEDNOSTI v RVP:\n- Součást digitální gramotnosti\n- Práce s prostorovými daty: výběr, čtení, analýza, interpretace, tvorba, vizualizace, sdílení",
+            "mnemotechnika": "OnlineMapa + MobilApp + GEOplatforma = 3 kategorie. GMaps, ArcGIS, uMap = tři úrovně složitosti."
+          },
+          {
+            "nadpis": "Konkrétní příklady využití ve výuce",
+            "obsah": "Google Earth ve výuce:\n- Prohlídka světových geografických celků (Grand Canyon, Delta Nilu, Himaláje)\n- Srovnání starých a nových satelitních snímků (odlesňování Amazonie, ústup ledovců na Kilimandžáru)\n- Virtuální terénní exkurze\n- Měření vzdáleností a ploch\n\nArcGIS Online ve výuce:\n- Tvorba tematické mapy hustoty obyvatelstva\n- Analýza spádových oblastí škol\n- Mapový příběh (StoryMap) o vybraném geografickém tématu\n\niNaturalist ve výuce:\n- Žáci fotografují a určují organismy v terénu\n- Data se ukládají do globální databáze biodiverzity\n- Propojení biologie a geografie\n\nČHMÚ aplikace:\n- Čtení meteorologických map a radarových snímků\n- Porovnání modelu počasí s reálitou\n\nStoryMaps (Esri):\n- Tvorba multimediálního reportáže s mapou\n- Žáci prezentují geografické téma formou webu s mapou",
+            "mnemotechnika": "Earth = prohlídka světa. ArcGIS = analýza. iNaturalist = biodiverzita terénem. ČHMÚ = počasí."
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Co je ArcGIS StoryMaps?",
+          "odpoved": "Platforma Esri pro tvorbu interaktivních prezentací kombinujících mapy, text, fotografie a videa."
+        },
+        {
+          "otazka": "Co je iNaturalist?",
+          "odpoved": "Mobilní aplikace a platforma pro mapování biodiverzity – žáci fotografují organismy v terénu."
+        },
+        {
+          "otazka": "Jak lze využít Google Earth ve výuce kartografie?",
+          "odpoved": "Virtuální exkurze, srovnání snímků v čase, měření vzdáleností, prohlídka reliéfu ve 3D."
+        },
+        {
+          "otazka": "Co je uMap?",
+          "odpoved": "Webový nástroj pro tvorbu vlastních map na podkladě OpenStreetMap – vhodný pro žáky i učitele."
+        },
+        {
+          "otazka": "Jaký je rozdíl ArcGIS Online a Google Maps ve výuce?",
+          "odpoved": "Google Maps: navigace a základní prohlídka. ArcGIS Online: pokročilá tvorba map, analýzy, vizualizace dat."
+        },
+        {
+          "otazka": "Co jsou geoprostorové dovednosti v RVP?",
+          "odpoved": "Součást digitální gramotnosti – práce s prostorovými daty od výběru, čtení, analýzy až po tvorbu a sdílení map."
+        },
+        {
+          "otazka": "Co je Collector for ArcGIS?",
+          "odpoved": "Mobilní aplikace Esri pro sběr geodat v terénu – žáci zaznamenávají polohu a atributy objektů."
+        },
+        {
+          "otazka": "Jak lze využít NASA Worldview ve výuce?",
+          "odpoved": "Denně aktualizované satelitní snímky Země – sledování požárů, povodní, cyklónů, pokryv sněhem."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "ArcGIS Online je vhodný pro výuku zejména k:",
+          "moznosti": [
+            "GPS navigaci v terénu",
+            "tvorbě tematických map a analýze prostorových dat",
+            "prohlížení 3D terénu",
+            "meteorologickým předpovědím"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "iNaturalist umožňuje žákům:",
+          "moznosti": [
+            "tvořit tematické mapy ve třídě",
+            "fotografovat a určovat organismy a přispívat do globální databáze biodiverzity",
+            "sledovat satelitní snímky v reálném čase",
+            "měřit vzdálenosti v mapě"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Google Earth časosběr (Timelapse) umožňuje sledovat:",
+          "moznosti": [
+            "reálný čas pohybu satelitů",
+            "historické změny krajiny ze satelitních snímků (odlesňování, ústup ledovců)",
+            "předpověď počasí",
+            "pohyb litosférických desek"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "uMap je vhodný pro výuku, protože:",
+          "moznosti": [
+            "je nejpřesnější kartografický software",
+            "žáci mohou snadno vytvořit vlastní interaktivní mapu",
+            "umí automaticky generovat tematické mapy z dat",
+            "funguje pouze offline"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Geoprostorové dovednosti jsou v RVP ZŠ zahrnuty jako součást:",
+          "moznosti": [
+            "matematické gramotnosti",
+            "přírodovědné gramotnosti",
+            "digitální gramotnosti a oborového pilíře zeměpisu",
+            "mediální výchovy"
+          ],
+          "spravna": 2
+        }
+      ]
+    },
+    {
+      "pismeno": "B",
+      "zneni": "Popište mořské proudění ve vazbě na VCA a vysvětlete El Niño.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "C",
+      "zneni": "Popište aktuální trendy rozvoje města Brna z pohledu socioekonomického geografa.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

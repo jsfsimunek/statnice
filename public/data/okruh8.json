@@ -1,0 +1,213 @@
+{
+  "id": 8,
+  "nazev": "Okruh 8",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "S použitím portfolia popište praktické využití DPZ v geografii, jiných vědách a ve výuce. Objasněte metody DPZ, fyzikální podstatu vzniku obrazových dat, a rozdíl mezi satelitními snímky v pravých a nepravých barvách. Vyjmenujte hlavní znaky při interpretaci satelitních snímků. Popište rozdíl mezi leteckými, satelitními a ortofoto snímky.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "DPZ – definice a metody",
+            "obsah": "DPZ (Dálkový průzkum Země) = soubor metod pro získávání informací o objektech a jevech na zemském povrchu bez přímého kontaktu – na dálku, zejména ze vzduchu nebo z vesmíru.\n\nFyzikální podstata: každý objekt odráží nebo emituje elektromagnetické záření různě dle svých vlastností → senzory zachycují toto záření v různých pásmech spektra.\n\nElektromagnetické spektrum v DPZ:\n- Viditelné světlo (VIS): 0,4–0,7 μm → to, co vidíme\n- Blízká infračervená (NIR): 0,7–1,3 μm → vegetace silně odráží\n- Střední infračervená (MIR): 1,3–3 μm → vlhkost půdy\n- Tepelná infračervená (TIR): 8–14 μm → teplota povrchu\n- Mikrovlnné (radar): proniká oblačností → SAR\n\nMetody DPZ:\n- Pasivní DPZ: senzor zachycuje odražené sluneční záření nebo vlastní emisi (letecké snímky, Landsat, Sentinel)\n- Aktivní DPZ: senzor sám vysílá záření a zachycuje odraz → radar SAR (Sentinel-1), LiDAR",
+            "mnemotechnika": "Pasivní = čeká na světlo (jako oko). Aktivní = svítí si sám (jako baterka). SAR proniká přes mraky."
+          },
+          {
+            "nadpis": "Pravé vs. nepravé barvy",
+            "obsah": "Pravé barvy (True Color, RGB): kanály R+G+B odpovídají skutečným barvám viditelného spektra. Snímek vypadá jako fotografie – les je zelený, voda modrá, půda hnědá.\n\nNepravé barvy (False Color, falešné barvy): do RGB kanálů jsou přiřazeny jiné spektrální pásma, než odpovídají skutečnosti.\n\nNejčastější kombinace:\n- NIR-R-G (vegetace): zdravá vegetace = jasně červená (NIR silně odráží). Stres vegetace = bledá/tmavá červená.\n- SWIR-NIR-R: rozlišení vlhkosti, typ vegetace\n\nVyužití nepravých barev:\n- Monitorování zdraví vegetace (NDVI)\n- Mapování požárů a spálenišť\n- Detekce vlhkosti půdy\n- Geologie (rozlišení hornin)",
+            "mnemotechnika": "Pravé barvy = jak to vidíš okem. Nepravé = vegetace svítí červeně (NIR = zdravá rostlina = červená)."
+          },
+          {
+            "nadpis": "Znaky při interpretaci snímků",
+            "obsah": "Interpretační znaky satelitních a leteckých snímků:\n1. Tón/barva – světlost nebo barva objektu na snímku\n2. Textura – jemnost/hrubost povrchu (les = hrubá, moře = jemná)\n3. Tvar – geometrie objektu (obdélníkové = budovy, kruhovité = nádrže)\n4. Velikost – absolutní nebo relativní velikost\n5. Vzor – pravidelné/nepravidelné uspořádání (zemědělská políčka)\n6. Stín – tvar stínu napovídá výšku a tvar objektu\n7. Poloha/kontext – co je v sousedství (dům u silnice vs. dům u lesa)\n8. Asociace – co je typicky spojeno s daným objektem",
+            "mnemotechnika": "ToBaTvVeVzStPoAs = Tón, Barva, Tvar, Velikost, Vzor, Stín, Poloha, Asociace"
+          },
+          {
+            "nadpis": "Letecký vs. satelitní vs. ortofoto snímek",
+            "obsah": "Letecký snímek:\n- Pořízen z letadla nebo dronu\n- Velmi vysoké rozlišení (cm–dm)\n- Centrální projekce – objekty na okrajích jsou naklápěny\n- Není přímo použitelný v GIS bez zpracování\n\nSatelitní snímek:\n- Pořízen z orbity (stovky km výšky)\n- Nižší rozlišení (0,5–30 m záleží na satelitu)\n- Různá spektrální pásma (multispektrální, hyperspektrální)\n- Pravidelné opakování (Sentinel: každých 5 dní, Landsat: 16 dní)\n\nOrtofoto (ortofotomapa):\n- Letecký snímek opravený o zkreslení (centrální projekce → ortogonální)\n- Správná geometrie – lze měřit vzdálenosti a plochy\n- V ČR: ČÚZK pořizuje ortofoto ČR pravidelně (ORTOFOTO ČR)\n- Dostupné na Geoportálu ČÚZK\n\nShrnutí: ortofoto = letecký snímek geometricky korigovaný = použitelný jako mapa.",
+            "mnemotechnika": "Letecký = nakloněný (centrální projekce). Satelitní = z vesmíru. Ortofoto = letecký rovný (ortogonální) = mapa."
+          },
+          {
+            "nadpis": "Využití DPZ v praxi a výuce",
+            "obsah": "Geografie a přírodní vědy:\n- Monitorování vegetace (NDVI index)\n- Sledování povodní, požárů, ledovců\n- Geologické mapování\n- Monitoring zemědělských plodin\n- Urbanizace a změny land-use\n\nJiné obory:\n- Meteorologie: snímky oblaků (MSG, NOAA)\n- Obrana: špionážní satelity, InSAR\n- Archeologie: LiDAR odhalování skrytých struktur\n- Námořnictví: SAR radar sledování lodí\n\nVe výuce:\n- Google Earth – prohlížení snímků v čase, 3D\n- Sentinel Hub – přístup k bezplatným datům Sentinel\n- NASA Worldview – denně aktualizované globální snímky\n- Copernicus (ESA) vzdělávací materiály\n\nHlavní satelity:\nLandsat (NASA/USGS): od 1972, 30m rozlišení, archiv 50 let\nSentinel-2 (ESA): 10m, každých 5 dní, zdarma\nSentinel-1 (ESA): SAR radar, proniká mraky",
+            "mnemotechnika": "Landsat = americký dlouhověký archiv (1972–dnes). Sentinel = evropský, zdarma, rychlý."
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Co je DPZ?",
+          "odpoved": "Dálkový průzkum Země – soubor metod pro získávání informací o povrchu bez přímého kontaktu, ze vzduchu nebo vesmíru."
+        },
+        {
+          "otazka": "Rozdíl pasivní vs. aktivní DPZ?",
+          "odpoved": "Pasivní: zachycuje odražené sluneční záření (letecké snímky, Landsat). Aktivní: sám vysílá záření a zachycuje odraz (radar SAR, LiDAR)."
+        },
+        {
+          "otazka": "Proč se vegetace na NIR kompozici jeví červeně?",
+          "odpoved": "Zdravá vegetace silně odráží blízké infračervené záření (NIR), které je v kombinaci NIR-R-G zobrazeno jako červená."
+        },
+        {
+          "otazka": "Co je ortofoto?",
+          "odpoved": "Letecký snímek geometricky opravený o zkreslení centrální projekce – správná geometrie, lze měřit vzdálenosti."
+        },
+        {
+          "otazka": "Co je NDVI?",
+          "odpoved": "Normalized Difference Vegetation Index – index zdraví vegetace z NIR a červeného pásma."
+        },
+        {
+          "otazka": "Jak často snímkuje Sentinel-2?",
+          "odpoved": "Každých 5 dní, s rozlišením 10 m, data jsou zdarma."
+        },
+        {
+          "otazka": "Jaký je hlavní rozdíl letecký vs. satelitní snímek?",
+          "odpoved": "Letecký: z letadla, velmi vysoké rozlišení, centrální projekce. Satelitní: z orbity, nižší rozlišení, opakované snímkování."
+        },
+        {
+          "otazka": "Co je SAR?",
+          "odpoved": "Synthetic Aperture Radar – aktivní radarový systém DPZ, proniká oblačností a pracuje i v noci."
+        },
+        {
+          "otazka": "Vyjmenuj 4 interpretační znaky snímků.",
+          "odpoved": "Tón/barva, textura, tvar, velikost, vzor, stín, poloha/kontext, asociace."
+        },
+        {
+          "otazka": "Co je LiDAR a k čemu se používá?",
+          "odpoved": "Light Detection And Ranging – aktivní systém vysílající laserové pulsy. Využívá se pro DMR, archeologii (odhalení skrytých struktur)."
+        },
+        {
+          "otazka": "Jaké spektrální pásmo vegetace silně odráží?",
+          "odpoved": "Blízká infračervená (NIR, 0,7–1,3 μm)."
+        },
+        {
+          "otazka": "Co je Sentinel-1?",
+          "odpoved": "Satelit ESA s radarem SAR – proniká mraky, sledování záplav, pohybu zemského povrchu (InSAR)."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "DPZ je zkratka pro:",
+          "moznosti": [
+            "Detailní Průzkum Zeminy",
+            "Dálkový Průzkum Země",
+            "Digitální Plánování Zemědělství",
+            "Digitální Průzkum Záběrů"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Aktivní DPZ (SAR, LiDAR) se od pasivního liší tím, že:",
+          "moznosti": [
+            "pracuje jen ve viditelném spektru",
+            "sám vysílá záření a zachycuje odraz",
+            "používá pouze letadla",
+            "nezpracovává digitální data"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Na NIR kompozici se zdravá vegetace jeví jako:",
+          "moznosti": [
+            "modrá",
+            "zelená",
+            "červená",
+            "bílá"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Ortofoto je:",
+          "moznosti": [
+            "letecký snímek bez geometrické korekce",
+            "satelitní snímek v nepravých barvách",
+            "letecký snímek geometricky opravený o zkreslení",
+            "schématická mapa leteckého koridoru"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Sentinel-2 pořizuje snímky s rozlišením:",
+          "moznosti": [
+            "1 m",
+            "10 m",
+            "100 m",
+            "1 km"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Landsat je program:",
+          "moznosti": [
+            "ESA – Evropská kosmická agentura",
+            "NASA/USGS – americký, dostupný od roku 1972",
+            "čínský satelitní program",
+            "ruský vojenský satelit"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "NDVI index měří:",
+          "moznosti": [
+            "vzdálenost od satelitu",
+            "teplotu zemského povrchu",
+            "zdraví a stav vegetace",
+            "vlhkost atmosféry"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "SAR radar v DPZ je výhodný, protože:",
+          "moznosti": [
+            "poskytuje barevné snímky v pravých barvách",
+            "proniká oblačností a pracuje i v noci",
+            "má nejlepší prostorové rozlišení",
+            "je nejlevnější technologie"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Interpretační znak 'textura' na snímku znamená:",
+          "moznosti": [
+            "barvu objektu",
+            "geometrický tvar objektu",
+            "jemnost nebo hrubost povrchu na snímku",
+            "výšku objektu"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "LiDAR se v archeologii využívá pro:",
+          "odpoved": "B",
+          "moznosti": [
+            "datování nálezů radioaktivním uhlíkem",
+            "odhalení skrytých struktur pod vegetací nebo zemí",
+            "chemickou analýzu půdních vrstev",
+            "fotografování nálezů"
+          ],
+          "spravna": 1
+        }
+      ]
+    },
+    {
+      "pismeno": "B",
+      "zneni": "Představte geomorfologii jako vědu, základní skupiny procesů, využití morfometrie.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "C",
+      "zneni": "Popište strukturu průmyslu a diferenciaci průmyslových regionů světa.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

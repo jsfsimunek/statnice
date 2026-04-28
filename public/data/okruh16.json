@@ -1,0 +1,136 @@
+{
+  "id": 16,
+  "nazev": "Okruh 16",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "S využitím portfolia interpretujte ukázkovou kompozici mapy a její využití pro praxi.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "Postup interpretace kompozice mapy",
+            "obsah": "Při interpretaci kompozice mapy systematicky procházíme tyto složky:\n\n1. NÁZEV MAPY – Co mapa zobrazuje? (co, kde, kdy)\n2. MAPOVÉ POLE – Jaké je vymezení území? Jaké je kartografické zobrazení? Souřadnicová síť?\n3. MĚŘÍTKO – Číselné, grafické nebo slovní? Jaká je úroveň generalizace?\n4. LEGENDA – Jsou vysvětleny všechny znaky? Je úplná, uspořádaná?\n5. TIRÁŽ – Autor, rok, nakladatel, souřadnicový systém, datum aktuálnosti\n6. DOPLŇKOVÉ PRVKY – Směrovka, lokalizační mapka, grafy, tabulky\n\nHodnocení celkové kompozice:\n- Rovnováha prvků (mapové pole vs. legenda vs. okraj)\n- Čitelnost a přehlednost\n- Vhodnost zvolených vyjadřovacích prostředků pro daný účel\n- Odpovídá obsah účelu mapy?",
+            "mnemotechnika": "NázMapMěřLegTirDopl = 6 kroků interpretace kompozice"
+          },
+          {
+            "nadpis": "Příklady kompozic dle druhu mapy",
+            "obsah": "Turistická mapa (1:25 000–1:50 000):\n- Výrazné bodové znaky turistické infrastruktury\n- Vrstevnice pro terén, barevná hypsometrie\n- Podrobná silniční a turistická síť\n- Legenda zaměřená na turistické objekty\n\nTopografická mapa (ZM10, 1:10 000):\n- Všechny prvky obecně zeměpisného obsahu\n- Hustá vrstevnicová kresba (ekvidistance 2 m nebo 5 m)\n- Koordinátní síť S-JTSK\n\nTematická mapa (hustota obyvatelstva):\n- Kartogram – plošné jednotky barveny dle hustoty\n- Barevná stupnice v legendě (škála od světlé po tmavou)\n- Jednoduchý geografický podklad\n\nŠkolní nástěnná mapa:\n- Velký formát, výrazné barvy pro dálkovou čitelnost\n- Omezený obsah (generalizace)\n- Lokalizační mapka nebo výřez",
+            "mnemotechnika": "Turistická = terén + turistika. ZM10 = detail. Kartogram = barva = hustota. Nástěnná = velká = jednoduchá."
+          },
+          {
+            "nadpis": "Využití kompozice v praxi",
+            "obsah": "Každý prvek kompozice má praktický důvod:\n\nNázev: okamžitá orientace co mapa zobrazuje\nMěřítko: možnost měřit vzdálenosti a plochy\nLegenda: dekódování symbolů bez předchozí znalosti\nTiráž: hodnocení aktuálnosti a spolehlivosti dat\nSměrovka: orientace mapy vůči světovým stranám\nLokalizační mapka: zasazení výřezu do širšího kontextu\n\nChyby v kompozici a jejich důsledky:\n- Chybí měřítko → nelze měřit vzdálenosti\n- Neúplná legenda → část obsahu nelze interpretovat\n- Chybí tiráž → nevíme jak stará a spolehlivá data\n- Přetížená legenda → nepřehledná mapa",
+            "mnemotechnika": "Bez měřítka nelze měřit. Bez legendy nelze číst. Bez tiráže nelze věřit."
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Jaké jsou povinné složky kompozice mapy?",
+          "odpoved": "Mapové pole, název, legenda, tiráž, měřítko."
+        },
+        {
+          "otazka": "Co je ekvidistance vrstevnic?",
+          "odpoved": "Výškový rozdíl mezi sousedními vrstevnicemi. Na ZM10: obvykle 2 nebo 5 m."
+        },
+        {
+          "otazka": "Proč je tiráž důležitá při interpretaci mapy?",
+          "odpoved": "Obsahuje rok vydání, autora, souřadnicový systém – umožňuje hodnotit aktuálnost a spolehlivost."
+        },
+        {
+          "otazka": "Co je lokalizační mapka?",
+          "odpoved": "Vedlejší mapa v menším měřítku zasazující zobrazené území do širšího geografického kontextu."
+        },
+        {
+          "otazka": "Jak se liší kompozice turistické a topografické mapy?",
+          "odpoved": "Turistická zdůrazňuje turistickou infrastrukturu a přírodu. Topografická zobrazuje všechny prvky OZM obsahu s technickou přesností."
+        },
+        {
+          "otazka": "Co musí splňovat dobrá legenda?",
+          "odpoved": "Musí být úplná, nezávislá, uspořádaná, v souladu s mapou a srozumitelná."
+        },
+        {
+          "otazka": "Co je mapové pole?",
+          "odpoved": "Plocha zobrazující vlastní obsah mapy – největší část mapového listu."
+        },
+        {
+          "otazka": "Proč je u školní nástěnné mapy obvykle méně prvků?",
+          "odpoved": "Mapa je určena pro dálkové čtení – silnější generalizace, výrazné barvy, omezený obsah pro přehlednost."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Tiráž mapy obsahuje:",
+          "moznosti": [
+            "výšky terénu",
+            "nakladatele, rok vydání, souřadnicový systém",
+            "turistické trasy",
+            "administrativní hranice"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Ekvidistance vrstevnic je:",
+          "moznosti": [
+            "vzdálenost mezi dvěma body na mapě",
+            "výškový rozdíl mezi sousedními vrstevnicemi",
+            "délka vrstevnice v terénu",
+            "hustota vrstevnic"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Lokalizační mapka slouží k:",
+          "moznosti": [
+            "zobrazení detailu důležitého místa",
+            "zasazení zobrazovaného území do širšího kontextu",
+            "zobrazení turistické trasy",
+            "měření vzdáleností"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Chybí-li v mapě měřítko:",
+          "moznosti": [
+            "nelze určit světové strany",
+            "nelze měřit vzdálenosti a plochy",
+            "nelze číst znaky v legendě",
+            "nelze určit rok vydání"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Nástěnná mapa se od atlasové liší zejména:",
+          "moznosti": [
+            "typem kartografického zobrazení",
+            "větším formátem, silnější generalizací a výraznějšími barvami",
+            "tím, že nemá legendu",
+            "výhradně fyzickogeografickým obsahem"
+          ],
+          "spravna": 1
+        }
+      ]
+    },
+    {
+      "pismeno": "B",
+      "zneni": "Popište vodní tok a jeho hydrologické charakteristiky.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "C",
+      "zneni": "Na příkladu vybraného místa zdůvodněte rozmístění maloobchodních jednotek a jejich vliv na morfologickou strukturu města.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

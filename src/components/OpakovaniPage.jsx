@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 
-const OKRUHY_COUNT = 10
+const OKRUHY_COUNT = 19
 const TABS = [
   { id: 'flashcards', label: '🃏 Flashcards' },
   { id: 'kviz', label: '✏️ Kvíz' },

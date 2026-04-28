@@ -1,0 +1,202 @@
+{
+  "id": 9,
+  "nazev": "Okruh 9",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "Družicové a navigační systémy – uveďte a srovnejte typy drah, ke každé jmenujte alespoň jeden konkrétní systém satelitů a vysvětlete princip určování polohy objektu pomocí satelitů. Uveďte státy s globálním systémem satelitů a jejich názvy. Stručně představte organizace ESA a NASA, uveďte jména jejich satelitů a aktivity pro vzdělávání.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "Typy satelitních drah",
+            "obsah": "LEO – Low Earth Orbit (nízká oběžná dráha):\n- Výška: 200–2 000 km\n- Rychlý oběh (~90 min)\n- Příklady: Sentinel-1/2 (DPZ), ISS (vesmírná stanice), Starlink\n- Výhody: nízká latence, vysoké rozlišení snímků\n- Nevýhody: rychle mizí za obzorem, nutné konstelace\n\nMEO – Medium Earth Orbit (střední dráha):\n- Výška: 2 000–35 786 km\n- Příklady: GPS (20 200 km), Galileo (23 222 km), GLONASS\n- Typické pro navigační systémy GNSS\n\nGEO – Geostationary Orbit (geostacionární dráha):\n- Výška: 35 786 km nad rovníkem\n- Oběžná doba = 1 den → satelit se zdá stát na místě\n- Příklady: meteorologické satelity MSG (Meteosat), komunikační satelity\n- Výhody: stálé pokrytí oblasti\n- Nevýhody: velká vzdálenost → latence, malé rozlišení snímků\n\nHEO – Highly Elliptical Orbit (velmi eliptická dráha):\n- Molnijova dráha – pro pokrytí polárních oblastí\n- Příklady: ruské komunikační satelity",
+            "mnemotechnika": "LEO-MEO-GEO-HEO výškou stoupá: LEO = nízko (Sentinel), MEO = střed (GPS), GEO = vysoko stojí (počasí), HEO = elipsa (Rusko-polární)"
+          },
+          {
+            "nadpis": "Globální navigační satelitní systémy (GNSS)",
+            "obsah": "Princip: satelit vysílá signál s přesným časem. Přijímač měří zpoždění signálu → vzdálenost od satelitu (pseudovzdálenost). Trilaterace ze 3+ satelitů → poloha XYZ. Čtvrtý satelit nutný pro korekci hodin přijímače.\n\nGlobální GNSS systémy:\n| Systém | Provozovatel (stát) | Počet satelitů | Dráha |\n|---|---|---|---|\n| GPS | USA (DoD) | 31 | MEO 20 200 km |\n| GLONASS | Rusko | 24 | MEO 19 100 km |\n| Galileo | EU (ESA) | 30 | MEO 23 222 km |\n| BeiDou (BDS) | Čína | 35+ | MEO + GEO |\n\nRegionální systémy: QZSS (Japonsko), NAVIC (Indie)\n\nDPPS/EGNOS: diferenciální GPS korekce pro vyšší přesnost (ESA EGNOS v Evropě, přesnost ~1 m)",
+            "mnemotechnika": "GPS = Globální Polohovací Systém USA. Galileo = EU satelity. GLONASS = Ruský. BeiDou = Čínský. Stát si pamatuj: AmERuChi = Amerika, EU, Rusko, Čína."
+          },
+          {
+            "nadpis": "ESA a NASA – organizace a satelity",
+            "obsah": "NASA (National Aeronautics and Space Administration):\n- USA, základ 1958\n- Satelity DPZ: Landsat (od 1972, 30m, pozemní povrch), Terra/MODIS, Aqua, GOES (meteorologie)\n- Vzdělávání: NASA Education, NASA Worldview, EarthData portál\n\nESA (European Space Agency):\n- Mezinárodní evropská organizace, základ 1975, sídlo Paříž\n- Satelity: Sentinel-1 (SAR radar), Sentinel-2 (multispektrální, 10m), Sentinel-3 (oceány), Sentinel-5P (atmosféra), Meteosat (počasí)\n- Program Copernicus: bezplatná data pro veřejnost\n- Vzdělávání: ESA EO College, Copernicus vzdělávací materiály, ESA Kids\n\nSrovnání:\n| | NASA | ESA |\n|---|---|---|\n| Sídlo | Washington D.C., USA | Paříž, Francie |\n| Klíčový DPZ program | Landsat | Copernicus/Sentinel |\n| Přístup k datům | Zdarma (USGS EarthExplorer) | Zdarma (Copernicus Hub) |",
+            "mnemotechnika": "NASA = americký vesmír + Landsat starý archiv. ESA = evropský vesmír + Sentinel nové bezplatné data."
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Na jaké dráze létají GPS satelity?",
+          "odpoved": "MEO – Medium Earth Orbit, výška přibližně 20 200 km."
+        },
+        {
+          "otazka": "Kolik satelitů GPS je nutné pro 3D polohu?",
+          "odpoved": "Minimálně 4 – 3 pro trilateraci polohy, 4. pro korekci hodin přijímače."
+        },
+        {
+          "otazka": "Co je Galileo?",
+          "odpoved": "Evropský globální navigační satelitní systém, provozovaný ESA/EU, cca 30 satelitů na MEO (23 222 km)."
+        },
+        {
+          "otazka": "Jaký satelitní systém provozuje Čína?",
+          "odpoved": "BeiDou (BDS)."
+        },
+        {
+          "otazka": "Co je geostacionární dráha?",
+          "odpoved": "GEO orbit ve výšce 35 786 km nad rovníkem, oběžná doba 24 h – satelit se zdá stát na místě."
+        },
+        {
+          "otazka": "K čemu slouží geostacionární satelity?",
+          "odpoved": "Meteorologická observace (Meteosat) a telekomunikace – stálé pokrytí velké oblasti."
+        },
+        {
+          "otazka": "Co je ESA?",
+          "odpoved": "European Space Agency – evropská mezivládní vesmírná organizace, sídlo v Paříži, základ 1975."
+        },
+        {
+          "otazka": "Co je program Copernicus?",
+          "odpoved": "Evropský program ESA/EU pro pozorování Země pomocí satelitů Sentinel, data jsou bezplatně k dispozici."
+        },
+        {
+          "otazka": "Co je EGNOS?",
+          "odpoved": "Evropský geostacionární navigační překryvný systém – diferenciální korekce GPS pro přesnost ~1 m."
+        },
+        {
+          "otazka": "Na jaké dráze jsou satelity Sentinel-2?",
+          "odpoved": "LEO – Low Earth Orbit, výška cca 786 km."
+        },
+        {
+          "otazka": "Co je Landsat?",
+          "odpoved": "Program NASA/USGS pro snímkování Země od roku 1972, rozlišení 30 m, největší archiv snímků Země."
+        },
+        {
+          "otazka": "Jaký je princip určení polohy pomocí GNSS?",
+          "odpoved": "Měření zpoždění signálu od 4+ satelitů → trilaterace vzdáleností → výpočet polohy XYZ."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "GPS satelity obíhají na dráze:",
+          "moznosti": [
+            "LEO – cca 500 km",
+            "MEO – cca 20 200 km",
+            "GEO – 35 786 km",
+            "HEO – eliptická dráha"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Pro výpočet 3D polohy pomocí GPS jsou nutné minimálně:",
+          "moznosti": [
+            "2 satelity",
+            "3 satelity",
+            "4 satelity",
+            "6 satelitů"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Galileo je navigační systém:",
+          "moznosti": [
+            "USA",
+            "Ruska",
+            "Číny",
+            "EU/ESA"
+          ],
+          "spravna": 3
+        },
+        {
+          "otazka": "BeiDou je navigační systém provozovaný:",
+          "moznosti": [
+            "Japonskem",
+            "Indií",
+            "Čínou",
+            "Austrálií"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Geostacionární dráha (GEO) je ve výšce:",
+          "moznosti": [
+            "400 km",
+            "20 000 km",
+            "35 786 km",
+            "100 000 km"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Meteosat je satelit na:",
+          "moznosti": [
+            "LEO dráze pro detailní snímkování",
+            "GEO dráze pro meteorologická pozorování",
+            "MEO dráze pro navigaci",
+            "HEO dráze pro polární oblasti"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "ESA je zkratka pro:",
+          "moznosti": [
+            "European Satellite Administration",
+            "Eastern Space Agency",
+            "European Space Agency",
+            "Earth Sensing Authority"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Program Copernicus zahrnuje satelity:",
+          "moznosti": [
+            "Landsat série",
+            "GPS a Galileo",
+            "Sentinel série (1, 2, 3, 5P)",
+            "Meteosat série"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "GLONASS je navigační systém provozovaný:",
+          "moznosti": [
+            "USA",
+            "EU",
+            "Ruskem",
+            "Čínou"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "LEO satelity (jako Sentinel) se od GEO liší tím, že:",
+          "moznosti": [
+            "jsou výše a stojí na místě",
+            "jsou níže, rychle obíhají a poskytují lepší rozlišení",
+            "obíhají na eliptické dráze",
+            "slouží výhradně pro navigaci"
+          ],
+          "spravna": 1
+        }
+      ]
+    },
+    {
+      "pismeno": "B",
+      "zneni": "Na příkladech definujte tvary reliéfu, příčiny jejich vzniku, hlavní typy reliéfu Země.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "C",
+      "zneni": "Charakterizujte funkce města a venkova, jejich proměny a vazby mezi nimi.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

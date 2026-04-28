@@ -51,9 +51,7 @@ function SekceCard({ sekce }) {
   return (
     <div className="card space-y-3">
       {sekce.nadpis && <h2 className="section-heading">{sekce.nadpis}</h2>}
-      {sekce.obsah && (
-        <p className="text-slate-700 leading-relaxed text-sm sm:text-base">{sekce.obsah}</p>
-      )}
+      {sekce.obsah && <ObsahBlock text={sekce.obsah} />}
       {sekce.seznam?.length > 0 && (
         <ul className="list-disc list-inside space-y-1 text-sm text-slate-700 pl-1">
           {sekce.seznam.map((item, i) => <li key={i}>{item}</li>)}
@@ -69,6 +67,27 @@ function SekceCard({ sekce }) {
           </div>
         </div>
       )}
+    </div>
+  )
+}
+
+function ObsahBlock({ text }) {
+  const paragraphs = text.split(/\n\n+/)
+  return (
+    <div className="space-y-2 text-slate-700 leading-relaxed text-sm sm:text-base">
+      {paragraphs.map((para, pi) => {
+        const lines = para.split('\n')
+        return (
+          <p key={pi}>
+            {lines.map((line, li) => (
+              <span key={li}>
+                {line}
+                {li < lines.length - 1 && <br />}
+              </span>
+            ))}
+          </p>
+        )
+      })}
     </div>
   )
 }
