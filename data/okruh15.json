@@ -1,0 +1,36 @@
+{
+  "id": 15,
+  "nazev": "Okruh 15",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "Vysvětlete princip slapových jevů, jejich vliv na reliéf pobřeží a důsledky pro lidskou činnost.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "B",
+      "zneni": "Popište rozložení zásob vody na Zemi. Vysvětlete malý a velký oběh vody.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "C",
+      "zneni": "Charakterizujte a zdůvodněte aktuální trendy v dopravě a jejich vliv na rozmístění ekonomických aktivit.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

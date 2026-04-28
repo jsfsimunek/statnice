@@ -1,0 +1,192 @@
+{
+  "id": 5,
+  "nazev": "Okruh 5",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "Praktická otázka: Sestrojte v tabulkovém procesoru věkovou pyramidu obyvatel Česka. Vytvořenou pyramidu popište a srovnejte s jinými typy. Uveďte příklady států typické pro daný typ.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "B",
+      "zneni": "S využitím atlasu vysvětlete prostorové uspořádání (horizontální i vertikální) půd v Česku. Uveďte příklady půdotvorných procesů pro formování půdních typů.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "Taxonomický klasifikační systém půd ČR",
+            "obsah": "Základní klasifikace (Němeček a kol., 2001): referenční třídy → půdní typy → půdní subtypy → variety → fáze → formy.\n\nHlavní třídy a typy půd ČR:\n\nLEPTOSOLY (mělké půdy na pevných horninách, max. 30 cm):\n- Litozem: mělká, kompaktní skála do 10 cm, malé plochy pahorkatin\n- Ranker: bazální souvrství silikátových hornin, > 50 % skeletu\n- Rendzina: ze skeletovitých rozpadů karbonátových hornin (vápence)\n- Pararendzina: z karbonátosilikátových hornin, křídové a flyšové sedimenty\n\nREGOSOLY (ze sypkých sedimentů):\n- Regozem: z písků, rovinaté oblasti\n\nFLUVISOLY (v říčních nivách):\n- Fluvizem: vrstevnatost, nepravidelné rozložení org. látek\n- Koluvizem: akumulace erozních sedimentů ve spodních částech svahů\n\nVERTISOLY (tmavé těžké půdy v suchých oblastech):\n- Smonice: ze smektitických jílů s trhlinami – SZ Čechy a jižní Morava",
+            "mnemotechnika": "Leptosoly = mělké. Regosoly = sypké. Fluvizem = nivy. Smonice = jíly s trhlinami."
+          },
+          {
+            "nadpis": "Půdní typy ČR – černosoly a luvisoly",
+            "obsah": "ČERNOSOLY (ze sypkých karbonátových substrátů, stepy, mírný pás):\n- Černozem: nejúrodnější půda ČR, sorpčně nasycená, obsah humusu 2–4,5 %, sušší a teplejší oblasti pod travními porosty (jižní Morava, střední Čechy)\n  → Půdotvorný proces: humifikace (tvorba stabilního humusu), calcifikace\n- Černice: nezpevněné karbonátové substráty s černickým horizontem\n\nLUVISOLY (zonální půdy, nížiny a kotliny, ze středně těžkých sedimentů):\n- Šedozem: šedý melanický horizont, lesostep (periférie černozemí, jižní Morava)\n- Hnědozem: degradace černozemě, úrodná, zemědělsky využívaná, ~1/5 plochy ČR\n  → Půdotvorný proces: illimerizace (migrace jílu), degradace černozemě\n- Luvizem: podbeskydské pahorkatiny, pravděpodobně vznik rozmrzáním/promrzáním ke konci dob ledových\n  → Půdotvorný proces: illimerizace s argilickým horizontem",
+            "mnemotechnika": "Černozem = nejúrodnější, jižní Morava, humifikace. Hnědozem = degradace černozemě, illimerizace."
+          },
+          {
+            "nadpis": "Půdní typy ČR – kambisoly a podzosoly",
+            "obsah": "KAMBISOLY (nejrozšířenější v ČR, cca 45 % plochy):\n- Kambizem: trojhorizontová půda, proces hnědnutí (braunifikace) – tvorba jílu, typická lesní půda, vázána na svahoviny a členitý reliéf\n  → Půdotvorný proces: braunifikace (uvolnění Fe z primárních minerálů)\n- Pelozem (slínovatka): pedoplasmace jílů a slínů, SV Čechy, V Morava\n\nPODZOSOLY (pod vyběleným horizontem, vrchoviny, hory):\n- Kryptopodzol: rezivě žlutá barva, mor jako humusová forma, chladné vlhké oblasti\n- Podzol: fyzikálně i chemicky nepříznivý, toxicita Al, vlhké chladné oblasti, vrchoviny (Šumava, Krkonoše, Beskydy)\n  → Půdotvorný proces: podzolizace (migrace Al a Fe sloučenin)\n\nANDOSOLY: kyselé vulkanické vyvrženiny – v ČR zatím nenalezeny",
+            "mnemotechnika": "Kambizem = nejrozšířenější (45%), braunifikace. Podzol = vrchoviny, podzolizace, toxický Al."
+          },
+          {
+            "nadpis": "Půdní typy ČR – hydromorfní a organické",
+            "obsah": "STAGNOSOLY (semihydromorfní, mramorovaný horizont):\n- Pseudoglej: kolísání hladiny vody, nepříznivý pro rostliny, okolí řek, třetihorní pánve (Č. Budějovice)\n  → Půdotvorný proces: oglejení (rezivé skvrny z střídání oxidace/redukce)\n- Stagnoglej: pseudoglej s velmi dlouhou periodou převlhčení\n\nGLEJSOLY (dlouhodobé působení podzemní vody):\n- Glej: ovlivněna povrchovou nebo spodní vodou, horizont zabahněný šedo-zelený, oranžový u kořenů\n  → Půdotvorný proces: glejizace (redukce Fe v anaerobních podmínkách)\n\nORGANOSOLY (rašelinové půdy, hlavně Jeseníky):\n- Organozem: rašelinový horizont > 50 cm, vysoký podíl humózních látek\n\nANTROPOSOLY (antropogenně modifikované):\n- Kultizem: ornice z kultivačních procesů\n- Antrozem: z nakupených substrátů (těžba, stavby, rekultivace skládek)",
+            "mnemotechnika": "Pseudoglej = oglejení (rezivé). Glej = glejizace (zeleno-modré). Organozem = rašelina. Kultizem = ornice."
+          },
+          {
+            "nadpis": "Vertikální a horizontální rozložení půd v ČR",
+            "obsah": "Horizontální (šířkové) rozložení:\n- Nejnižší polohy (nížiny, Morava, středočeské kotliny): černozem, hnědozem, fluvizem\n- Pahorkatiny a vrchoviny: kambizem (dominantní typ), luvizem\n- Hory: kryptopodzol, podzol\n- Říční nivy: fluvizem, koluvizem, glej\n- Mokřady a rašeliniště (Třeboňsko, Jeseníky): organozem, stagnoglej\n\nVertikální zonalita (příklad Šumavy):\n- 300–600 m: kambizem (lesní hnědé půdy)\n- 600–1000 m: kryptopodzol\n- nad 1000 m: podzol, organozem (rašeliniště)\n\nKlíčové regionální půdy:\n- Jižní Morava: černozem (nejúrodnější oblast ČR)\n- SZ Čechy: smonice\n- Podbeskydí: luvizem\n- Šumava, Krkonoše, Jeseníky: podzol, organozem",
+            "mnemotechnika": "Nížiny=černozem. Pahorkatiny=kambizem. Hory=podzol. Nivy=fluvizem. Rašeliniště=organozem."
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Která půda je nejúrodnější a kde se v ČR nachází?",
+          "odpoved": "Černozem – jižní Morava (a částečně střední Čechy). Obsah humusu 2–4,5 %."
+        },
+        {
+          "otazka": "Jaký půdotvorný proces je typický pro podzol?",
+          "odpoved": "Podzolizace – chemická migrace sloučenin Al a Fe z horních horizontů do spodního spodického horizontu."
+        },
+        {
+          "otazka": "Který půdní typ je nejrozšířenější v ČR?",
+          "odpoved": "Kambizem – cca 45 % plochy ČR, typická lesní půda na svahnatém reliéfu."
+        },
+        {
+          "otazka": "Co je illimerizace a pro které půdní typy je typická?",
+          "odpoved": "Mechanická migrace jílových částic ze svrchního do spodního horizontu → argilický horizont. Typická pro hnědozem a luvizem."
+        },
+        {
+          "otazka": "Co je pseudoglej a jak vzniká?",
+          "odpoved": "Půda na nepropustném podloží s kolísající hladinou vody, oglejení – střídání oxidace a redukce Fe → rezivé skvrny."
+        },
+        {
+          "otazka": "Kde v ČR se nachází podzoly?",
+          "odpoved": "Ve vlhkých chladných oblastech vrchovin a hor: Šumava, Krkonoše, Jeseníky, Beskydy."
+        },
+        {
+          "otazka": "Co je fluvizem a kde se vyskytuje?",
+          "odpoved": "Půda v říčních nivách – vrstevnatá, nepravidelné rozložení org. látek. V nivách řek a potoků celé ČR."
+        },
+        {
+          "otazka": "Co je rendzina?",
+          "odpoved": "Půda ze skeletovitých rozpadů karbonátových hornin (vápence). Patří do leptosolů."
+        },
+        {
+          "otazka": "Jaký půdotvorný proces tvoří hnědozem?",
+          "odpoved": "Illimerizace (degradace z černozemě, migrace jílu do spodního horizontu) a částečně braunifikace."
+        },
+        {
+          "otazka": "Kde v ČR se vyskytuje smonice?",
+          "odpoved": "V SZ Čechách a na jižní Moravě – ze smektitických jílů, v suchých oblastech tvoří hluboké trhliny."
+        },
+        {
+          "otazka": "Co je organozem a kde se vyskytuje?",
+          "odpoved": "Rašelinová půda s rašelinovým horizontem > 50 cm. Hlavně Jeseníky a Třeboňsko."
+        },
+        {
+          "otazka": "Co je braunifikace?",
+          "odpoved": "Uvolnění Fe z primárních minerálů a jeho disperze – hnědnutí horizontu. Typické pro kambizem."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Nejrozšířenější půdní typ ČR (cca 45 % plochy) je:",
+          "moznosti": [
+            "Černozem",
+            "Kambizem",
+            "Podzol",
+            "Fluvizem"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Půdotvorný proces podzolizace se vyznačuje migrací:",
+          "moznosti": [
+            "jílových částic dolů",
+            "humusu do spodního horizontu",
+            "sloučenin Al a Fe z horních horizontů",
+            "solí na povrch"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Černozem v ČR se vyskytuje zejména:",
+          "moznosti": [
+            "v Krkonoších a Šumavě",
+            "v říčních nivách Vltavy",
+            "na jižní Moravě a ve středočeských nížinách",
+            "na Třeboňsku"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Fluvizem vzniká:",
+          "moznosti": [
+            "na vápencových horách",
+            "z písků v pobřežních oblastech",
+            "v říčních nivách z fluviálních sedimentů",
+            "v rašeliništích"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Oglejení je půdotvorný proces typický pro:",
+          "moznosti": [
+            "černozem",
+            "kambizem",
+            "pseudoglej",
+            "rendzinu"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Luvizem se v ČR vyskytuje zejména:",
+          "moznosti": [
+            "na jižní Moravě v stepích",
+            "v podbeskydských pahorkatinách",
+            "na šumavských rašeliništích",
+            "v nivách velkých řek"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Organozem má rašelinový horizont:",
+          "moznosti": [
+            "mělčí než 10 cm",
+            "10–30 cm",
+            "30–50 cm",
+            "hlubší než 50 cm"
+          ],
+          "spravna": 3
+        },
+        {
+          "otazka": "Rendzina patří do skupiny:",
+          "moznosti": [
+            "Kambisolů",
+            "Leptosolů",
+            "Fluvisolů",
+            "Podzolů"
+          ],
+          "spravna": 1
+        }
+      ]
+    },
+    {
+      "pismeno": "C",
+      "zneni": "Načrtněte schéma demografické revoluce. Zhodnoťte obyvatelstvo vybraného světadílu a určete prognózu vývoje.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

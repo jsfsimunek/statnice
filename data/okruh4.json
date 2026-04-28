@@ -1,0 +1,202 @@
+{
+  "id": 4,
+  "nazev": "Okruh 4",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "Na základě práce s vlastním portfoliem doložte možnosti využití metod geografického výzkumu pro potřeby společnosti.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "B",
+      "zneni": "Načrtni schéma půdního pokryvu (popište jeho složení a základní vlastnosti) a uveďte význam pro člověka a přírodní procesy.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "Půda – základní definice a složení",
+            "obsah": "Půda (pedosféra) – transformace svrchní části zemské kůry působením organismů na horniny za účasti vody, vzduchu a slunečního záření.\n\nDefinice půdy: směs minerálních látek (rozklad horniny chemickými a fyzikálními faktory) s organickými látkami vzniklými rozkladem zbytků rostlin biologickými činiteli.\n\nSložení půdy:\n1. Neživá složka anorganická:\n   – Pevná (primární a sekundární půdotvorné minerály)\n   – Půdní voda: gravitační, vázaná, hygroskopická\n   – Půdní vzduch\n2. Neživá složka organická: humus\n3. Živá složka: edafon (mikroedafon, mezoedafon, makroedafon, megaedafon)\n\nPůdní horizonty – profil od povrchu do hloubky:\n- O horizont: organický (listový opad)\n- A horizont: humózní svrchní vrstva\n- B horizont: iluviální (akumulace látek z A)\n- C horizont: zvětralinový plášť\n- R horizont: pevná hornina",
+            "mnemotechnika": "OABCR = profil půdy shora dolů: Organický, Akumulační, Iluviální, zvětralinový, Rockový podklad"
+          },
+          {
+            "nadpis": "Fyzikální vlastnosti půd",
+            "obsah": "Zrnitost (textura) – zastoupení různě velkých minerálních částic:\n- Střední písek: 2–0,25 mm\n- Jemný písek: 0,25–0,05 mm\n- Hrubý prach: 0,05–0,01 mm\n- Silt (jemný prach): 0,01–0,001 mm\n- Jíl: < 0,001 mm\n\nPůdní druhy (stupnice zrnitosti):\n1. Písčitá (p) – 0–10 % částic < 0,01 mm – lehká\n2. Hlinitopísčitá (hp) – 10–20 % – lehká\n3. Písčitohlinitá (ph) – 20–30 % – střední\n4. Hlinitá (h) – 30–45 % – střední\n5. Jílovitohlinitá (jh) – 45–60 % – těžká\n6. Jílovitá (jv) – 60–75 % – těžká\n7. Jíl (j) – nad 75 % – těžká\n\nStruktura: prostorové shluky (agregáty) – drobtovitá, polyedrická, hrudkovitá, prizmatická\nPórovitost: 46–69 % střední až těžší, 35–46 % lehčí minerální\nObsah humusu: nad 5 % = vysoký podíl",
+            "mnemotechnika": "7 půdních druhů: P-HP-PH-H-JH-JV-J = od nejlehčí (písky) po nejtěžší (jíly)"
+          },
+          {
+            "nadpis": "Chemické vlastnosti půd",
+            "obsah": "Půdní reakce (pH):\n- Silně kyselá: pH H₂O < 4,9\n- Kyselá: 5,0–5,9\n- Slabě kyselá: 6,0–6,9\n- Neutrální: 7,0\n- Slabě alkalická: 7,1–8,0\n- Alkalická: 8,1–9,4\n- Silně alkalická: > 9,4\n\nKritéria aktivní reakce (pH H₂O) a výměnné (pH KCl).\n\nSorpční komplex: schopnost půdy poutat ionty.\nObsah živin: N, P, K, Ca, Mg, S – klíčové pro zemědělství.",
+            "mnemotechnika": "pH 7 = neutrální. Pod 7 = kyselé (les, rašelina). Nad 7 = alkalické (vápenec, step)."
+          },
+          {
+            "nadpis": "Biologická složka půd (edafon)",
+            "obsah": "Edafon – živá složka půdy:\n\nDle velikosti:\n- Mikroedafon (do 0,2 mm): bakterie (600 mil/g, 10 000 kg/ha), plísně a aktinomycety (400 tis/g), řasy (100 tis/g), prvoci (1,1 mil/g)\n- Mezoedafon (0,2–2 mm)\n- Makroedafon (2–20 mm): žížaly, plži, hmyz\n- Megaedafon (> 20 mm): hlodavci\n\nFunkce edafonu:\n- Tvorba humusu (humifikace)\n- Mineralizace organické hmoty\n- Tvorba půdní struktury\n- Koloběh živin",
+            "mnemotechnika": "MikroMezoMakroMega = 4 velikostní skupiny edafonu podle mm"
+          },
+          {
+            "nadpis": "Půdotvorné procesy",
+            "obsah": "4 základní skupiny:\n\n1. Nárůst hmoty (akumulace): obohacování o minerální/organický podíl; salinizace\n\n2. Ztráta hmoty: vyluhování (vyplavení rozpustných látek); eroze (vodní, větrná, ledovcová); desalinizace\n\n3. Translokace (přemístění):\n   – Eluviace: pohyb látek z horizontu dolů\n   – Iluviace: akumulace v spodním horizontu\n   – Illimerizace: migrace jílových částic → argilický horizont (hnědozem, luvizem)\n   – Podzolizace: migrace Al a Fe sloučenin (podzol)\n   – Lateritizace: migrace kyseliny křemičité\n\n4. Transformace:\n   – Humifikace: tvorba stabilního humusu (typická pro černozem)\n   – Braunifikace/rubifikace: uvolnění Fe → hnědnutí (kambizem)\n   – Oglejení: střídání redukce/oxidace → reziváskvrnitost (pseudoglej)\n   – Glejizace: redukce Fe v anaerobních podmínkách → modré/zelené zbarvení (glej)",
+            "mnemotechnika": "NárůstZtrátaTranslokaceTransformace = 4 skupiny. Podzolizace=Al+Fe, Lateritizace=SiO2, Humifikace=humus"
+          },
+          {
+            "nadpis": "Abiotické faktory ovlivňující půdu – reliéf",
+            "obsah": "Morfologie terénu ovlivňuje půdu:\n- Nadmořská výška: teplota klesá o 0,5 °C/100 m → indukce vegetačních a půdních stupňů\n- Expozice svahů: J a JZ svahy teplejší a sušší, S a SV vlhčí a chladnější\n- Sklon: vliv na erozi, odvodnění, hloubku půdy\n- Makro/mezo/mikro/nanoreliéf\n\nHorní hranice lesa ČR: 1100–1300 m n. m. (určena průměrnou červencovou teplotou 10 °C)\n\nLesní vegetační stupně (dle Zlatníka, ÚHÚL):\n1. Dubový (nížiny)\n2. Bukodubový\n3. Dubobukový\n4. Bukový\n5. Jedlobukový\n6. Smrkojedlobukový\n7. Smrkový (horský)\n8. Klečový (subalpinský)\n\nVegetační stupeň odpovídá klimaxové vegetaci a tím i půdnímu typu.",
+            "mnemotechnika": "8 LVS: D-BD-DB-B-JB-SJB-S-K = od nížin po holé hory"
+          },
+          {
+            "nadpis": "Význam půdy pro člověka a přírodní procesy",
+            "obsah": "Zásobárna vody: filtrace a retence srážkové vody, prevence povodní a sucha.\nProducent potravy: zemědělství závisí na úrodnosti (kvalita půdy = základ civilizace).\nRegulace klimatu: půda váže uhlík (uhlíkový zásobník), ovlivňuje lokální mikroklima.\nBiodiverzita: půda je domov pro miliardy mikro- i makroorganismů.\nHoubový a bakteriální cyklus živin: koloběh N, P, K.\n\nOhrožení půdy:\n- Eroze (vodní a větrná) – odnos svrchní vrstvy\n- Degradace (acidifikace, zasolení, utužení)\n- Zástavba (zpečetění povrchu – sealing)\n- Znečištění (pesticidy, těžké kovy)\n- Odlesnění → ztráta přilnavosti půdy\n\nSignifikantní čísla: 1 cm humusové vrstvy se tvoří cca 100–300 let. Ztráta 1 cm eroze = stovky let vývoje.",
+            "mnemotechnika": "Půda = zásobárna(voda)+producent(potrava)+zásobník(C)+domov(biodiverzita). 1 cm = 300 let."
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Co je pedosféra?",
+          "odpoved": "Půdní kryt – transformace svrchní části zemské kůry působením organismů na horniny za účasti vody, vzduchu a slunečního záření."
+        },
+        {
+          "otazka": "Jaké jsou 4 skupiny půdotvorných procesů?",
+          "odpoved": "Akumulace (nárůst), ztráta hmoty, translokace (přemístění), transformace látek."
+        },
+        {
+          "otazka": "Co je iluviace?",
+          "odpoved": "Pohyb látek do určité části půdního profilu, kde se akumulují – opak eluviace."
+        },
+        {
+          "otazka": "Co je illimerizace?",
+          "odpoved": "Mechanická migrace malých jílových částic ze svrchního horizontu do spodních vrstev – typická pro hnědozem a luvizem."
+        },
+        {
+          "otazka": "Co je podzolizace?",
+          "odpoved": "Chemická migrace sloučenin hliníku a železa z horních horizontů – typická pro podzol a kryptopodzol."
+        },
+        {
+          "otazka": "Co je humifikace?",
+          "odpoved": "Přeměna surových organických látek na stabilní humus – typická pro černozem."
+        },
+        {
+          "otazka": "Jaká je stupnice zrnitosti – lehká půda?",
+          "odpoved": "Písčitá (0–10 %) a hlinitopísčitá (10–20 %) obsahu částic pod 0,01 mm."
+        },
+        {
+          "otazka": "Co je edafon?",
+          "odpoved": "Živá složka půdy – organismy v ní žijící: od bakterií přes žížaly po hlodavce."
+        },
+        {
+          "otazka": "Jakou barvu má půda s oglejením?",
+          "odpoved": "Rezivě skvrnitá (střídání oxidace a redukce Fe) – typické pro pseudoglej."
+        },
+        {
+          "otazka": "Co je glejizace?",
+          "odpoved": "Redukce Fe v anaerobních podmínkách → modrošedé nebo zelené zbarvení horizontu – typické pro půdní typ glej."
+        },
+        {
+          "otazka": "Jak dlouho trvá vznik 1 cm humusu?",
+          "odpoved": "Přibližně 100–300 let."
+        },
+        {
+          "otazka": "Jaké půdní horizonty tvoří profil od povrchu dolů?",
+          "odpoved": "O (organický), A (humózní), B (iluviální), C (zvětralinový plášť), R (pevná hornina)."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Půdní druh 'hlinitá' obsahuje částice < 0,01 mm v rozsahu:",
+          "moznosti": [
+            "0–10 %",
+            "20–30 %",
+            "30–45 %",
+            "nad 60 %"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Podzolizace je typická pro:",
+          "moznosti": [
+            "černozem v stepích",
+            "podzol ve vlhkých chladných oblastech",
+            "rendzinu na vápencích",
+            "fluvizem v říčních nivách"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Iluviace je:",
+          "moznosti": [
+            "pohyb látek ze svrchního horizontu dolů",
+            "akumulace látek v spodním horizontu",
+            "eroze půdy vodou",
+            "zasolování půdy"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Braunifikace (hnědnutí) je typická pro půdní typ:",
+          "moznosti": [
+            "podzol",
+            "černozem",
+            "kambizem",
+            "glej"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Glejizace probíhá v podmínkách:",
+          "moznosti": [
+            "sucha a vysokých teplot",
+            "anaerobního prostředí s přebytkem vody",
+            "silně kyselé reakce bez vody",
+            "silného větru a mrazu"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Který horizont půdního profilu je iluviální?",
+          "moznosti": [
+            "O horizont",
+            "A horizont",
+            "B horizont",
+            "R horizont"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Edafon zahrnuje:",
+          "moznosti": [
+            "pouze bakterie a houby",
+            "pouze velké živočichy (hlodavci)",
+            "veškerou živou složku půdy od mikroorganismů po hlodavce",
+            "pouze anorganické minerály"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Zpečetění (sealing) půdy je způsobeno:",
+          "moznosti": [
+            "erozí",
+            "zástavbou a zpevněním povrchu",
+            "acidifikací",
+            "zasolením"
+          ],
+          "spravna": 1
+        }
+      ]
+    },
+    {
+      "pismeno": "C",
+      "zneni": "Praktická otázka: Vytvořte myšlenkovou mapu na zadané geografické téma.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

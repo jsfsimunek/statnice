@@ -1,0 +1,207 @@
+{
+  "id": 7,
+  "nazev": "Okruh 7",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "Definujte geoinformatiku, geoinformační technologie a související pojmy. Uveďte příklady geografických databází v ČR a mapových serverů. Na příkladech poukažte na využití geoinformatiky v praxi a ve výuce.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "Geoinformatika – definice a pojmy",
+            "obsah": "Geoinformatika = interdisciplinární obor propojující geografii, informatiku a matematiku, zabývající se sběrem, správou, analýzou a vizualizací prostorových (geografických) dat.\n\nGIS (Geografický informační systém) = softwarový nástroj pro práci s prostorovými daty. Integruje data, hardware, software, lidi a metody.\n\nKlíčové pojmy:\n- Prostorová data = data s geografickou polohou (souřadnice, adresy)\n- Vektorová data = body, linie, polygony (přesné hranice)\n- Rastrová data = mřížka pixelů (letecké snímky, DEM)\n- DEM (Digital Elevation Model) = digitální model terénu (výšková data)\n- Metadata = data o datech (datum vzniku, zdroj, projekce)\n- WMS/WFS = webové služby pro zobrazení/stahování dat\n- Geoportál = webový portál pro přístup k prostorovým datům",
+            "mnemotechnika": "GIS = Geo Informační Systém. Vektor = ostré hrany (ploty, silnice). Raster = pixely (fotky, satelit)."
+          },
+          {
+            "nadpis": "Geografické databáze a mapové servery ČR",
+            "obsah": "Databáze ČR:\n- ZABAGED – digitální geografický model ČR (ČÚZK)\n- RÚIAN – Registr územní identifikace, adres a nemovitostí\n- DMR (Digitální model reliéfu) – výšková data ČR\n- CENIA – Česká informační agentura životního prostředí\n- Katastr nemovitostí – evidence pozemků a staveb\n\nMapové servery ČR:\n- Geoportál ČÚZK: geoportal.cuzk.cz\n- Geoportál INSPIRE: geoportal.gov.cz\n- Nahlížení do katastru: nahlizenidokn.cuzk.cz\n- Mapy.cz (Seznam)\n\nSvětové servery/služby:\n- Google Maps, Google Earth\n- OpenStreetMap (OSM) – volná databáze\n- ArcGIS Online (Esri)\n- NASA Earthdata",
+            "mnemotechnika": "ČÚZK = Česká databáze domácí. OSM = Open Source Mapa světa. NASA = vesmírná data."
+          },
+          {
+            "nadpis": "Využití geoinformatiky v praxi",
+            "obsah": "Územní plánování: analýza vhodnosti území, vizualizace územního plánu\nKrizové řízení: mapy povodní, požárů, evakuační plány\nZemědělství (precizní zemědělství): plodiny, výnosy, analýza půdy\nDoprava: navigace, optimalizace tras, hlučnostní mapy\nEkologie: modelování biotopů, sledování migrace druhů\nEpidemiologie: šíření nemocí, dostupnost zdravotní péče\nArcheologie: LiDAR pro odhalení podzemních struktur\nObchod: analýza spádových oblastí, lokalizace prodejen\n\nSoftware: ArcGIS Pro (Esri), QGIS (opensource), Google Earth Engine\n\nPříklady v ČR: Jednotný systém dopravních informací (JSDI), ISKN (katastr), povodňové portály",
+            "mnemotechnika": "ZeDoKrEkEpAr = Zemědělství, Doprava, Krizové řízení, Ekologie, Epidemiologie, Archeologie"
+          },
+          {
+            "nadpis": "Geoinformatika ve výuce",
+            "obsah": "Ve výuce zeměpisu:\n- Práce s online mapami (Mapy.cz, Google Maps, Google Earth)\n- Tvorba jednoduchých map v ArcGIS Online nebo Google My Maps\n- Práce s QGIS na SŠ a VŠ\n- Orientace v terénu s GPS a mobilními aplikacemi\n\nMobilní GIS aplikace:\n- Google Maps, Mapy.cz – navigace a orientace\n- Locus Map – turistická navigace s offline mapami\n- ČHMÚ aplikace – meteorologické mapy\n- iNaturalist – mapování biodiverzity\n- Collector for ArcGIS – sběr dat v terénu\n\nOnline GIS:\n- ArcGIS Online (Esri)\n- uMap (OpenStreetMap)\n- Google My Maps\n\nPro učitele: RVP ZŠ a SŠ zahrnuje práci s mapovými aplikacemi jako součást digitální gramotnosti.",
+            "mnemotechnika": "MobGIS = Mapy.cz, Locus, ČHMÚ, iNaturalist. OnlineGIS = ArcGIS Online, uMap, Google My Maps."
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Co je GIS?",
+          "odpoved": "Geografický informační systém – softwarový nástroj pro sběr, správu, analýzu a vizualizaci prostorových dat."
+        },
+        {
+          "otazka": "Rozdíl vektorová vs. rastrová data?",
+          "odpoved": "Vektorová: body, linie, polygony – přesné hranice. Rastrová: mřížka pixelů – letecké snímky, DEM."
+        },
+        {
+          "otazka": "Co je ZABAGED?",
+          "odpoved": "Základní báze geografických dat ČR – digitální geografický model z ZM10, 106 typů objektů."
+        },
+        {
+          "otazka": "Co je WMS?",
+          "odpoved": "Web Map Service – webová služba pro zobrazení mapových vrstev v prohlížeči nebo GIS."
+        },
+        {
+          "otazka": "Co je OpenStreetMap?",
+          "odpoved": "Volná (open source) geografická databáze budovaná komunitou dobrovolníků po celém světě."
+        },
+        {
+          "otazka": "Co je DEM?",
+          "odpoved": "Digital Elevation Model – digitální model terénu s výškovými daty v rastrovém formátu."
+        },
+        {
+          "otazka": "Který software GIS je open source?",
+          "odpoved": "QGIS (dříve Quantum GIS) – zdarma dostupný GIS software."
+        },
+        {
+          "otazka": "Co je RÚIAN?",
+          "odpoved": "Registr územní identifikace, adres a nemovitostí – státní databáze adres a územních jednotek ČR."
+        },
+        {
+          "otazka": "K čemu slouží LiDAR v archeologii?",
+          "odpoved": "Ke skenování terénu a odhalení podzemních nebo vegetací skrytých struktur (valy, příkopy, budovy)."
+        },
+        {
+          "otazka": "Co je precizní zemědělství?",
+          "odpoved": "Využití GIS, GPS a senzorů pro přesné řízení zemědělské produkce dle variability půdy a výnosů."
+        },
+        {
+          "otazka": "Jaké online GIS nástroje lze použít ve výuce?",
+          "odpoved": "ArcGIS Online, Google My Maps, uMap (OpenStreetMap), Google Earth."
+        },
+        {
+          "otazka": "Co je metadata v GIS?",
+          "odpoved": "Data o datech – popis datasetu: datum vzniku, autor, souřadnicový systém, přesnost, zdroj."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "GIS primárně slouží k:",
+          "moznosti": [
+            "tvorbě 3D modelů budov",
+            "sběru, správě, analýze a vizualizaci prostorových dat",
+            "GPS navigaci",
+            "tvorbě tematických grafů"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Vektorová data v GIS jsou:",
+          "moznosti": [
+            "mřížka pixelů",
+            "body, linie a polygony",
+            "satelitní snímky",
+            "výšková data v rastru"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "ZABAGED spravuje:",
+          "moznosti": [
+            "Ministerstvo obrany",
+            "ČÚZK",
+            "Kartografie Praha",
+            "ČGS"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "OpenStreetMap je:",
+          "moznosti": [
+            "komerční produkt Googlu",
+            "vojenský mapový server",
+            "volná komunitní geografická databáze",
+            "český státní geoportál"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "WMS je:",
+          "moznosti": [
+            "software pro tvorbu map",
+            "webová služba pro zobrazení mapových vrstev",
+            "výškový referenční systém",
+            "typ satelitní dráhy"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "QGIS je:",
+          "moznosti": [
+            "komerční GIS software od Esri",
+            "open source GIS software",
+            "webová mapová aplikace",
+            "geodetický měřicí přístroj"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "LiDAR v archeologii umožňuje:",
+          "moznosti": [
+            "datování nálezů radioaktivitou",
+            "odhalení skrytých struktur pod vegetací nebo zemí",
+            "3D tisk nalezených předmětů",
+            "chemickou analýzu půdy"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "DEM je zkratka pro:",
+          "moznosti": [
+            "Digitální Evidence Mapových listů",
+            "Digital Elevation Model (digitální model terénu)",
+            "Datová Extrakce Map",
+            "Dynamický Editor Map"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "RÚIAN je:",
+          "moznosti": [
+            "vojenský mapový systém",
+            "registr územní identifikace adres a nemovitostí",
+            "databáze záchranných map",
+            "výzkumný ústav geoinformatiky"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Pro výuku zeměpisu na ZŠ je nejvhodnější online GIS nástroj:",
+          "moznosti": [
+            "ArcGIS Pro",
+            "AutoCAD",
+            "Google My Maps nebo uMap",
+            "QGIS"
+          ],
+          "spravna": 2
+        }
+      ]
+    },
+    {
+      "pismeno": "B",
+      "zneni": "Definujte hlavní genetické typy hornin a jejich roli na stavbě zemské kůry.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "C",
+      "zneni": "Zhodnoťte vliv přírodních podmínek na vznik a vývoj sídel. Na příkladu regionu charakterizujte prostorovou koncentraci aktivit.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

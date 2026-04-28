@@ -1,0 +1,36 @@
+{
+  "id": 10,
+  "nazev": "Okruh 10",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "Geografie jako věda: zařaďte do systému věd, vymezujte objekt a předmět studia. Nakreslete schéma geografických disciplín.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "B",
+      "zneni": "S pomocí atlasu vysvětlete pohyby litosférických desek a dopady na lidskou společnost.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "C",
+      "zneni": "Na konkrétních příkladech objasněte metody vymezování venkova a charakterizujte změny jeho funkcí.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

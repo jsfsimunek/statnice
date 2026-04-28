@@ -1,0 +1,333 @@
+{
+  "id": 13,
+  "nazev": "Okruh 13",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "Praktická otázka: Výpočet místního a pásmového času – I) Rozdíl místních a pásmových časů míst A a B. II) Západ Slunce v místě A v 18:05 místního času – v kolik hodin v místě B? III) Cestovní příklad: start pátek 18. září 19:25 z místa A, let 8 h 50 min, v kolik přiletíme do B?",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "Klíčové vztahy pro výpočet časů",
+            "obsah": "Základní pravidla:\n1° zeměpisné délky = 4 minuty časového rozdílu\n15° zeměpisné délky = 1 hodina\nNa V od Greenwiche = čas VĚTŠÍ (napřed)\nNa Z od Greenwiche = čas MENŠÍ (pozadu)\n\nMístní čas = čas platný na daném poledníku\nPásmový čas = celoevropský/celoregionální čas celého pásma\n\nVzorce:\nRozdíl místních časů = rozdíl zeměpisných délek × 4 min\nPásmový čas = místní čas středového poledníku pásma (±15°, ±30°…)\nMístní čas = pásmový čas + (λ_místo - λ_pásmo) × 4 min\n\nPřestup přes 180° poledník: západ→východ = +1 den, východ→západ = -1 den",
+            "mnemotechnika": "Na Východ = Víc (čas větší). Na Západ = Zpozdit (čas menší). 15° = 1 hodina."
+          },
+          {
+            "nadpis": "Postup řešení příkladu I – rozdíl časů",
+            "obsah": "Zadáno: místo A (λA) a místo B (λB)\n\nRozdíl místních časů:\nΔt = |λA - λB| × 4 min\nPokud A i B na stejné polokouli: odečti délky\nPokud A na V a B na Z (nebo obráceně): sečti délky\n\nRozdíl pásmových časů:\nPásmo = zaokrouhli zeměpisnou délku na nejbližší násobek 15°\nRozdíl pásem = (číslo pásma B) - (číslo pásma A)\n\nPříklad: A = Praha (15°E → pásmo UTC+1), B = New York (75°Z → pásmo UTC-5)\nRozdíl pásmových časů = UTC-5 - UTC+1 = -6 h\n→ New York je o 6 hodin POZADU za Prahou",
+            "mnemotechnika": "Praha UTC+1, Londýn UTC+0, New York UTC-5, Los Angeles UTC-8, Tokio UTC+9, Sydney UTC+10"
+          },
+          {
+            "nadpis": "Postup řešení příkladu II – západ Slunce",
+            "obsah": "Západ Slunce v místě A v čase tA (místní čas) → v kolik hodin v místě B?\n\nSlunce vychází/zapadá ve stejný okamžik (astronomický čas je pevný).\nRozdíl místních časů závisí pouze na rozdílu zeměpisných délek.\n\nPostup:\n1. Vypočítej rozdíl místních časů: Δt = (λA - λB) × 4 min\n   (kladné = A je na V od B, B západ nastane dříve)\n2. tB = tA - Δt (nebo tA + Δt záleží na poloze)\n\nPravidlo: čím více na V = západ Slunce dříve v místním čase číselně větší",
+            "mnemotechnika": "Západ Slunce: V poledník = větší číslo v místním čase (napřed). Z poledník = menší číslo."
+          },
+          {
+            "nadpis": "Postup řešení příkladu III – cestovní příklad",
+            "obsah": "Start: pátek 18. září, 19:25, místo A (λA)\nLet: 8 h 50 min\nCíl: místo B (λB)\nOtázka: Kdy přiletíme (místní čas v B nebo pásmový čas v B)?\n\nPostup:\n1. Přičti dobu letu k času odjezdu:\n   19:25 + 8:50 = 28:15 = příští den (sobota 19. září) 04:15 místní čas A\n2. Přepočítej na místní nebo pásmový čas cíle:\n   Δt = (λB - λA) × 4 min (nebo dle pásmového rozdílu)\n   tB = tA_přílet + Δt\n3. Zkontroluj přechod přes 180° poledník – pokud překračujeme, upravíme datum.\n\nZákladní chyby: zapomenout na přechod datové hranice; zaměnit V/Z polohu (větší/menší čas).",
+            "mnemotechnika": "ČasOdjezdu + LetnyCas = ČasPříletu v místě A → ±RozdílPásem → ČasPříletu v místě B"
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Kolik minut odpovídá 1° zeměpisné délky?",
+          "odpoved": "4 minuty."
+        },
+        {
+          "otazka": "Praha leží na ~15°E, jaký je pásmový čas?",
+          "odpoved": "UTC+1 (SEČ)."
+        },
+        {
+          "otazka": "Tokio leží na ~135°E, jaký pásmový čas?",
+          "odpoved": "UTC+9 (JST – Japan Standard Time)."
+        },
+        {
+          "otazka": "Co se stane s datem při přeletu přes 180° poledník ze Z na V?",
+          "odpoved": "Přidá se 1 den (přeskočíme den dopředu)."
+        },
+        {
+          "otazka": "New York leží na ~75°Z. Jaký pásmový čas?",
+          "odpoved": "UTC-5 (EST)."
+        },
+        {
+          "otazka": "Jaký je rozdíl místních časů míst vzdálených 60° zeměpisné délky?",
+          "odpoved": "60° × 4 min = 240 min = 4 hodiny."
+        },
+        {
+          "otazka": "Místní čas je:",
+          "odpoved": "Čas platný na daném poledníku – závisí výhradně na zeměpisné délce."
+        },
+        {
+          "otazka": "Pásmový čas je:",
+          "odpoved": "Čas platný v celém časovém pásmu (šířka ~15°), politicky upravený."
+        },
+        {
+          "otazka": "Los Angeles leží na ~120°Z. Jaký pásmový čas?",
+          "odpoved": "UTC-8 (PST)."
+        },
+        {
+          "otazka": "Jak se spočítá pásmový čas ze zeměpisné délky?",
+          "odpoved": "Zeměpisná délka / 15 = číslo pásma (zaokrouhleno). Pro V = UTC+číslo, pro Z = UTC-číslo."
+        },
+        {
+          "otazka": "Sydney leží na ~150°E. Jaký pásmový čas?",
+          "odpoved": "UTC+10 (AEST)."
+        },
+        {
+          "otazka": "Jak se spočítá západ Slunce v místě B, víme-li západ v místě A?",
+          "odpoved": "Rozdíl místních časů = (λA − λB) × 4 min. tB = tA ± Δt (záleží na poloze A a B)."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "1° zeměpisné délky odpovídá:",
+          "moznosti": [
+            "1 minutě",
+            "4 minutám",
+            "15 minutám",
+            "1 hodině"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Místo na 45°E má oproti Greenwichi (0°) čas:",
+          "moznosti": [
+            "o 3 hodiny pozadu",
+            "o 3 hodiny napřed",
+            "o 4 hodiny napřed",
+            "totožný"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Pásmový čas pro poledník 105°E je:",
+          "moznosti": [
+            "UTC+5",
+            "UTC+6",
+            "UTC+7",
+            "UTC+8"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Co se stane s datem při letu přes 180° poledník ze západu na východ?",
+          "moznosti": [
+            "Nic se nemění",
+            "Přidá se 1 den",
+            "Odebere se 1 den",
+            "Změní se hodina"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Praha (UTC+1) a New York (UTC-5) mají časový rozdíl:",
+          "moznosti": [
+            "4 hodiny",
+            "5 hodin",
+            "6 hodin",
+            "7 hodin"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Místo leží na 90°Z. Jaký pásmový čas mu odpovídá?",
+          "moznosti": [
+            "UTC-4",
+            "UTC-5",
+            "UTC-6",
+            "UTC-7"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Západ Slunce v místě A (30°E) nastane v 19:00 místního času. V kolik nastane západ v místě B (60°E)?",
+          "moznosti": [
+            "17:00",
+            "19:00",
+            "21:00",
+            "21:00 pásmového času"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Pokud je v Praze (UTC+1) pondělí 12:00, v Los Angeles (UTC-8) je:",
+          "moznosti": [
+            "pondělí 3:00",
+            "neděle 21:00",
+            "pondělí 21:00",
+            "úterý 3:00"
+          ],
+          "spravna": 0
+        },
+        {
+          "otazka": "Indie používá pásmový čas UTC+5:30. To je příklad:",
+          "moznosti": [
+            "chyby v systému časových pásem",
+            "politicky odůvodněného půlpásma",
+            "astronomicky přesného lokálního času",
+            "letního času"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Let trvá 10 hodin. Startujeme z Prahy (UTC+1) v 8:00 a letíme do New Yorku (UTC-5). V kolik přistaneme místního času?",
+          "moznosti": [
+            "18:00",
+            "12:00",
+            "13:00",
+            "7:00"
+          ],
+          "spravna": 1
+        }
+      ]
+    },
+    {
+      "pismeno": "B",
+      "zneni": "S využitím náčrtu vysvětlete mechanismus všeobecné cirkulace atmosféry (VCA) a jeho důsledky pro diverzitu klimatu a biodiverzitu na Zemi.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "Všeobecná cirkulace atmosféry (VCA) – princip",
+            "obsah": "VCA je globální systém větrů a tlakových pásů vzniklý nerovnoměrným ohřevem Země slunečním zářením a rotací Země.\n\nZákladní mechanismus:\n1. Rovník: největší příjem slunečního záření → ohřev vzduchu → výstup vzduchu (termická konvekce) → nízký tlak (ITCZ – Intertropická konvergenční zóna)\n2. Výstupný vzduch se pohybuje polárním směrem → ochladí se → sestupuje přibližně na 30° s./j.š. → vysoký tlak subtropický\n3. Subtropický výstup: část proudí zpět k rovníku (pasáty) – odkloněna Coriolisem na západ, část míří k pólům\n4. Na 60° s./j.š.: střet teplého vzduchu z tropů a studeného polárního → frontální zóna, nízký tlak\n5. Polární oblasti: studený vzduch sestupuje → vysoký tlak polární\n\nCelkem 3 cirkulační buňky na každé polokouli:\n- Hadleyova buňka (0–30°): nejsilnější, pohánějí ji pasáty\n- Ferrelova buňka (30–60°): slabší, středozeměpisné šířky\n- Polární buňka (60–90°)",
+            "mnemotechnika": "Rovník=výstup(nízký), 30°=sestup(vysoký), 60°=výstup(nízký), pól=sestup(vysoký). HadFerPol=3 buňky."
+          },
+          {
+            "nadpis": "Tlakové pásy a větrné systémy",
+            "obsah": "Tlakové pásy (od rovníku k pólům):\n1. Rovníkový nízký tlak (ITCZ, 0°)\n2. Subtropický vysoký tlak (30° s./j.š.)\n3. Subpolární nízký tlak (60° s./j.š.)\n4. Polární vysoký tlak (90° s./j.š.)\n\nVětrné systémy:\n- Pasáty: SV a JV pasáty, 0–30°, od subtropického VT k rovníkovému NT\n- Západní větry: 30–60°, přinášejí srážky na západ. pobřeží pevnin\n- Polární východní větry: 60–90°\n- Monzuny: sezónní reversal větru – letní monzun přináší srážky (JV Asie)\n\nCoriolisův efekt: odklon proudění vpravo na SH, vlevo na JH → pasáty vanou SV na SH, JV na JH\n\nJet stream (tryskové proudění): rychlé pásové proudění v troposféře (~10 km výšky) podél front → ovlivňuje počasí středních šířek",
+            "mnemotechnika": "ITCZ=nízký, 30°=vysoký, 60°=nízký, pól=vysoký. Pasáty k rovníku, Westerny od západ."
+          },
+          {
+            "nadpis": "Důsledky VCA pro klimatické pásy a biomy",
+            "obsah": "VCA přímo určuje rozmístění srážek a teplot → klimatické pásy → biomy:\n\nITCZ (0°): celoroční vysoké srážky → tropický deštný les\n30° s./j.š. (subtropický VT): málo srážek, sucho → pouště (Sahara, Atacama, Arabská poušť, australské pouště)\n60° s./j.š.: přicházejí frontální srážky ze západu → opadavé lesy mírného pásma, step\nPóly: polární pouště, tundra\n\nOceánský vs. kontinentální vliv:\n- Západ. pobřeží mid-lat.: silné srážky ze západních větrů → listnaté lesy\n- Střed kontinentu: kontinentální klima, málo srážek → stepi, lesostep\n- Západ. pobřeží 30°: středomořské klima → tvrdolisté lesy\n\nEl Niño a La Niña (ENSO):\n- Normální stav: pasáty tlačí teplou vodu na západ Pacifiku (JV Asie srážky, Peru sucho)\n- El Niño: oslabení pasátů → teplá voda zůstává u Peru → záplavy Peru, sucho v Austrálii\n- La Niña: zesílení pasátů → chladná voda u Peru, extrémní srážky v JV Asii\nCykly El Niño: nepravidelně každé 2–7 let",
+            "mnemotechnika": "ITCZ=prales, 30°=poušť, 60°=les/step. El Niño=Peru záplavy+Austrálie sucho."
+          },
+          {
+            "nadpis": "Důsledky VCA pro biodiverzitu",
+            "obsah": "Šířková pásmovitost biodiverzity:\n- Rovník: nejvyšší biodiverzita (celoroční teplo + srážky → produktivita)\n- Směrem k pólům: biodiverzita klesá (kratší vegetační období, extrémní podmínky)\n- Výjimka: středomořské oblasti – vysoká biodiverzita díky heterogennímu prostředí\n\nProduktivita biomů (odhad 1000 kJ/m²/rok):\n- < 2: pouště, hluboký oceán\n- 2–10: travinná společenstva, extenzivní zemědělství, horské lesy\n- 10–40: vlhké travnaté plochy, vlhké lesy, mělká jezera\n- 40–100: nivy řek, lužní lesy, korálové útesy, zemědělství s dodatkem energie\n\nVCA a migrace organismů:\n- Pasáty a oceánské proudy šíří semena, larvy, živočichy\n- Ptáci využívají vzdušné proudy při migraci (termika, tryskové proudění)\n- El Niño má dopad na populace tučňáků, kormoránů a korálových útesů",
+            "mnemotechnika": "Biodiverzita: rovník>střední>póly. Výjimka=Středomoří. Produktivita roste s teplem+vodou."
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Co je ITCZ?",
+          "odpoved": "Intertropická konvergenční zóna – pás rovníkového nízkého tlaku, kde se setkávají pasáty obou polokoulí, výstup vzduchu, celoroční srážky."
+        },
+        {
+          "otazka": "Proč jsou pouště soustředěny kolem 30° zeměpisné šířky?",
+          "odpoved": "Na 30° sestupuje suchý vzduch z Hadleyovy buňky (subtropický anticyklon) → adiabatický ohřev → sucho."
+        },
+        {
+          "otazka": "Jaké jsou 3 cirkulační buňky na každé polokouli?",
+          "odpoved": "Hadleyova (0–30°), Ferrelova (30–60°) a Polární buňka (60–90°)."
+        },
+        {
+          "otazka": "Co je El Niño?",
+          "odpoved": "Oslabení pasátů → teplá voda se nehromadí na ZZ Pacifiku ale zůstává u Peru → záplavy v Peru, sucho v Austrálii. Cyklus každé 2–7 let."
+        },
+        {
+          "otazka": "Proč je biodiverzita nejvyšší v tropech?",
+          "odpoved": "Celoroční teplo a srážky umožňují vysokou produktivitu bez extrémů → více ekologických nik, více druhů."
+        },
+        {
+          "otazka": "Co způsobuje Coriolisův efekt?",
+          "odpoved": "Odklon pohybujícího se vzduchu vpravo na SH a vlevo na JH → pasáty mají severovýchodní směr na SH."
+        },
+        {
+          "otazka": "Jak VCA ovlivňuje rozmístění biomů?",
+          "odpoved": "Určuje rozložení srážek a teplot → ITCZ=prales, 30°=pouště, 60°=listnaté lesy, póly=tundra a polární poušť."
+        },
+        {
+          "otazka": "Co je jet stream?",
+          "odpoved": "Tryskové proudění – rychlé pásové proudění ve vyšší troposféře podél frontálních zón, ovlivňuje počasí středních šířek."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Hadleyova buňka cirkuluje mezi:",
+          "moznosti": [
+            "30–60° zeměpisné šířky",
+            "0–30° zeměpisné šířky",
+            "60–90° zeměpisné šířky",
+            "pouze na severní polokouli"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Subtropický anticyklon na 30° způsobuje:",
+          "moznosti": [
+            "silné frontální srážky",
+            "celoroční mrazy",
+            "sucho a vznik pouští",
+            "monzunové srážky"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Během El Niño dochází u pobřeží Peru k:",
+          "odpoved": "A",
+          "moznosti": [
+            "oteplení oceánu a záplavám",
+            "ochlazení a suchu",
+            "intenzivním pasátům",
+            "poklesu hladiny oceánu"
+          ],
+          "spravna": 0
+        },
+        {
+          "otazka": "ITCZ je charakterizována:",
+          "moznosti": [
+            "výstupem vzduchu a celoročními srážkami",
+            "sestupem vzduchu a suchem",
+            "polárním ledem a mrazem",
+            "výskytem pouští"
+          ],
+          "spravna": 0
+        },
+        {
+          "otazka": "Biodiverzita na Zemi obecně:",
+          "moznosti": [
+            "roste od rovníku k pólům",
+            "klesá od rovníku k pólům",
+            "je rovnoměrně rozložena",
+            "závisí pouze na srážkách"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Pasáty vanou:",
+          "moznosti": [
+            "od rovníku k subtropům",
+            "od subtropů k rovníku, odkloněny Coriolisovým efektem",
+            "od pólů k rovníku",
+            "výhradně nad oceány"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Ferrelova buňka leží mezi:",
+          "moznosti": [
+            "0–30°",
+            "30–60°",
+            "60–90°",
+            "pouze nad oceány"
+          ],
+          "spravna": 1
+        }
+      ]
+    },
+    {
+      "pismeno": "C",
+      "zneni": "Popište vliv globalizace na moderní trendy průmyslu ve vyspělých zemích.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

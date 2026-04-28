@@ -1,0 +1,217 @@
+{
+  "id": 2,
+  "nazev": "Okruh 2",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "Objasněte tvary a rozměry planety Země a představte základní souřadnicové systémy – astronomické a zeměpisné. S využitím atlasu vysvětlete matematické základy kartografických děl a posuďte volbu kartografického zobrazení.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "Tvar a rozměry Země",
+            "obsah": "Zemské těleso není ideální koule – je to geoid (tvar odpovídající hladině klidného světového oceánu pokračující pod kontinenty). Pro kartografii se geoid aproximuje elipsoidem.\n\nRovníkový poloměr: 6 378 km\nPolární poloměr: 6 357 km\nZploštění: cca 1/298 (důsledek rotace – odstředivá síla)\n\nReferenční plochy:\n- Koule: pro malá měřítka (mapy světa)\n- Elipsoid: pro přesná mapová díla\n- Geoid: absolutní reference pro výšky\n\nPoužívané elipsoidy:\nBesselův (1841) – ČR civilní S-JTSK, střední Evropa\nKrasovského (1940) – ČR vojenský S-42, bývalé soc. státy\nGRS80 / WGS84 – GPS, globální systémy",
+            "mnemotechnika": "Geoid = brambora, elipsoid = pomeranč, koule = míč. Čím menší měřítko, tím víc míč."
+          },
+          {
+            "nadpis": "Souřadnicové systémy",
+            "obsah": "Sférické (zeměpisné) souřadnice:\n- Zeměpisná šířka φ (phi): 0° rovník → ±90° (S/J pól)\n- Zeměpisná délka λ (lambda): 0° Greenwich → ±180° (V/Z)\n- Astronomické: měřeny vůči svislici (tíhové pole)\n- Geodetické: měřeny vůči normále elipsoidu\n\nRovinné (pravoúhlé) souřadnice: X (northing), Y (easting) – vznikají zobrazením sférických souřadnic do roviny, používány v GIS.\n\nSouřadnicové sítě na mapách:\n- Zeměpisná síť (graticula) – poledníky a rovnoběžky\n- Pravoúhlá kilometrová síť – pro lokální práci a měření\n- Orientační síť (rejstříky) – pro lokalizaci v atlasech\n\nGeodetické ref. systémy ČR (dle nař. vlády 1995):\nS-JTSK: Besselův elipsoid + Křovákovo zobrazení → katastr\nS-42: Krasovského elipsoid + Gauss-Krüger → vojenské mapy\nWGS-84: GRS80 + GPS → globální použití\nVýškový systém: BpV (baltský po vyrovnání)",
+            "mnemotechnika": "JTSK = Jednotná Trigonometrická Síť Katastrální. S-42 = Socialistická/Sovětská (Krasovský). WGS = World GPS."
+          },
+          {
+            "nadpis": "Kartografická zobrazení – princip",
+            "obsah": "Zobrazení přiřadí každému bodu referenční plochy odpovídající bod na zobrazovací ploše. Matematicky jednoznačně vyjádřeno vztahem mezi souřadnicemi bodů.\n\nZobrazovací plochy:\n- Rovina → azimutální (azimuthal)\n- Plášť válce → válcové (cylindrické)\n- Plášť kužele → kuželové (konické)\n\nPolohy plochy vůči zeměkouli:\n- Normální (osa = zemská osa)\n- Příčná (transverse, osa kolmá)\n- Obecná (šikmá poloha)\n\nCelkem ~300 zobrazení, prakticky se používá jen několik desítek.",
+            "mnemotechnika": "VálKužRov = 3 plochy. NoPříOb = 3 polohy. 3×3 = 9 základních kombinací."
+          },
+          {
+            "nadpis": "Typy zkreslení",
+            "obsah": "Zakřivený povrch nelze rozvinout do roviny bez deformace — vždy dochází ke zkreslení.\n\nKonformní (úhlojevné): zachovává úhly a tvary lokálně, zkresluje plochy. Příklad: Mercatorovo – námořní navigace, Google Maps.\n\nEkvivalentní (stejnoplošné): zachovává plochy, zkresluje úhly a tvary. Příklad: Mollweidovo – hustota obyvatelstva světa.\n\nEkvidistantní (délkojevné): zachovává délky v určitých směrech. Příklad: radiální mapy vzdáleností od středu.\n\nKompromisní: nezachovává nic přesně, ale minimalizuje celkové zkreslení. Příklad: Robinsonovo – National Geographic, školní atlasy.",
+            "mnemotechnika": "KonEkvEkdKom = Konformní úhly, Ekvivalentní plochy, Ekvidistantní délky, Kompromisní vše trochu"
+          },
+          {
+            "nadpis": "Nejpoužívanější zobrazení",
+            "obsah": "Mercatorovo: válcové konformní normální, zachovává úhly → námořní navigace, Google Maps (WebMercator). Problém: Grónsko stejně velké jako Afrika.\n\nKřovákovo: kuželové konformní obecné → závazné pro ČR v S-JTSK (katastr, ZM).\n\nGaussovo-Krügerovo: válcové konformní příčné → S-42 ČR (vojenské mapy).\n\nLambertovo kuželové konformní: letecké mapy Evropy, letecká navigace.\n\nMollweidovo: pseudovalcové ekvivalentní → školní mapy světa s hustotami.\n\nRobinsonovo: kompromisní → National Geographic, obecné školní mapy světa.",
+            "mnemotechnika": "Mercator naviguje, Křovák katastrem ČR, Mollweide počítá plochy, Robinson kompromisuje"
+          },
+          {
+            "nadpis": "Volba kartografického zobrazení",
+            "obsah": "Kritéria volby:\n1. Účel mapy (navigace → konformní; hustoty populace → ekvivalentní)\n2. Tvar a poloha zobrazovaného území\n3. Měřítko (velké měřítko = malé zkreslení v malé oblasti)\n4. Zeměpisná poloha (polární → azimutální; střední šířky → kuželové; tropické pásy/rovník → válcové)\n\nPříklady správné volby:\nČR (střední šířky, kompaktní tvar) → Křovákovo kuželové konformní\nSvětová navigační mapa → Mercatorovo\nMapa hustoty obyvatelstva světa → Mollweidovo nebo Goodeovo\nLetecká mapa Evropy → Lambertovo kuželové",
+            "mnemotechnika": "ÚčelTvarMěřítkoPoloha = 4 kritéria volby zobrazení"
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Co je geoid?",
+          "odpoved": "Těleso odpovídající hladině klidného světového oceánu pokračující pod kontinenty. Je referenční plochou pro výšky."
+        },
+        {
+          "otazka": "Jaký elipsoid se používá v S-JTSK?",
+          "odpoved": "Besselův elipsoid (1841)."
+        },
+        {
+          "otazka": "Zeměpisná šířka φ se měří od:",
+          "odpoved": "Od rovníku, 0° až ±90° (S a J pól)."
+        },
+        {
+          "otazka": "Proč je Grónsko na Mercatorově mapě tak velké?",
+          "odpoved": "Mercator je konformní – zachovává úhly, ale silně deformuje plochy ve vysokých zeměpisných šířkách."
+        },
+        {
+          "otazka": "Které zobrazení zachovává plochy?",
+          "odpoved": "Ekvivalentní (stejnoplošné) – např. Mollweidovo."
+        },
+        {
+          "otazka": "Co je Křovákovo zobrazení?",
+          "odpoved": "Kuželové konformní zobrazení v obecné poloze, závazné pro ČR (S-JTSK)."
+        },
+        {
+          "otazka": "Kolik kartografických zobrazení celkem existuje?",
+          "odpoved": "Přibližně 300, z toho ~50 jednoduchých. Prakticky se používá jen několik desítek."
+        },
+        {
+          "otazka": "Proč nelze vytvořit zobrazení bez zkreslení?",
+          "odpoved": "Zakřivený povrch koule/elipsoidu nelze bez deformace rozvinout do roviny."
+        },
+        {
+          "otazka": "Co je WGS-84?",
+          "odpoved": "Světový geodetický referenční systém 1984, základ GPS. Referenční elipsoid GRS80."
+        },
+        {
+          "otazka": "Jaký typ zobrazení je vhodný pro navigaci?",
+          "odpoved": "Konformní – zachovává úhly, kurz je přímá loxodroma na mapě."
+        },
+        {
+          "otazka": "Co je ekvidistantní zobrazení?",
+          "odpoved": "Zachovává délky – ale pouze v určitých směrech, ne všeobecně."
+        },
+        {
+          "otazka": "Rozdíl S-42 vs. S-JTSK?",
+          "odpoved": "S-42: vojenský, Krasovského elipsoid, Gauss-Krüger. S-JTSK: civilní, Besselův elipsoid, Křovák."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Mercatorovo zobrazení zachovává:",
+          "moznosti": [
+            "plochy",
+            "délky",
+            "úhly (tvary)",
+            "výšky"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Křovákovo zobrazení je závazné pro:",
+          "moznosti": [
+            "GPS systém",
+            "vojenské mapy ČR S-42",
+            "civilní katastr ČR S-JTSK",
+            "letecké mapy Evropy"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Geoid je referenční plocha pro:",
+          "moznosti": [
+            "zeměpisné souřadnice",
+            "výškový systém",
+            "kartografická zobrazení",
+            "délky poledníků"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Zeměpisná šířka se měří:",
+          "moznosti": [
+            "od Greenwiche 0–360°",
+            "od rovníku 0–±90°",
+            "od rovníku 0–±180°",
+            "od severního pólu 0–180°"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Mollweidovo zobrazení patří mezi:",
+          "moznosti": [
+            "konformní válcová",
+            "ekvivalentní pseudovalcová",
+            "ekvidistantní kuželová",
+            "kompromisní azimutální"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Gaussovo-Krügerovo zobrazení se používá v systému:",
+          "moznosti": [
+            "S-JTSK",
+            "WGS-84",
+            "S-42",
+            "BpV"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Které zobrazení je základem Google Maps?",
+          "moznosti": [
+            "Robinsonovo",
+            "Mollweidovo",
+            "WebMercator",
+            "Křovákovo"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Rovníkový poloměr Země je přibližně:",
+          "moznosti": [
+            "6 000 km",
+            "6 357 km",
+            "6 378 km",
+            "7 000 km"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Pravoúhlá kilometrová síť slouží k:",
+          "moznosti": [
+            "určení zeměpisných souřadnic",
+            "lokální orientaci a měření vzdáleností",
+            "zobrazení poledníků",
+            "GPS navigaci"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Kompromisní zobrazení:",
+          "moznosti": [
+            "zachovává přesně plochy",
+            "zachovává přesně úhly",
+            "minimalizuje celkové zkreslení, nic přesně nezachovává",
+            "zachovává přesně délky"
+          ],
+          "spravna": 2
+        }
+      ]
+    },
+    {
+      "pismeno": "B",
+      "zneni": "Definujte pojem klimatická změna. Uveďte konkrétní příčiny, projevy v ČR a ve světě.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "C",
+      "zneni": "Praktická otázka: S využitím geografické terminologie popište zadaný obrázek.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

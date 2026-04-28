@@ -1,0 +1,207 @@
+{
+  "id": 12,
+  "nazev": "Okruh 12",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "Vysvětlete a schematicky znázorněte pohyby Země. Uveďte důsledky plynoucí z pohybů Země a posuďte jejich vliv na život člověka.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "Rotační pohyb",
+            "obsah": "Rotace kolem zemské osy od Z na V. Délka siderického dne: 23 h 56 min 4 s. Úhlová rychlost: 15°/hodinu. Zemská osa je nakloněna vůči ekliptice o 66°30'.\n\nDůsledky rotace:\n- Střídání dne a noci\n- Zdánlivý pohyb hvězd po obloze\n- Existence místních časů (každý 15° = hodina)\n- Zploštění Země na pólech (odstředivá síla)\n- Posun přílivové vlny\n- Vznik Coriolisovy síly (odchylka větru a mořských proudů)\n- Odchylka volně padajících těles\n- Stáčení roviny kyvu – Foucaultovo kyvadlo",
+            "mnemotechnika": "StrídáníDnoci + CasovéPásma + Coriolis + Foucault + Zploštění = 5 hlavních důsledků rotace"
+          },
+          {
+            "nadpis": "Oběhový pohyb",
+            "obsah": "Oběh kolem Slunce od Z na V po eliptické dráze. Délka tropického roku: 365 dní 5 h 48 min 46 s.\n\nPerihélium: nejblíže Slunci (~147 mil. km) – kolem 3. ledna, pohyb nejrychlejší\nAfélium: nejdále od Slunce (~152 mil. km) – kolem 4. července, pohyb nejpomalejší\n\nDůsledky oběhu:\n- Střídání ročních období (spolu se sklonem osy)\n- Různá délka dne v průběhu roku\n- Pohyb Slunce po ekliptice (zdánlivý)\n- Přestupné roky (kompenzace 0,25 dne/rok)",
+            "mnemotechnika": "Perihélium = Leden (zima ČR) = nejblíže. Afélium = Červenec (léto ČR) = nejdále. Roční období = osa+oběh."
+          },
+          {
+            "nadpis": "Ostatní pohyby Země",
+            "obsah": "Precese: kuželový pohyb zemské osy (jako roztočená káča). Způsobena gravitací Měsíce a Slunce. Perioda: ~26 000 let. Mění polohu jarního bodu.\n\nNutace: malé kolísavé pohyby osy (periodická změna gravitace Měsíce). Perioda: 18,6 roku.\n\nOběh se Měsícem: Země a Měsíc obíhají kolem společného těžiště – barycentra (cca 4700 km od středu Země).\n\nPohyb se Sluneční soustavou: Slunce se pohybuje v Galaxii, unáší s sebou Zemi.",
+            "mnemotechnika": "PrecNut = Precese (26 tis. let, osa jako káča) + Nutace (18,6 roku, menší kývání)"
+          },
+          {
+            "nadpis": "Časová pásma a místní čas",
+            "obsah": "Místní čas: čas na místním poledníku. Každý 1° zeměpisné délky = 4 minuty. Každých 15° = 1 hodina.\n\nPásmový čas: svět rozdělen na 24 časových pásem. V pásmu platí stejný čas. Při přechodu na V = +1 h, na Z = -1 h.\n\nČR: středoevropský čas (SEČ = UTC+1), v létě SELČ (UTC+2).\n\nMezinárodní datová hranice: 180° poledník – při přechodu Z→V = +1 den, V→Z = -1 den.\n\nPolitické úpravy: Španělsko, Čína – jedna časová zóna přesto zasahuje do více pásem. Indie – UTC+5:30 (půlpásmo).",
+            "mnemotechnika": "15° = 1 hodina. ČR SEČ = UTC+1. Datlová hranice 180° = překroč a změň datum."
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Délka siderického dne?",
+          "odpoved": "23 h 56 min 4 s – skutečná doba rotace Země kolem vlastní osy."
+        },
+        {
+          "otazka": "Co je Coriolisova síla?",
+          "odpoved": "Zdánlivá síla způsobená rotací Země, odchyluje pohybující se tělesa (vítr, proudy) – na S polokouli doprava, na J doleva."
+        },
+        {
+          "otazka": "Co je perihélium?",
+          "odpoved": "Bod eliptické dráhy Země nejbližší Slunci – kolem 3. ledna, Země se pohybuje nejrychleji."
+        },
+        {
+          "otazka": "Co je precese?",
+          "odpoved": "Kuželový pohyb zemské osy s periodou ~26 000 let, způsobený gravitací Měsíce a Slunce."
+        },
+        {
+          "otazka": "Kolik stupňů zeměpisné délky odpovídá 1 hodině?",
+          "odpoved": "15° zeměpisné délky = 1 hodina (360°/24 h = 15°/h)."
+        },
+        {
+          "otazka": "Co je barycentrum Země a Měsíce?",
+          "odpoved": "Společné těžiště soustavy Země–Měsíc, vzdálené ~4700 km od středu Země."
+        },
+        {
+          "otazka": "Jaký je sklon zemské osy vůči ekliptice?",
+          "odpoved": "66°30' (nebo ekvivalentně 23°30' vůči kolmici na ekliptiku)."
+        },
+        {
+          "otazka": "Co je afélium?",
+          "odpoved": "Bod dráhy nejdále od Slunce – kolem 4. července, Země se pohybuje nejpomaleji."
+        },
+        {
+          "otazka": "Co je Foucaultovo kyvadlo?",
+          "odpoved": "Kyvadlo dokládající rotaci Země – rovinu kyvu stáčí Coriolisova síla."
+        },
+        {
+          "otazka": "Kolik min odpovídá 1° zeměpisné délky časově?",
+          "odpoved": "4 minuty (15° = 60 min, tedy 1° = 4 min)."
+        },
+        {
+          "otazka": "Co způsobuje střídání ročních období?",
+          "odpoved": "Kombinace oběhu Země kolem Slunce a sklonu zemské osy – různá délka dne a výška Slunce nad obzorem."
+        },
+        {
+          "otazka": "Co je mezinárodní datová hranice?",
+          "odpoved": "Linie na 180° poledníku – při přechodu západ→východ se přidává 1 den, východ→západ se odebírá 1 den."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Foucaultovo kyvadlo dokazuje:",
+          "moznosti": [
+            "oběh Země kolem Slunce",
+            "rotaci Země kolem vlastní osy",
+            "precesi zemské osy",
+            "přitažlivost Měsíce"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Coriolisova síla způsobuje:",
+          "moznosti": [
+            "střídání dne a noci",
+            "příliv a odliv",
+            "odchylku větru a mořských proudů",
+            "střídání ročních období"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Perihélium nastává kolem:",
+          "moznosti": [
+            "4. července (léto na SH)",
+            "21. června (letní slunovrat)",
+            "3. ledna (zima na SH)",
+            "21. března (jarní rovnodennost)"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Precese zemské osy má periodu přibližně:",
+          "moznosti": [
+            "365 dní",
+            "18,6 roku",
+            "26 000 let",
+            "100 000 let"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "15° zeměpisné délky odpovídá časovému rozdílu:",
+          "moznosti": [
+            "4 minuty",
+            "15 minut",
+            "30 minut",
+            "1 hodina"
+          ],
+          "spravna": 3
+        },
+        {
+          "otazka": "ČR patří do časového pásma:",
+          "moznosti": [
+            "UTC+0 (Greenwich)",
+            "UTC+1 (SEČ)",
+            "UTC+2 celoročně",
+            "UTC-1"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Tropický rok trvá přibližně:",
+          "moznosti": [
+            "365 dní přesně",
+            "365 dní 5 h 49 min",
+            "366 dní",
+            "364 dní"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Střídání ročních období je způsobeno:",
+          "moznosti": [
+            "pouze oběhem Země kolem Slunce",
+            "pouze sklonem zemské osy",
+            "kombinací oběhu a sklonu osy",
+            "rotací Země"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Mezinárodní datová hranice leží na poledníku:",
+          "moznosti": [
+            "0° (Greenwich)",
+            "90° V. d.",
+            "180°",
+            "90° Z. d."
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Zploštění Země na pólech je způsobeno:",
+          "moznosti": [
+            "oběhem Země kolem Slunce",
+            "gravitací Měsíce",
+            "rotací Země – odstředivá síla",
+            "tlakem atmosféry"
+          ],
+          "spravna": 2
+        }
+      ]
+    },
+    {
+      "pismeno": "B",
+      "zneni": "Popište meteorologické charakteristiky a jejich geografické rozložení ve světě.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "C",
+      "zneni": "Na vybraném průmyslu doložte proměny lokalizačních faktorů v čase a prostoru.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}

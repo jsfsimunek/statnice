@@ -1,0 +1,167 @@
+{
+  "id": 19,
+  "nazev": "Okruh 19",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "Praktická otázka: Vytvořte na PC v GIS libovolnou tematickou mapu a průběžně komentujte její tvorbu. Použijte data z internetu, prokažte dovednost je propojit s GIS a vizualizovat v podobě tematické mapy. Popište kartografické aspekty vytvořené mapy.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "Postup tvorby tematické mapy v GIS",
+            "obsah": "Doporučený postup (ArcGIS Pro nebo QGIS):\n\n1. VÝBĚR TÉMATU A DAT\n- Vyber téma: hustota obyvatelstva krajů ČR, volební výsledky, teplota v ČR…\n- Stáhni data: ČÚZK (geoportal.cuzk.cz), ČSÚ (data.czso.cz), INSPIRE, Eurostat\n- Formáty: shapefile (.shp), GeoJSON, CSV s souřadnicemi, WMS\n\n2. IMPORT DAT DO GIS\n- Spusť ArcGIS Pro nebo QGIS\n- Nastav souřadnicový systém projektu (S-JTSK nebo WGS-84)\n- Importuj vektorová data (polygony krajů ČR)\n- Přidej tabulková data (CSV) a propoj přes JOIN (klíčový sloupec = kód kraje)\n\n3. TVORBA KARTOGRAMU (nejčastější metoda)\n- Vyber pole s hodnotami (hustota obyvatel/km²)\n- Klasifikace: natural breaks (Jenksova), rovné intervaly, kvantily\n- Barevná stupnice: sekvenční (světlá → tmavá) pro jednu proměnnou\n\n4. KARTOGRAFICKÁ KOMPOZICE\n- Přidej název, legendu, měřítko, sever (směrovku), tiráž\n- Zvolení vhodného kartografického zobrazení (ČR → S-JTSK Křovák)\n- Exportuj jako PDF nebo PNG\n\n5. KOMENTÁŘ PŘI OBHAJOBĚ\n- Vysvětli zdroj dat, formát, způsob importu\n- Zdůvodni metodu vizualizace (proč kartogram, proč tato stupnice)\n- Popiš kartografické aspekty hotové mapy",
+            "mnemotechnika": "VýběrImportVizualizaceKompoziceKomentář = VIVKK = 5 kroků tvorby tematické mapy v GIS"
+          },
+          {
+            "nadpis": "Kartografické aspekty výsledné mapy",
+            "obsah": "Po vytvoření mapy umíš popsat tyto kartografické aspekty:\n\nKOMPOZICE:\n- Mapové pole (co zobrazuje, vymezení území)\n- Název (co, kde, kdy)\n- Legenda (vysvětlení symbolů, barevné stupnice)\n- Měřítko (číselné + grafické)\n- Tiráž (zdroj dat, rok, autor)\n- Sever / směrovka\n\nVYJADŘOVACÍ PROSTŘEDKY:\n- Metoda: kartogram / kartodiagram / izolinie / bodová metoda\n- Barevná stupnice (sekvenční, divergentní, kvalitativní)\n- Klasifikace hodnot (počet tříd, metoda klasifikace)\n\nKARTOGRAFICKÉ ZOBRAZENÍ:\n- Jaký souřadnicový systém / zobrazení bylo použito a proč\n\nGENERALIZACE:\n- Jaká data byla zjednodušena nebo agregována",
+            "mnemotechnika": "KomVyjZobGen = 4 kartografické aspekty = Kompozice, Vyjadřovací prostředky, Zobrazení, Generalizace"
+          },
+          {
+            "nadpis": "Zdroje volně dostupných dat pro mapu",
+            "obsah": "ČR:\n- Administrativní hranice: ČÚZK (geoportal.cuzk.cz) – shapefile krajů, obcí\n- Statistická data: ČSÚ (data.czso.cz) – obyvatelstvo, ekonomika\n- ZABAGED: digitální geografický model (WMS nebo ke stažení)\n- IPR Praha: otevřená geodata Prahy\n\nEvropa/Svět:\n- Eurostat + GISCO: hranice EU + statistiky\n- Natural Earth (naturalearthdata.com): globální vektory zdarma\n- OpenStreetMap: vektory z OSM\n- GADM (gadm.org): administrativní hranice států světa\n- NASA Earthdata: rastrová data (MODIS, Landsat)\n\nFormáty: Shapefile (.shp), GeoJSON, KML, GeoTIFF, CSV+souřadnice",
+            "mnemotechnika": "Česká data = ČÚZK + ČSÚ. Světová data = Natural Earth + GADM + Eurostat."
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Jaký souřadnicový systém nastavit pro mapu ČR v GIS?",
+          "odpoved": "S-JTSK (EPSG:5514) nebo WGS-84 (EPSG:4326) záleží na zdroji dat, pro ČR katalogy typicky S-JTSK."
+        },
+        {
+          "otazka": "Co je JOIN v GIS?",
+          "odpoved": "Propojení tabulkových dat (CSV statistiky) s vektorovou vrstvou přes společný klíčový atribut (kód kraje/obce)."
+        },
+        {
+          "otazka": "Jaké jsou 3 nejčastější metody klasifikace kartogramu?",
+          "odpoved": "Natural breaks (Jenksova), rovné intervaly, kvantily."
+        },
+        {
+          "otazka": "Jaký typ barevné stupnice použít pro hustotu obyvatelstva?",
+          "odpoved": "Sekvenční (jednobarvová stupnice světlá → tmavá) – čím tmavší, tím vyšší hodnota."
+        },
+        {
+          "otazka": "Kde stáhnout shapefile hranic krajů ČR?",
+          "odpoved": "Geoportál ČÚZK (geoportal.cuzk.cz) nebo ArcGIS Hub / ESRI Living Atlas."
+        },
+        {
+          "otazka": "Jaké kartografické aspekty popíšeš u hotové mapy?",
+          "odpoved": "Kompozice, vyjadřovací prostředky a metoda, kartografické zobrazení, generalizace."
+        },
+        {
+          "otazka": "Co je Natural Earth?",
+          "odpoved": "Bezplatná geodatabáze s vektorovými a rastrovými daty světových hranic, reliéfu, vodstva v různých měřítkách."
+        },
+        {
+          "otazka": "Proč se u kartogramu používá sekvenční barevná stupnice?",
+          "odpoved": "Sekvenční stupnice intuitivně vyjadřuje pořadí hodnot od nízké po vysokou jednou barvou se stupňující se intenzitou."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "První krok při tvorbě tematické mapy v GIS je:",
+          "moznosti": [
+            "export do PDF",
+            "tvorba legendy",
+            "výběr tématu a vyhledání dat",
+            "nastavení barevné stupnice"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "JOIN v GIS slouží k:",
+          "moznosti": [
+            "vytvoření nové vrstvy z více zdrojů",
+            "propojení tabulkových dat s vektorovou vrstvou přes společný klíč",
+            "transformaci souřadnicového systému",
+            "generalizaci vrstev"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Pro kartogram hustoty obyvatelstva krajů ČR použijeme:",
+          "moznosti": [
+            "bodovou metodu",
+            "metodu izolinií",
+            "kartogram – plošné jednotky barveny dle relativní hodnoty",
+            "stuhovou metodu"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Sekvenční barevná stupnice je vhodná pro:",
+          "odpoved": "B",
+          "moznosti": [
+            "zobrazení kategorií bez pořadí (typy krajiny)",
+            "zobrazení jedné proměnné s pořadím (nízká–vysoká hodnota)",
+            "zobrazení kladných a záporných hodnot",
+            "politické mapy"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "ČÚZK geoportál slouží ve výuce GIS k:",
+          "moznosti": [
+            "satelitním snímkům celého světa",
+            "stahování základních geografických dat ČR (administrativní hranice, ZM, ortofoto)",
+            "globálním statistickým databázím",
+            "tvorbě interaktivních map online"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Povinná součást kompozice hotové mapy při obhajobě není:",
+          "moznosti": [
+            "Název",
+            "Legenda",
+            "Animace",
+            "Měřítko"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Natural breaks (Jenksova klasifikace) minimalizuje:",
+          "moznosti": [
+            "počet tříd",
+            "rozptyl hodnot uvnitř tříd",
+            "velikost legendy",
+            "dobu výpočtu"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Administrativní hranice krajů ČR jsou nejlépe dostupné z:",
+          "moznosti": [
+            "NASA Earthdata",
+            "GADM",
+            "ČÚZK geoportálu",
+            "OpenStreetMap USA"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Při komentáři tvorby mapy při zkoušce je důležité popsat:",
+          "moznosti": [
+            "pouze estetiku barev",
+            "zdroj dat, metodu vizualizace, kartografické aspekty výsledné mapy",
+            "historii GIS softwaru",
+            "pouze technické parametry počítače"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "GeoJSON je:",
+          "moznosti": [
+            "formát pro uložení rastrových snímků",
+            "databáze statistických dat",
+            "textový formát pro vektorová geodata (body, linie, polygony)",
+            "typ kartografického zobrazení"
+          ],
+          "spravna": 2
+        }
+      ]
+    }
+  ]
+}

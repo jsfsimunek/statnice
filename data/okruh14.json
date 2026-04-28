@@ -1,0 +1,136 @@
+{
+  "id": 14,
+  "nazev": "Okruh 14",
+  "podotazky": [
+    {
+      "pismeno": "A",
+      "zneni": "S využitím portfolia navrhněte terénní výuku kartografie pro základní školu. Popište cíl zvolené terénní výuky, použité výzkumné metody, data a předpokládaný výstup.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "Terénní výuka kartografie – obecné zásady",
+            "obsah": "Terénní výuka kartografie = výuka realizovaná přímo v terénu, kde žáci pracují s mapami, sbírají data a ověřují kartografické koncepty v reálném prostředí.\n\nTypy terénní výuky:\n- Exkurze (jednodenní, cílová)\n- Terénní cvičení (aktivní sběr dat, měření)\n- Geografické hry v terénu (orientace, geocaching)\n\nRole kartografie v terénní výuce:\n- Orientace v mapě a v terénu\n- Čtení mapy, analýza mapy, interpretace mapy\n- Terénní měření a zakreslování do mapy\n- Tvorba jednoduché mapy z terénu\n\nRVP ZŠ – mapové dovednosti jsou součástí vzdělávacího obsahu zeměpisu v oblastech: čtení mapy, analýza mapy, interpretace mapy (Ormeling model).",
+            "mnemotechnika": "ČtAnIn = Čtení (co?), Analýza (kde?), Interpretace (proč?) – tři úrovně práce s mapou"
+          },
+          {
+            "nadpis": "Příklad návrhu terénní výuky – Brno centrum",
+            "obsah": "Téma: Orientace v mapě města – Brno centrum\nRočník: 6.–7. třída ZŠ\nTrvání: 1 celý den (6 hodin)\nMísto: centrum Brna (Náměstí Svobody, Zelný trh, Špilberk)\n\nCÍL: žák umí číst turistickou mapu a orientovat se v terénu, identifikovat geografické objekty v mapě i v terénu, zaznamenat vlastní pozorování do mapy.\n\nVÝZKUMNÉ METODY:\n- Terénní pozorování a mapování\n- Měření vzdáleností pomocí mapy a kroků\n- Fotografická dokumentace objektů\n- Zaznamenávání do podkladové mapy\n- GPS tracking na mobilní aplikaci (Mapy.cz)\n\nDATA:\n- Turistická mapa Brna (1:10 000)\n- Ortofoto Brna (porovnání mapa vs. snímek)\n- Mobilní aplikace: Mapy.cz nebo Google Maps\n- Archivní fotografie (srovnání starý/nový stav)\n\nPŘEDPOKLÁDANÝ VÝSTUP:\n- Žákem annotovaná mapa trasy s vyznačenými objekty\n- Fotodokumentace s komentáři\n- Krátká zpráva: co jsem viděl, co jsem zaznamenal, co mě překvapilo",
+            "mnemotechnika": "CíleMetodyDataVýstup = CMDV = 4 složky každého návrhu terénní výuky"
+          },
+          {
+            "nadpis": "Mapové dovednosti dle Ormelinga",
+            "obsah": "Model mapových dovedností (Ormeling, Mrázková 2013):\n\n| Dovednost | Geografická otázka | Akční slovesa |\n|---|---|---|\n| Čtení mapy | Co? | Popsat, rozpoznat |\n| Analýza mapy | Kde? | Klasifikovat, zařadit |\n| Interpretace mapy | Proč? Jak? | Vysvětlit, předpovídat, hodnotit |\n\nV RVP ZŠ jsou mapové dovednosti součástí oborového pilíře – vizualizace prostorových dat.\n\nDigitální mapové dovednosti: práce s online mapami, mobilními aplikacemi, satelitními snímky – od výběru mapy přes čtení, analýzu, interpretaci až po tvorbu a sdílení.",
+            "mnemotechnika": "ČtAnInt = 3 úrovně (Čtení co, Analýza kde, Interpretace proč). Každá vyšší úroveň je náročnější."
+          }
+        ],
+        "exam_checklist": []
+      },
+      "flashcards": [
+        {
+          "otazka": "Jaké jsou 3 úrovně mapových dovedností dle Ormelinga?",
+          "odpoved": "Čtení mapy (co?), analýza mapy (kde?), interpretace mapy (proč? jak?)."
+        },
+        {
+          "otazka": "Co je terénní cvičení vs. exkurze?",
+          "odpoved": "Terénní cvičení: aktivní sběr dat, měření v terénu. Exkurze: řízená prohlídka s výkladem, méně aktivní."
+        },
+        {
+          "otazka": "Jaké 4 složky musí mít každý návrh terénní výuky?",
+          "odpoved": "Cíl výuky, výzkumné metody, data (zdroje), předpokládaný výstup."
+        },
+        {
+          "otazka": "Jaké mobilní aplikace jsou vhodné pro terénní výuku kartografie?",
+          "odpoved": "Mapy.cz, Google Maps, Locus Map (offline mapy), OruxMaps."
+        },
+        {
+          "otazka": "Co jsou mapové dovednosti?",
+          "odpoved": "Způsobilosti člověka k využívání a vytváření map – čtení, analýza, interpretace, tvorba."
+        },
+        {
+          "otazka": "Proč je terénní výuka důležitá pro kartografii?",
+          "odpoved": "Žáci ověřují kartografické koncepty v reálném prostředí, rozvíjí prostorové myšlení a praktické mapové dovednosti."
+        },
+        {
+          "otazka": "Co je geocaching a jak lze využít v terénní výuce?",
+          "odpoved": "Hra pomocí GPS/mapy – hledání schránek v terénu. Ve výuce rozvíjí orientaci v mapě a práci s GPS."
+        },
+        {
+          "otazka": "Co je ortofoto a jak se využívá ve výuce?",
+          "odpoved": "Geometricky opravený letecký snímek – žáci porovnávají s mapou, hledají objekty, analyzují změny krajiny."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Interpretace mapy dle Ormelinga odpovídá otázce:",
+          "moznosti": [
+            "Co je zobrazeno?",
+            "Kde se to nachází?",
+            "Proč je to tam a jak to ovlivňuje okolí?",
+            "Jak velké to je?"
+          ],
+          "spravna": 2
+        },
+        {
+          "otazka": "Terénní cvičení kartografie se od exkurze liší tím, že:",
+          "moznosti": [
+            "probíhá v muzeu",
+            "žáci aktivně sbírají data a měří v terénu",
+            "se nepoužívají mapy",
+            "trvá kratší dobu"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Předpokládaný výstup terénní výuky může být:",
+          "moznosti": [
+            "zadání příštího cvičení",
+            "anotovaná mapa trasy nebo fotodokumentace s komentáři",
+            "pouze test znalostí",
+            "přednáška učitele"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Ortofoto ve výuce kartografie slouží k:",
+          "moznosti": [
+            "navigaci v terénu pomocí GPS",
+            "porovnání mapy s leteckým snímkem, analýze krajiny",
+            "výpočtu zeměpisných souřadnic",
+            "tvorbě tematických map"
+          ],
+          "spravna": 1
+        },
+        {
+          "otazka": "Mapové dovednosti jsou v RVP ZŠ součástí:",
+          "moznosti": [
+            "matematického vzdělávání",
+            "oborového pilíře zeměpisu – vizualizace prostorových dat",
+            "výtvarné výchovy",
+            "informatiky"
+          ],
+          "spravna": 1
+        }
+      ]
+    },
+    {
+      "pismeno": "B",
+      "zneni": "S využitím portfolia a atlasu charakterizujte klima vybraného místa světa. Zařaďte dle Köppena a Alisova.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    },
+    {
+      "pismeno": "C",
+      "zneni": "S využitím atlasu popište vliv geografických faktorů na formování vybraného dopravního systému světa.",
+      "studium": {
+        "sekce": [],
+        "exam_checklist": []
+      },
+      "flashcards": [],
+      "kviz": []
+    }
+  ]
+}
