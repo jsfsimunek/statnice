@@ -57,6 +57,23 @@ function SekceCard({ sekce }) {
           {sekce.seznam.map((item, i) => <li key={i}>{item}</li>)}
         </ul>
       )}
+      {sekce.obrazky?.length > 0 && (
+        <div className="flex flex-wrap gap-3">
+          {sekce.obrazky.map((img, i) => (
+            <figure key={i} className="rounded-xl overflow-hidden border border-slate-200 bg-slate-50 max-w-full">
+              <img
+                src={img.src}
+                alt={img.popis ?? ''}
+                className="w-full max-h-72 object-contain"
+                loading="lazy"
+              />
+              {img.popis && (
+                <figcaption className="px-3 py-1.5 text-xs text-slate-500 text-center">{img.popis}</figcaption>
+              )}
+            </figure>
+          ))}
+        </div>
+      )}
       {(Array.isArray(sekce.tabulka) ? sekce.tabulka : sekce.tabulka ? [sekce.tabulka] : []).map((t, ti) => <Tabulka key={ti} tabulka={t} />)}
       {sekce.mnemotechnika && (
         <div className="mt-2 bg-amber-50 border border-amber-200 rounded-xl px-4 py-3 flex gap-2 items-start">
