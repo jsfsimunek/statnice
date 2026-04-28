@@ -1,0 +1,326 @@
+
+--- PAGE 1 ---
+POPIS  A  PÍSMO 
+NA  MAPÁCH
+Ze0128 Kartografie
+Mgr. Darina Mísařová, Ph.D.
+17.10.2023
+
+--- PAGE 2 ---
+Popisná složka
+• Na mapě lze uvést jenom tolik názvů, kolik je únosné z 
+hlediska čitelnosti (náplně / grafické zátěže) mapy, tzn. 
+popisují se pouze vybrané prvky
+• Bez popisu by byla mapa „slepá“, používat označení 
+„němá“ či „obrysová“
+• Popisná složka mapy musí být autentická a jazykově 
+správná. 
+• Používá se standardizované názvosloví.
+• Popis se kategorizuje, každá kategorie se popíše 
+odlišným písmem (viz tabulka)
+
+--- PAGE 4 ---
+Písmo na mapě
+Podíl písma na grafickém zaplnění mapy:
+- Topografické mapy středních měřítek – cca 5 %
+- Přehledné mapy malých měřítek – cca 10 % případně více u map s bohatším obsahem
+- Mezní hodnota grafického zaplnění mapy – 30 %, při překročení této hodnoty se snižuje 
+čitelnost mapy
+- Informační i estetická hodnota
+- Časově náročná fáze tvorby map, nelze vždy zcela automatizovat
+- Konkrétní názvy objektům a jevům = zvyšuje rychlost čtení mapy
+- Velká plocha popisu v mapě může mapu činit nepřehlednou = snižuje rychlost čtení
+
+--- PAGE 7 ---
+Písmo na mapě
+• Geografické názvosloví
+• Vysvětlivky
+• Mimorámové údaje (titul, podtitul, tiráž, legenda, 
+měřítko)
+• Samostatná textová část
+
+--- PAGE 9 ---
+GEOGRAFICKÉ  NÁZVOSLOVÍ
+▫ choronyma - větší obydlené části (přírodní x administrativní)
+▫ oikonyma (místní názvy) – sídla, ulice, budovy (mají vztah k 
+obývání)
+▫ anoikonyma (pomístní názvy)
+ Hydronyma 
+ Oronyma
+ Hodonyma
+ speleonyma
+ pozemková jména
+ názvy jednotlivých objektů
+
+--- PAGE 10 ---
+GEOGRAFICKÉ NÁZVOSLOVÍ (geografická jména)
+Endonyma (standardizovaná jména)
+Domácí jména 
+ názvy z vlastního státního území uváděná v úředním jazyce
+ používají se ve standardizované podobě
+ tvoří názvoslovný lexikon (názvoslovná komise ČUZK)
+Cizí jména
+ snaha, aby každý geografický objekt měl jediný úřední název v řeči 
+příslušného státu, na jehož území se vyskytuje 
+ má-li stát více úředních jazyků, použije se název sídla v jazyce 
+mezinárodně nejznámějším (řeka protékající více státy může mít 
+řadu označení)
+Př. Donau, Dunaj, Duna, Dunav, Dunarea…
+
+--- PAGE 11 ---
+VYTVÁŘENÍ  CIZÍCH JMEN
+pravidla vycházející ze vztahu českých endonym a exonym
+Transpozice
+▫ názvy v oficiální podobě v jazyku se všemi specifickými písmeny 
+(polština, švédština, němčina, dánština …)
+Transliterace
+▫ převod hlásek do latinky podle převodních tabulek (azbuka, 
+řečtina, hebrejština, arabština …)
+Transkripce
+▫ fonetický převod ideografického písma (čínština, japonština …)
+
+--- PAGE 12 ---
+Geografická jména
+Exonyma (vžitá jména)
+▫ vzniká v jazyku země, ve které se pojmenovávaný objekt nenachází 
+(podle rezoluce č. 11 přijaté na 6. konferenci OSN o standardizaci)
+ dříve zkomolením, 
+ dnes přizpůsobením cizích názvů výslovnosti příslušnému jazyku nebo překladem 
+cizích názvů 
+▫ každá členská země OSN je povinna vydat seznam svých exonym
+nacházejících se mimo své státní území
+▫ cizojazyčná exonyma se mohou používat jedině pokud jsou schválena
+příslušnou zemí
+▫ podle rezolucí OSN se doporučuje nevytvářet nová exonyma, ale 
+preferovat používání oficiálních endonym (všechny jazyky si jsou 
+rovnocenné, neplatí nadřazenost světových jazyků)
+
+--- PAGE 13 ---
+Pravidla používání překladů domácích jmen v 
+cizojazyčných mapách a textech
+• přednost má vždy endonymum, a to v mapě i v textu
+• pokud existuje exonymum, pak se v místě, kde se poprvé objevuje 
+jméno objektu, uvede nejprve endonymum a v závorce exonymum –
+Praha (
+Prague) – teprve pak je možné dále používat jen exonymum –
+Prague
+• pokud z textu jasně nevyplývá, o jaký druh geografického objektu se 
+jedná (město, řeka, vrchol aj.), potom se toto u jeho překladu uvádí 
+před jeho jméno –
+ hills
+ Brdy, 
+lake
+ Černé jezero
+▫ nutné především u jmen společných pro více objektů –
+ river
+ Bílina
+, 
+city Bílina
+• je nepřípustné překládání dvouslovných jmen, jejichž součástí je i 
+druhové označení
+▫
+ Polabská nížina: 
+ špatně 
+Polabská 
+lowland, dobře 
+lowland
+ Polabská nížina
+
+--- PAGE 14 ---
+Exonyma
+• Na mapách se používají tzv. dublety – malé písmo v 
+závorce pod originálním názvem
+• Fonetická úprava: Hamburg – Hamburk , Warszava –
+Varšava, London – Londýn , Bucuresti – Bukurešť
+• Fonetické přetvoření: Venezia – Benátky, Roma – Řím , 
+Dresden – Drážďany, Wien – Vídeň
+• Překlad – Beograd – Bělehrad, Graz – Štýrský Hradec, 
+Rocky Mountains – Skalisté hory
+
+--- PAGE 15 ---
+Exonyma - endonyma
+• Antverpy – Anvers – Amberes
+• Basilej – Bâles – Basilea
+• Mohuč – Mayence – Maguncia
+• Soluň – Thessalonique, Solonique – Salónica
+• Trevír – Trèves – Tréveris
+• Lutych – Liège – Lieja
+• Mnichov – Münich – München
+• Norimberk – Nürnberg – Nuremberg
+• Bruggy – Bruges – Brujas
+• Lovaň – Louvain - Lovaña
+• Haag – La Haye – La Haya
+• Benátky – Venise – Venecia
+• Londýn – Londres – Londres
+• Neapol – Naples – Nápoles
+• Biskajský záliv – le Golf de Gascogne – el Golfo de Vizcaya
+• Kartágo – Cartage – Cartago (Č-F-Š)
+• Madeira – Madère – Madeira
+• Rusko – Russie – Rusia
+• Toledo – Tolède – Toledo
+• Ukrajina – Ucraine – Ucrania
+
+--- PAGE 17 ---
+Vlastnosti písma
+• Velikost (1 typografický bod = 0,376065 mm)
+• Sklon - stojatá, kurzíva 
+• Barva – černé, modré, červené, zelené (písma, pozadí, 
+stínu)
+• Řez - úzká, obyčejná, široká
+• Tloušťka – hubená, půltučná, tučná
+• Forma - plná, dutá, 
+plastická
+• Litera - VERZÁLKY , minusky, KAPITÁLKY
+• Rody / fonty 
+
+--- PAGE 18 ---
+ANKTIKVA
+ nápadné rozdíly hlavních a vlasových čar
+ vlasové ostré patky 
+ kolmý stín u kulatých písmen
+MEDIEVAL
+ malé rozdíly hlavních a vlasových čar
+ oblé patky
+ šikmé stínování
+EGYPTIEK
+ šířka čar stejná
+ bez stínování
+ ostré patky
+GROTESK
+ šířka čar stejná
+ bez stínování
+ bez patek
+
+--- PAGE 20 ---
+Pravidla pro provádění popisu
+• nepoužívat dekorativní rody písma
+• tučné a šikmé písmo používat střídmě
+▫ šikmé písmo pro hydronyma
+• používat maximálně dva rody písma 
+▫ jednoduchá mapa má jen jeden rod písma
+▫ stejným rodem titul, podtitul, legenda, tiráž, měřítko
+▫ při použití dvou rodů písma se aplikují dva jasně odlišitelné rody
+• minimální velikost písma je ovlivněna mnoha faktory
+(uživatel, barevnost, povrch …)
+▫ doporučuje se minimální velkost 7 bodů, někdy dokonce 3,2 bodů
+• velikost popisu odpovídá významu popisovaného objektu
+▫ rozdíl mezi velikostmi popisu minimálně 2 body
+
+--- PAGE 21 ---
+Maska
+Umísťování popisu
+• popisuje se zásadně vodorovně
+▫ 1. výjimka: popis podél zeměpisné sítě (podél rovnoběžek u kuželových 
+zobrazení)
+▫ 2. výjimka: popis podél liniových a plošných objektů (jejich os)
+• umísťovat tak, aby bylo jasné, ke kterému objektu popis patří
+▫ umísťovat nejprve velké popisy, pak střední a nakonec nejmenší 
+• nepřekrývat grafické objekty popisem
+Hemže
+Plchůvky
+Dolní Lhota
+Halo
+Callout
+
+--- PAGE 22 ---
+Popis bodových znaků
+• nepřekrývat znaky
+Olomouc (1)
+Olomouc (2)
+Olomouc (6)
+Olomouc (5)
+Olomouc (4)
+Olomouc (3)
+Olomouc (7)Olomouc (8)
+• při použití vodící linky (max. 2,5 b.), nikdy nemají šipku a nikdy 
+se nedotýkají znaku Litovel
+Litovel
+
+--- PAGE 23 ---
+• žádný jiný znak by se neměl vyskytovat mezi 
+popisovaným znakem a jeho popisem
+Mladeč Mladeč
+• víceřádkový popis se zarovnává tak, aby se co nejvíce 
+přimykal ke znaku
+Rožnov pod
+Radhoštěm
+Linie
+jsou
+zarovnány
+vpravo
+Základní 
+nivelační 
+bod
+Linie
+jsou
+zarovnány
+vlevo
+Malé
+Svatoňovice
+Linie
+jsou
+vycentrovány
+• v popisu bodových jevů nepoužívat prokládání písmen ani slov
+
+--- PAGE 24 ---
+• bodové znaky, které vyjadřují jevy na pevnině by měly být 
+přednostně popsány na pevnině
+▫ popis objektů na břehové čáře se umísťuje buď celý na pevninu 
+(přednostně) nebo celý mimo pevninu; nikdy nepřekrývá břehovou 
+čáru
+Padara
+Padara
+Padara
+Padara
+Padara
+PadaraPadara
+Padara
+Padara
+Padara
+
+--- PAGE 25 ---
+Popis liniových znaků
+• popis se umísťuje co nejblíže k liniovým znakům, ale 
+nedotýká se jich (ani  písmeny 
+j, 
+p, 
+q, 
+y a 
+g)
+• popis se umísťuje přednostně nad liniový znak, 
+výjimečně (pokud to nejde), pak pod něj
+• pokud je liniový znak hraniční popisuje se z obou 
+stran
+
+--- PAGE 26 ---
+• pokud má linie složitý průběh, popisuje se podél 
+obecného trendu
+• velmi dlouhé liniové znaky se popisují vícekrát
+• vícenásobný popis se upřednostňuje před prokládáním písmen a slov
+• popisuje se vždy tak, aby pata písma směřovala dolů a popis
+se četl zleva doprava
+K u a l d t r a n d a t   H a b u u t t g i d t
+LabeLabe
+Labe Labe
+
+--- PAGE 27 ---
+Popis plošných znaků
+• pokud se popisuje plošně rozsáhlý areál, umísťuje se 
+celý popis do areálu
+▫ popis nesmí křížit areál nebo z něj „vyčnívat“
+▫ mezi popisem a okrajem areálu musí být alespoň 1,5 
+meziznakových mezer
+▫ směr popisu sleduje obecný trend osy areálu
+- použití verzálek napomáhá 
+ke zdůraznění významu jevu
+- používá se max. čtyřnásobné 
+zvětšení meziznakových mezer
+P A D Ě L K Y
+P a d ě l k y
+- vodící linky nemají šipku
+a zasahují do areálu
+Ztracený
+Horní jezero
+
+--- PAGE 29 ---
+• Děkuji za pozornost

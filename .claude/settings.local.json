@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(export PATH=\"/c/Users/jsfsi/AppData/Roaming/npm:$PATH\")",
+      "Read(//c/Users/jsfsi/AppData/Roaming/**)",
+      "Bash(\"/c/Users/jsfsi/AppData/Roaming/npm/node.exe\" --version)",
+      "Read(//c/Program Files/nodejs//**)",
+      "Read(//c/Users/jsfsi/AppData/Local/Programs/**)",
+      "Read(//c/Users/jsfsi/**)",
+      "Bash(export PATH=\"/c/Program Files/nodejs:$PATH\")",
+      "Bash(npm --version)",
+      "Bash(where node:*)",
+      "Bash(where npm:*)"
+    ]
+  }
+}

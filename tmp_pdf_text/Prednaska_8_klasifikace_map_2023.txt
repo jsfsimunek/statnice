@@ -1,0 +1,308 @@
+
+--- PAGE 1 ---
+KLASIFIKACE MAP
+Ze0128 Kartografie
+Mgr. Darina Mísařová, Ph.D.
+14.11.2023
+
+--- PAGE 2 ---
+ZMĚNA PROJEKCE
+• https://www.amcharts.com/demos/changing-
+map-projection/
+• https://www.giss.nasa.gov//tools/gprojector/
+• https://www.thetruesize.com/
+
+
+--- PAGE 4 ---
+WWW.MENTI.COM
+• https://www.menti.com/al87r6wnmfgw
+• The code 5848 8571
+
+
+--- PAGE 5 ---
+PODLE OBSAHU
+• Topografické
+• A) mapy velkých měřítek (do 1:5000) – např. katastrální
+• B) topografické mapy (mapy velkých a středních měřítek)
+• C) mapy obecně geografické (mapy malého měřítka)
+• Tematické
+1:1 000, 2 000, 5 000
+1:10 000
+ 1:25 000
+1:50 000
+1 : 100 000
+
+
+--- PAGE 6 ---
+PODLE ÚČELU
+• Mapy pro evidenční, plánovací a projekční účely
+• Mapy pro výuku a osvětu
+• Mapy pro veřejnost
+• Mapy pro obranu státu s vojenské účely 
+• Mapy vědecké
+• Mapy pro orientaci
+• Reklamní mapy
+a další ... 
+
+
+--- PAGE 8 ---
+PODLE MĚŘÍTKA
+Základní členění – číselné hranice nejsou ustáleny, různé země, 
+různé obory
+• mapy velkého měřítka 
+• mapy středního měřítka 
+• mapy malého měřítka 
+Členění map dle měřítka (geografové):
+• mapy velkého měřítka – > 1 : 200 000 
+• mapy středního měřítka – 1 : 200 000 až 1 : 1 000 000
+• mapy malého měřítka – < 1 : 1 000 000
+Členění map dle měřítka (geodetové):
+• mapy velkého měřítka - > 1 : 5 000 (popř. 1 : 10 000)
+• mapy středního měřítka – 1 : 10 000 až 1 : 200 000
+• mapy malého měřítka – > 1 : 200 000
+
+
+--- PAGE 9 ---
+GEOGRAFICKÝ A GEODETICKÝ PŘÍSTUP
+
+--- PAGE 10 ---
+PODLE ZOBRAZOVACÍHO ÚZEMÍ
+• Astronomické mapy
+• Mapy Země
+
+
+--- PAGE 11 ---
+PODLE ZPŮSOBU VZNIKU
+• Původní mapy – získané pozemním nebo leteckým mapováním nebo 
+prvotním zpracováním statických dat (podrobné plány, mapy pro 
+orientační běh, topografické mapy velkých měřítek – do  1:50 000), část 
+tematických map)
+• Odvozené mapy – vznikají generalizací a úpravami původních map, např. 
+topografické mapy odvozených měřítek
+1:500 0001:10 000
+
+--- PAGE 12 ---
+PODLE FORMY ZÁZNAMU SKUTEČNOSTI
+A) podle použitého média přenosu 
+• Mapy analogové
+• Mapy digitální
+Webová mapa
+Digitalizovaná mapa
+Interaktivní mapa 
+Animovaná mapa 
+Multimediální mapa
+….
+Papírová (analogová) mapa – statický, dvojrozměrný 
+(zmenšený a generalizovaný) obraz povrchu Země 
+(nebo jiných nebeských těles, kosmu a jeho částí) 
+přenesený na papír, zobrazující vybrané jevy a 
+charakteristiky ve fixním měřítku k datu, ve kterém 
+byla mapa vytvořena.
+Digitální mapa - digitální záznam konstrukčních prvků 
+a obsahu mapy, který je možné získat pomocí 
+skenování (digitalizace mapy) klasické (analogové) 
+mapy nebo zkonstruovat pomocí počítačových 
+programů a následně vizualizovat a využívat
+
+--- PAGE 13 ---
+PODLE FORMY ZÁZNAMU SKUTEČNOSTI
+B) podle formy podání 
+• mapy obrazové/kreslené
+• fotomapy
+• stereoskopické mapy (např. anaglyfové mapy)
+• tyflografická mapa
+• digitální mapy
+• lentikulární mapy
+• plastické mapy/reliéfní mapy
+• pohledové mapy
+• ortofotomapy
+• …
+
+
+--- PAGE 15 ---
+PODLE FORMY ZÁZNAMU SKUTEČNOSTI
+Ortofotomapa – mapa zachovávající 
+fotografický obraz území, tvořená jedním 
+nebo montáží více ortofotosnímků
+(ortofotem) a opatřená dalšími náležitostmi 
+mapy (měřítkem, vybranými mapovými 
+značkami, souřadnicovou sítí, rámem 
+mapy, popisem mapy atd).
+
+
+--- PAGE 16 ---
+PODLE POČTU MAPOVÝCH LISTŮ
+• samostatné mapy
+• soubory map
+• mapová díla
+• Atlasy (podle obsahu, podle 
+zobrazovaného území, podle rozsahu a 
+účelu)
+• konvoluty
+
+
+--- PAGE 17 ---
+PODLE OMEZENÍ MAPOVÉHO POLE
+• Rámové mapy
+• Ostrovní mapy
+• Mapy na spadávání/s 
+mapovou kresbou na okraj
+• Hlavní mapy x vedlejší mapy
+
+
+--- PAGE 18 ---
+PODLE VZTAŽENÉHO ČASOVÉHO 
+OBDOBÍ
+V rámci relativního času:
+• Statické mapy
+• Dynamické mapy (https://www.windy.com/)
+V rámci absolutního času:
+• Aktuální mapy
+• Staré mapy
+• Dějepisné/historické mapy
+• Předpovědní (prognostické) mapy
+
+
+--- PAGE 19 ---
+PODLE KONCEPCE VYJÁDŘENÍ 
+SKUTEČNOSTI
+• Mapy analytické
+• Mapy komplexní
+• Mapy syntetické
+
+
+--- PAGE 23 ---
+DALŠÍ KRITÉRIA
+• ….
+
+
+--- PAGE 24 ---
+MENTÁLNÍ MAPA X MYŠLENKOVÁ MAPA
+
+--- PAGE 25 ---
+MENTÁLNÍ MAPA
+• Zachycení názorů, emocí, preferencí atd…
+• Pocitové mapy (preferenční, emoční)
+TEMATICKÁ MENTÁLNÍ MAPA
+• Grafické (kartografické/schématické) 
+vyjádření představ člověka o 
+geografickém prostoru, nejčastěji o 
+jeho kvalitě nebo uspořádání
+• Měla by být vyjádřena graficky –
+pomocí mapy, schématu, obrázku
+• Topografická mentální mapa 
+MYŠLENKOVÁ MAPA
+https://www.pocitovemapy.cz/krnov-2016/nahled
+https://data.brno.cz/apps/52732ba106d9446ca53c0bf7edb5dfb5/explore
+
+--- PAGE 27 ---
+STÁTNÍ MAPOVÉ DÍLO
+Mapové dílo:
+• Představováno mapami jednotného měřítka, jednotného kartografického zobrazení s 
+jednotným znakovým klíčem.
+• Mapované území pokryto souvisle mapovými listy stejného rozměru.
+• Disponuje nomenklaturou, tj. jednotným systémem značení mapových listů.
+Státní mapové dílo:
+• Budované a vyhotovované ve státním zájmu, státní zeměměřickou službou (civilní či 
+vojenskou).
+• Dělení na civilní a vojenské.
+• Definováno nařízením vlády 430/2006
+https://ucebnice.geogr.muni.cz/kartografie/obsah.php?show=17&&jazyk=cz
+
+--- PAGE 28 ---
+STÁTNÍ MAPOVÉ DÍLO V ČR
+• Závazné civilní státní mapové dílo:
+A) Katastrální mapy (1:1000, 1:2000, 1:2880, ...).
+B) Státní mapa 1:5000 (dříve SMO5).
+C) Základní mapa ČR (ZM 10, ZM 25, ZM 50, ZM 100, ZM 200).
+D) Mapa České republiky v měřítku 1:500 000.
+E) Tematická mapová díla vytvořená na podkladě Základní mapy.
+• Závazné vojenské státní mapové dílo
+A) Topografická mapa ČR (TM 10, TM 25, TM 50, TM 200).
+B) Tematická mapová díla vytvořená na podkladě Topografické mapy.
+
+--- PAGE 29 ---
+CIVILNÍ STÁTNÍ MAPOVÉ DÍLO
+ZÁKLADNÍ MAPA STŘEDNÍHO MĚŘÍTKA
+• vznik v roce 1968 po okupaci ČR vojsky Varšavské smlouvy 
+(utajování).
+• Nevzniká novým mapováním, odvozená mapa.
+• Civilní státní mapové dílo.
+• Souřadnicový systém S-JTSK.
+• Výškový systém BpV
+• Besselův elipsoid.
+• Křovákovo kuželové konformní zobrazení v obecné poloze.
+• Měřítková řada: 1:200 000, 1:100 000, 1: 50 000, 1:25 000, 1:10 000
+ZM1:10000
+
+--- PAGE 30 ---
+DIGITÁLNÍ VERZE ZÁKLADNÍCH MAP -
+ZABAGED
+• ZÁkladníBÁzeGEografickýchDat.
+• Digitální geografický model České republiky.
+• Převod základní mapy ZM 10 do digitální formy + doplnění dalšími objekty.
+• Obsah ZABAGED tvoří celkem 106 typů objektů.
+• Realizuje Zeměměřický úřad ve spolu s katastrálními úřady.
+• Práce začaly v roce 1995.
+• Aktualizace v tříletých cyklech.
+• Významné kartografické dílo středního měřítka dostupné široké veřejnosti.
+• Podpora více souřadnicových systémů: S-JTSK, S-42, WGS-84.
+• Výškový systém BpV
+• K datům lze přistupovat s pomocí WMS služby.
+• Orgánům státní správy data poskytována bezplatně, ostatním za poplatek.
+
+--- PAGE 31 ---
+TOPOGRAFICKÉ MAPY
+• Státní mapové dílo pro potřeby obrany státu.
+• Jednotné mapové dílo pro státy Varšavské smlouvy.
+• Vznik v roce 1953.
+• Základní měřítko 1:25 000.
+• Zobrazují území ČR + příhraničí.
+• Tehdy zpracovával Vojenský zeměpisný ústav (Praha), 
+• Vojenský topografický ústav (Dobruška), Vojenský kartografický ústav (Harmanec).
+• Nyní je zpracovává Geografická služba Armády České republiky v Dobrušce.
+• Vydavatelem Generální štáb Armády České republiky
+TM1:25000
+
+--- PAGE 32 ---
+GEODETICKÉ A KARTOGRAFICKÉ ZÁKLADY
+• Mapovací práce probíhaly v letech 1953-57 v měřítku 1:25 000.
+• Mapovací metoda: letecká fotogrammetrie.
+• Odvozená měřítka: 1:50 000, 1:100 000.
+• Celkem vyhotoveno 1736 mapových listů.
+• Gauss-Krugerovo zobrazení, Krasovského elipsoid.
+• Výchozí souřadnicový systém S-52, později zpřesněn a označen jako S-42.
+• Kilometrová síť v systému S42, dotištěna kilometrová síť v systému WGS84.
+• Výškový systém BpV
+
+
+--- PAGE 33 ---
+ZDROJE DAT
+• Geoportál INSPIRE: https://geoportal.gov.cz/web/guest/map
+• Geoportál ČUZK:  https://geoportal.cuzk.cz/
+• Nahlížení do katastru: https://nahlizenidokn.cuzk.cz/
+• Stará mapová díla: http://oldmaps.geolab.cz/, 
+https://www.oldmapsonline.org/
+
+--- PAGE 34 ---
+ZDROJE DAT PRO ŠKOLY
+• https://atlas.mapy.cz/
+• editovatelné obrysové mapy: https://1url.cz/pr1b9
+zdroj: https://geography.ujep.cz/cs/vzdelavani-v-geografii/
+• mapy pro školy ke stažení: https://skolnimapy.cz
+• https://www.purposegames.com/search?q=%C5%99eky%20%C4%8Dr&fbclid=IwAR3Sj4Cp_MEPC6PKESPLrPPgm4F-
+wi07MkAVe5CP7k4_ofNvV2jR86z64bM
+• https://www.cestovani.cz/zabava/?fbclid=IwAR2F8Jc3uPh0OqrRXSR-0Kl6RKARYYspu-GKne8k4vrdImn30i4gtIoXcwY
+• https://www.datakabinet.cz/cs/Home.html?fbclid=IwAR1kk8jMExWWW7u0RT9BQSm4e81JyDyCrKlBI_hnlsGmkM26e882xd2M_1
+o
+• https://wordwall.net/cs-cz/community/map
+• https://d-maps.com/?fbclid=IwAR1k0jWLbYN9H5SHDB0Teyl5fwVNEizp6sgXJ0Hv7vHhkKWgh0-uIeS8x-k
+• https://edu.kde.org/marble/
+• https://www.dnesni-svet.cz/e-shop/online-verze/
+
+--- PAGE 35 ---
+„ZEMĚPISNÉ KVÍZY – ORIENTACE V MAPĚ“
+• https://www.umimefakta.cz/slepe-mapy
+• https://online.seterra.com/cs
+• https://www.geograf.in/cs/
+• https://www.toporopa.eu/cz/

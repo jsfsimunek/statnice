@@ -1,0 +1,59 @@
+
+--- PAGE 1 ---
+Kartografické vyjadřovací prostředkyZe0128KartografieMgr. Darina Mísařová, Ph.D.3.10.2022
+
+--- PAGE 2 ---
+Kartografické vyjadřovací prostředky= grafické prostředky (kartografické znaky, grafy, diagramy), jimiž se v mapě znázorňují reálné objekty a jevy• představují jazyk mapy• v širším pojetí zde patří také barva  a písmo
+
+
+--- PAGE 3 ---
+JAZYK   MAPY= formalizovaný znakový systém mapy ovládaný syntaktickými a sémantickými pravidly, jimiž je realizován proces kartografického sdělování informací prostřednictvím kartografického díla• specifický znakový systém k zaznamenávání konkrétních objektů a jevů do mapyjazyk mapy x mapový jazyk
+
+--- PAGE 4 ---
+Kartografický znak= libovolný grafický prostředek nebo souhrn prostředků, který je schopen být nositelem významu a něco v kartografickém díle vyjadřovat• Znak má 3 základní vlastnosti:• Znak nese 2 typy informací:•Úlohou kartografických znaků je kartografická interpretace jevů a procesůTzn. Schopnost vyjádřit např. statiku x dynamiku, spojitost x nespojitost, konkrétnost x abstrakce, kvalitu x kvantitu…
+
+--- PAGE 5 ---
+Aspekty kartografických znaků:Syntaktický aspekt – vzájemné vztahy znaků mezi sebouSémantický aspekt – vztah znaku k obsahu toho, co vyjadřujeSygmatický aspekt – vztahy znaků k funkci vyjadřovaného objektuPragmatický aspekt – vztah uživatele ke znakové soustavě
+
+--- PAGE 6 ---
+Vlastnosti kartografického znakuKomunikovatelnostNázornostInterpretovatelnostKomprimovatelnost
+
+--- PAGE 7 ---
+Znakový klíč= soubor mapových znaků předepsaný pro určité mapové dílo s vysvětlením jejich významuMusí splňovat:• podrobné a věrné znázornění všech charakteristických rysů území• podpora účelu a funkci mapy• dobrá přehlednost a čitelnosti mapy• reprodukce zpracování (technické a fyziologické faktory mapy)
+
+--- PAGE 8 ---
+Kartografické znaky - bodovéK vyjádření:• bodových jevů• plošných jevů, které nelze v měřítku mapy plošně vyjádřit (0,5 x 0,5 cm v mapě)
+(bodová metoda, metoda bodových znaků, m. mimoměřítkových znaků)
+
+--- PAGE 10 ---
+Druhy bodových znaků
+
+
+--- PAGE 11 ---
+Parametry bodového znaku – POLOHA (kvalita) – ORIENTACE (kvalita)– TVAR (kvalita)– VELIKOST (kvantita)– BARVA - výplň (kvalita) – INTENZITA (kvantita)– TEXTURA –struktura (kvalita/kvantita)
+Kvalita x kvantita
+
+--- PAGE 12 ---
+Liniové (čárové) znaky•identifikační (symbolické) – ke znázorňování jevů, které lze jednoznačně určit délkovým rozměrem, ale šířku znázornit v daném měřítku nelze•hraniční– vymezují plochy se stejnou kvalitativní charakteristikou jevu nebo ohraničují objekt– zásady:• plnou čarou• přerušovanou čarou• dvě hraniční linie• vymezení areálů pomocí hraniční linie se často zvýrazňuje plošnými metodami (rastrem, barvou, popisem)•pohybové– vyjadřují změny jevu s místem a časem– používá se šipek, pásů nebo klínů vyjadřující směr, někdy i skladbu určitého pohybu–směrové–dosahové–proudové–dynamické
+LINIOVÁ  METODA/ m. liniových znaků
+
+
+--- PAGE 13 ---
+Liniové (čárové) znaky• Izolinie (izočáry)– Zvláštní typ čárových znaků– Vyjadřují kvantitativní hodnotu– Spojují místa se stejnou kvantitativní hodnotou daného jevu– Ačkoli izolinie mají čárový charakter, metoda izolinií se však řadí ke kartografickým metodám interpretujících plošné prvky– Příkladem mohou být:•vrstevnice neboli izohypsy•hloubnice neboli izobáty•izotermy •izobary•izochrony •izochory•ekvideformáty
+
+--- PAGE 14 ---
+Parametry liniového znaku• tloušťka• struktura• výplň• orientace• pozice
+Ì Ì Ì
+
+--- PAGE 16 ---
+Plošné (areálové) znakyZnaky plošné- pro vyjádření a vzájemné odlišení areálů (ploch), vymezených na základě rajonizace, regionalizace nebo typologie• mnohdy hlavní (nejvýraznější) metoda na mapě• Z přísně geometrického hlediska jsou téměř všechny skutečné objekty plošného charakteru• Pouze vlivem měřítka mapy se některé skutečné objekty mění na mapě v prvky bodové (například sídla) nebo liniové (například vodní toky)
+AREÁLOVÁ  METODA / m. areál. znaků
+
+
+--- PAGE 17 ---
+Parametry plošných znaků• Obrys x výplňbarvaRastrPopis– podél hlavní, nejdelší osy areálu– např. název státu, název plodiny– hierarchie se rozlišuje rodem, velikostí, barvou a řezem písma
+k  u  k  u  ř  i  c  e
+Þ
+Þ
+Þ Þ
+Þ

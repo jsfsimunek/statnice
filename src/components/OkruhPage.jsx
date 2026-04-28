@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import PodotazkaView from './PodotazkaView.jsx'
+import { getTopic } from '../lib/contentRepository.js'
 
-export default function OkruhPage({ okruhId, onTitleLoaded }) {
+export default function OkruhPage({ subjectSlug, okruhId, onTitleLoaded }) {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
   const [notFound, setNotFound] = useState(false)
@@ -14,12 +15,7 @@ export default function OkruhPage({ okruhId, onTitleLoaded }) {
     setActivePodotazka(0)
     window.scrollTo({ top: 0, behavior: 'smooth' })
 
-    const base = import.meta.env.BASE_URL
-    fetch(`${base}data/okruh${okruhId}.json`)
-      .then(res => {
-        if (!res.ok) throw new Error('not found')
-        return res.json()
-      })
+    getTopic(subjectSlug, okruhId)
       .then(json => {
         setData(json)
         setLoading(false)
@@ -29,7 +25,7 @@ export default function OkruhPage({ okruhId, onTitleLoaded }) {
         setNotFound(true)
         setLoading(false)
       })
-  }, [okruhId])
+  }, [subjectSlug, okruhId])
 
   if (loading) {
     return (
@@ -54,13 +50,13 @@ export default function OkruhPage({ okruhId, onTitleLoaded }) {
 
       {podotazky.length > 1 && (
         <div className="flex gap-2 mb-6 flex-wrap">
-          {podotazky.map((p, idx) => (
+          {podotazky.map((podotazka, index) => (
             <button
-              key={p.pismeno}
-              onClick={() => setActivePodotazka(idx)}
-              className={`tab-btn ${activePodotazka === idx ? 'tab-btn-active' : 'tab-btn-inactive'}`}
+              key={podotazka.pismeno}
+              onClick={() => setActivePodotazka(index)}
+              className={`tab-btn ${activePodotazka === index ? 'tab-btn-active' : 'tab-btn-inactive'}`}
             >
-              Podotázka {p.pismeno}
+              Podotázka {podotazka.pismeno}
             </button>
           ))}
         </div>
@@ -68,9 +64,9 @@ export default function OkruhPage({ okruhId, onTitleLoaded }) {
 
       {podotazky[activePodotazka] && (
         <PodotazkaView
-          key={`${okruhId}-${activePodotazka}`}
+          key={`${subjectSlug}-${okruhId}-${activePodotazka}`}
           podotazka={podotazky[activePodotazka]}
-          okruhId={okruhId}
+          okruhId={`${subjectSlug}-${okruhId}`}
         />
       )}
     </div>
@@ -80,11 +76,11 @@ export default function OkruhPage({ okruhId, onTitleLoaded }) {
 function PlaceholderPage({ okruhId }) {
   return (
     <div className="card flex flex-col items-center text-center py-16 gap-4">
-      <div className="w-16 h-16 rounded-2xl bg-slate-100 flex items-center justify-center text-3xl">📂</div>
+      <div className="w-16 h-16 rounded-2xl bg-slate-100 flex items-center justify-center text-3xl">?</div>
       <div>
         <h2 className="font-serif text-xl font-semibold text-slate-700 mb-1">Okruh {okruhId} zatím nemá data</h2>
         <p className="text-slate-400 text-sm max-w-xs">
-          Přidej soubor <code className="bg-slate-100 px-1 rounded text-xs">public/data/okruh{okruhId}.json</code> ve správném formátu a obsah se automaticky načte.
+          Přidej obsah přes import JSONu nebo v editoru.
         </p>
       </div>
     </div>

@@ -1,0 +1,161 @@
+
+--- PAGE 1 ---
+Metody tematické kartografieZe0128KartografieMgr. Darina Mísařová, Ph.D.10.10.2023
+
+--- PAGE 2 ---
+Tematická kartografie – dílčí část obecné kartografie zabývající se studiem metod znázorňování tematického obsahu a zpracováním tematických mapTematická mapa – na topografickém podkladu znázorňuje jedno nebo více témat na úkor nepodstatných témat a je určena ke specifickému účelu. 
+
+--- PAGE 3 ---
+Tematické mapyZ koncepčního hlediskaa) Analytickéb) Syntetickéc) KomplexníZ hlediska jednotlivých vědních disciplín:a) Mapy přírodních jevů (fyzickogeografické)b) Mapy společenských jevů (socioekonomické)
+
+--- PAGE 8 ---
+Metody tematické kartografie• Data – kvantitativní x kvalitativní– Kvantitativní: absolutní x relativní• Metoda bodových znaků• Metoda liniových znaků• Metoda kvalitativních areálů /areálová metoda
+
+--- PAGE 9 ---
+Kombinace metod  kartogramumetoda tečeklokalizovaných diagramůkartodiagramupůdorysných čarstuhováizoliniídasymetrickáanamorfóza….
+Metoda:
+
+--- PAGE 10 ---
+Kartogramymetoda kvantitativních areálů
+Hana VÍTKOVÁ
+Olomouc 2004
+POČET OBYVATEL V AFRICE
+Počet obyvatel v tisících
+0 - 3.5
+3.6 - 7.5
+7.6 - 11.8
+11.9 - 22.022.1 - 51.5
+51.6 - 117.3
+rok 2000
+1 : 50 000 000
+0 1000 2000 3000 4000 km
+
+
+--- PAGE 11 ---
+Kartogramy• kartogram je mapa s dílčími územními celky, do kterých jsou plošným způsobem znázorněny relativní hodnoty statistických dat, tj. průměrná intenzita jevu v dané územní jednotce• nejčetnější kartografická reprezentace• barevně (rastrem) vizualizované kvantitativní hodnoty plošných prvků• územní jednotky: a) správní (administrativní, sociálně-geografické….)b) geometricky stanovené (např. čtvercová, šestiúhelníková síť…)
+
+--- PAGE 12 ---
+Podmínky pro data• srovnatelná• relativní• přepočtená na jednotku plochy• nepravý kartogram (pseudokartogram)– tzv. kartogram bez prostorového základu– nepoužívají se data přepočtená na jednotku plochy– v praxi častější než běžný kartogram (!)– nesrovnatelnost hodnot v obsahu mapy
+Příklad: hustota zalidnění za obce v Česku, podíl zemědělské půdy na rozloze SO ORP, podíl obyvatel bez náboženského vyznání na celkovém počtu obyvatel okresů, počet nakažených chřipkou na 10 000 obyvatel za kraje, volební zisk (vyjádřený v procentech) strany X v komunálních volbách za obce
+
+--- PAGE 13 ---
+Třídění• Grafickému zpracování kvantitativní stránky obsahu tematické mapy předchází STATISTICKÉ ZPRACOVÁNÍpoužitých údajů (dat) statistického souboru.• Třídění je uspořádání statistického souboru do skupin (tříd) podle určitého statistického znaku• Zásady třídění: – zásada úplnosti– zásada jednoznačnosti
+
+--- PAGE 14 ---
+VELIKOSTNÍ STUPNICE INTERVALOVÁFUNKČNÍspojitánespojitá(skoková)spojitánespojitá(skoková)(plynule navazující)konstantnípravidelně rostoucí (klesající)nepravidelnálineárnínelineárnís hiátems hiátemzměna vzorce
+
+
+--- PAGE 17 ---
+Druhy kartogramů: jednoduchý
+
+
+--- PAGE 18 ---
+Druhy kartogramů: složený
+
+
+--- PAGE 19 ---
+Druhy kartogramů: strukturní
+
+
+--- PAGE 20 ---
+Druhy kartogramů: síťový
+
+--- PAGE 21 ---
+Druhy kartogramů: objemový
+
+--- PAGE 23 ---
+Kartodiagramy
+
+--- PAGE 24 ---
+Kartodiagramy• též „diagramová mapa“• nejčastěji používány pro prezentaci statistických údajů – patří do skupiny tzv. statistických map• na rozdíl od kartogramů vyjadřujeme absolutní hodnotyjevu• Diagram -obrazec (nejčastěji geometrický), se snadno měřitelným parametrem, dovolujícím vypočítat jeho velikost i jeho jednotlivé složky• proporcionální symboly – nemusí být vždy geometrický obrazec
+
+--- PAGE 25 ---
+Metody kartodiagramu• Kartodiagram je mapa, do které  jsou prostřednictvím diagramů nebo grafů znázorněny absolutní hodnoty statistických dat, vztažených sumárně pro celé územní celky.• Kromě diagramů mapa obvykle obsahuje i prvky fyzickogeografického základu• Pro data v celé mapě musí být vytvořena objektivní stupnice• Při lokaci je prvotním kritériem aby byl diagram celý v ploše, kterou reprezentuje• Kartodiagram musí být doplněn grafickou stupnicí• Podle typu použitého diagramu je definován typ výsledného kartodiagramu (jednoduchý, strukturní…)
+
+--- PAGE 26 ---
+Diagramy jednoparametrové - plošné• Sloupcové• Čtvercové• Kruhové• Polokruhové• Trojúhelníkové• Mnohoúhelníkové
+
+
+--- PAGE 27 ---
+• jeden geometrický tvar• jeden jevDruhy diagramů: jednoduchý
+
+
+--- PAGE 28 ---
+složené diagramy
+součtové diagramy
+
+--- PAGE 29 ---
+strukturní diagramyvýsečové diagramy
+
+
+--- PAGE 30 ---
+Příklady kartodiagramů–plošně lokalizované
+
+
+--- PAGE 31 ---
+Metoda bodově lokalizovaných diagramů• kartografické vyjádření statistických dat ve formě diagramů vztažených ke konkrétní lokalitě umístěné v mapové kostře• charakteristiky jevu v určitých místech, nejčastěji sídlech či stanicích• druhy podle druhů diagramů (platí i pro plošné)
+
+--- PAGE 32 ---
+ŠKODY ZPŮSOBENÉ VICHŘICEMI
+
+
+--- PAGE 33 ---
+hodnotové měřítko nahrazeno číselnými údaji pro každý sloupec
+
+--- PAGE 35 ---
+Hodnotové (diagramové) měřítko• umožňují srovnání• zjištění velikosti
+
+
+--- PAGE 36 ---
+Metoda pohybových linií• Lze jím znázornit směr pohybu (vektor)– V dopravě, vzdušné či mořské proudy apod. 
+
+
+--- PAGE 37 ---
+Pohybové linie v praxi
+
+
+--- PAGE 38 ---
+Stuhová metoda
+• Vyjadřuje územní vazby a přesuny• Lze jím znázornit směr (šipkou) a velikost/kvantitu vazby (šířka linie)• Druh (kvalitu) vazby vyjadřuje barva, šrafura či další vlastnosti linie• Využívá se v dopravě, demografii, klimatologii…• Někdy označována jako tzv. liniový kartodiagram 
+
+--- PAGE 39 ---
+Příklady stuhové metody (kartodiagramů – liniově lokalizované)
+
+
+--- PAGE 40 ---
+Kartografická  anamorfóza= výrazně abstraktní přeměna geometrické kostry mapy a s ní spojeného mapového obsahu za účelem zvýraznění tematického obsahu- Relativně názorná a stále více oblíbená• spočívá v přetvoření jeho polohově přesné půdorysné složky použitím matematické schematizace (může mít různý konstrukční základ –plochy, úhly, délky, tvary)• Vyžaduje zvláštní přístup při interpretaci
+
+--- PAGE 41 ---
+Obecná anamorfóza• nejčastější• plochy územních jednotek (např. okresů)odpovídají jinému geografickému jevu (např. počtu vojáků v armádě)• obrysy územních jednotek se buď přibližně zachovávají nebo se zjednodušují na geometrické obrazce (vždy musí být zachováno sousedství) 
+Počet obyvatel 1950-2000-2050
+
+--- PAGE 42 ---
+https://go-cart.io/
+
+--- PAGE 43 ---
+Kruhová anamorfóza - ekvidistantyPočet tříd ve školedo 2526 - 3536 a více
+
+--- PAGE 44 ---
+Kruhová anamorfóza - izochrona
+
+
+--- PAGE 45 ---
+Metoda teček / tečková metoda• Tečkou v mapě zobrazujeme buď jevy kvalitativní a kvantitativní. •Znázorňují rozložení diskrétních kvantitativních charakteristik především bodových jevů• V omezené míře se dají aplikovat také na jevy plošné a liniové• Pomocí teček můžeme vyjadřovat takékvalitu (barvou nebo tvarem)• Pomocí různých barev můžeme v jedné mapě znázornit více jevů• Vyjadřovacím prostředkem je tečka, resp. kruh tak malých rozměrů, že je lze zanedbat• Kromě teček můžeme použít také jiné jednoduché geometrické tvary –například čtverec nebo trojúhelník• Kvantitativní vlastnosti se vyjadřují pomocí váhy teček, kdy je každému symbolu připojena konkrétní hodnota – například 1 tečka = 1 000 osob• Jedna tečka může reprezentovat více než jeden objekt – v tomto případě se tečky rozmisťují v prostoru a nikoli lokalizovaně
+
+
+--- PAGE 46 ---
+Umístění teček•Lokalizovaný způsob•Plošný způsob -pravidelné nebo náhodné•Topografický způsob:umožňuje vyjádřit rozmístění jevů na mapě podle rozmístění jevů v terénu. •Kartogramový způsob:je založený na rovnoměrném rozmístění teček v určité předem stanovené prostorové jednotce.
+
+--- PAGE 47 ---
+Ukázky tečkových map
+
+
+--- PAGE 49 ---
+Dasymetrická metoda• Metoda slouží ke znázornění oblastí stejné intenzity- zobrazuje převážně data kvantitativní povahy (liší se od areálové metody)- nekopíruje hranice územních jednotek (tak jako kartogram), ale vytváří pro jevy přirozenější hranice na základě rozložení geografického jevu- jako podklad lze využít tečkovou metodu – oblasti o stejné hustotě teček jsou rozděleny do intervalu
+
+
+--- PAGE 52 ---
+Metoda izolinií a barevných vrstev• Izolinie – čáry spojující místa se stejnou hodnotou dané veličiny(izohypsy, izobaty, izobary, izochory, izotermy….)- Nejvhodnější pro znázornění spojitých jevů – např. nadmořské výšky, teplota vzduchu• Metoda barevných vrstev – barevné odlišení ploch mezi izoliniemi- Každá barva odpovídá intervalu (hodnoty hraničních linií)- Barvy jsou odstupňovány barevnou stupnicí- Zvláštní případ je barevná hypsometrie
+
+--- PAGE 55 ---
+Další použité zdroje•https://www.geoinformatics.upol.cz/dprace/bakalarske/hrubosova07/Kartogramy.pdf•https://www.natur.cuni.cz/geografie/geoinformatika-kartografie/ke-stazeni/projekty/moderni-geoinformacni-metody-ve-vyuce-gis-a-kartografie/kartogram/• více viz Studijní materiály IS MUNI

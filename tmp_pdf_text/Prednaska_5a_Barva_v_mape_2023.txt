@@ -1,0 +1,229 @@
+
+--- PAGE 1 ---
+Ze0128 Kartografie
+Mgr. Darina Mísařová, 
+Ph.D.
+17.10.2023
+
+--- PAGE 2 ---
+ Barva má v obsahu specifické postavení – může být 
+jak SAMOSTATNÝM vyjadřovacím prostředkem, tak 
+SOUČÁSTÍ všech vyjadřovacích prostředků 
+ostatních. 
+ Použití barev v mapě zvyšuje při stejném optickém 
+zaplnění množství zobrazitelného obsahu.
+ Barva umožňuje snížit počet ostatních použitých 
+vyjadřovacích prostředků = zpřehlednění
+
+
+--- PAGE 3 ---
+ barva vzniká rozkladem bílého světla
+ světlo = oblast viditelné světelné zářivé energie
+ 350nm (fialová) - 750nm (červená) 
+ Čím je vlnová délka KRATŠÍ, tím se barva jeví jako VZDÁLENĚJŠÍ 
+(vjem hloubky)
+10-3 10-2 10-1 1 101 102 103 104 105 106 107 108 109 1010 1011 1012 nanometry
+mm cm m km
+NEVIDITELNÉ  NEVIDITELNÉ
+400 500 600 700 nanometry
+Ultrafialová Fialová Zelená
+Žlutá Oranžová
+Červená Infračervená
+Paprsky Gama a RTG Ultra-
+fialová Infračervená Radiové - radarové - televizní vlny
+Modrá
+
+
+--- PAGE 4 ---
+ dva hlavní barevné modely:
+RGB - používaný všemi barevnými monitory
+CMY (CMYK) - používaný pro barevný tisk
+ Princip teorie barev : 
+ červené (red - R), zelené (green - G) a modré (blue - B) = RGB (při aditivním míchaní 
+barev ) 
+ tyrkysové (cyan - C), purpurové (magenta - M) a žluté (yelow -Y) = CMY, při použití 
+subtraktivního míchaní barev
+
+
+--- PAGE 5 ---
+ Téměř každou barvu lze simulovat pomocí tří základních barev
+ Světelné barvy – RGB model :
+ BARVY  ZÁKLADNÍ:
+ modrá, zelená a červená barva 
+ DOPLŇKOVÉ  BARVY (vznikají skládáním barev základních):
+ žlutá (zelená + červená)
+ purpurová (červená + modrá)
+ azurová (modrá + zelená)
+ všechny ostatní barvy vznikají rovněž skládáním, a to 
+základních nebo doplňkových barev
+ skládání barev může být aditivní nebo subtraktivní
+
+
+--- PAGE 6 ---
+TÓN
+= vlastnost barevného vjemu charakterizovaná 
+vlnovou délkou a označovaná názvem barvy 
+(barva modrá, červená aj.)
+ jedná se o umístění barvy ve spektrální řadě
+ rozlišují se dvě skupiny barev:
+ pestré (chromatické)
+ nepestré (achromatické, neutrální)
+
+--- PAGE 7 ---
+SYTOST (čistota)
+= podíl čisté chromatické barvy a barvy achromatické
+- tj.čím méně šedém, tím sytější barva 
+ vyjadřuje podíl čisté pestré barvy a barvy nepestré ve 
+výsledné lomené barvě namíchané pro tisk
+ vyjadřuje rozdílnost vjemu barvy chromatické od 
+vjemu barvy achromatické
+ podle sytosti se rozlišují barvy syté a bledé
+
+--- PAGE 8 ---
+JAS (světlost)
+= podíl světla v barevném tónu
+ jas udává relativní čistotu barvy
+ podle jasu se rozlišují barvy:
+ světlé - světlé barvy jsou barvy čisté nebo barvy vzniklé 
+míšením příslušných chromatických barev
+ tmavé - tmavé barvy jsou barvy s příměsí šedi, event. míšení 
+dalších příslušných chromatických barev
+ při tisku mapy se tmavých barev dociluje tiskem plné 
+plochy, světlých barev použitím sítí (rastrů)
+
+--- PAGE 9 ---
+ vjem hloubky
+ pocit tepla
+ optická váha barev
+ vzrušivost…
+
+
+--- PAGE 10 ---
+ je vlastnost barevného vjemu, který má tón barvy
+ oko vnímá každý tón s jinou intenzitou: zelená a modrá 
+se lépe čte z kratší vzdálenosti, zatímco purpurová je 
+viditelná na velkou vzdálenost. 
+ tj. barvy s kratší vlnovou délkou (modrá) se zdají být na 
+mapě hlubší, resp. vzdálenější, než barvy s delší 
+vlnovou délkou (červená)
+ uplatňuje se, když se vyjadřují pozitivní a negativní
+hodnoty nebo dojem vzdálenosti - ve stupnicích 
+barevných vrstev (barvy jsou řazeny podle pořadí ve spektru, tj. 
+zelená - žlutá - oranžová - červená)
+
+
+--- PAGE 11 ---
+ pocit tepla se dostavuje u červené, oranžové a žluté 
+(teplé barvy)
+ pocit chladu se dostavuje u zelené, modré a fialové 
+(studené barvy)
+ využívá se nejčastěji na klimatických, vojenských a 
+dalších mapách
+
+
+--- PAGE 12 ---
+ není u všech barev stejná - závisí na tónu, jasu i sytosti
+ výraznější jsou barvy tmavé a syté
+ nejnižší - bílá a žlutá, největší - fialová, červená, černá
+ nespektrální barvy (např. hnědou) nelze jednoznačně 
+zařadit
+ pořadí optické váhy (od nejnižší k nejvyšší):
+ bílá - žlutá - oranžová - červená nebo žlutá - zelená - modrá - fialová - černá
+ různá váha ploch se dá vyrovnat použitím rastrů (výrazná 
+barva rastrem, nevýrazná plně), u bodů a linií změnou rozměrů 
+(černá linie bude tenčí než zelená)
+
+
+--- PAGE 13 ---
+ podle vzrušivosti: barvy klidné a vzrušivé
+ v klidných barvách od žluté po modrou kulminuje zelená 
+barva (všem barvám přiděluje nádech zelenosti) - zelená proto 
+působí nejklidněji
+ v zelených tónech a odstínech je lidský zrak schopen 
+rozpoznat nejvíce jejich nejmenších rozdílů nebo prahů 
+ opakem ke klidu je vzrušivost barvy červené
+ využívá se: 
+ klidné barvy – podklad nebo druhořadé objekty a jevy
+ vzrušivé barvy – dominanty nebo negativních jevy 
+
+
+--- PAGE 15 ---
+ Využívají pocitové a asociativní významy 
+barev
+ Ovlivněno kulturou, dobou vzniku, cílem a 
+druhem mapy, tématem, měřítkem, 
+osobitým stylem, nakladatelstvím…
+
+--- PAGE 16 ---
+ velké plochy - světlé, málo syté barvy
+ tvoří odlehčený podklad pro body a linie a s podobně odlehčenými 
+sousedními plochami lépe snášejí
+ malé plochy, linie a body - tmavé a syté barvy 
+ působí na mapě příliš nápadně a výrazně, až křiklavě - proto se 
+používají pro malé a drobné plošky (kvalitativně nebo kvantitativně 
+nejzajímavější místa) 
+ vystupují z mapy tím více, čím nenápadnější a neutrálnější je barva 
+okolí
+ používají se i u bodových a liniových znaků (nepoužívá se žlutá, kterou 
+je na světlém podkladu špatně vidět)
+• Změna tónu nikoli jasu nebo sytosti barvy
+
+--- PAGE 17 ---
+ Rozlišovací
+ Klasifikační
+ Estetická
+A) požití standardizovaných barevných stupnic (navigační, geologické 
+atd.)
+B) sestavení vlastní barevné stupnice (přiblížit se přírodním barvám)
+
+
+--- PAGE 19 ---
+ Kvantita musí být dobře rozlišitelná v bodech, liniích i plochách
+ čím intenzivnější jev, tím intenzivnější barva
+ využívá se světlosti barvy
+ bílá x černá
+a)Sekvenční 
+(unipolární)
+b)Divergentní 
+(bipolární) 
+symetrické x 
+asymetrické
+
+--- PAGE 20 ---
+ Slovo škála původně označovalo řadu tónů (zvukových) 
+uspořádanou způsobem, který byl považován za dokonalý = 
+stupnice
+ Pojem lze vztáhnout na jakoukoli utříděnou barevnou 
+posloupnost
+ Zahrnuje také stupnici sytosti jediné barvy – řadu tónů různé 
+barevné intenzity
+ Termín ŠKÁLA označuje jakoukoli dokonale uspořádanou 
+posloupnost barev nebo tónů
+
+
+--- PAGE 21 ---
+ Lze je použít všude, kde existuje polarita jevu (teplá x studená, pozitivní x 
+negativní)
+ Žlutá a červená působí zdání blízkosti, modrá a fialová optickou vzdálenost 
+prohlubují – vzdálenější předměty se jeví menší
+Teplé a studené barvy
+
+--- PAGE 22 ---
+ Chyba způsobená špatnou volbou barev při sestavování barevných stupnic
+
+--- PAGE 25 ---
+ Barvy pro vyjádření kvalitativních vlastností jevů vybíráme podle:
+a) respektují se standardizované legendy
+b) různé barevné tóny o přibližně stejné intenzitě
+c) řídíme se asociacemi (voda modře, banán žlutě, válečný konflikt 
+červeně…)
+ Barvy (stupnice) pro vyjádření kvantitativních vlastností jevů volíme 
+podle:
+a) čím vyšší intenzita jevu, tím vyšší intenzita barvy
+b) je-li použito více barevných tónů, volí se sousední barvy ve spektru při 
+zachování pravidla a)
+c) vyvarovat se tzv. propadání barev
+d) znázorňujeme-li protikladné hodnoty jevu (záporné-kladné, úbytek-
+přírůstek) použijeme odstíny dvou barev (studené-teplé)  
+ Pro velké plochy volíme světlé, pastelové a odlehčené barvy, zatímco linie, 
+body a malé plochy volíme tmavé, výrazné, těžké barvy

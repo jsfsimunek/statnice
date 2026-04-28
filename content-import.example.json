@@ -1,0 +1,64 @@
+{
+  "subjects": [
+    {
+      "slug": "geografie",
+      "name": "Geografie",
+      "description": "Statnicove okruhy z geografie.",
+      "topics": [
+        {
+          "number": 1,
+          "title": "Kartografie, biomy, terenni vyuka",
+          "subquestions": [
+            {
+              "letter": "A",
+              "prompt": "Zneni podotazky.",
+              "study": {
+                "sections": [
+                  {
+                    "title": "Nadpis sekce",
+                    "content": "Text uciva.",
+                    "list": ["Bod jedna", "Bod dva"],
+                    "mnemonic": "Pametova pomucka.",
+                    "tables": [
+                      {
+                        "columns": ["Sloupec 1", "Sloupec 2"],
+                        "rows": [["A", "B"]]
+                      }
+                    ],
+                    "images": [
+                      {
+                        "src": "/assets/example.png",
+                        "caption": "Popisek obrazku"
+                      }
+                    ]
+                  }
+                ],
+                "examChecklist": ["Co musim umet"]
+              },
+              "flashcards": [
+                {
+                  "question": "Otazka na karticce",
+                  "answer": "Odpoved"
+                }
+              ],
+              "quiz": [
+                {
+                  "question": "Kvizova otazka",
+                  "options": ["A", "B", "C", "D"],
+                  "correct": 1,
+                  "explanation": "Proc je odpoved spravne."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "obcanska-vychova",
+      "name": "Obcanska vychova",
+      "description": "Statnicove okruhy z obcanske vychovy.",
+      "topics": []
+    }
+  ]
+}

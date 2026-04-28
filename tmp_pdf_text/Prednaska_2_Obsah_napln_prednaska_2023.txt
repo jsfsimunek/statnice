@@ -1,0 +1,459 @@
+
+--- PAGE 1 ---
+Ze0128 Kartografie
+Mgr. Darina Mísařová, Ph.D.
+26.9.2023
+
+--- PAGE 2 ---
+Obsah přednášky
+• Definice: mapa, atlas, glóbus, plán
+• Obsah a náplň map
+• Kompoziční prvky mapy
+
+--- PAGE 3 ---
+Definice mapy
+1. Mapa je zmenšený generalizovaný konvenční obraz Země, nebeských
+těles, kosmu či jejich časti, převedený do roviny pomocí matematicky
+definovaných vztahů (kartografickým zobrazením), ukazující podle
+zvolených hledisek polohu, stav a vztahy přírodních,
+socioekonomických a technických objektů a jevů. (volná interpretace
+normy ČSN 730402)
+2. Mapa je zmenšené zevšeobecněné zobrazení povrchu Země,
+ostatních nebeských těles nebo nebeské sféry, sestrojené podle
+matematických pravidel na rovině a vyjadřující pomocí smluvených
+znaků rozmístěni a vlastnosti objektů vázaných na jmenované povrchy.
+(International Cartographic Asociation /ICA/)
+3. Definice z učebnice pro ZŠ: Mapa je zmenšené, zkreslené a
+zjednodušené znázornění zemského povrchu.
+
+--- PAGE 4 ---
+Mapám příbuzná zobrazení
+• Atlas je systematicky uspořádaný soubor map
+zpracovaný jako celek podle jednotného řídícího záměru
+• Glóbus je zmenšený trojrozměrný kulový model Země
+• Plán je zmenšený rovinný obraz kolmého průmětu tak
+malého území, že se v něm ještě neprojevuje zkreslení
+
+--- PAGE 5 ---
+Náplň a obsah
+mapy
+
+
+--- PAGE 6 ---
+NÁPLŇ  MAPY 
+míra grafické zaplněnosti mapy
+= poměr plochy obrazu prvků mapy k ploše mapy 
+• udává se v procentech
+• je mírou čitelnosti mapy 
+• optimální náplň
+– 12-18 % plochy mapy
+– 25-30 % je již na hranici únosnosti
+• v praxi se vyskytují dva základní nedostatky: 
+– přeplnění obsahu mapy 
+– nedostatečné zaplnění mapy
+MAXIMÁLNÍ ZAPLNĚNÍ MAPY JE KOLEM 30 % PLOCHY
+
+--- PAGE 7 ---
+Grafické zaplnění mapy - srovnání
+Nástěnná mapa
+ Atlasová mapa
+JEN PRÁZDNÉ MAPY SE VŠTÍPÍ DO PAMĚTI
+(A. von Humboldt)
+
+--- PAGE 8 ---
+OBSAH  MAPY 
+= zahrnuje všechny objekty, jevy a jejich vztahy, které jsou v mapě 
+kartograficky znázorněny
+- vzhledem k uživatelům
+- kartografické vyjadřovací prostředky
+
+--- PAGE 9 ---
+Souřadnicové sítě
+• Zeměpisná/geografická síť
+• Pravoúhlá rovinná síť 
+(kilometrová)
+• Orientační síť (rejstříky)
+
+
+--- PAGE 10 ---
+Obsah mapového pole
+Z hlediska topografie (topografický obsah)
+– prvky potřebné pro orientaci na mapě
+• výškopis
+• polohopis
+• popis
+Z hlediska tematické kartografie
+(u tematických map)
+• matematické prvky 
+• fyzickogeografické prvky
+• socioekonomické prvky
+• doplňkové a pomocné prvky
+
+--- PAGE 11 ---
+OBSAH TEMATICKÝCH 
+MAP
+• topografický (obecně geografický) 
+podklad 
+• tematický obsah
+
+--- PAGE 12 ---
+Topografický podklad
+• slouží k určení topologie jednotlivých prvků mapované tématiky a 
+prostorově lokalizuje prvky tematického obsahu mapy
+• prvky topologicky důležité
+• základem je vodstvo
+• vzniká většinou generalizací obsahu topografických nebo obecně 
+geografických map
+• legenda 
+• topografickým podkladem může být:
+ topografická nebo obecně geografická mapa
+ reprodukce (fotografická nebo xerografická) topografické, obecně 
+geografické nebo jiné mapy
+ nově vykreslený zjednodušený a redukovaný podklad 
+
+--- PAGE 14 ---
+Tematický obsah
+• je souhrn prvků obsahu mapy tvořící mapovanou tematiku 
+nebo s ní úzce souvisejí
+• jeden nebo více prvků 
+• hranice mezi TP a TO není stálá ani ostrá 
+• tematický  obsah  mohou  tvořit:
+ vybrané prvky topografického podkladu
+ nejrůznější fyzickogeografické nebo socioekonomické jevy
+ poznatky získané vědeckými postupy - analýzou, syntézou, 
+modelováním, typologizací apod.
+
+--- PAGE 15 ---
+Výškopis
+•výškové body - body s přesně změřenou nadmořskou výškou, vyznačeny bodovými znaky 
+doplněnými o číselný údaj nadmořské výšky – kótované body a název, počet závisí na měřítku 
+mapy, výškové členitosti terénu a použitých kartografických zobrazovacích metodách.
+•vrstevnice (izohypsa) - linie, která spojuje všechny těsně sousedící body reliéfu se stejnou 
+účelně zaokrouhlenou hodnotou nadmořské výšky, na topografických mapách můžeme rozlišit 
+čtyři druhy vrstevnic – základní, zdůrzněné, doplňkové, pomocné
+- hloubnice (izobata), vrstevnicový interval (ekvidistance)   
+- spádovky - krátké linie, které naznačují směr sklonu reliéfu a umísťují se kolmo 
+k vrstevnicím ve směru největšího sklonu
+•barevná hypsometrie spočívá v barevném nespojitém znázornění výšek zemského povrchu po 
+jednotlivých výškových stupních. Výškovým stupněm rozumíme výškový rozdíl vrstevnic, kterými 
+je ohraničen. Výšková vrstva pak představuje plochu mezi vrstevnicemi, které ohraničují výškový 
+stupeň, obvykle 6 – 10 barev.
+• stínování a šrafy - krátké linie, kterými se v mapě zobrazují půdorysné průměty částí spádnic 
+zemského povrchu
+- vyjadřuje obraz reliéfu (zemského povrchu)
+
+--- PAGE 17 ---
+Polohopis
+•vodní prvky – oceány, moře, ledovce, jezera a přehrady, rybníky, řeky, potoky, 
+mokřady apod.
+•vodní toky - představují kostru mapy, stálé vodní toky jsou znázorněny modrou 
+spojitou čárou, periodické toky čárkovanou čárou, 
+•sídla - města, vesnice, osady, samoty či další hospodářsky a kulturně důležité 
+objekty (kostely, vysílače, transformátorové stanice apod
+•komunikace - zahrnují celou řadu prvků, železnice, pozemní komunikace, vodní 
+cesty, potrubní dopravu, telekomunikace, elektrické vedení apod., v obecně 
+geografických mapách se ze železničních tratí zakreslují jen rychlíkové tratě
+•hranice - linie, které oddělují plochy jednotlivých administrativních celků, přírodních 
+celků apod., při shodném průběhu hranic různého řádu se zakresluje hranice řádově 
+vyšší
+•půdní a rostlinný kryt - mimo sídla se používají slabší nebo tečkované linie, uvnitř 
+a na okraji sídel plné linie, výplň tvoří vzorkový rastr, lesní plochy se znázorňují 
+zelenou barvou a doplňují se znaky pro odlišení druhů porostů, pro ornou půdu se na 
+topografických mapách volí bílá barva, louky a pastviny se znázorňují bíle 
+s doplňkovým znakem, ostatní zemědělská půda světle zeleně s doplňkovým znakem 
+….
+- bodové, liniové, plošné znaky
+
+--- PAGE 18 ---
+Popis
+- je zcela zásadní složka
+- bez popisu je mapa němá/slepá
+- konkretizuje objekty
+- k popisu patří: 
+geografické názvosloví (popis prvků), 
+popis vlastností prvků, zkratky, čísla
+popis v legendě
+mimorámové údaje…
+
+--- PAGE 19 ---
+Zrcadlo mapy
+• grafické rozmístění obrysů všech částí mapy v rámci formátu 
+mapy, mapového listu nebo strany atlasu
+• LAYOUT
+
+--- PAGE 20 ---
+Kompozice mapy
+
+
+--- PAGE 21 ---
+Mapová plocha
+• Mapové pole
+• Mapový rám
+• Okraj mapy – mimorámové údaje
+
+
+--- PAGE 22 ---
+Kompozice
+• vlastní rozložení prvků kartografického díla na 
+vybraném zobrazovacím médiu
+• kompoziční řešení závisí především na:
+– Účelu mapy
+– Okruh uživatelů mapy
+– Měřítku mapy
+– Tvaru znázorňovaného území
+– Velikosti znázorňovaného území
+– Formátu výsledného díla (formát papíru, 
+velikost obrazovky…)
+– Estetickém hledisku
+– nutné dbát na efektivní využití prostoru
+
+
+--- PAGE 23 ---
+Základní (povinné)
+• mapové pole
+• název
+• legenda
+• tiráž
+• měřítko
+Nadstavbové (podružné)
+• směrovka
+• Logo
+• tabulka
+• Obrázek 
+• Diagram
+• Reklamy
+• Rejstříky, seznamy
+• textové pole
+• schéma
+• vedlejší mapy – výřezy, 
+lokalizační mapky…
+Kompoziční prvky
+
+--- PAGE 24 ---
+Zrcadlo mapy
+• Zrcadlo mapy – grafické 
+rozmístění obrysů všech 
+částí mapy v rámci formátu 
+mapy, mapového listu nebo 
+strany atlasu
+• LAYOUT
+
+
+--- PAGE 25 ---
+Prvky mapy
+1. Mapové pole
+2. Název mapy
+3. Legenda
+4. Měřítko
+5. Rám mapy
+6. Metadatové 
+údaje
+7. Marginálie
+
+
+--- PAGE 26 ---
+Kompozice
+
+
+--- PAGE 30 ---
+Mapové pole
+• plocha zobrazující vlastní obsah mapy
+• obvykle ohraničená (kromě tzv. map na 
+spadávání)
+• vyplněno obsahem mapy
+• Tvar
+- jednoduchý n-úhelník
+- ostrovní mapové pole
+• Zaujímá největší částí mapového listu
+
+--- PAGE 31 ---
+Mapové pole
+Ostrovní mapa
+Pravoúhlé mapové pole
+Plně využité
+ Pravoúhlé mapové pole
+S ostrovní mapou
+
+--- PAGE 32 ---
+Mapové pole
+určuje celkovou kompozici mapy
+
+
+--- PAGE 33 ---
+Název mapy
+• Tématický aspekt 
+• Geografický aspekt
+• Časový aspekt
+• Název má být úplný, výstižný a stručný:
+Hustota obyvatelstva v České Republice v roce 2022
+-doporučuje se max. 11 slov
+-je možno zkrácení místních jmen (Ústí n.L.) 
+-používání všeobecně známých zkratech (ČR, UNESCO, USA)
+-nepíše se slovo „MAPA“ 
+Topografická mapa: např. AFRIKA (rok uveden v tiráži)
+Tematická mapa: 
+
+--- PAGE 34 ---
+Co je na mapě důležité?
+
+
+--- PAGE 35 ---
+Umístění nadpisu
+
+
+--- PAGE 36 ---
+Název
+• Název se dělí na: TITUL a podtitul
+• Je nejčtenějším písmem na mapě!!!
+TITUL
+• píše se velkými písmeny (čím větší, tím silnější)
+• ne KRAJ, ale KRAJ
+• používá se písmo bez vlasových čar
+• ne MINIMUM, ale MINIMUM
+• Používat písmo grotesk /arial/
+• Věcné vymezení
+Podtitul
+• malými, menšími PRŮMĚRNÁ DOJIVOST KRAV 
+v okresech Jihomoravského kraje IV/2021-XI/2021
+
+--- PAGE 37 ---
+Nadpis
+
+
+--- PAGE 38 ---
+Nadpis
+
+
+--- PAGE 41 ---
+Legenda
+
+
+--- PAGE 42 ---
+Legenda
+• slouží k výkladu
+– použitých mapových znaků,
+– ostatních kartografických vyjadřovacích prostředků,
+– barevných stupnic.
+• Legenda musí být
+– úplná
+– nezávislá
+– uspořádaná
+– v souladu s označením v mapě
+– srozumitelná
+• Její tvorba je velmi náročná a vyžaduje značné zkušenosti 
+
+--- PAGE 43 ---
+Postup tvorby legendy
+1. Stanovení obsahu mapy a návrh znakového 
+klíče
+2. Strukturalizace obsahu – hierarchie
+3. Uspořádání
+4. Upřesnění znakového klíče
+5. Generalizace legendy
+6. Stanovení definitivní podoby
+(pro každou hierarchii jiný řez písma, odsazenost, jednotné číslo –
+obora x chaty, název legenda, dynamická legenda)
+
+--- PAGE 44 ---
+Legenda
+
+
+--- PAGE 45 ---
+Legenda
+
+
+--- PAGE 46 ---
+Legenda
+
+
+--- PAGE 47 ---
+Legenda
+
+
+--- PAGE 48 ---
+Legenda
+
+
+--- PAGE 49 ---
+Měřítko
+• Měřítko mapy je poměr nakreslené délky 
+na mapě odpovídající délce ve 
+skutečnosti (na povrchu)
+• Tento poměr se vyjadřuje zlomkem 1 : M 
+(1 : 50 000), kde M je měřítkové číslo, 
+udávající kolikrát je délka na mapě menší 
+než ve skutečnosti.
+• Měřítko může být:
+– Číselné (1 : M)
+– Slovní (1 cm na mapě odpovídá 10 
+km ve skutečnosti)
+– Grafické 
+
+
+--- PAGE 50 ---
+Měřítko
+• nenápadné!!!
+• číselné
+– 1 : 10 000, 20 000, 50 000, 100 000, 200 000
+• grafické
+– dekadické
+– dvojí členění
+• hlavní popsané
+• vedlejší nepopsané
+– jednotky v jazyku mapy
+0 10 20 30 40 50 km
+
+
+--- PAGE 51 ---
+Měřítko
+
+
+--- PAGE 53 ---
+Měřítko
+
+
+--- PAGE 54 ---
+TIRÁŽ - Metadatové údaje
+• Autor (instituce)
+• Místo vydání (zhotovení)
+• Rok vydání (zhotovení)
+Doplňující:
+• ISBN, ISSN
+• Náklad
+• Autorská práva
+• Podkladová data
+• edice aj.
+Eliška MALÁ
+Přerov 2008
+Jan PAVEL
+Úřad práce ve Vyškově 2008
+Městský úřad v Opavě, 2008
+© podkladová data ARCDATA Praha s.r.o.
+
+--- PAGE 55 ---
+Marginálie
+• Marginálie = prvek, obvykle na vnější straně rámu mapy, 
+který dává uživateli další verbální, číselné nebo obrazové 
+informace mimo vlastního obrazu mapy. Rozšiřují, 
+vysvětlují a obohacují hlavní téma mapy.
+• Jsou určeny na základě zrcadla mapy
+• Obsahově i stylem grafiky by měly navazovat na obsah a 
+styl mapového pole
+• Rozlišujeme:
+– Textové marginálie (doprovodné texty a tabulky) 
+– Grafické marginálie (grafy, profily, doplňkové mapky, řezy, 
+fotografie, kresby, blokdiagramy)
+
+--- PAGE 57 ---
+Směrovka / severka / směrová 
+růžice
+• specifickým prvkem mapy
+• natočení zeměpisné sítě
+• není orientovaná k severu
+• největší jednoduchost
+Neobjevuje se ve třech případech: 
+1. obsahuje-li  mapa zeměpisnou síť
+2. jedná-li se o známé území a mapa je zároveň orientována k severu
+3. je-li mapa součástí mapového souboru 
+Popis je vždy v jazyku popisu mapy!!!! „české“ mapy – sever S !!!
+- v zobrazení S-JTSK pootočení směrovky o 7° ve směru hodinových ručiček 

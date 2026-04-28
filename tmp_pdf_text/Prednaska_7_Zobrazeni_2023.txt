@@ -1,0 +1,351 @@
+
+--- PAGE 1 ---
+MATEMATICKÉ  ZÁKLADY
+KARTOGRAFICKÝCH  DĚL
+Ze0128 Kartografie
+Mgr. Darina Mísařová, Ph.D.
+07.11.2023
+
+--- PAGE 2 ---
+Obsah
+1. Tvar zemského tělesa
+2. Souřadnicové systémy
+3. Kartografické zobrazení
+
+--- PAGE 3 ---
+Matematická kartografie
+• Převod nepravidelného trojrozměrného tělesa do roviny mapy
+• Volba vhodného kartografického zobrazení, tj. způsob který pomocí 
+matematicky definovaných vztahů přiřazuje každému bodu na 
+zemském povrchu odpovídající bod v rovině mapy
+
+--- PAGE 4 ---
+1. Zemské  těleso
+• jeho tvar a proměnlivost je výsledkem přitažlivé a 
+odstředivé síly 
+• výslednicí obou sil je tíhová síla, jejíž hodnoty, směr a 
+velikost jsou proměnné s daným místem na Zemi
+
+
+--- PAGE 5 ---
+Tvar Země - Geoid
+• nulové plochy tíhové síly  - GEOID
+• složitý, mírně zvlněný povrch (pod kontinenty i 
+oceánech)
+• nepravidelná a matematicky nedefinovatelná plocha 
+ohraničující prostor Země, kolmá k tížnicím v bodech 
+o stejné normální intenzitě tíže (normální geoid) a 
+procházející nulovým výškovým bodem
+– tj. je vymezen nulovými plochami tíhové síly Země 
+
+
+--- PAGE 6 ---
+Vrstevnicová mapa znázorňující průběh geoidu
+vzhledem k elisoiduWGS 84
+
+
+--- PAGE 7 ---
+= plocha tělesa, které se svým tvarem a velikostí přibližuje skutečnému
+zemskému tělesu a při konstrukci mapy nahrazuje celé zemské těleso nebo
+jeho část
+• Referenční plochou rozumíme matematicky definovanou plochu, která pro 
+kartografickou a geodetickou praxi nahrazuje Zemi a nebo její část.
+• elipsoid
+• koule
+• rovina
+Referenční plocha
+
+--- PAGE 8 ---
+Rotační referenční elipsoid
+• je nejbližší aproximací geoidu
+• nevyužívá se v kartografii ani geodézii, je příliš složitý 
+Trojosý referenční elipsoid
+• dvě rovníkové poloosy rotačního elipsoidu jsou stejně 
+dlouhé
+• používá se pouze pro tvorbu topografických map velkých 
+měřítek z geodetických zobrazení
+Referenční 
+koule
+1. pro méně přesné kartografické úlohy:
+– využívá se především pro konstrukci map malých 
+měřítek (1:1 000 000 a menších)
+– například pro mapy ve školních atlasech
+2. pro velmi přesné úlohy, nejedná-li se o rozsáhlé území (do 
+poloměru 200 km)
+Referenční
+ rovina
+• používá se pro kartografické a geodetické úlohy, kdy je 
+zobrazované území malého rozsahu – maximálně 700 km2
+(okrouhlé území přibližně o poloměru 15 km)
+• není třeba uvažovat zkreslení - vznikají plány
+
+
+--- PAGE 9 ---
+Besselův
+ elipsoid
+• používá se ve všech 
+státech střední Evropy 
+• u nás se používá v  
+civilní zeměměřické praxi 
+Krasovského
+ elipsoid
+• po roce 1950 zaveden ve všech 
+socialistických zemích
+• u nás se užívá ve vojenství: 
+použit v r. 1952 (topograf. mapování 
+1:25 000 pro S-52) a r. 1957 (vytvoření 
+systému S-42)
+Hayfordův
+ elipsoid
+• odvozen J. F. Hayfordem v r. 1909
+• z měření na území USA
+• v r. 1924 přijat za Mezinárodní 
+elipsoid 
+• u nás nebyl pro příliš velké 
+odchylky přijat
+elipsoid WGS 1984
+• střed je totožný s těžištěm Země 
+(na rozdíl od předcházejících elipsoidů) 
+• povrch se ke geoidu přimyká s 
+maximální odchylkou 60 metrů
+• využito satelitního měření
+• dodnes používaný (GPS)
+
+--- PAGE 11 ---
+2. Souřadnicové  
+systémy
+Matematické pravidla, jimiž se určí způsob, jak 
+bodům v prostoru přiřadit souřadnice
+1) Sférické souřadnice – definované na kouli 
+2) Rovinné souřadnice – definované v rovině do níž jsou sférické 
+souřadnice převáděny
+
+--- PAGE 13 ---
+Zeměpisné (geografické) souřadnice
+Zeměpisná šířka  Zeměpisná délka 
+Zem. šířka – úhel, který svírá normála v 
+daném bodě k referenční koule s rovinou 
+rovníku referenční koule
+• Spojnice bodů se stejnou zeměpisnou 
+šířkou se nazývají rovnoběžky
+Zem. délka – úhel, který svírá rovina 
+základního poledníku a místního 
+poledníku, který prochází daným místem
+• Spojnice bodů se stejnou zeměpisnou 
+délkou nazýváme poledníky
+• Od r. 1884 – základní (nultý) poledník 
+– Greenwichský poledník
+
+--- PAGE 14 ---
+Kartografické souřadnice (konstrukční)
+Kartografický pól Q - bod 
+umístěný tak, aby se 
+zobrazovací plocha přimykla 
+zobrazovanému území co 
+nejlépe
+Kartografická šířka  - úhel v 
+nové kartografické zeměpisné 
+síti analogický zeměpisné šířce 
+Kartografická délka  - úhel v 
+nové kartografické zeměpisné 
+síti analogický zeměpisné délce
+
+
+--- PAGE 15 ---
+Pravoúhlé  rovinné  souřadnice
+Jsou definovány:
+• počátkem O - je bod, který leží nejčastěji v průsečíku 
+obrazů rovníku a základního poledníku,
+• osou x - leží v obrazu rovníku,
+• osou y - leží v obrazu základního poledníku.
+Polární rovinné souřadnice
+Jsou definovány:
+– počátkem V - bod - nejčastěji bod dotyku referenční a 
+zobrazovací plochy nebo obraz zemského pólu
+– osou y - ležící v obrazu základního poledníku
+
+
+--- PAGE 16 ---
+Zeměpisné souřadnice na ZŠ
+
+--- PAGE 17 ---
+3. Kartografické  zobrazení
+je způsob, který každému bodu na referenční ploše 
+přiřadí odpovídající bod na zobrazovací ploše
+• je matematicky jednoznačně vyjádřeno vztahem mezi souřadnicemi 
+bodů na referenční a zobrazovací ploše (v některých případech na 
+dvou referenčních plochách)
+• referenční plocha - koule (poloha bodu je vyjádřena v  a )
+• zobrazovací plocha - rovina, plášť válce nebo plášť kužele 
+(poloha obrazu bodu v x a y nebo  a  )
+• celkem existuje asi 300 zobrazení (z toho asi 50 je  jednoduchých a 250 
+obecných)
+• v praxi se však používá jen několik desítek zobrazení
+
+--- PAGE 20 ---
+Kartografická zkreslení
+Zkreslení  délkové - kp, kr
+= je poměr délkového elementu na referenční ploše k jeho obrazu na zobrazovací 
+ploše
+ zobrazení, ve kterých se nezkreslují v určitém směru délky, se nazývají 
+délkojevná (stejnodélková, ekvidistantní)
+Zkreslení  plošné - kpl
+= je poměr plošného elementu na referenční ploše k jeho obrazu na 
+zobrazovací ploše
+• zobrazení, ve kterých se nezkreslují plochy, se nazývají plochojevná 
+(stejnoplochá, ekvivalentní)
+Zkreslení  úhlové
+= je rozdíl velikosti úhlu na referenční ploše a jeho obrazu na zobrazovací 
+ploše
+ zobrazení, ve kterých nejsou zkresleny úhly, se nazývají úhlojevná 
+(stejnoúhlá, konformní)
+
+--- PAGE 21 ---
+Velikost  zkreslení závisí  na:
+ druhu a kvalitě kartografického zobrazení
+ vzdálenosti zobrazovaného bodu od dotykového bodu 
+nebo čáry
+ poloze zobrazovací plochy
+
+--- PAGE 22 ---
+Klasifikace
+1. Podle vlastností kartografických zkreslení
+– rozděluje se z hlediska prvku, který není zkreslen
+• Ekvivalentní – plochojevné (Lambertovo zobrazení)
+• Konformní – úhlojevné (stereografická projekce)
+• Ekvidistantní – délkojevné (Postelovo, ortografická projekce)
+
+
+--- PAGE 23 ---
+Klasifikace
+2. Podle zobrazovací plochy
+• jednoduchá/pravá (azimutální, válcová, kuželová)
+• obecná 
+– nepravá zobrazení válcová, kuželová, azimutální
+(pseudocylindrická, pseudokónická, pseudoazimutální)
+– mnohokuželová (polykónická)
+– víceplošná
+– neklasifikovaná
+• Geodetická – Křovákovo zobrazení,Gaussovo- Krugerovo zobrazení
+
+
+--- PAGE 24 ---
+Klasifikace
+3. Podle polohy konstrukční osy
+• u jednoduchých zobrazení muže zobrazovací plocha zaujímat tři polohy:
+normální poloha
+příčná (transversální, rovníková) poloha
+šikmá (obecná) poloha
+
+
+--- PAGE 25 ---
+Obecná zobrazení
+
+
+--- PAGE 26 ---
+GEODETICKÁ   ZOBRAZENÍ
+= zobrazení, které slouží pro geodetické účely a 
+mapování velkých měřítek
+• převážně úhlojevná
+• vycházejí z elipsoidů
+• vyhotovení celostátního mapového díla
+
+--- PAGE 27 ---
+Geodetické referenční systémy a 
+kartografická zobrazení ČR
+• závazné pro území ČR upravuje Nařízení vlády z 19.4.1995
+1. souřadnicový systém 1942 („S-42“); 
+2. souřadnicový systém Jednotné trigonometrické sítě katastrální („S-JTSK“) 
+3. světový geodetický referenční systém 1984 („WGS84“)
+výškový systém baltský - po vyrovnání („Bpv“)
+- Jednotlivé geodetické referenční systémy jsou definovány na určitém 
+kartografickém zobrazení, na konkrétním elipsoidu 
+
+--- PAGE 28 ---
+Gauss-Krügerovo  zobrazení
+
+
+--- PAGE 29 ---
+Gauss-Krügerovo  zobrazení
+= úhlojevné válcové příčné zobrazení elipsoidu do roviny 
+bez použití referenční koule
+• 1952 pro Topografickou mapu ČSSR
+• využívá Krasovského elipsoidu
+• systém sférických dvojúhelníků po 6°
+• S-42 (od r.2005 nahrazen WGS84)
+• základní poledník přímkový a délkojevný
+• rovník přímkový a délkojevný
+• obrazy poledníků sinusoidy, rovnoběžek paraboly
+
+--- PAGE 30 ---
+Křovákovo  
+zobrazení
+
+--- PAGE 31 ---
+Křovákovo  zobrazení
+= úhlojevné kuželové zobrazení v šikmé poloze (výpočet 
+značně komplikovaný)
+• Besselův elipsoid do roviny prostřednictvím referenční 
+koule (R = 6 380,7 km - Gaussova k.)
+• na sečný kužel, aby se eliminovalo délkové zkreslení 
+(0,9999)
+• 1922 nejprve katastrální mapy, později i pro mapy 
+definitivního vojenského mapování
+• od roku 1968 - Základní mapa ČSSR, S-JTSK
+• kartografický pól: =59°42’42,7“, =42°31’31,4“ od Ferra
+
+--- PAGE 33 ---
+UTM (Universal Transverse Mercator)
+= úhlojevné válcové příčné sečné Mercatorovo zobrazení
+• dříve pro vojenské mapy USA a NATO, dnes běžně
+• úhlojevné, od Gauss-Krügerova se liší:
+• používá WGS84
+• základní poledníky pásů nejsou délkojevné (1,0004x kratší)
+• pouze mezi 80. rovnoběžkami
+• polární oblasti od 79°30’ - UPS (Universal Polar Stereographic)
+
+--- PAGE 38 ---
+VOLBA  ZOBRAZENÍ
+Velikost území - s narůstající velikostí území se 
+zvětšuje zkreslení v okrajových částech 
+jednoduchá zobrazení (azimutální nebo kuželová). Pro 
+mapy Země - nepravá nebo mnohokuželová 
+zobrazení
+Tvar území - malé hodnoty zkreslení  co nejblíže 
+k dotykovým nebo sečným křivkám
+ okrouhlá území 
+ protáhlá území 
+
+--- PAGE 39 ---
+Geografická poloha území - co nejmenšího zkreslení na 
+mapách malých území  jednoduchá zobrazení:
+ rovníkové oblasti
+ oblasti mírného pásu (zvláště jsou-li rozložena podél rovnoběžek)
+ obecně geografické mapy 
+ polární vrchlíky
+Obsah mapy 
+ topografické a navigační mapy
+ automapy a dopravní map
+ kartogramy a mapy pro srovnání ploch
+VOLBA  ZOBRAZENÍ
+
+--- PAGE 40 ---
+ tematické mapy podrobného mapování (náročné na zkreslení) 
+ požadované zkreslení (úhly ploch, délky) a dokonalé 
+přimknutí zobrazovací plochy k referenční pl.
+ mapy katastrální a topografické - jednoduchá úhlojevná 
+zobrazení, kde o tvaru rozvinutelné zobrazovací plochy a 
+její poloze rozhoduje tvar a rozsah zobrazovaného území 
+a zobrazení po částech
+ přehledných map - co nejméně zkreslený obraz referenční 
+plochy
+ atlasy a soubory tematických map - srovnatelné druhy 
+zobrazení a nebo stejná zobrazení
+Účel mapy
+VOLBA  ZOBRAZENÍ
+
+--- PAGE 42 ---
+Děkuji za pozornost
+1. Tvar zemského tělesa
+2. Souřadnicové systémy
+3. Kartografické zobrazení

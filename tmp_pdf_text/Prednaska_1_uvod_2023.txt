@@ -1,0 +1,208 @@
+
+--- PAGE 1 ---
+Ze0128 Kartografie
+Mgr. Darina Mísařová, Ph.D.
+Cvičící: Mgr. Vendula Mašterová
+19.9.2023
+
+--- PAGE 3 ---
+Cíl přednášky
+První blok:
+• Proč se to učíme? K čemu nám kartografie/mapa je?
+• Výuky kartografie na KGE, návaznost dílčích disciplín
+• Požadavky ke zkoušce
+• Dotazy studentů
+Druhý blok:
+• Vztah mezi teorií kartografie jako vědy a praxí, tj. kartografií 
+ve škole
+• Co je to kartografie jako věda – postavení kartografie vsystému 
+věd, struktura kartografie
+• Literatura 
+
+--- PAGE 4 ---
+úvod
+K čemu nám je kartografie? 
+
+--- PAGE 5 ---
+úvod
+Kde všude se setkáš s mapou?
+
+--- PAGE 6 ---
+Úvod 
+–
+ proč?
+Informační exploze
+Dostupnost technologií
+Mapový jazyk
+Geotechnologie
+
+--- PAGE 7 ---
+Kartografie na 
+PdF
+ MU
+Kartografie 
+(2/1)
+Kartografie a 
+geoinformatika 
+(1/2)
+Geoinformatika 
+a DPZ (0/2)
+Terénní cvičení z 
+kartografie
+
+--- PAGE 8 ---
+Zakončení
+Zkouška 
+– písemná část v případě nutnosti doplněna o část ústní
+- předpokladem pro připuštění ke zkoušce je úspěšné 
+splnění cvičení dle požadavků vyučujících
+- ze cvičení lze získat plusové nebo minusové body ke 
+zkoušce 
+Literatura dle IS
+
+--- PAGE 9 ---
+2. BLOK
+
+--- PAGE 10 ---
+Kartografie
+ODBORNÁ KARTOGRAFIE 
+(teorie kartografie, kartografická tvorba)
+X
+KARTOGRAFIE VE ŠKOLE
+
+--- PAGE 11 ---
+Kartografie ve škole
+• K čemu jste používali ve škole mapu/atlas? Jaké úlohy  s 
+mapou jste  na střední škole řešili?
+• Jaký atlas/mapu jste používali? S jakou mapou jste se na 
+ZŠ/SŠ setkali?
+• Jak často jste s mapami pracovali?
+• Pracovali jste také s leteckými či satelitními snímky? Jak? 
+• Pracovali jste s GIS, GPS? Jak? 
+• Co vás bavilo/nebavilo při práci s mapou?
+
+--- PAGE 12 ---
+Kartografie na ZŠ
+Zdroj: RVP ZV, 2021
+
+
+--- PAGE 13 ---
+Kartografie na ZŠ
+Zdroj: HAVELKOVÁ, L. (2016)
+
+
+--- PAGE 14 ---
+• Umění kresby map a plánů patří k nejstarším 
+dovednostem člověka. 
+• Pojem kartografie se poprvé objevuje v polovině 
+19. století 
+• Slovo kartografie pochází z řečtiny a skládá se ze 
+slov chartés = list papyru (původní význam) 
+a graphein = rýt, psát. 
+• Tvorba map (kartografie) byla dříve řazena kjiné 
+vědní disciplíně. 
+Kartografie jako věda
+
+
+--- PAGE 15 ---
+Kartografie je věda o sestavování map všech druhů a zahrnuje veškeré operace od počátečního vyměřování až po vydání 
+hotové produkce. 
+1949, United Nations, Department of Social affairs
+Kartografie je umění, věda atechnologie vytváření map, včetně jejich studia jako vědeckých dokumentů a uměleckých 
+prací. v této souvislosti mohou být za mapy považovány všechny typy map, dále plány, náčrty, trojrozměrné modely 
+a globusy, zobrazující Zemi nebo nebeskou sféru vjakémkoli měřítku.
+1973, Multilingual Dictionary of Technical Terms in Cartography – Mnohojazyčný výkladový slovník technických termínů 
+v kartografii, Mezinárodní kartografická asociace (ICA), Wiesbaden
+Kartografie je věda ozobrazování a studiu prostorového rozmístění, spojení avzájemných vazeb jevů přírody aspolečnosti 
+(i jejich změn v čase) prostřednictvím zvláštních obrazově znakových modelů – kartografických vyobrazení. 
+1976, Sališčev
+Kartografie je vědní obor zabývající se znázorněním zemského povrchu anebeských těles a objektů, jevů na nich a jejich 
+vztahů ve formě kartografického díla adále soubor činností při zpracování a využívání map. 
+1984, ČSN 73 0406 Názvosloví kartografie
+Kartografie je unikátní a instinktivní více-rozměrový prostředek pro tvorbu amanipulaci vizuálních (nebo virtuální) 
+reprezentaci geoprostoru (map), které umožňují výzkum, analýzu, pochopení akomunikaci informací o tomto prostoru.
+2003, Wood
+Definice 
+k
+artografie
+
+--- PAGE 16 ---
+Související obory s kartografií
+
+
+--- PAGE 17 ---
+Postavení kartografie v systému věd
+
+
+--- PAGE 18 ---
+Kartografie jako věda
+• Předmět zkoumání: tvorba a využívání map jako abstraktních 
+modelů prostorového uspořádání skutečnosti
+• Objekt zkoumání - reálné přírodní i společenské jevy 
+vztahující se k Zemi nebo jiným vesmírným tělesům 
+• Hlavní metody – matematické vztahy mezi referenční plochou 
+zobrazované skutečnosti a jejím obrazem v rovině mapy a 
+jazyk mapy
+• Cíl kartografie - objektivní zobrazení skutečnosti pomocí 
+mapy, včetně pozdějších analýz mapového obrazu
+
+--- PAGE 19 ---
+Do teoretické části náležejí:
+1. Metakartografie - řeší všeobecné teoretické otázky
+2. Matematická kartografie - pojednává o matematických základech mapy. (zobrazení, zkreslení, apod.)
+3. Kartografická generalizace - zabývá se problematikou zobecnění a výběru mapového obsahu
+4. Kartografická interpretace - řeší principy grafického vyjadřování jednotlivých prvků mapy.
+5. Kartometrie - se zabývá měřením na mapách. Stanovuje z map délky, úhly a plochy daných objektů v 
+terénu.
+6. Dějiny kartografie - sleduje historický vývoj dějin kartografie, ale zahrnuje také hodnocení starých 
+mapových děl...
+Do praktické části náležejí:
+1. Kartografická dokumentace - shromažďuje publikovaná kartografická díla.
+2. Sestavování a redakce map - zahrnuje práce spojené s tvorbou map. 
+3. Kartografická reprodukce - se zabývá pracemi nutnými k rozmnožení a rozšíření .
+Struktura kartografie
+
+--- PAGE 20 ---
+Struktura kartografie
+Na základě druhu kartografického díla:
+• Atlasová kartografie
+• Turistická kartografie
+• Školní kartografie
+• Námořní kartografie
+• …
+
+--- PAGE 21 ---
+Mezinárodní kartografická instituce (ICA), www.icaci.org
+Česká kartografická společnost (ČKS), https://www.cartography.cz/
+- Mapa roku, https://www.cartography.cz/maparoku
+- Soutěž dětské kresby Barbary Petchenik
+„MAPA MÉHO BUDOUCÍHO SVĚTA – A MAP OF MY FUTURE WORLD“
+V rámci České geografické společnosti (ČGS) www.geography.czse sdružují v sekci kartografie a 
+geoinformatika
+Český úřad zeměměřičský a katastrální (ČÚZK)
+Katastrální úřady 
+Výzkumný ústav geodetický, topografický a kartografický (VÚGTK)
+Státní správa a samospráva (obecní, městské, krajské úřady, magistráty apod.
+Kartografická nakladatelství
+Kartografické instituce 
+
+--- PAGE 22 ---
+Literatura
+Bláha, J. D. (2017). Vybrané okruhy z geograﬁcké kartograﬁe. Univerzita J. E. Purkyně, Ústí nad Labem, 
+str. 18 – 23
+MIKLÍN, Jan, Radek DUŠEK, Luděk KRTIČKA a Oto KALÁB. Tvorba map. Vydání první. Ostrava: Ostravská 
+univerzita, Přírodovědecká fakulta, 2018. 299 stran. ISBN9788075990174.
+NÉTEK, Rostislav.Webová kartografie - specifika tvorby interaktivních map na webu. 1. vydání. Olomouc: 
+Univerzita Palackého v Olomouci, 2020. 193 stran. ISBN9788024458274.
+Hanus, M., Havelková, L., Kocová, T., Bernhäuserová, V., Štolcová, K., Fenclová, K., & Zýma, M. (2020). 
+Práce s mapou ve výuce. PřF UK. 
+Čerba, O. Kartografie pro nekartografy. ZU v Plzni. https://gisportal.cz/kniha-kartografie-pro-
+nekartografy-zdarma-ke-stazeni/
+
+--- PAGE 23 ---
+Závěr
+• Cíl předmětu
+• Požadavky pro splnění předmětu
+• Kartografie jako věda x kartografie ve 
+škole
+• Kartografie jako vědecká disciplína

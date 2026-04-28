@@ -1,0 +1,369 @@
+
+--- PAGE 1 ---
+Úvod do studia planety Země
+Časová pásma
+Mgr. Darina Mísařová, Ph.D.
+misarova@ped.muni.cz
+Ze0128 Kartografie
+21.11.2023
+
+--- PAGE 2 ---
+Literatura
+• Čapek, R. Úvod do matematické geografie, UJEP 2020.
+• BRÁZDIL, R. Úvod do studia planety Země. Vyd. 1. Praha: 
+Státní pedagogické nakladatelství, 1988. 
+• Čapek, R. Planetární geografie. Praha, UK. 1992.
+• Dnešní svět č. 4 (ročník 2006/2007)
+• Učebnice ZŠ a SŠ
+
+
+--- PAGE 3 ---
+RVP ZV
+
+
+--- PAGE 4 ---
+NÁVAZNOST
+MŠ 1. stupeň 
+ZŠ 
+2.stupeň 
+ZŠ SŠ VŠ
+
+--- PAGE 5 ---
+Ukázka z učebnice „Příroda“ (pro 4.třídu) 
+
+
+--- PAGE 9 ---
+MEZIPŘEDMĚTOVOST
+ZE
+MA
+FY
+PŘ
+
+--- PAGE 10 ---
+ZE 6. třída
+
+
+--- PAGE 11 ---
+Základní pojmy
+Tvar Země: GEOID
+• složitý, mírně zvlněný povrch (pod 
+kontinenty i oceánech)
+• nepravidelná a matematicky 
+nedefinovatelná plocha ohraničující 
+prostor Země, jeho tvar a proměnlivost 
+je způsobena vlivem přitažlivé a 
+odstředivé síly – plocha geoidu je v 
+každém bodě kolmá na směr tíhové síly 
+• výslednicí obou sil je tíhová síla, jejíž 
+hodnoty, směr a velikost jsou proměnné 
+s daným místem na Zemi
+– tj. je vymezen nulovými plochami 
+tíhové síly Země 
+• Nahrazujeme jej elipsoidem, rotačním 
+elipsoidem, referenčním elipsoidem (viz 
+Kartografie)
+
+--- PAGE 12 ---
+Základní pojmy
+• Zeměpisné souřadnice
+• Rovník
+• Zemská osa
+• Zemské póly
+• Polární kruh
+• Obratník
+
+
+--- PAGE 13 ---
+Keplerovy zákony
+1. Planety se pohybují kolem Slunce po elipsách, 
+které jsou málo odlišné od kružnic, v jejichž 
+společném ohnisku je Slunce
+2. Obsahy ploch opsaných průvodičem planety 
+za jednotku času jsou stejně velké
+3. Poměr druhých mocnin oběžných dob dvou 
+planet je stejný jako poměr třetích mocnin jejich 
+hlavních poloos (středních vzdáleností těchto 
+planet od Slunce)
+
+
+--- PAGE 14 ---
+• https://www.earthspacelab.com/cs
+
+--- PAGE 15 ---
+Základní pohyby Země
+1) ROTAČNÍ POHYB
+– časová jednotka je siderický den – 23h 56 min. 4,04 s.
+– Země rotuje kolem své osy od Z na V
+- Zemská osa je nakloněná vůči ekliptice o úhel 66°30´
+- Úhlová rychlost rotace je stálá – 15°za hodinu
+Důsledek: 
+- střídání dne a noci
+- zdánlivý pohyb hvězd
+- existence místních časů
+- zploštění Země
+- posun přílivové vlny
+- vznik Coriolisovy síly
+- odchylka volně padajících těles
+- stáčení roviny kyvu, tzv. Foucaltovo kyvadlo
+
+
+--- PAGE 16 ---
+Základní pohyby Země
+2) OBĚHOVÝ POHYB
+- Časová jednotka je tropický rok (siderický rok) – 365 d. 05 h. 48 min. 
+45,71 s.
+- Pohybuje se po eliptické dráze kolem Slunce od Z na V
+- Dráha orbity je přibližně 940 mil. km, má tvar elipsy v jejímž ohnisku 
+je Slunce
+- Perihélium (bod na eliptické dráze Země, kdy je Země nejblíže ke 
+Slunci – 147 097 149 km) – v zimním slunovratu, pohybuje se 
+nejrychleji 
+- Afélium (bod na eliptické dráze Země, kdy je Země nejdále ke Slunci 
+– 152 098 704 km)  - v letním slunovratu, pohybuje se nejpomaleji
+- Oběh Z kolem S vytváří podmínky pro střídání ročních období
+
+--- PAGE 17 ---
+• Rovnodennost
+• Slunovrat
+- Příčinou střídání ročních období je odklon zemské osy od kolmice k rovině ekliptiky, 
+důsledkem tohoto odklonu je:
+1) Různý úhrn slunečního záření
+2) Různá délka světlého dne
+
+
+--- PAGE 18 ---
+http://astrolot.cz/a_v_obrazech/4astro_v_obrazech.html
+
+
+--- PAGE 20 ---
+Základní pohyby Země
+3) Spolu s Měsícem obíhá kolem společného těžiště 
+(Barycentrum - umístěno asi 4700 km od středu Země)
+4) Precese – kuželový pohyb zemské osy, který vzniká 
+gravitačním působením Měsíce a Slunce (jako 
+roztočená „káča“)
+5) Nutace – periodicky kolísavé pohyby, které 
+způsobuje periodická změna gravitační síly Měsíce 
+rotující kolem Země
+Mění se poloha jarního bodu a sklon ekliptiky k 
+světovému rovníku
+
+
+--- PAGE 21 ---
+Čas na Zemi
+
+
+--- PAGE 22 ---
+ČAS
+– fyzikální veličina
+- v astronomii - hodinový úhel, který se vztahuje ke 
+Slunci nebo k jarnímu bodu
+- Sluneční čas – čas, který se vztahuje ke Slunci (dle 
+zdánlivého pohybu Slunce mezi hvězdami)
+- Pravý sluneční čas – hodinový úhel pravého 
+Slunce, není vždy stejně dlouhý, nelze jej měřit 
+hodinami
+- Střední sluneční čas – dle hypotetického 
+středního Slunce
+
+--- PAGE 23 ---
+Místní x pásmový čas
+Místní čas – čas na místním poledníku. Místní čas je o 4 minuty rozdílný na každý stupeň 
+zeměpisné délky.
+• Místa ležící na stejném poledníku mají stejný místní čas, protože Slunce vrcholí 
+(kulminuje) vždy nad určitým poledníkem. 
+• Úhlová rychlost otočení je 15°/hod, to znamená že o 1° se naše Země otočí za 4 minuty. 
+Jestliže na 15° v. d. je 21 hodin, tak na 16° v. d. je o 4 minuty více, tj. 21 hodin a 4 minuty.
+Pásmový čas – Celý svět je rozdělen na 24 časových pásem. V časovém pásmu se všude 
+používá stejný pásmový čas, který se liší o hodinu od času sousedního pásma. ČR platí 
+středoevropský pásmový čas, který je o hodinu větší než greenwichský a je shodný s 
+místním časem na 15° v. d.
+• Mezi poledníky vzdálenými o 1 stupeň je rozdíl 4 min., po 15 stupních je rozdíl 1 hodina. 
+• Při přechodu do sousedního časového pásma ležícího východně posouváme čas o 1 
+hodinu dopředu, při přechodu na západ posouváme čas o 1 hodinu dozadu.
+• Prakticky je šířka časových pásem velmi variabilní. 
+- středoevropské pásmo sahá od Španělska až po Slovensko, což je mnohem více než 15°. 
+- v některých zemích jsou ještě zaváděna půlpásma (Indie, Austrálie). 
+- Příslušnost do určitého časového pásma, zavádění letního času atd. je politickým rozhodnutím a není ničím neměnným. 
+- Skutečný pásmový čas je vždy nutno ověřit. 
+- Místní čas je apolitický a přísluší místnímu poledníku.
+
+--- PAGE 24 ---
+https://www.timeanddate.com/worldclock/
+
+
+--- PAGE 25 ---
+Světový čas
+• Světový koordinovaný čas 
+• GMT – greenwich mean time
+• UTC – coordinated universal time
+• Výchozí bod – Nultý poledník – 0°
+zeměpisné délky. 
+• Prochází londýnskou čtvrtí Greenwich 
+• Startovací bod pro počítání času na Zemi
+
+
+--- PAGE 27 ---
+Mezinárodní datová hranice
+• Datová mez – Hranice, která probíhá přibližně podél 180° poledníku neobydlenými oblastmi 
+Tichého oceánu. Přestupujeme-li datovou mez z východní polokoule na západní, získáme jeden 
+den, opačným směrem jeden den ztrácíme. 
+– Zajímavost: Pasažér na dlouhé cestě z Asie do USA přistává na cílovém letišti o několik hodin dříve, než 
+odstartoval.
+• Základní poledník - Označován také jako počáteční či hlavní (λ = 0°). Dělí polokoule na východní a 
+západní.
+• Letní čas (smluvený čas) - v zemích mírného pásu – Evropa, USA, Kanada, Brazílie, Čína atd., se od 
+jara do podzimu zavádí tzv. letní čas. Je o hodinu větší než pásmový a nutí tedy lidi o hodinu dříve 
+vstávat.
+Vztah pro přepočet zeměpisných délek a času
+• 360° … 24 hodin
+15° … 1 hodina
+1° ... 4 minuty
+1´ … 4 sekundy
+1´´….. 0,07 s
+• Poznámka: Pro výpočty časů ve vztahu k zeměpisné délce používáme na východní polokouli 
+znaménko + a na západní polokouli znaménko -. Ve vztahu k zeměpisné šířce na severní polokouli 
+znaménko + a na jižní polokouli znaménko -.
+
+--- PAGE 28 ---
+Zajímavosti
+
+--- PAGE 33 ---
+Použité zdroje
+• https://www.timeanddate.com/worldclock/
+• https://refresher.cz/46353-Casova-pasma-po-
+cele-zemekouli-ukryvaji-nejeden-
+paradox?gdpr-accept=1
+• https://www.zemevevesmiru.cz/
+• https://www.earthspacelab.com/cs
+• https://stellarium.org/cs/
+
+--- PAGE 34 ---
+1) Jaký je rozdíl místních a pásmových časů Brna 
+(16°35´ v. d.) a Rio de Janeira (43°12´ z. d.)?
+
+--- PAGE 35 ---
+2) V Ostravě (18°18 ´ v. d.) zapadlo Slunce v 18 
+hodin a 5 minut místního casu. V kolik hodin 
+místního času zapadlo Slunce v Karlových 
+Varech (12°52 ´ v. d.)?
+
+--- PAGE 36 ---
+3) Cestujeme z Los Angeles (118°14 ´ z. d.) do 
+Tokia (139 ° 45 ´ v. d.). Startujeme v pátek 18. září 
+v 19 hodin a 25 minut. Let trvá 8 hodin a 50 
+minut. Který den a v kolik hodin přiletíme do 
+Tokia?
+
+--- PAGE 37 ---
+Úlohy k vlastnímu procvičování:
+
+
+--- PAGE 38 ---
+Kvíz
+
+--- PAGE 39 ---
+Jaké fyzikální síly působí na tvar Země?
+................................. a ..........................................
+a) Nakreslete Zeměkouli v podobě kružnice, vyznačte 
+osu rotace a rovník. Vyberte si na kružnici libovolný 
+bod mezi rovníkem a zeměpisnými póly, vyznačte jaké 
+síly působí na tento bod, pokud vaše nakreslená 
+kružnice bude představovat rotující zeměkouli.
+b) Vyznačte tento bod na zemském pólu a na rovníku. 
+Vyznačte síly, které na tyto body působí.
+1
+
+--- PAGE 40 ---
+Na obrázku je zakreslen vztah geoidu a zemského 
+elipsoidu. Podtrhněte správnou odpověď:
+a) Na souši je geoid pod elipsoidem nebo nad elipsoidem.
+b) Geoid může být anebo nemůže být totožný s elipsoidem na 
+určitém místě. 
+c) Pokud je geoid totožný s elipsoidem na určitém místě je úhel 
+mezi těžnicí geoidu a normálou elispoidu 0° nebo  90°.
+2
+
+--- PAGE 41 ---
+Spojte pojmy s vysvětlením daného pojmu. 
+A) perihélium, B) afélium, C) Orbita, D) zenit, E) 
+nadir
+1) Bod na eliptické dráze Země, v kterém je nejblíže ke Slunci
+2) Průsečík kolmice na horizontální rovinu pozorovacího místa s nebeskou 
+sférou. Tvoří na obloze bod ležící kolmo nad pozorovatelem. 
+3) Tato dráha má délku přibližně 940 mil. km. Je to mírně zvlněná výstřední 
+elipsa, v jednom z jejich ohnisek je Slunce.
+3
+
+--- PAGE 42 ---
+Na obrázku znázorňují polohy A, B, C, D oběh 
+Země okolo Slunce a začátky čtyř ročných 
+období. Slunce se nachází v jednom z ohnisek 
+elipsy (ne ve středu elipsy). 
+a) Vyznačte šipkou směr pohybu Země po oběžné dráze.
+b) Dopište pod pojmy „perihélium“ a „afélium“ příslušné data, kdy se Zem 
+dostane do perihélia a afélia.
+c) Vyznačte jinou barvou, na kterou ze zakreslených hlavních rovnoběžek 
+dopadají sluneční paprsky kolmo při polohách Země A, B, C, D.
+d) Připište k polohám Země A, B, C, D správný datum a název začátku ročního 
+období 
+4
+
+--- PAGE 43 ---
+Kde bude Slunce vrcholit v poledne v 
+nadhlavníku v následujících dnech? 
+a) 20. březen....................................................
+b) 21. červen....................................................
+c) 23. září.........................................................
+d) 21. prosinec.................................................
+5
+
+--- PAGE 44 ---
+Přeškrtněte neexistující astronomické jevy:
+letní slunovrat, zimní rovnodennost, letní 
+rovnodennost, zimní slunovrat, podzimní
+slunovrat, jarní rovnodennost, jarní slunovrat, 
+podzimní rovnodennost
+6
+
+--- PAGE 45 ---
+Je takové místo na Zemi, kde je každý den v roku 
+dnem rovnodennosti? Pokud ano, jaké? 
+7
+
+--- PAGE 46 ---
+Zakroužkujte pravdivé výroky.
+a) Léto na severní polokouli je kratší, než na jižní polokouli
+b) Zima na jižní polokouli je kratší, jako na severní polokouli.
+c) Léto na jižní polokouli je kratší, jako na severní polokouli.
+d) Zima na severní polokouli je kratší, jako na jižní polokouli
+e) Zima na jižní polokouli je chladnejší, jako na severní 
+polokouli
+f) Léto na jižní polokouli je teplejší, jako na severní polokouli
+g) Zima na severní polokouli je teplejší, jako na jižní polokouli.
+h) Léto na jižní polokouli je chladnejší, jako na severní 
+polokouli.
+8
+
+--- PAGE 47 ---
+Na dvou příkladech objasněte důsledky rotace 
+Země na denní biorytmus organismů
+9
+
+--- PAGE 48 ---
+Uveďte tři důsledky oběhu Země okolo Slunce a 
+sklonu zemské osy vzhledem k ekliptice v našich 
+zeměpisných šířkách:
+1)
+2)
+3)
+10
+
+--- PAGE 49 ---
+Který den v roku:
+a) se nachází Slunce v poledne v nadhlavníku na obratníku Kozoroha
+b) na severním pólu končí polární noc
+c) je na rovníku najkratší den a najdelší noc
+d) je najkratší den na jižní polokouli 
+e) je polární noc na jižním polárním kruhu
+11
