@@ -18,10 +18,11 @@ export default function PodotazkaView({ podotazka, okruhId, okruhTitle }) {
   const [activeTab, setActiveTab] = useState('ucivo')
   const progressKey = `${okruhId}-${podotazka.pismeno}`
   const { progress, updateProgress, loading, error } = useUserProgress(progressKey)
+  const isSwipeActive = activeTab === 'swipe'
 
   return (
     <div>
-      <div className="card mb-5">
+      <div className={`card mb-5 ${isSwipeActive ? 'hidden sm:block' : ''}`}>
         <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">
           Podotázka {podotazka.pismeno}
         </p>
@@ -38,7 +39,7 @@ export default function PodotazkaView({ podotazka, okruhId, okruhTitle }) {
         )}
       </div>
 
-      <div className="flex gap-1 mb-5 p-1 bg-slate-100 rounded-full w-fit flex-wrap">
+      <div className={`${isSwipeActive ? 'hidden sm:flex' : 'flex'} gap-1 mb-5 p-1 bg-slate-100 rounded-full w-fit flex-wrap`}>
         {TABS.map(tab => (
           <button
             key={tab.id}
@@ -64,7 +65,7 @@ export default function PodotazkaView({ podotazka, okruhId, okruhTitle }) {
           onCheckedChange={next => updateProgress(current => ({ ...current, checklistDone: next }))}
         />
       </div>
-      <div className={activeTab === 'swipe' ? '' : 'hidden'}>
+      <div className={isSwipeActive ? '' : 'hidden'}>
         <SwipeTab
           studium={podotazka.studium}
           progressKey={progressKey}

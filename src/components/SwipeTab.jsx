@@ -44,7 +44,7 @@ export default function SwipeTab({ studium, progressKey, onOpenDetail }) {
   }
 
   return (
-    <section className="relative -mx-4 sm:mx-0">
+    <section className="relative -mx-4 -mt-6 sm:mx-0 sm:mt-0">
       <div className="sticky top-16 z-20 border-y border-slate-200 bg-white/95 px-4 py-2 backdrop-blur sm:top-20 sm:rounded-2xl sm:border">
         <div className="mx-auto flex max-w-xl items-center justify-between gap-3">
           <button
@@ -65,7 +65,7 @@ export default function SwipeTab({ studium, progressKey, onOpenDetail }) {
         </div>
       </div>
 
-      <div className="mx-auto max-w-xl snap-y snap-mandatory overflow-y-auto bg-slate-100 px-3 py-3 [scrollbar-width:none] sm:mt-3 sm:rounded-3xl sm:border sm:border-slate-200 sm:p-3 sm:max-h-[calc(100vh-12rem)] max-h-[calc(100dvh-8.5rem)]">
+      <div className="mx-auto max-w-xl snap-y snap-mandatory overflow-y-auto bg-slate-100 px-3 py-3 [scrollbar-width:none] max-h-[calc(100dvh-7.25rem)] sm:mt-3 sm:rounded-3xl sm:border sm:border-slate-200 sm:p-3 sm:max-h-[calc(100vh-12rem)]">
         <div className="space-y-3">
           {cards.map((card, index) => {
             const isDone = status.done.includes(index)
@@ -74,7 +74,7 @@ export default function SwipeTab({ studium, progressKey, onOpenDetail }) {
             return (
               <article
                 key={`${card.title}-${index}`}
-                className={`snap-start rounded-2xl border bg-white p-4 shadow-sm min-h-[calc(100dvh-10rem)] sm:min-h-[520px] flex flex-col ${
+                className={`snap-start rounded-2xl border bg-white p-4 shadow-sm min-h-[calc(100dvh-8.75rem)] sm:min-h-[520px] flex flex-col ${
                   isDone
                     ? 'border-emerald-200'
                     : isReview
