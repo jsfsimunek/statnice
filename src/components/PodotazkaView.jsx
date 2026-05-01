@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import FlashcardsTab from './FlashcardsTab.jsx'
 import KvizTab from './KvizTab.jsx'
 import NotesPanel from './NotesPanel.jsx'
@@ -16,9 +16,25 @@ const TABS = [
 
 export default function PodotazkaView({ podotazka, okruhId, okruhTitle }) {
   const [activeTab, setActiveTab] = useState('ucivo')
+  const swipePanelRef = useRef(null)
   const progressKey = `${okruhId}-${podotazka.pismeno}`
   const { progress, updateProgress, loading, error } = useUserProgress(progressKey)
   const isSwipeActive = activeTab === 'swipe'
+
+  useEffect(() => {
+    if (!isSwipeActive || !swipePanelRef.current) return undefined
+
+    const frame = requestAnimationFrame(() => {
+      const headerOffset = 64
+      const panelTop = swipePanelRef.current.getBoundingClientRect().top + window.scrollY
+      window.scrollTo({
+        top: Math.max(panelTop - headerOffset, 0),
+        behavior: 'smooth',
+      })
+    })
+
+    return () => cancelAnimationFrame(frame)
+  }, [isSwipeActive, okruhId, podotazka.pismeno])
 
   return (
     <div>
@@ -65,7 +81,7 @@ export default function PodotazkaView({ podotazka, okruhId, okruhTitle }) {
           onCheckedChange={next => updateProgress(current => ({ ...current, checklistDone: next }))}
         />
       </div>
-      <div className={isSwipeActive ? '' : 'hidden'}>
+      <div ref={swipePanelRef} className={isSwipeActive ? '' : 'hidden'}>
         <SwipeTab
           studium={podotazka.studium}
           progressKey={progressKey}
