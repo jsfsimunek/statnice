@@ -69,8 +69,8 @@ function AppShell() {
   return (
     <div className="min-h-screen flex flex-col">
       <header className="bg-white/95 backdrop-blur border-b border-slate-200 sticky top-0 z-30">
-        <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-3">
-          <div className="flex shrink-0 items-center gap-2 sm:gap-3">
+        <div className="max-w-6xl mx-auto px-4 h-16 flex items-center gap-3">
+          <div className="flex min-w-0 items-center gap-2 sm:gap-3">
             {canBrowse && (
               <button
                 className="md:hidden p-1.5 rounded-lg text-slate-500 hover:bg-slate-100 hover:text-slate-900 transition-colors"
@@ -91,9 +91,9 @@ function AppShell() {
             </div>
           </div>
 
-          <div className="flex items-center gap-3 min-w-0">
+          <div className="ml-auto flex min-w-0 flex-1 items-center justify-end gap-2 sm:gap-3">
             {canBrowse && (
-              <div className="hidden md:flex rounded-full bg-slate-100 p-1">
+              <div className="hidden lg:flex rounded-full bg-slate-100 p-1">
                 <ModeButton active={activeMode === 'dashboard'} onClick={() => handleModeChange('dashboard')}>Přehled</ModeButton>
                 <ModeButton active={activeMode === 'study'} onClick={() => handleModeChange('study')}>Studium</ModeButton>
                 {canEdit && <ModeButton active={activeMode === 'editor'} onClick={() => handleModeChange('editor')}>Editor</ModeButton>}
@@ -102,7 +102,7 @@ function AppShell() {
             )}
 
             {canBrowse && (
-              <span className="text-slate-500 text-xs hidden lg:block whitespace-nowrap min-w-0">
+              <span className="hidden max-w-[220px] min-w-0 overflow-hidden text-ellipsis whitespace-nowrap text-right text-xs text-slate-500 xl:block">
                 {activeMode === 'admin'
                   ? 'Správa aplikace'
                   : activeMode === 'dashboard'
@@ -119,7 +119,7 @@ function AppShell() {
             )}
 
             {isSupabaseConfigured && auth.user ? (
-              <div className="hidden md:flex items-center gap-2 rounded-full border border-slate-200 bg-white px-2 py-1">
+              <div className="hidden items-center gap-2 rounded-full border border-slate-200 bg-white px-2 py-1 xl:flex">
                 <div className="h-7 w-7 rounded-full bg-brand-50 text-brand-700 grid place-items-center">
                   <UserIcon />
                 </div>
@@ -128,7 +128,7 @@ function AppShell() {
                 </span>
               </div>
             ) : isSupabaseConfigured ? (
-              <div className="hidden md:flex items-center gap-2 rounded-full border border-slate-200 bg-white px-2 py-1">
+              <div className="hidden items-center gap-2 rounded-full border border-slate-200 bg-white px-2 py-1 xl:flex">
                 <div className="h-7 w-7 rounded-full bg-slate-100 text-slate-500 grid place-items-center">
                   <UserIcon />
                 </div>
@@ -142,7 +142,7 @@ function AppShell() {
               <button
                 type="button"
                 onClick={() => handleModeChange('dashboard')}
-                className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-200 bg-white px-2.5 py-2 text-xs font-semibold text-slate-700 transition-colors hover:bg-slate-50 sm:px-3"
+                className="inline-flex h-9 w-9 shrink-0 items-center justify-center gap-2 rounded-lg border border-slate-200 bg-white px-0 text-xs font-semibold text-slate-700 transition-colors hover:bg-slate-50 sm:w-auto sm:px-3"
               >
                 <span className="text-sm leading-none">←</span>
                 <span className="hidden sm:inline">Zpět</span>
@@ -154,7 +154,7 @@ function AppShell() {
                   auth.signOut()
                   setActiveMode('dashboard')
                 }}
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-2.5 py-2 text-xs font-semibold text-white transition-colors hover:bg-slate-700 sm:px-3"
+                className="inline-flex h-9 w-9 shrink-0 items-center justify-center gap-2 rounded-lg bg-slate-900 px-0 text-xs font-semibold text-white transition-colors hover:bg-slate-700 sm:w-auto sm:px-3"
                 aria-label="Odhlásit"
                 title="Odhlásit"
               >
@@ -165,7 +165,7 @@ function AppShell() {
               <button
                 type="button"
                 onClick={() => handleModeChange('login')}
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-brand-600 px-2.5 py-2 text-xs font-semibold text-white transition-colors hover:bg-brand-700 sm:px-3"
+                className="inline-flex h-9 w-9 shrink-0 items-center justify-center gap-2 rounded-lg bg-brand-600 px-0 text-xs font-semibold text-white transition-colors hover:bg-brand-700 sm:w-auto sm:px-3"
                 aria-label="Přihlásit"
                 title="Přihlásit"
               >
