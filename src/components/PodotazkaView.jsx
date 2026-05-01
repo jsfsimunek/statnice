@@ -8,7 +8,7 @@ import { useUserProgress } from '../hooks/useUserProgress.js'
 
 const TABS = [
   { id: 'ucivo', label: 'Učivo' },
-  { id: 'swipe', label: 'Swipe' },
+  { id: 'swipe', label: 'Swipe', hint: 'pro telefony' },
   { id: 'flashcards', label: 'Flashcards' },
   { id: 'kviz', label: 'Kvíz' },
   { id: 'notes', label: 'Poznámky' },
@@ -45,7 +45,14 @@ export default function PodotazkaView({ podotazka, okruhId, okruhTitle }) {
             onClick={() => setActiveTab(tab.id)}
             className={`tab-btn ${activeTab === tab.id ? 'tab-btn-active' : 'tab-btn-inactive'}`}
           >
-            {tab.label}
+            <span className="block leading-4">{tab.label}</span>
+            {tab.hint && (
+              <span className={`block text-[10px] font-medium leading-3 ${
+                activeTab === tab.id ? 'text-brand-100' : 'text-slate-400'
+              }`}>
+                {tab.hint}
+              </span>
+            )}
           </button>
         ))}
       </div>

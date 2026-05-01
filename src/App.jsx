@@ -70,7 +70,7 @@ function AppShell() {
     <div className="min-h-screen flex flex-col">
       <header className="bg-white/95 backdrop-blur border-b border-slate-200 sticky top-0 z-30">
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-3">
-          <div className="flex items-center gap-3 min-w-0">
+          <div className="flex shrink-0 items-center gap-2 sm:gap-3">
             {canBrowse && (
               <button
                 className="md:hidden p-1.5 rounded-lg text-slate-500 hover:bg-slate-100 hover:text-slate-900 transition-colors"
@@ -118,8 +118,8 @@ function AppShell() {
               </span>
             )}
 
-            {isSupabaseConfigured && auth.user && (
-              <div className="hidden sm:flex items-center gap-2 rounded-full border border-slate-200 bg-white px-2 py-1">
+            {isSupabaseConfigured && auth.user ? (
+              <div className="hidden md:flex items-center gap-2 rounded-full border border-slate-200 bg-white px-2 py-1">
                 <div className="h-7 w-7 rounded-full bg-brand-50 text-brand-700 grid place-items-center">
                   <UserIcon />
                 </div>
@@ -127,25 +127,50 @@ function AppShell() {
                   {auth.user.email}
                 </span>
               </div>
-            )}
+            ) : isSupabaseConfigured ? (
+              <div className="hidden md:flex items-center gap-2 rounded-full border border-slate-200 bg-white px-2 py-1">
+                <div className="h-7 w-7 rounded-full bg-slate-100 text-slate-500 grid place-items-center">
+                  <UserIcon />
+                </div>
+                <span className="text-xs font-semibold text-slate-500">
+                  Nepřihlášen
+                </span>
+              </div>
+            ) : null}
 
-            {isSupabaseConfigured && auth.user ? (
+            {activeMode === 'login' && !auth.user ? (
               <button
+                type="button"
+                onClick={() => handleModeChange('dashboard')}
+                className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-200 bg-white px-2.5 py-2 text-xs font-semibold text-slate-700 transition-colors hover:bg-slate-50 sm:px-3"
+              >
+                <span className="text-sm leading-none">←</span>
+                <span className="hidden sm:inline">Zpět</span>
+              </button>
+            ) : isSupabaseConfigured && auth.user ? (
+              <button
+                type="button"
                 onClick={() => {
                   auth.signOut()
                   setActiveMode('dashboard')
                 }}
-                className="rounded-lg bg-slate-900 px-3 py-2 text-xs font-semibold text-white hover:bg-slate-700 transition-colors"
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-900 px-2.5 py-2 text-xs font-semibold text-white transition-colors hover:bg-slate-700 sm:px-3"
+                aria-label="Odhlásit"
+                title="Odhlásit"
               >
-                Odhlásit
+                <LogOutIcon />
+                <span className="hidden sm:inline">Odhlásit</span>
               </button>
             ) : isSupabaseConfigured ? (
               <button
                 type="button"
                 onClick={() => handleModeChange('login')}
-                className="rounded-lg bg-brand-600 px-3 py-2 text-xs font-semibold text-white hover:bg-brand-700 transition-colors"
+                className="inline-flex items-center justify-center gap-2 rounded-lg bg-brand-600 px-2.5 py-2 text-xs font-semibold text-white transition-colors hover:bg-brand-700 sm:px-3"
+                aria-label="Přihlásit"
+                title="Přihlásit"
               >
-                Přihlásit
+                <UserIcon />
+                <span className="hidden sm:inline">Přihlásit</span>
               </button>
             ) : null}
           </div>
@@ -421,6 +446,15 @@ function UserIcon() {
   return (
     <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" aria-hidden="true">
       <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 7.5a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z M4.5 20.25a7.5 7.5 0 0 1 15 0" />
+    </svg>
+  )
+}
+
+function LogOutIcon() {
+  return (
+    <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" aria-hidden="true">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6A2.25 2.25 0 0 0 5.25 5.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15" />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M18 15l3-3m0 0-3-3m3 3H9" />
     </svg>
   )
 }
