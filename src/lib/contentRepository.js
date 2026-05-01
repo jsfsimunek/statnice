@@ -2,7 +2,7 @@ import { isSupabaseConfigured, supabase } from './supabaseClient.js'
 import { getSubject } from '../config/subjects.js'
 
 export async function getTopic(subjectSlug, topicNumber) {
-  if (!isSupabaseConfigured) {
+  if (await shouldUseStaticContent()) {
     return getStaticTopic(subjectSlug, topicNumber)
   }
 
@@ -21,14 +21,8 @@ export async function getTopic(subjectSlug, topicNumber) {
 }
 
 export async function getTopics(subjectSlug) {
-  if (!isSupabaseConfigured) {
-    const subject = getSubject(subjectSlug)
-    const topics = await Promise.all(
-      Array.from({ length: subject.topicCount }, (_, index) => index + 1)
-        .map(topicNumber => getStaticTopic(subjectSlug, topicNumber).catch(() => null))
-    )
-
-    return topics.filter(Boolean)
+  if (await shouldUseStaticContent()) {
+    return getStaticTopics(subjectSlug)
   }
 
   const { data, error } = await supabase
@@ -74,6 +68,25 @@ async function getStaticTopic(subjectSlug, topicNumber) {
   }
 
   return normalizeTopicPayload(await res.json())
+}
+
+async function getStaticTopics(subjectSlug) {
+  const subject = getSubject(subjectSlug)
+  const topics = await Promise.all(
+    Array.from({ length: subject.topicCount }, (_, index) => index + 1)
+      .map(topicNumber => getStaticTopic(subjectSlug, topicNumber).catch(() => null))
+  )
+
+  return topics.filter(Boolean)
+}
+
+async function shouldUseStaticContent() {
+  if (!isSupabaseConfigured) {
+    return true
+  }
+
+  const { data } = await supabase.auth.getSession()
+  return !data.session?.user
 }
 
 function normalizeTopicPayload(payload) {

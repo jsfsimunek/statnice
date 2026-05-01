@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import AdminPage from './components/AdminPage.jsx'
 import AuthGate from './components/AuthGate.jsx'
 import DashboardPage from './components/DashboardPage.jsx'
@@ -28,9 +28,16 @@ function AppShell() {
   const [titles, setTitles] = useState({})
   const subject = getSubject(activeSubject)
 
-  const isSignedIn = !isSupabaseConfigured || Boolean(auth.user)
+  const isSignedIn = Boolean(auth.user)
+  const canBrowse = true
   const canEdit = auth.can(PERMISSIONS.CONTENT_EDIT)
   const canManage = auth.can(PERMISSIONS.USERS_MANAGE) || auth.can(PERMISSIONS.ROLES_MANAGE)
+
+  useEffect(() => {
+    if ((isSignedIn || !isSupabaseConfigured) && activeMode === 'login') {
+      setActiveMode('dashboard')
+    }
+  }, [activeMode, isSignedIn])
 
   function handleTitleLoaded(id, title) {
     setTitles(current => ({
@@ -64,7 +71,7 @@ function AppShell() {
       <header className="bg-white/95 backdrop-blur border-b border-slate-200 sticky top-0 z-30">
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-3">
           <div className="flex items-center gap-3 min-w-0">
-            {isSignedIn && (
+            {canBrowse && (
               <button
                 className="md:hidden p-1.5 rounded-lg text-slate-500 hover:bg-slate-100 hover:text-slate-900 transition-colors"
                 onClick={() => setSidebarOpen(value => !value)}
@@ -79,13 +86,13 @@ function AppShell() {
             <div className="min-w-0">
               <p className="font-serif font-semibold text-base leading-tight truncate text-slate-950">Státnice</p>
               <p className="text-slate-500 text-xs truncate">
-                {isSignedIn ? `${subject.name} · studijní skupina` : 'Přihlášení ke studijní aplikaci'}
+                {isSignedIn || !isSupabaseConfigured ? `${subject.name} · studijní skupina` : `${subject.name} · veřejný náhled`}
               </p>
             </div>
           </div>
 
           <div className="flex items-center gap-3 min-w-0">
-            {isSignedIn && (
+            {canBrowse && (
               <div className="hidden md:flex rounded-full bg-slate-100 p-1">
                 <ModeButton active={activeMode === 'dashboard'} onClick={() => handleModeChange('dashboard')}>Přehled</ModeButton>
                 <ModeButton active={activeMode === 'study'} onClick={() => handleModeChange('study')}>Studium</ModeButton>
@@ -94,7 +101,7 @@ function AppShell() {
               </div>
             )}
 
-            {isSignedIn && (
+            {canBrowse && (
               <span className="text-slate-500 text-xs hidden lg:block whitespace-nowrap min-w-0">
                 {activeMode === 'admin'
                   ? 'Správa aplikace'
@@ -124,25 +131,29 @@ function AppShell() {
 
             {isSupabaseConfigured && auth.user ? (
               <button
-                onClick={() => auth.signOut()}
+                onClick={() => {
+                  auth.signOut()
+                  setActiveMode('dashboard')
+                }}
                 className="rounded-lg bg-slate-900 px-3 py-2 text-xs font-semibold text-white hover:bg-slate-700 transition-colors"
               >
                 Odhlásit
               </button>
             ) : isSupabaseConfigured ? (
-              <a
-                href="#prihlaseni"
+              <button
+                type="button"
+                onClick={() => handleModeChange('login')}
                 className="rounded-lg bg-brand-600 px-3 py-2 text-xs font-semibold text-white hover:bg-brand-700 transition-colors"
               >
                 Přihlásit
-              </a>
+              </button>
             ) : null}
           </div>
         </div>
       </header>
 
       <div className="flex flex-1 max-w-6xl mx-auto w-full px-4 py-6 gap-6">
-        {isSignedIn && (
+        {canBrowse && activeMode !== 'login' && (
           <aside className="hidden md:block w-56 shrink-0">
             <div className="sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto pr-2">
               <Navigation
@@ -158,7 +169,7 @@ function AppShell() {
           </aside>
         )}
 
-        {isSignedIn && sidebarOpen && (
+        {sidebarOpen && activeMode !== 'login' && (
           <div className="fixed inset-0 z-40 flex md:hidden">
             <div className="absolute inset-0 bg-black/40" onClick={() => setSidebarOpen(false)} />
             <aside className="relative z-50 w-72 bg-white shadow-xl p-4 overflow-y-auto">
@@ -191,7 +202,7 @@ function AppShell() {
         )}
 
         <main className="flex-1 min-w-0">
-          {!isSignedIn ? (
+          {activeMode === 'login' && !isSignedIn && isSupabaseConfigured ? (
             <LoginPage />
           ) : activeMode === 'dashboard' ? (
             <DashboardPage
