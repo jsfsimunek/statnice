@@ -156,7 +156,13 @@ export default function EditorPage({ subjectSlug, topicNumber }) {
         )}
 
         {editorMode === 'form' ? (
-          <TopicFormEditor topic={parsed.value} disabled={Boolean(parsed.error)} onChange={handleTopicFormChange} />
+          <TopicFormEditor
+            subjectSlug={subjectSlug}
+            topicNumber={topicNumber}
+            topic={parsed.value}
+            disabled={Boolean(parsed.error)}
+            onChange={handleTopicFormChange}
+          />
         ) : (
           <textarea
             value={draft}
@@ -313,7 +319,7 @@ function ValidationPanel({ validation }) {
   )
 }
 
-function TopicFormEditor({ topic, disabled, onChange }) {
+function TopicFormEditor({ subjectSlug, topicNumber, topic, disabled, onChange }) {
   const subquestions = topic?.podotazky ?? []
 
   if (disabled || !topic) {
