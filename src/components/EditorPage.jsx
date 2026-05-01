@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { getTopic, saveTopic } from '../lib/contentRepository.js'
 import { getSubject } from '../config/subjects.js'
+import { uploadContentImage } from '../lib/imageRepository.js'
 import { isSupabaseConfigured } from '../lib/supabaseClient.js'
 
 export default function EditorPage({ subjectSlug, topicNumber }) {
@@ -391,6 +392,44 @@ function TopicFormEditor({ topic, disabled, onChange }) {
                     className="min-h-28 rounded-xl border border-slate-200 px-3 py-2 text-sm outline-none focus:border-brand-400 focus:ring-2 focus:ring-brand-100"
                     placeholder="Obsah sekce"
                   />
+                  <ImageEditor
+                    images={section.obrazky ?? []}
+                    uploadContext={{
+                      subjectSlug,
+                      topicNumber,
+                      subquestionLetter: subquestion.pismeno ?? subIndex + 1,
+                      sectionIndex,
+                    }}
+                    onAddUrl={() => onChange(topicDraft => {
+                      ensureArray(ensureStudy(topicDraft.podotazky[subIndex]).sekce[sectionIndex], 'obrazky')
+                        .push({ src: '', popis: '' })
+                    })}
+                    onUpload={async file => {
+                      const url = await uploadContentImage(file, {
+                        subjectSlug,
+                        topicNumber,
+                        subquestionLetter: subquestion.pismeno ?? subIndex + 1,
+                        sectionIndex,
+                      })
+
+                      onChange(topicDraft => {
+                        ensureArray(ensureStudy(topicDraft.podotazky[subIndex]).sekce[sectionIndex], 'obrazky')
+                          .push({ src: url, popis: file.name.replace(/\.[^.]+$/, '') })
+                      })
+                    }}
+                    onUpdate={(imageIndex, key, value) => onChange(topicDraft => {
+                      ensureArray(ensureStudy(topicDraft.podotazky[subIndex]).sekce[sectionIndex], 'obrazky')[imageIndex][key] = value
+                    })}
+                    onMove={(fromIndex, toIndex) => onChange(topicDraft => {
+                      moveItem(ensureArray(ensureStudy(topicDraft.podotazky[subIndex]).sekce[sectionIndex], 'obrazky'), fromIndex, toIndex)
+                    })}
+                    onDuplicate={imageIndex => onChange(topicDraft => {
+                      duplicateItem(ensureArray(ensureStudy(topicDraft.podotazky[subIndex]).sekce[sectionIndex], 'obrazky'), imageIndex)
+                    })}
+                    onRemove={imageIndex => onChange(topicDraft => {
+                      ensureArray(ensureStudy(topicDraft.podotazky[subIndex]).sekce[sectionIndex], 'obrazky').splice(imageIndex, 1)
+                    })}
+                  />
                 </div>
               )}
             />
@@ -558,6 +597,123 @@ function EditableList({ title, items, emptyText, onAdd, onMove, onDuplicate, onR
   )
 }
 
+function ImageEditor({ images, uploadContext, onAddUrl, onUpload, onUpdate, onMove, onDuplicate, onRemove }) {
+  const [uploading, setUploading] = useState(false)
+  const [uploadError, setUploadError] = useState('')
+
+  async function handleUpload(event) {
+    const file = event.target.files?.[0]
+    event.target.value = ''
+    if (!file) return
+
+    setUploading(true)
+    setUploadError('')
+
+    try {
+      await onUpload(file, uploadContext)
+    } catch (error) {
+      setUploadError(error.message)
+    } finally {
+      setUploading(false)
+    }
+  }
+
+  return (
+    <section className="rounded-xl border border-slate-200 bg-slate-50 p-3">
+      <div className="mb-3 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <h4 className="text-sm font-semibold text-slate-800">Obrázky v téhle sekci</h4>
+          <p className="mt-0.5 text-xs text-slate-500">Pořadí tady odpovídá pořadí ve studijním textu.</p>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <label className={`cursor-pointer rounded-lg px-2.5 py-1.5 text-xs font-semibold ring-1 ring-slate-200 ${
+            uploading
+              ? 'bg-slate-100 text-slate-300'
+              : 'bg-white text-brand-700 hover:bg-brand-50'
+          }`}>
+            {uploading ? 'Nahrávám...' : 'Nahrát'}
+            <input
+              type="file"
+              accept="image/png,image/jpeg,image/webp,image/gif,image/svg+xml"
+              className="hidden"
+              disabled={uploading}
+              onChange={handleUpload}
+            />
+          </label>
+          <button
+            type="button"
+            onClick={onAddUrl}
+            className="rounded-lg bg-white px-2.5 py-1.5 text-xs font-semibold text-slate-700 ring-1 ring-slate-200 hover:bg-slate-50"
+          >
+            Přidat URL
+          </button>
+        </div>
+      </div>
+
+      {uploadError && (
+        <div className="mb-3 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-xs text-red-700">
+          {uploadError}
+        </div>
+      )}
+
+      {images.length === 0 ? (
+        <p className="rounded-lg bg-white px-3 py-3 text-sm text-slate-500">V téhle sekci zatím není žádný obrázek.</p>
+      ) : (
+        <div className="space-y-3">
+          {images.map((image, imageIndex) => (
+            <div key={imageIndex} className="rounded-xl border border-slate-200 bg-white p-3">
+              <div className="grid gap-3 lg:grid-cols-[160px_1fr]">
+                <div className="overflow-hidden rounded-lg border border-slate-200 bg-slate-50">
+                  {image.src ? (
+                    <img src={image.src} alt={image.popis ?? ''} className="h-32 w-full object-contain" loading="lazy" />
+                  ) : (
+                    <div className="grid h-32 place-items-center text-xs text-slate-400">Bez URL</div>
+                  )}
+                </div>
+                <div className="grid gap-2">
+                  <label className="text-xs font-medium text-slate-500">
+                    URL obrázku
+                    <input
+                      type="text"
+                      value={image.src ?? ''}
+                      onChange={event => onUpdate(imageIndex, 'src', event.target.value)}
+                      className="mt-1 w-full rounded-xl border border-slate-200 px-3 py-2 text-sm text-slate-700 outline-none focus:border-brand-400 focus:ring-2 focus:ring-brand-100"
+                      placeholder="https://... nebo /statnice/images/..."
+                    />
+                  </label>
+                  <label className="text-xs font-medium text-slate-500">
+                    Popisek
+                    <input
+                      type="text"
+                      value={image.popis ?? ''}
+                      onChange={event => onUpdate(imageIndex, 'popis', event.target.value)}
+                      className="mt-1 w-full rounded-xl border border-slate-200 px-3 py-2 text-sm text-slate-700 outline-none focus:border-brand-400 focus:ring-2 focus:ring-brand-100"
+                      placeholder="Krátký popisek pod obrázkem"
+                    />
+                  </label>
+                </div>
+              </div>
+
+              <ItemActions
+                canMoveUp={imageIndex > 0}
+                canMoveDown={imageIndex < images.length - 1}
+                onMoveUp={() => onMove(imageIndex, imageIndex - 1)}
+                onMoveDown={() => onMove(imageIndex, imageIndex + 1)}
+                onDuplicate={() => onDuplicate(imageIndex)}
+                onRemove={() => {
+                  if (window.confirm('Opravdu odebrat tenhle obrázek ze sekce?')) {
+                    onRemove(imageIndex)
+                  }
+                }}
+              />
+            </div>
+          ))}
+        </div>
+      )}
+    </section>
+  )
+}
+
 function ItemActions({ canMoveUp, canMoveDown, onMoveUp, onMoveDown, onDuplicate, onRemove }) {
   return (
     <div className="mt-3 flex flex-wrap justify-end gap-2 border-t border-slate-100 pt-3">
@@ -675,6 +831,11 @@ function validateTopic(topic) {
       if (!hasText(section.nadpis) && !hasText(section.obsah) && !Array.isArray(section.seznam) && !section.tabulka) {
         warnings.push(`${label}, sekce ${sectionIndex + 1}: sekce je prázdná.`)
       }
+      ;(section.obrazky ?? section.images ?? []).forEach((image, imageIndex) => {
+        if (!hasText(image.src)) {
+          errors.push(`${label}, sekce ${sectionIndex + 1}, obrázek ${imageIndex + 1}: chybí URL obrázku.`)
+        }
+      })
     })
 
     ;(subquestion.flashcards ?? []).forEach((card, cardIndex) => {

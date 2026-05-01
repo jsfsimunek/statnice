@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "build:content-import": "node scripts/build-content-import.mjs",
     "import:content": "node scripts/import-content.mjs",
+    "setup:storage": "node scripts/setup-storage.mjs",
     "grant:admin": "node scripts/grant-admin.mjs",
     "deploy": "npm run build && gh-pages -d dist"
   },
