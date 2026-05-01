@@ -1,6 +1,6 @@
 {
   "id": 2,
-  "nazev": "Okruh 2",
+  "nazev": "Tvar Země, klima a popis krajiny",
   "podotazky": [
     {
       "pismeno": "A",
@@ -14,7 +14,7 @@
           },
           {
             "nadpis": "Souřadnicové systémy",
-            "obsah": "Sférické (zeměpisné) souřadnice:\n- Zeměpisná šířka φ (phi): 0° rovník → ±90° (S/J pól)\n- Zeměpisná délka λ (lambda): 0° Greenwich → ±180° (V/Z)\n- Astronomické: měřeny vůči svislici (tíhové pole)\n- Geodetické: měřeny vůči normále elipsoidu\n\nRovinné (pravoúhlé) souřadnice: X (northing), Y (easting) – vznikají zobrazením sférických souřadnic do roviny, používány v GIS.\n\nSouřadnicové sítě na mapách:\n- Zeměpisná síť (graticula) – poledníky a rovnoběžky\n- Pravoúhlá kilometrová síť – pro lokální práci a měření\n- Orientační síť (rejstříky) – pro lokalizaci v atlasech\n\nGeodetické ref. systémy ČR (dle nař. vlády 1995):\nS-JTSK: Besselův elipsoid + Křovákovo zobrazení → katastr\nS-42: Krasovského elipsoid + Gauss-Krüger → vojenské mapy\nWGS-84: GRS80 + GPS → globální použití\nVýškový systém: BpV (baltský po vyrovnání)",
+            "obsah": "Sférické (zeměpisné) souřadnice:\n- Zeměpisná šířka φ (phi): 0° rovník → ±90° (S/J pól)\n- Zeměpisná délka λ (lambda): 0° Greenwich → ±180° (V/Z)\n- Astronomické: měřeny vůči svislici (tíhové pole)\n- Geodetické: měřeny vůči normále elipsoidu\n\nRovinné (pravoúhlé) souřadnice: X (northing), Y (easting) – vznikají zobrazením sférických souřadnic do roviny, používány v GIS.\n\nSouřadnicové sítě na mapách:\n- Zeměpisná síť (graticula) – poledníky a rovnoběžky\n- Pravoúhlá kilometrová síť – pro lokální práci a měření\n- Orientační síť (rejstříky) – pro lokalizací v atlasech\n\nGeodetické ref. systémy ČR (dle nař. vlády 1995):\nS-JTSK: Besselův elipsoid + Křovákovo zobrazení → katastr\nS-42: Krasovského elipsoid + Gauss-Krüger → vojenské mapy\nWGS-84: GRS80 + GPS → globální použití\nVýškový systém: BpV (baltský po vyrovnání)",
             "mnemotechnika": "JTSK = Jednotná Trigonometrická Síť Katastrální. S-42 = Socialistická/Sovětská (Krasovský). WGS = World GPS."
           },
           {
@@ -34,7 +34,7 @@
           },
           {
             "nadpis": "Volba kartografického zobrazení",
-            "obsah": "Kritéria volby:\n1. Účel mapy (navigace → konformní; hustoty populace → ekvivalentní)\n2. Tvar a poloha zobrazovaného území\n3. Měřítko (velké měřítko = malé zkreslení v malé oblasti)\n4. Zeměpisná poloha (polární → azimutální; střední šířky → kuželové; tropické pásy/rovník → válcové)\n\nPříklady správné volby:\nČR (střední šířky, kompaktní tvar) → Křovákovo kuželové konformní\nSvětová navigační mapa → Mercatorovo\nMapa hustoty obyvatelstva světa → Mollweidovo nebo Goodeovo\nLetecká mapa Evropy → Lambertovo kuželové",
+            "obsah": "Kritéria volby:\n1. Účel mapy (navigace → konformní; hustoty populace → ekvivalentní)\n2. Tvar a poloha zobrazovaného území\n3. Měřítko (velké měřítko = malé zkreslení v malé oblasti)\n4. Zeměpisná poloha (podélární → azimutální; střední šířky → kuželové; tropické pásy/rovník → válcové)\n\nPříklady správné volby:\nČR (střední šířky, kompaktní tvar) → Křovákovo kuželové konformní\nSvětová navigační mapa → Mercatorovo\nMapa hustoty obyvatelstva světa → Mollweidovo nebo Goodeovo\nLetecká mapa Evropy → Lambertovo kuželové",
             "mnemotechnika": "ÚčelTvarMěřítkoPoloha = 4 kritéria volby zobrazení"
           }
         ],
@@ -195,13 +195,488 @@
     },
     {
       "pismeno": "B",
-      "zneni": "Definujte pojem klimatická změna. Uveďte konkrétní příčiny, projevy v ČR a ve světě.",
+      "zneni": "Definujte pojem klimatická změna. Uveďte konkrétní příčiny klimatické změny, demonstrujte konkrétní projevy klimatické změny v našich podmínkách a ve světě.",
       "studium": {
-        "sekce": [],
+        "sekce": [
+          {
+            "nadpis": "1. Definice klimatické změny",
+            "obsah": "Existují dvě klíčové definice, které je dobré znát:\n\nKolísání klimatu ≠ změna klimatu: Kolísání = kratší výkyvy kolem střední hodnoty. Změna = dlouhodobý trvalý posun (sekulární nestálost).\n\nMnemotechnická pomůcka: UNFCCC = Úzké (jen člověk), IPCC = Inclusive (příroda i člověk)",
+            "tabulka": {
+              "sloupce": [
+                "Zdroj",
+                "Definice",
+                "Klíčový důraz"
+              ],
+              "radky": [
+                [
+                  "UNFCCC, 1992\n(Rámcová úmluva OSN)",
+                  "Změna klimatu vázaná přímo nebo nepřímo na lidskou činnost měnící složení globální atmosféry, pozorovaná vedle přirozené variability za srovnatelný časový úsek.",
+                  "Antropogenní příčina"
+                ],
+                [
+                  "IPCC, 2007\n(4. hodnotící zpráva)",
+                  "Změna stavu klimatu rozpoznatelná (statistickými testy) ve změnách průměru nebo proměnlivosti jeho vlastností, přetrvávající typicky desítky let nebo déle. Příčinou mohou být přirozené procesy i antropogenní vlivy.",
+                  "Širší pojetí – zahrnuje i přirozené příčiny"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: UNFCCC, 1992\n(Rámcová úmluva OSN) → IPCC, 2007\n(4. hodnotící zpráva)."
+          },
+          {
+            "nadpis": "2. Příčiny klimatické změny",
+            "obsah": "Příčiny lze rozdělit na přirozené a antropogenní:\n\nMnemotechnická pomůcka pro příčiny: SMVAL – Sluneční záření, Milankovic, Vulkány, Albedo, Lide (antropogenní)",
+            "tabulka": {
+              "sloupce": [
+                "Typ",
+                "Konkrétní příčina",
+                "Příklad / detail"
+              ],
+              "radky": [
+                [
+                  "Přirozené",
+                  "Změny intenzity slunečního záření",
+                  "Sluneční cykly (~11 let), Maunderovo minimum (1645–1715, malá doba ledová)"
+                ],
+                [
+                  "Milankovićovy cykly",
+                  "Změny oběžné dráhy Země (100 000 let), sklonu osy (41 000 let), precese (26 000 let) → příčina dob ledových"
+                ],
+                [
+                  "Vulkanická činnost",
+                  "Výbuchy chrlí aerosoly do stratoféry → ochlazení (Pinatubo 1991: –0,5 °C globálně na 1–2 roky)"
+                ],
+                [
+                  "Změny albeda přirozené",
+                  "Ústup ledovců → tmavší oceán → více pohlceného záření (zpětná vazba)"
+                ],
+                [
+                  "Antropogenní",
+                  "Zesilování skleníkového efektu",
+                  "CO₂ +40 % od průmyslové revoluce; CH₄ z chovu dobytka a rýžových podélí; N₂O ze zemědělství"
+                ],
+                [
+                  "Antropogenní aerosoly",
+                  "Saze a sulfáty ze spalování fosilních paliv → zvýšení počtu kondenzačních jader"
+                ],
+                [
+                  "Změny využití krajiny",
+                  "Odlesňování (snížení albeda tmavého lesa → oteplení; ztráta CO₂ pohlcení)"
+                ],
+                [
+                  "Tepelné znečištění",
+                  "Odpadní teplo z průmyslu, dopravy → 'tepelný ostrov města' (Praha o 2–4 °C teplejší než okolí)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Přirozené → Milankovićovy cykly → Vulkanická činnost → Změny albeda přirozené → Antropogenní."
+          },
+          {
+            "nadpis": "3. Skleníkové plyny – přehled",
+            "obsah": "Aktuální koncentrace CO₂ (2022): 421 ppm – nejvyšší za celou dobu existence lidstva (přirozené rozmezí v pleistocénu bylo 170–300 ppm).\n\nPomůcka na pořadí skleníkových plynů: CO₂ = Celkový vítěz, CH₄ = Chlapcův pomocník, N₂O = Nitrát ze zahrad",
+            "tabulka": {
+              "sloupce": [
+                "Plyn",
+                "Zkratka",
+                "Hlavní zdroj",
+                "Radiační působení (W/m²)",
+                "Životnost v atm."
+              ],
+              "radky": [
+                [
+                  "Oxid uhlíčitý",
+                  "CO₂",
+                  "Spalování fosilních paliv, odlesňování",
+                  "1,66 (nejvýznamnější)",
+                  "stovky let"
+                ],
+                [
+                  "Metan",
+                  "CH₄",
+                  "Chov dobytka, rýžová pole, skládky, těžba plynu",
+                  "0,48",
+                  "~12 let"
+                ],
+                [
+                  "Oxid dusný",
+                  "N₂O",
+                  "Zemědělství (hnojiva), spalování biomasy",
+                  "0,16",
+                  "~114 let"
+                ],
+                [
+                  "Fluorované uhlovodíky",
+                  "HFC/PFC",
+                  "Chladiva, aerosoly",
+                  "0,34",
+                  "tisíce let"
+                ],
+                [
+                  "Troposf. ozon",
+                  "O₃",
+                  "Fotochemický smog (NO₂ + UV)",
+                  "0,35",
+                  "týdny"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Oxid uhlíčitý → Metan → Oxid dusný → Fluorované uhlovodíky → Troposf. ozon."
+          },
+          {
+            "nadpis": "4. Závěry IPCC – klíčová čísla k zapamatování",
+            "obsah": "Ze 5. hodnotící zprávy IPCC (2014) – tato čísla jsou zkoušena:\n\nPomůcka na klíčová čísla: 95-40-0,8-1980 (jistota, nárůst CO₂, teplota, rok lomu)",
+            "tabulka": {
+              "sloupce": [
+                "Zjištění",
+                "Hodnota / detail"
+              ],
+              "radky": [
+                [
+                  "Jistota lidského vlivu",
+                  "95–100 % (od 50. let 20. stol.)"
+                ],
+                [
+                  "Nárůst CO₂ od průmyslové revoluce",
+                  "minimálně +40 %"
+                ],
+                [
+                  "Nárůst průměrné teploty od začátku 20. stol.",
+                  "+0,8 °C (vzduch + povrch oceánu)"
+                ],
+                [
+                  "Podíl nárůstu po roce 1980",
+                  "cca 2/3 celkového nárůstu"
+                ],
+                [
+                  "Hladina světového oceánu",
+                  "průměrně roste"
+                ],
+                [
+                  "Rozloha ledovců",
+                  "průměrně klesá"
+                ],
+                [
+                  "Krátké ochlazení",
+                  "zhruba 1940–1970 (aerosoly z poválečného průmyslu)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Jistota lidského vlivu → Nárůst CO₂ od průmyslové revoluce → Nárůst průměrné teploty od začátku 20. stol. → Podíl nárůstu po roce 1980 → Hladina světového oceánu."
+          },
+          {
+            "nadpis": "5. Projevy klimatické změny ve světě",
+            "obsah": "",
+            "tabulka": {
+              "sloupce": [
+                "Oblast / region",
+                "Konkrétní projev",
+                "Příklad"
+              ],
+              "radky": [
+                [
+                  "Arktida a Antarktida",
+                  "Tání ledovců, zkracování doby zamrzání",
+                  "Grónsko: ztráta 280 mld. tun ledu/rok; Arktida se otepluje 2–3× rychleji než globální průměr"
+                ],
+                [
+                  "Horské ledovce",
+                  "Ústup ledovců",
+                  "Himaláje: ohrožení zásobování vodou pro 1,5 mld. lidí; Alpy: od r. 1850 ztráta 50 % objemu"
+                ],
+                [
+                  "Světový oceán",
+                  "Vzestup hladiny, okyselení, oteplení",
+                  "Vzestup hladiny ~3,3 mm/rok; okyselení: pH kleslo z 8,2 na 8,1 (30× větší kyselost!); Tuvalu, Maledivya – existenční ohrožení"
+                ],
+                [
+                  "Tropická oblast",
+                  "Intenzivnější hurikány, rozšíření pouští",
+                  "Sahel: postupující Sahara; Karibik: intenzivnější hurikány (Harvey 2017, Dorian 2019)"
+                ],
+                [
+                  "Polární oblasti",
+                  "Rozmrzání permafrostu",
+                  "Sibiř: uvolňování CH₄ z permafrostu → pozitivní zpětná vazba"
+                ],
+                [
+                  "Australasie",
+                  "Extrémy sucha a požárů",
+                  "Austrálie 2019–2020: požáry plochy 18 mil. ha, 3 mld. zvířat"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Arktida a Antarktida → Horské ledovce → Světový oceán → Tropická oblast → Polární oblasti."
+          },
+          {
+            "nadpis": "6. Projevy klimatické změny v České republice",
+            "obsah": "ČR: průměrná roční teplota +0,2 °C / dekáda od 50. let; nejviditelnější změny:\n\nKlimatické oblasti ČR podle Köppena: Cfb (nejteplejší nížiny), Dfb (mírně studená), Dfc (horské oblasti), ET (Sněžka). Podle Quitta (1971): teplá (T1–T5), mírně teplá (MT1–MT11), chladná (CH1–CH7).",
+            "tabulka": {
+              "sloupce": [
+                "Projev",
+                "Konkrétní data / příklad"
+              ],
+              "radky": [
+                [
+                  "Nárůst teplot",
+                  "Rekordní horká léta: 2003, 2015, 2018, 2019. Maximum ČR: +40,4 °C Dobřichovice 2012"
+                ],
+                [
+                  "Sucho",
+                  "2015–2019: nejdelší suché období v historii přístrojových měření; kůrovcová kalamita (8+ mil. m³ dřeva)"
+                ],
+                [
+                  "Povodně",
+                  "1997 (Morava/Odra), 2002 (Labe/Vltava), 2013 – stále větší variabilita srážek"
+                ],
+                [
+                  "Změna sezón",
+                  "Dřívější fenologické fáze: třešně kvetou o 2 týdny dříve než v 50. letech"
+                ],
+                [
+                  "Sněhová pokrývka",
+                  "Kratší doba trvání sněhové pokrývky v nižších polohách"
+                ],
+                [
+                  "Biodiverzita",
+                  "Posun druhů na sever a do vyšších nadmořských výšek; šíření klíšťat výše (dnes i nad 1000 m n. m.)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Nárůst teplot → Sucho → Povodně → Změna sezón → Sněhová pokrývka."
+          },
+          {
+            "nadpis": "7. Instituce, dohody a budoucnost",
+            "obsah": "Pomůcka na dohody: RIKO-P – Rio (UNFCCC 1992), Kjóto (1997), Paříž (2015)",
+            "tabulka": {
+              "sloupce": [
+                "Instituce / dokument",
+                "Rok",
+                "Klíčový obsah"
+              ],
+              "radky": [
+                [
+                  "IPCC (Intergovernmental Panel on Climate Change)",
+                  "zal. 1988",
+                  "Vědecké mezivládní uskupení (WMO + UNEP); sídlo Ženeva; neprovádí výzkum, pouze hodnotí a publikuje zprávy"
+                ],
+                [
+                  "UNFCCC (Rámcová úmluva OSN)",
+                  "1992, Rio",
+                  "Základ mezinárodního klimatického práva; COP = konference smluvních stran"
+                ],
+                [
+                  "Kjótský protokol",
+                  "1997",
+                  "Závazné snižování emisí pro rozvinuté státy; USA nepodepsaly; Čína a Indie vyjmuty"
+                ],
+                [
+                  "Pařížská dohoda",
+                  "2015",
+                  "Cíl: udržet oteplení pod 2 °C, ideálně 1,5 °C oproti předindustriální době; 195 signatářů"
+                ],
+                [
+                  "Emisní scénáře RCP",
+                  "od 2013 (IPCC AR5)",
+                  "RCP 2.6 (optimistický) až RCP 8.5 (bez opatření); prognózy oteplení +0,3 až +4,8 °C do r. 2100"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: UNFCCC (Rámcová úmluva OSN) → Kjótský protokol → Pařížská dohoda → Emisní scénáře RCP."
+          }
+        ],
         "exam_checklist": []
       },
-      "flashcards": [],
-      "kviz": []
+      "flashcards": [
+        {
+          "otazka": "Jaký je rozdíl mezi definicí klimatické změny podle UNFCCC (1992) a IPCC (2007)?",
+          "odpoved": "UNFCCC: pouze antropogenní příčina. IPCC: širší – zahrnuje přirozené i antropogenní příčiny. Obě vyžadují trvání typicky desítky let."
+        },
+        {
+          "otazka": "Jak se liší klimatická změna od kolísání klimatu?",
+          "odpoved": "Kolísání = kratší výkyvy kolem střední hodnoty meteorologických prvků. Změna = dlouhodobý trvalý posun (sekulární nestálost), trvá desítky let nebo déle."
+        },
+        {
+          "otazka": "Jaká je aktuální koncentrace CO₂ v atmosféře (2022) a co bylo přirozené rozmezí v pleistocénu?",
+          "odpoved": "Aktuálně 421 ppm (2022). Přirozené pleistocénní rozmezí: 170–300 ppm. Dnešní hodnoty jsou historickým maximem za dobu existence lidstva."
+        },
+        {
+          "otazka": "Vyjmenuj 5 příčin klimatické změny (přirozené i antropogenní).",
+          "odpoved": "Přirozené: (1) změny intenzity slunečního záření, (2) Milankovićovy cykly, (3) vulkanická činnost, (4) změny albeda. Antropogenní: (5) zesilování skleníkového efektu spalováním fosilních paliv a dalšími emisemi."
+        },
+        {
+          "otazka": "Jaká jsou klíčová čísla z 5. hodnotící zprávy IPCC (2014)?",
+          "odpoved": "Jistota lidského vlivu: 95–100 %. Nárůst CO₂ od průmyslové revoluce: min. +40 %. Nárůst teploty od začátku 20. stol.: +0,8 °C. Cca 2/3 nárůstu nastaly po roce 1980."
+        },
+        {
+          "otazka": "Co je IPCC a jak funguje?",
+          "odpoved": "Mezivládní panel pro změny klimatu, zal. 1988 (WMO + UNEP), sídlo Ženeva. Neprovádí vlastní výzkum – pouze hodnotí existující vědecké podklady a vydává hodnotící zprávy (I.–V. zpráva, aktuálně VI. z 2021–2022)."
+        },
+        {
+          "otazka": "Co je Pařížská dohoda (2015) a jaký je její cíl?",
+          "odpoved": "Mezinárodní klimatická dohoda podepsaná v Paříži 2015, 195 signatářů. Cíl: udržet nárůst globální teploty pod 2 °C, ideálně 1,5 °C oproti předindustriální době."
+        },
+        {
+          "otazka": "Jak se projevuje klimatická změna v Arktidě?",
+          "odpoved": "Arktida se otepluje 2–3× rychleji než globální průměr. Tání mořského ledu, ústup grónského ledovce (~280 mld. tun/rok), rozmrzání permafrostu (uvolňování CH₄ = pozitivní zpětná vazba)."
+        },
+        {
+          "otazka": "Jaké jsou hlavní projevy klimatické změny v ČR?",
+          "odpoved": "Nárůst teplot (rekordní léta 2003, 2015, 2018, 2019), sucho 2015–2019 (kůrovcová kalamita), povodně (1997, 2002, 2013), dřívější fenologické fáze, kratší sněhová pokrývka, šíření klíšťat do vyšších nadmořských výšek."
+        },
+        {
+          "otazka": "Jaký je efekt pozitivní zpětné vazby při tání arktického ledu?",
+          "odpoved": "Bílý led odráží záření (vysoké albedo) → po roztátí tmavý oceán záření pohlcuje → rychlejší oteplování → více tání. Navíc rozmrzání permafrostu uvolňuje metan → zesiluje skleníkový efekt."
+        },
+        {
+          "otazka": "Co jsou emisní scénáře RCP a jaký je rozsah předpokládaného oteplení do roku 2100?",
+          "odpoved": "RCP (Representative Concentration Pathways) = scénáře emisí skleníkových plynů. RCP 2.6 (přísná opatření): +0,3–1,7 °C. RCP 8.5 (business as usual): +2,6–4,8 °C do roku 2100."
+        },
+        {
+          "otazka": "Proč se hovoří o 'chybném' označení globální oteplování?",
+          "odpoved": "Protože proces není jen oteplování – zahrnuje i extrémnější sucha a povodně, změny distribuce srážek, silnější bouře, kyselení oceánů. Pojem 'klimatická změna' je přesnější."
+        },
+        {
+          "otazka": "Jaký byl dopad výbuchu sopky Pinatubo (1991) na klima?",
+          "odpoved": "Výbuch vstříkl aerosoly do stratoféry → průměrné globální ochlazení přibližně –0,5 °C po dobu 1–2 let. Přirozené aerosoly ze sopek jsou jednou z příčin krátkodobého kolísání klimatu."
+        },
+        {
+          "otazka": "Jaké jsou Köppenovy klimatické typy vyskytující se v ČR?",
+          "odpoved": "Cfb – mírně teplé bez suchého období s horkým létem (nížiny). Dfb – mírně studené bez suchého období s teplým létem. Dfc – mírně studené s chladným létem (horské oblasti). ET – podélární klima tundry (Sněžka)."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Která definice klimatické změny zahrnuje POUZE antropogenní příčiny?",
+          "moznosti": [
+            "A) Definice podle IPCC (2007)",
+            "B) Definice podle UNFCCC (1992)",
+            "C) Obě definice zahrnují pouze antropogenní příčiny",
+            "D) Ani jedna – obě zahrnují přirozené i antropogenní příčiny"
+          ],
+          "spravna": 1,
+          "vysvetleni": "UNFCCC (1992) explicitně váže klimatickou změnu na lidskou činnost. IPCC (2007) je širší – připouští přirozené vnitřní procesy i vnější síly jako příčiny."
+        },
+        {
+          "otazka": "Jaká je aktuální (2022) koncentrace CO₂ v atmosféře?",
+          "moznosti": [
+            "A) 280 ppm",
+            "B) 350 ppm",
+            "C) 421 ppm",
+            "D) 550 ppm"
+          ],
+          "spravna": 2,
+          "vysvetleni": "V roce 2022 dosáhla koncentrace CO₂ 421 ppm (měřeno na Mauna Loa, Havaj). Přirozené předindustriální hodnoty byly cca 280 ppm."
+        },
+        {
+          "otazka": "O kolik stupňů Celsia vzrostla průměrná teplota vzduchu a povrchových vod oceánu od začátku 20. století (dle IPCC 2014)?",
+          "moznosti": [
+            "A) 0,3 °C",
+            "B) 0,8 °C",
+            "C) 1,5 °C",
+            "D) 2,0 °C"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Podle 5. hodnotící zprávy IPCC (2014) vzrostla průměrná teplota o 0,8 °C od počátku 20. století, přičemž cca 2/3 tohoto nárůstu nastaly po roce 1980."
+        },
+        {
+          "otazka": "Co jsou Milankovićovy cykly?",
+          "moznosti": [
+            "A) Cykly slunečních skvrn s periodou ~11 let",
+            "B) Periodicke změny oběžné dráhy, sklonu osy a precese Země způsobující doby ledové",
+            "C) Cyklické změny v intenzitě vulkanické činnosti",
+            "D) Pravidelné změny albeda povrchu Země"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Milankovićovy cykly: excentricita dráhy (~100 000 let), sklon zemské osy (~41 000 let), precese (~26 000 let). Jsou příčinou střídání dob ledových a meziledových."
+        },
+        {
+          "otazka": "Jaký cíl si klade Pařížská dohoda (2015) pro omezení nárůstu globální teploty?",
+          "moznosti": [
+            "A) Zastavit nárůst na 1 °C oproti předindustriální době",
+            "B) Udržet nárůst pod 2 °C, ideálně 1,5 °C oproti předindustriální době",
+            "C) Snížit teplotu o 0,5 °C oproti roku 2000",
+            "D) Udržet nárůst pod 3 °C oproti roku 1990"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Pařížská dohoda (COP21, 2015) stanovuje cíl udržet nárůst pod 2 °C, s úsilím o max. 1,5 °C oproti předindustriální době. Podepsána 195 státy."
+        },
+        {
+          "otazka": "Která z následujících příčin klimatické změny je přirozená (nikoli antropogenní)?",
+          "moznosti": [
+            "A) Spalování fosilních paliv",
+            "B) Výbuch sopky a vstřik aerosolů do stratosféry",
+            "C) Odlesňování tropických pralesů",
+            "D) Emise CH₄ z chovu dobytka"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Vulkanická aktivita je přirozená příčina klimatického kolísání. Aerosoly ze sopek (např. Pinatubo 1991) způsobují krátkodobé ochlazení. Ostatní možnosti jsou antropogenní."
+        },
+        {
+          "otazka": "Co způsobuje pozitivní zpětnou vazbu při tání arktického mořského ledu?",
+          "moznosti": [
+            "A) Odhalení oceánu s vyšším albedem odráží více záření",
+            "B) Odhalení tmavého oceánu pohlcuje více záření a urychluje oteplování",
+            "C) Tání ledu ochlazuje okolní vody a zpomaluje oteplování",
+            "D) Led uvolňuje CO₂, který byl v něm vázán"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Bílý led má vysoké albedo (~0,8) a odráží záření. Po roztátí tmavý oceán pohlcuje záření (albedo ~0,06), což akceleruje oteplování – jde o pozitivní (zesilující) zpětnou vazbu."
+        },
+        {
+          "otazka": "Jak se projevila klimatická změna v ČR v období 2015–2019?",
+          "moznosti": [
+            "A) Rekordní povodně na Moravě",
+            "B) Nejchladnější léta za posledních 100 let",
+            "C) Nejdelší suché období v historii přístrojových měření s rozsáhlou kůrovcovou kalamitou",
+            "D) Výrazný nárůst sněhové pokrývky v nížinách"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Sucho 2015–2019 bylo nejdelším suchým obdobím v historii přístrojových měření v ČR. Důsledkem byla rozsáhlá kůrovcová kalamita (8+ mil. m³ poškozené smrkové monokultury)."
+        },
+        {
+          "otazka": "IPCC bylo založeno v roce 1988. Kdo jsou jeho zakladatelé?",
+          "moznosti": [
+            "A) UNESCO a FAO",
+            "B) Světová meteorologická organizace (WMO) a Program OSN pro životní prostředí (UNEP)",
+            "C) Evropská unie a OSN",
+            "D) NASA a NOAA"
+          ],
+          "spravna": 1,
+          "vysvetleni": "IPCC bylo zal. 1988 WMO (Světová meteorologická organizace) a UNEP (Program OSN pro životní prostředí). Sekretariát sídlí v Ženevě."
+        },
+        {
+          "otazka": "O kolik procent vzrostly koncentrace CO₂ v atmosféře od průmyslové revoluce (dle IPCC 2014)?",
+          "moznosti": [
+            "A) Minimálně o 20 %",
+            "B) Minimálně o 40 %",
+            "C) Minimálně o 60 %",
+            "D) Minimálně o 80 %"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Dle 5. hodnotící zprávy IPCC (2014) vzrostly koncentrace CO₂ minimálně o 40 % od počátku průmyslové revoluce. Izotopová analýza potvrzuje, že jde o důsledek spalování fosilních paliv."
+        },
+        {
+          "otazka": "Které státy nebo oblasti jsou existenčně ohroženy vzestupem hladiny moří?",
+          "moznosti": [
+            "A) Norsko a Finsko",
+            "B) Tuvalu, Maledivy, Bangladéš (deltové oblasti)",
+            "C) Brazílie a Argentina",
+            "D) Mongolsko a Kazachstán"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Tuvalu a Maledivy jsou nízko položené ostrovní státy (průměrná nadmořská výška < 2 m) existenčně ohrožené vzestupem hladiny moří. Bangladéš má hustě osídlené delty ohrožené záplavami."
+        },
+        {
+          "otazka": "Co znamená scénář RCP 8.5 v kontextu klimatických prognóz IPCC?",
+          "moznosti": [
+            "A) Optimistický scénář s přísnou klimatickou politikou",
+            "B) Scénář bez výraznějších opatření ('business as usual'), prognóza oteplení +2,6–4,8 °C do roku 2100",
+            "C) Scénář dosažení uhlíkové neutrality do roku 2050",
+            "D) Scénář snížení globálních emisí o 85 % do roku 2100"
+          ],
+          "spravna": 1,
+          "vysvetleni": "RCP 8.5 je scénář bez výraznějších opatření v klimatické politice. Radiační působení dosáhne 8,5 W/m² do roku 2100. Prognóza oteplení: +2,6 až +4,8 °C. RCP 2.6 je naopak optimistický scénář."
+        }
+      ]
     },
     {
       "pismeno": "C",

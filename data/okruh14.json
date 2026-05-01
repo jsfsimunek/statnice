@@ -1,6 +1,6 @@
 {
   "id": 14,
-  "nazev": "Okruh 14",
+  "nazev": "Terénní kartografie, klima a doprava",
   "podotazky": [
     {
       "pismeno": "A",
@@ -114,23 +114,890 @@
     },
     {
       "pismeno": "B",
-      "zneni": "S využitím portfolia a atlasu charakterizujte klima vybraného místa světa. Zařaďte dle Köppena a Alisova.",
+      "zneni": "S využitím portfolia a atlasu charakterizujte klima a chod meteorologických charakteristik v průběhu roku na vybraném místě světa. Místní klima následně zařaďte z pohledu Köppena i Alisova.",
       "studium": {
-        "sekce": [],
+        "sekce": [
+          {
+            "nadpis": "1. Klimatické klasifikace – přehled přístupů",
+            "obsah": "Základní faktor pro klimatické pásy = zeměpisná šířka → podmíněna bilancí slunečního záření.",
+            "tabulka": {
+              "sloupce": [
+                "Typ klasifikace",
+                "Základní princip",
+                "Příklady"
+              ],
+              "radky": [
+                [
+                  "Konvenční (empirická)",
+                  "Hranice klimatů určeny konvenčně zvolenými hodnotami meteorologických prvků (teplota, srážky); neřeší genezi klimatu",
+                  "Köppen-Geiger (1928), Gorczyński (1948), Penck (1910)"
+                ],
+                [
+                  "Genetická",
+                  "Vycházejí z cirkulačních klimatotvorných faktorů (vzduchové hmoty, fronty); vysvětlují VZNIK klimatu",
+                  "Alisov (1940/1950), Hettner (1930), Strahler (1969)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Konvenční (empirická) → Genetická."
+          },
+          {
+            "nadpis": "2. Köppenova-Geigerova klasifikace – 5 základních pásů",
+            "obsah": "Druhá písmena: f = rovnoměrné srážky, s = suché léto, w = suchá zima, m = monzun.\nTřetí písmena: a = horké léto (>22 °C), b = teplé léto (18 °C), k = chladné (Pomůcka na pásy A-B-C-D-E: Africký Brouk Cestuje Do Evropy",
+            "tabulka": {
+              "sloupce": [
+                "Pás",
+                "Kód",
+                "Plocha Země",
+                "Kritérium",
+                "Typy + příklady"
+              ],
+              "radky": [
+                [
+                  "Vlhké tropické",
+                  "A",
+                  "~36 %",
+                  "Všechny měsíce teplota > 18 °C; srážky > výpar",
+                  "Af (tropický prales – Manaus), Am (monzunové – Kalkuta), Aw (savany – Nairobi)"
+                ],
+                [
+                  "Suché",
+                  "B",
+                  "~26 %",
+                  "Výpar > srážky; hranice suchosti",
+                  "BS (stepi – Kazachstán), BW (pouště – Káhira, Riyadh)"
+                ],
+                [
+                  "Mírně teplé",
+                  "C",
+                  "~27 %",
+                  "Izoterma –3 °C nejch. a +18 °C nejtep. měsíce",
+                  "Cfb (Praha, Londýn), Cs (Řím, Madrid), Cw (jihovýchodní Čína)"
+                ],
+                [
+                  "Mírně studené (boreální)",
+                  "D",
+                  "~7 %",
+                  "Izoterma –3 °C nejch. a +10 °C nejtep. měsíce",
+                  "Dfb (Helsinky), Dfc (Fairbanks), Dfd/Dwd (Jakutsk – nejextrémnější)"
+                ],
+                [
+                  "Polární",
+                  "E",
+                  "~19 %",
+                  "Nejteplejší měsíc < +10 °C",
+                  "ET (tundra – Reykjavík, Longyearbyen), EF (věčný mráz – Antarktida, Grónsko)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Vlhké tropické → Suché → Mírně teplé → Mírně studené (boreální) → Polární."
+          },
+          {
+            "nadpis": "3. Alisovova klasifikace – 7 pásů a 3 přechodné",
+            "obsah": "Genetická klasifikace (B.P. Alisov, 1950) – vychází z polohy klimatických front a geografických typů vzduchových hmot.\n\nPomůcka na Alisova: E-Se-T-Su-M-Sub-P = Každý Starý Tučňák Sbírá Modré Suché Plody",
+            "tabulka": {
+              "sloupce": [
+                "Pás",
+                "Vládnoucí vzduchová hmota",
+                "Klimatické fronty",
+                "Příklady regionů"
+              ],
+              "radky": [
+                [
+                  "Ekvatoriální (rovníkový)",
+                  "Ekvatoriální vzduch (EV) celoročně",
+                  "Tropická fronta sezónně",
+                  "Amazonie, Kongo, Indonésie"
+                ],
+                [
+                  "Subekvatoriální (přechodný)",
+                  "Střídání EV (léto) a TV (zima)",
+                  "–",
+                  "Sahel, severní Indie, severní Austrálie"
+                ],
+                [
+                  "Tropický",
+                  "Tropický vzduch (TV) celoročně",
+                  "–",
+                  "Sahara, Arabský poloostrov, středoaustralská poušť"
+                ],
+                [
+                  "Subtropický (přechodný)",
+                  "Střídání TV (léto) a PV (zima)",
+                  "Polární fronta v zimě",
+                  "Středomoří, Persie, Namibie, Kalifornie"
+                ],
+                [
+                  "Mírný",
+                  "Polární vzduch (PV) celoročně; výrazná cyklonální činnost",
+                  "Arktická fronta (sever), Polární fronta (jih)",
+                  "Střední Evropa, USA západ, S Čína"
+                ],
+                [
+                  "Subarktický/Subantarktický (přechodný)",
+                  "Střídání PV (léto) a AV (zima)",
+                  "–",
+                  "Skandinávie (sever), Sibiř, Kanada (sever)"
+                ],
+                [
+                  "Polární (arktický/antarktický)",
+                  "Arktický/antarktický vzduch (AV) celoročně",
+                  "–",
+                  "Grónsko, Antarktida, Arktický oceán"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Ekvatoriální (rovníkový) → Subekvatoriální (přechodný) → Tropický → Subtropický (přechodný) → Mírný."
+          },
+          {
+            "nadpis": "4. Vzorové klimatické příklady pro státnice – Praha (Cfb)",
+            "obsah": "Praha (50° s.š., 14° v.d., 365 m n.m.)\n\nZařazení:\n\n- Köppen: Cfb = C (mírně teplé, leden –1,2 °C > –3 °C), f (rovnoměrné srážky celý rok), b (teplé léto, červenec 17,6 °C Alisov: Mírný pás, oceánský typ (vliv Atlantiku)\n- Quitt: Mírně teplá oblast MT10/MT11",
+            "tabulka": {
+              "sloupce": [
+                "Charakteristika",
+                "Hodnota"
+              ],
+              "radky": [
+                [
+                  "Průměrná roční teplota",
+                  "+10,4 °C"
+                ],
+                [
+                  "Nejteplejší měsíc",
+                  "Červenec (+17,6 °C)"
+                ],
+                [
+                  "Nejchladnější měsíc",
+                  "Leden (–1,2 °C)"
+                ],
+                [
+                  "Roční amplituda",
+                  "~18–19 °C"
+                ],
+                [
+                  "Roční úhrn srážek",
+                  "~460–530 mm"
+                ],
+                [
+                  "Nejdeštivější měsíc",
+                  "Červen–červenec"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Průměrná roční teplota → Nejteplejší měsíc → Nejchladnější měsíc → Roční amplituda → Roční úhrn srážek."
+          },
+          {
+            "nadpis": "5. Vzorové klimatické příklady – Cairo, Řím, Singapur",
+            "obsah": "",
+            "tabulka": {
+              "sloupce": [
+                "Město / místo",
+                "Poloha",
+                "Teplota (nejtep./nejch.)",
+                "Srážky (roční)",
+                "Köppen",
+                "Alisov"
+              ],
+              "radky": [
+                [
+                  "Káhira (Egypt)",
+                  "30° s.š.",
+                  "+36 °C / +9 °C",
+                  "~25 mm",
+                  "BWh (horká poušť)",
+                  "Tropický pás"
+                ],
+                [
+                  "Řím (Itálie)",
+                  "42° s.š.",
+                  "+29 °C / +7 °C",
+                  "~820 mm (max. zima)",
+                  "Csa (mediteránní, horké léto)",
+                  "Subtropický pás"
+                ],
+                [
+                  "Singapur",
+                  "1° s.š.",
+                  "+31 °C / +26 °C",
+                  "~2 100 mm",
+                  "Af (tropický vlhký)",
+                  "Ekvatoriální pás"
+                ],
+                [
+                  "Jakutsk (Rusko)",
+                  "62° s.š.",
+                  "+26 °C / –43 °C",
+                  "~240 mm",
+                  "Dfd (boreální, extrémní zima)",
+                  "Subarktický pás"
+                ],
+                [
+                  "Mumbai (Indie)",
+                  "19° s.š.",
+                  "+32 °C / +19 °C",
+                  "~2 400 mm (max. léto)",
+                  "Am (monzunové)",
+                  "Subekvatoriální pás"
+                ],
+                [
+                  "Madrid (Španělsko)",
+                  "40° s.š.",
+                  "+33 °C / +4 °C",
+                  "~420 mm (max. zima)",
+                  "Csb (mediteránní, teplé léto)",
+                  "Subtropický pás"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Káhira (Egypt) → Řím (Itálie) → Singapur → Jakutsk (Rusko) → Mumbai (Indie)."
+          },
+          {
+            "nadpis": "6. Klimatické podmínky ČR – detailní přehled",
+            "obsah": "ČR leží v mírném klimatickém pásu, přechodné podnebí mezi oceánským a kontinentálním.\n\nKöppenovo zařazení ČR:\n\n- Cfb – nížiny, např. Praha, Brno (mírně teplé, bez suchého období, teplé léto)\n- Dfb – vyšší polohy (mírně studené, bez suchého období, teplé léto)\n- Dfc – horské oblasti (mírně studené, krátké chladné léto)\n- ET – Sněžka (podélární tundra, 0,2 °C ročně)\nQuittova klasifikace (1971): 3 oblasti: Teplá (T1–T5), Mírně teplá (MT1–MT11), Chladná (CH1–CH7) – aktuálně 13 jednotek v ČR.",
+            "tabulka": {
+              "sloupce": [
+                "Prvek",
+                "Hodnota",
+                "Extrémy a specifika"
+              ],
+              "radky": [
+                [
+                  "Průměrná roční teplota",
+                  "~8–10 °C (nížiny)",
+                  "Maximum: +40,4 °C (Dobřichovice, 2012); Minimum: –42 °C (Litvínovice, 1929)"
+                ],
+                [
+                  "Nejteplejší měsíc",
+                  "Červenec (16,7 °C průměr)",
+                  "Vliv kontinentality"
+                ],
+                [
+                  "Nejchladnější měsíc",
+                  "Leden (–2,9 °C průměr)",
+                  "Závisí na nadmořské výšce a poloze"
+                ],
+                [
+                  "Průměrný roční úhrn srážek",
+                  "680 mm",
+                  "Minimum: 247 mm (V. Přítočno, 1933); Maximum: 2 201 mm (Jizerka, 1926)"
+                ],
+                [
+                  "Srážkové extrémy (roční)",
+                  "300–500 mm (srážkový stín Krušných hor)",
+                  "1 200–1 600 mm (návětrné Jizerky, Beskydy, Šumava)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Průměrná roční teplota → Nejteplejší měsíc → Nejchladnější měsíc → Průměrný roční úhrn srážek → Srážkové extrémy (roční)."
+          },
+          {
+            "nadpis": "7. Jak popsat klima místa – metodický postup",
+            "obsah": "Při odpovědi u státnic: postup při charakteristice klimatu konkrétního místa:\n\n- Polohové údaje – zeměpisná šířka, délka, nadmořská výška, vzdálenost od moře\n- Teplotní charakteristiky – průměr ročí, nejteplejší / nejchladnější měsíc, amplituda, extrémy\n- Srážkové charakteristiky – roční úhrn, roční chod (kdy maximum/minimum), typ srážek (konvektivní, frontální, orografické)\n- Další prvky – oblačnost, vlhkost, délka slunečního svitu, vítr (převládající směr)\n- Klasifikace Köppen – určit písmena A/B/C/D/E + druhé a třetí písmeno podle teplot a srážek\n- Klasifikace Alisov – určit pás dle vzduchových hmot a klimatických front\nKlimadiagramy (Walterovy) = grafické vyjádření ročního chodu teploty a srážek; osy: teplota (°C) vlevo, srážky (mm) vpravo ve stupnici 1 °C = 2 mm. Zobrazuje období sucha (srážky < teplota × 2) a vlhka.",
+            "mnemotechnika": "Klíč: 7. Jak popsat klima místa – metodický postup. Řekni definici, příklad a dopad."
+          }
+        ],
         "exam_checklist": []
       },
-      "flashcards": [],
-      "kviz": []
+      "flashcards": [
+        {
+          "otazka": "Jaký je rozdíl mezi konvenční a genetickou klimatickou klasifikací?",
+          "odpoved": "Konvenční (empirická) = hranice klimatů určeny hodnotami meteorologických prvků (teplota, srážky), neřeší příčiny. Příklad: Köppen. Genetická = vychází z příčin klimatu – vzduchové hmoty, fronty, cirkulace. Příklad: Alisov."
+        },
+        {
+          "otazka": "Vyjmenuj 5 základních klimatických pásů Köppenovy klasifikace s kódy.",
+          "odpoved": "A – vlhké tropické, B – suché, C – mírně teplé, D – mírně studené (boreální), E – podélární. Pomůcka: Africký Brouk Cestuje Do Evropy."
+        },
+        {
+          "otazka": "Co označuje písmeno 'f' ve Köppenově kódu (Cfb, Dfb)?",
+          "odpoved": "f = feucht (německy vlhký) = rovnoměrné rozložení srážek během roku, žádný suchý měsíc. Alternativy: s = suché léto, w = suchá zima, m = monzunový typ."
+        },
+        {
+          "otazka": "Jak zařadíme klima Prahy podle Köppena a proč?",
+          "odpoved": "Praha = Cfb. C: leden –1,2 °C (> –3 °C), červenec 17,6 °C ( 10 °C nejméně 4 měsíce)."
+        },
+        {
+          "otazka": "Co je klimatický pás BWh a kde se vyskytuje?",
+          "odpoved": "BWh = B (suché), W (Wüste = poušť), h (heiss = horké, průměrná roční teplota > 18 °C). Příklady: Sahara (Káhira: 25 mm/rok, průměr +22 °C), Arabský poloostrov (Riyadh), severní Afrika."
+        },
+        {
+          "otazka": "Jak Alisov definuje ekvatoriální a subtropický pás?",
+          "odpoved": "Ekvatoriální pás: celoročně vládne ekvatoriální vzduchová hmota. Subtropický pás: přechodný – v létě tropický vzduch, v zimě podélární vzduch (přichází podélární fronta). Odpovídá mediteránnímu klimatu (Cs u Köppena)."
+        },
+        {
+          "otazka": "Kde leží v ČR nejdeštivější a nejsušší místa a kolik srážek dostávají?",
+          "odpoved": "Nejdeštivější: Jizerky, Beskydy, Šumava – 1 200–1 600 mm ročně (rekord: Jizerka 2 201 mm, 1926). Nejsušší: srážkový stín Krušných hor – 300–500 mm (rekord: V. Přítočno 247 mm, 1933)."
+        },
+        {
+          "otazka": "Co je klimadiagram (Walterův) a jak se čte?",
+          "odpoved": "Graf s teplotou (°C, vlevo) a srážkami (mm, vpravo) v ročním chodu. Stupnice: 1 °C = 2 mm. Období sucha = srážky pod křivkou teploty (srážky < 2× teplota). Vynalezl H. Walter, používá se pro Köppenovu klasifikaci."
+        },
+        {
+          "otazka": "Jaký je Köppenův kód klimatu Singapuru a Jakutsku?",
+          "odpoved": "Singapur (1° s.š.): Af – vlhké tropické, rovnoměrné srážky (~2 100 mm), všechny měsíce > 18 °C. Jakutsk (62° s.š.): Dfd – mírně studené, rovnoměrné srážky, extrémně studená zima (leden –43 °C)."
+        },
+        {
+          "otazka": "Co je klimatický typ Csa a kde se vyskytuje?",
+          "odpoved": "Csa = mírně teplé klima (C), suché léto (s), horké léto (a = červenec > 22 °C). Mediteránní klima s horkým létem. Výskyt: Řím, Atény, pobřeží Turecka, Izrael, severní Afrika (pobřeží)."
+        },
+        {
+          "otazka": "Kolik klimatických pásů rozlišuje Alisovova klasifikace a jak se střídají?",
+          "odpoved": "7 pásů (4 hlavní + 3 přechodné na každé polokouli). Hlavní: ekvatoriální, tropický, mírný, podélární. Přechodné: subekvatoriální, subtropický, subarktický. Přechodné pásy = sezónní střídání vzduchových hmot dvou sousedních pásů."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Klima Madridu (40° s.š., horké a suché léto, deštivá zima, průměr léto +33 °C, zima +5 °C). Jaký je Köppenův kód?",
+          "moznosti": [
+            "A) Cfb",
+            "B) Csb",
+            "C) Csa",
+            "D) BSk"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Madrid = Csb: C (mírně teplé, leden > –3 °C), s (suché léto – maximum srážek v zimě), b (teplé léto – červenec 33 °C ale průměr 22 °C)."
+        },
+        {
+          "otazka": "Které kritérium určuje hranici mezi klimatickými typy C a D u Köppena?",
+          "moznosti": [
+            "A) Průměrná roční teplota 0 °C",
+            "B) Izoterma nejchladnějšího měsíce –3 °C",
+            "C) Roční úhrn srážek 500 mm",
+            "D) Průměrná teplota nejteplejšího měsíce 10 °C"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Hranice C/D: izoterma nejchladnějšího měsíce –3 °C. Typ C (mírně teplé) = nejchladnější měsíc > –3 °C. Typ D (mírně studené, boreální) = nejchladnější měsíc < –3 °C. Tato hranice přibližně odpovídá hranici výskytu sněhové pokrývky."
+        },
+        {
+          "otazka": "Singapur (1° s.š., průměrné teploty 26–31 °C, srážky ~2 100 mm rovnoměrně). Jaký je Köppenův kód?",
+          "moznosti": [
+            "A) Am",
+            "B) Aw",
+            "C) Af",
+            "D) Cfb"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Singapur = Af: A (všechny měsíce > 18 °C), f (rovnoměrné srážky, každý měsíc > 60 mm). Nejsušší měsíc v Singapuru má stále přes 100 mm → neodpovídá Am ani Aw."
+        },
+        {
+          "otazka": "Alisovova klasifikace je genetická. Co to znamená?",
+          "moznosti": [
+            "A) Zahrnuje informace o genetickém výzkumu organismů v daném klimatu",
+            "B) Klimatické pásy jsou vymezeny podle vzduchových hmot a klimatických front, tedy podle příčin klimatu",
+            "C) Klasifikace vznikla genotypickým porovnáním vegetace",
+            "D) Jedná se o konvenční empirickou klasifikaci"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Genetická klimatická klasifikace = vychází z příčin (genesis) klimatu – vzduchové hmoty, klimatické fronty a cirkulace atmosféry. Alisov (1950) určil pásy podle polohy klimatických front a vzduchových hmot, které v dané oblasti převládají."
+        },
+        {
+          "otazka": "Jaká je Köppenova kategorie klimatu ET a kde se vyskytuje?",
+          "moznosti": [
+            "A) Suché klima tropů (výpar > srážky)",
+            "B) Polární klima tundry (nejteplejší měsíc 0–10 °C)",
+            "C) Horský typ klimatu vyšších šířek",
+            "D) Extrémně studené klima (nejteplejší měsíc < 0 °C)"
+          ],
+          "spravna": 1,
+          "vysvetleni": "ET (E = podélární, T = tundra) = nejteplejší měsíc 0–10 °C. Stromy nemohou růst (linie stromů = izotherma +10 °C nejteplejšího měsíce). Výskyt: arktické pobřeží, Island, Svalbard, Sněžka (ČR). EF = nejteplejší < 0 °C (Antarktida, Grónsko)."
+        },
+        {
+          "otazka": "Roční amplituda teplot v Jakutsku je ~62 °C, v Singapuru jen ~2 °C. Hlavní příčina?",
+          "moznosti": [
+            "A) Rozdíl nadmořské výšky",
+            "B) Jakutsk = extrémně kontinentální (62° s.š., daleko od oceánu); Singapur = oceánský vliv (1° s.š., ostrov)",
+            "C) Jakutsk leží blíže podélárnímu kruhu, kde je Slunce silnější",
+            "D) Singapur leží v oblasti aktivní sopečné činnosti"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Kontinentalita = klíčový faktor. Jakutsk je obklopen pevninou (tisíce km od oceánu) → rychlé zahřívání v létě, extrémní ochlazování v zimě → amplituda 62 °C. Singapur je tropický ostrov s vysokou tepelnou kapacitou okolního oceánu → tlumení výkyvů."
+        },
+        {
+          "otazka": "V Köppenově klasifikaci co znamená písmeno 'w' (např. Aw, Cw, Dw)?",
+          "moznosti": [
+            "A) Suché léto (sommer = léto)",
+            "B) Suchá zima (winter = zima)",
+            "C) Vlhké klima (wet = vlhký)",
+            "D) Západní pobřeží kontinentu"
+          ],
+          "spravna": 1,
+          "vysvetleni": "w = suchá zima (Winter = zima v němčině). V klimatu Aw (savany) jsou suché zimy typické pro subekvatoriální pás. Cw se vyskytuje v jihovýchodní Číně a v horských subtropech. Srovnání: s = suché léto, f = rovnoměrné srážky."
+        },
+        {
+          "otazka": "Praha má Köppenovu klasifikaci Cfb. Co konkrétně určuje třetí písmeno 'b'?",
+          "moznosti": [
+            "A) Druhé suché období za rok",
+            "B) Teplé (ale ne horké) léto – nejteplejší měsíc 10–22 °C",
+            "C) Boreální charakter klimatu",
+            "D) Průměrné roční srážky přesahují 500 mm"
+          ],
+          "spravna": 1,
+          "vysvetleni": "b = mírné (teplé) léto; nejteplejší měsíc 10–22 °C (Praha: červenec 17,6 °C). Alternativy: a = horké léto (> 22 °C, Csa jako Řím), c = chladné léto (< 10 °C alespoň 4 měsíce), d = extrémně studená zima (< –38 °C)."
+        },
+        {
+          "otazka": "Sahara dostává průměrně méně než 25 mm srážek ročně. Jak ji klasifikuje Alisov?",
+          "moznosti": [
+            "A) Ekvatoriální pás",
+            "B) Subekvatoriální pás",
+            "C) Tropický pás",
+            "D) Subtropický pás"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Alisov: Sahara = tropický pás. Celoročně dominuje tropická vzduchová hmota (TV) z oblasti subtropických výší. Vysoký tlak → sestupné pohyby → sucho. Köppenova odpovídající kategorie: BWh (horká poušť)."
+        },
+        {
+          "otazka": "Klimadiagram ukazuje pro určité místo: teplota červenec 28 °C, leden 10 °C; srážky v létě < 50 mm, v zimě 80–100 mm. Jaký je Köppenův kód?",
+          "moznosti": [
+            "A) Af – tropické vlhké",
+            "B) Csa nebo Csb – mediteránní (suché léto, deštivá zima)",
+            "C) BWh – horká poušť",
+            "D) Dfb – boreální klima"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Suché léto + deštivá zima + teploty leden > –3 °C = typ C s (mediteránní). Červenec 28 °C → nejteplejší měsíc > 22 °C → písmeno a → Csa. Příklady: Atény, Řím, Los Angeles, Perth (západ Austrálie), Kapské Město."
+        }
+      ]
     },
     {
       "pismeno": "C",
-      "zneni": "S využitím atlasu popište vliv geografických faktorů na formování vybraného dopravního systému světa.",
+      "zneni": "Charakterizujte vliv geografických faktorů na formování dopravního systému světa. Popište hlavní druhy dopravy a jejich prostorové rozmístění.",
       "studium": {
-        "sekce": [],
+        "sekce": [
+          {
+            "nadpis": "Geografický význam dopravy - základní pojmy",
+            "obsah": "Doprava = faktor, ktery vyznamne formuje sídelní a hospodarske struktury světa od lokální po globální uroven.\n\nKlic: Globalizace je dusledkem zvyseni rychlosti a poklesu vyse dopravních nákladů. Doprava je faktorem strukturace a organizace prostoru.",
+            "tabulka": {
+              "sloupce": [
+                "Pojem",
+                "Definice"
+              ],
+              "radky": [
+                [
+                  "Dopravni cesta",
+                  "Pas terenu spojujici 2 koncove body; muze byt hmotna (silnice, železnice) nebo nehmotna (letovy koridor)"
+                ],
+                [
+                  "Dopravni uzel",
+                  "Vyznamnejsi bod kde se styka vice dopravních cest"
+                ],
+                [
+                  "Dopravni sit",
+                  "Soustava dopravních cest propojujici uzly"
+                ],
+                [
+                  "Akcesibilita",
+                  "Mnozstvi prilezitosti dostupnych z urciteho místa v dane vzdálenosti"
+                ],
+                [
+                  "Mobilita",
+                  "Schopnost pohybu mezi ruznymu misty"
+                ],
+                [
+                  "Komplementarita",
+                  "Ruzne oblasti vzajemne kompenzuji sve prebytky a nedostatky vymeno osob, zboží a služeb"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Dopravni cesta → Dopravni uzel → Dopravni sit → Akcesibilita → Mobilita."
+          },
+          {
+            "nadpis": "Fyzické a společenské bariéry dopravy",
+            "obsah": "Doprava prekonava tzv. odpor prostredi - bariery prostoru.\n\nVliv reliéfu:- Hory = prekazka pro pozemni dopravu (alpy, Andy, Himalaje)\n- Niziny a údolí řek = preferovane trase dopravní sítě\n- Pobrezi a pristavy = uzly namorni dopravy\n- Prumysloves Vychodu USA (Apalachians low) = hustá sit oproti Skalistym horum na Z",
+            "tabulka": {
+              "sloupce": [
+                "Typ bariery",
+                "Priklady",
+                "Reseni (dopravní technika)"
+              ],
+              "radky": [
+                [
+                  "Fyzicke bariery",
+                  "Vzdalenost, topografie (hory, more, řeky)",
+                  "Tunely (Gotthard, Channel), mosty (Oresund), kanaly (Suez, Panama)"
+                ],
+                [
+                  "Spolecenske bariery",
+                  "Administrativní deleni, rozdilna kvalita infrastruktury",
+                  "Transevropske sítě (TEN-T), Schengen, WTO"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Fyzicke bariery → Spolecenske bariery."
+          },
+          {
+            "nadpis": "Hlavní druhy dopravy - porovnání",
+            "obsah": "",
+            "tabulka": {
+              "sloupce": [
+                "Druh",
+                "Vyhody",
+                "Nevyhody",
+                "Pouziti",
+                "Příklad uzlu"
+              ],
+              "radky": [
+                [
+                  "Silnicni",
+                  "Flexibilita, door-to-door, hustá sit",
+                  "Nejvetsi znecistovatel, kongesce, velka plocha",
+                  "Krátkodobá preprava osob a zboží, last-mile",
+                  "Dálnicní krizovatky, logisticke parky"
+                ],
+                [
+                  "Zeleznicni",
+                  "Velka kapacita, energeticky ucinny, spolehlivy",
+                  "Mala flexibilita, nutnost prechodu na silnici",
+                  "Meziměstská preprava, tezke zboží, TGV",
+                  "Frankfurt Hbf, Praha hl. n., Peking"
+                ],
+                [
+                  "Letecka",
+                  "Rychlost, globální dostupnost",
+                  "Nejdrazsi, environmentalne náročná, omezena kapacita",
+                  "Osoby na dlouhe vzdálenosti, cenne/krat zboží",
+                  "Dubai (DXB), Heathrow, Peking Capital"
+                ],
+                [
+                  "Namorni",
+                  "Nejvetsi kapacita, nejlevnejsi na tunu/km",
+                  "Nejpomalejsi, omezeno na pristavy",
+                  "Hromadne zboží, ropa, kontejnery",
+                  "Shanghai, Rotterdam, Singapore, Antverpy"
+                ],
+                [
+                  "Potrubni",
+                  "Continualní preprava, nizke naklady",
+                  "Pouze kapaliny/plyny, pevna trasa",
+                  "Ropa, zemni plyn, voda",
+                  "Druzhba (CZ/SK), Nord Stream (zastaveno)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Silnicni → Zeleznicni → Letecka → Namorni → Potrubni."
+          },
+          {
+            "nadpis": "Geografické faktory ovlivňující dopravní sítě",
+            "obsah": "Rozmisteni dopravních sítí odrázi komplexni působení prirodnich a socioekonome faktorů.\nPřírodní faktory:\nSocioekonomické faktory: hustota zalidnění, HDP na obyvatele, průmyslová produkce, politické rozhodnutí (investice do infrastruktury).",
+            "tabulka": {
+              "sloupce": [
+                "Faktor",
+                "Vliv",
+                "Příklad"
+              ],
+              "radky": [
+                [
+                  "Reliéf",
+                  "Hory = prekazka; nížiny = preferovane trasy",
+                  "Alpy - Gotthard tunnel; Polabi - husté zeleznicni sítě"
+                ],
+                [
+                  "Riční sit",
+                  "Rek jako přírodní dopravní trasy; brody = uzly",
+                  "Ren, Labe, Mississip., Amazonka"
+                ],
+                [
+                  "Pobrezi",
+                  "Prirodní pristavy = uzly namorni dopravy",
+                  "Rotterdam, Hamburg, Shanghai, Singapore"
+                ],
+                [
+                  "Klima",
+                  "Zamrzajici more vs. celorocne otevrence pristavy",
+                  "Arktida vs. Atlantik; Murmanská dráha"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Reliéf → Riční sit → Pobrezi → Klima."
+          },
+          {
+            "nadpis": "Světové dopravní uzly - přístavy a letiště",
+            "obsah": "Klicove uzly globální dopravní sítě.\nNejvetsi kontejnerove pristavy (TEU):\nNejrushejsi letiste (pasazeri):",
+            "tabulka": [
+              {
+                "sloupce": [
+                  "Poradi",
+                  "Pristav",
+                  "Zeme",
+                  "Specifika"
+                ],
+                "radky": [
+                  [
+                    "1.",
+                    "Shanghai",
+                    "Čína",
+                    "47 mil. TEU rocne"
+                  ],
+                  [
+                    "2.",
+                    "Singapore",
+                    "Singapur",
+                    "Klicovy pristav pro JV Asii, uzel"
+                  ],
+                  [
+                    "3.",
+                    "Ningbo-Zhoushan",
+                    "Čína",
+                    "Ruda a kontejnery"
+                  ],
+                  [
+                    "~10.",
+                    "Rotterdam",
+                    "Niederlándy",
+                    "Největší pristav Evropy, vstupni brana EU"
+                  ]
+                ]
+              },
+              {
+                "sloupce": [
+                  "Letiste",
+                  "Zeme",
+                  "Role"
+                ],
+                "radky": [
+                  [
+                    "Dubai (DXB)",
+                    "UAE",
+                    "Globalni hub mezi Asii a Zap"
+                  ],
+                  [
+                    "Atlanta (ATL)",
+                    "USA",
+                    "Domesticky hub USA"
+                  ],
+                  [
+                    "Heathrow (LHR)",
+                    "UK",
+                    "Globalni hub, tranzit Atlantiku"
+                  ]
+                ]
+              }
+            ],
+            "mnemotechnika": "Pořadí: ~10. → Dubai (DXB) → Atlanta (ATL) → Heathrow (LHR)."
+          },
+          {
+            "nadpis": "Kontejnerizace a revoluční změny v dopravě",
+            "obsah": "Kontejnerizace od 50. let 20. stol. = jedna z klicovych technologickych zmen v doprave.\n- Standardizovany kontejner (ISO 20 a 40 stop) = dramaticky snizeni nákladů na prekládku\n- Umoznila masivni růst globálniho obchodu a outsourcingu výroby do JV Asie\n- TEU (Twenty-foot Equivalent Unit) = merná jednotka kapacity přístavu a lodi\n- Nejvetsi kontejnerove lode dnes: cca 24 000 TEU (Ever Given uvizla v Suezu 2021)",
+            "tabulka": {
+              "sloupce": [
+                "Vývoj",
+                "Dusledek"
+              ],
+              "radky": [
+                [
+                  "Kontejnerizace (1950-70)",
+                  "Pokles nákladů na namorni prepravu o 90 %, vznik globalnich hodnotovych retezcu"
+                ],
+                [
+                  "Nízkonakladove letectvi (1990+)",
+                  "Demokratizace letecke dopravy, boom cestovniho ruchu"
+                ],
+                [
+                  "Vysokorychlostnı železnice (TGV 1981)",
+                  "Alternativa letadlum na vzdalenostech do 700 km (Paris-Lyon, Tokio-Osaka)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Kontejnerizace (1950-70) → Nízkonakladove letectvi (1990+) → Vysokorychlostnı železnice (TGV 1981)."
+          },
+          {
+            "nadpis": "Doprava a trvalá udržitelnost",
+            "obsah": "Od 90. let se doprava vnima jako vyznamny spotrebitel energie a největší tvorce enviromentalnich problemu.\n\nAktuální trendy: elektrifikace dopravy (EV, e-trucks), vodikove autobusy, rozvoj cyklodopravy v městech, modal shift (přesun ze silnice na zeleznici a vodu).",
+            "tabulka": {
+              "sloupce": [
+                "Druh dopravy",
+                "Emise CO2 na osobokm",
+                "Enviromentalni zatez"
+              ],
+              "radky": [
+                [
+                  "Letadlo",
+                  "255 g/osobokm",
+                  "Nejvyssi na osobokm, klimaticky efekt ve vyssich vrstvach"
+                ],
+                [
+                  "Osobni auto",
+                  "170-200 g/osobokm",
+                  "Hluk, kongesce, zabira plochu"
+                ],
+                [
+                  "Autobus",
+                  "68 g/osobokm",
+                  "Stredni"
+                ],
+                [
+                  "Zeleznice",
+                  "14 g/osobokm (elekt.)",
+                  "Nizka, energeticky efektivní"
+                ],
+                [
+                  "Namorni (kontejnery)",
+                  "~11 g/tonokm",
+                  "Nizka na tonokm, ale siricita baze paliva"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Letadlo → Osobni auto → Autobus → Zeleznice → Namorni (kontejnery)."
+          }
+        ],
         "exam_checklist": []
       },
-      "flashcards": [],
-      "kviz": []
+      "flashcards": [
+        {
+          "otazka": "Co je komplementarita v doprave?",
+          "odpoved": "Jev, v jehoz ramci si ruzne ekonomicky odlisne oblasti vzajemne kompenzuji sve prebytky a nedostatky vymeno osob, zboží a služeb prostrednictvim dopravních vazeb"
+        },
+        {
+          "otazka": "Jaký je nejlevnejsi druh dopravy na tonokm?",
+          "odpoved": "Namorni doprava - nejlevnejsi na tonokm, největší kapacita; proto 90 % globálniho obchodu probeha po moři"
+        },
+        {
+          "otazka": "Co je TEU a proč je to důležité?",
+          "odpoved": "Twenty-foot Equivalent Unit = standardizovany 20-stopý kontejner; merná jednotka kapacity přístavu a lodi; kontejnerizace snizila naklady na prepravu o 90 %"
+        },
+        {
+          "otazka": "Jaká je role Suezskeho kanalu v doprave?",
+          "odpoved": "Zkracuje cestu mezi Evropou a Asii o cca 9 000 km; kontroluje asi 12 % svetoveho namorního obchodu; jeho uzavrení (Ever Given 2021) zpusobilo globální logistické krize"
+        },
+        {
+          "otazka": "Co je akcesibilita vs. mobilita?",
+          "odpoved": "Akcesibilita = mnozstvi prilezitosti dostupnych z daneho místa; mobilita = schopnost pohybu; s rostouci vzdálenosti je akcesibilita zavislejsi na mobilite"
+        },
+        {
+          "otazka": "Jaký druh dopravy je největší znecistovatel ZP a proč?",
+          "odpoved": "Silnicni doprava - největší produkce emisí CO2, hluku, zabirá velke plochy a zpusobuje kongesce; ale zarovne nejflexibilnejsi (door-to-door)"
+        },
+        {
+          "otazka": "Kde je největší kontejnerovy pristav světa?",
+          "odpoved": "Shanghai (Čína) - cca 47 mil. TEU rocne; nasleduje Singapore, Ningbo-Zhoushan; v Evropě je největší Rotterdam"
+        },
+        {
+          "otazka": "Jak ovlivnily Alpy evropsky dopravní system?",
+          "odpoved": "Alpy tvorí hlavni prirozenu barieru v srdci Evropy; reseni: Gotthard Base Tunnel (57 km, nejdelsi na svete), Brennerský tunel, Mont Blanc tunel; definuji smery transevropskych koridoru"
+        },
+        {
+          "otazka": "Co je high-speed rail (HSR) a kde je nejvíce rozsirien?",
+          "odpoved": "Vysokorychlostni železnice nad 250 km/h; nejvice v Číně (40 000 km sítě), Japonsku (shinkansen), Francii (TGV od 1981), Španělsku; nahrazuje leteckou dopravu do 700 km"
+        },
+        {
+          "otazka": "Jak klima ovlivnuje pristavi dopravu?",
+          "odpoved": "Zamrzajici more = sezonni omezeni (Baltske more, Arktida vs. celorocne otevrene pristavy na Atlantiku a Pacifiku); Murmanská dráha = celorocne na rozdil od St. Petersburgu"
+        },
+        {
+          "otazka": "Co je modal shift a proč je aktualni?",
+          "odpoved": "Přesun nákladů z jednoho dopravniho modu na jiny; EU prosazuje přesun ze silnice na zeleznici a vnitrozemske lodí kvuli snizeni emisi a kongesci"
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Který druh dopravy je nejlevnejsi na tonokm a tvoři zaklad globalniho obchodu?",
+          "moznosti": [
+            "A) Silnicni",
+            "B) Letecka",
+            "C) Namorni",
+            "D) Zeleznicni"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Namorni doprava je nejlevnejsi na tonokm a nejkapacitnejsi - proto se pres ni realizuje asi 90 % svetoveho obchodu. Kontejnerizace (od 50. let) dramaticky snizila naklady na prepravu."
+        },
+        {
+          "otazka": "Co je komplementarita v geografii dopravy?",
+          "moznosti": [
+            "A) Doplnkovost jednotlivych druhů dopravy v ramci multimodalni prepravy",
+            "B) Vzajemna kompenzace prebytkovo a nedostatku mezi odlisnymi oblastmi prostrednictvim dopravy",
+            "C) Geografická dostupnost dopravních uzlu",
+            "D) Dopravni naklady rostouci se vzdálenosti"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Komplementarita = jev, v jehoz ramci si ruzne ekonomicky odlisne oblasti vzajemne kompenzuji sve prebytky a nedostatky vymenu osob, zboží a služeb. Je to zakladni mechanismus, diky které doprava umoznuje funkcionalni propojenost regionu."
+        },
+        {
+          "otazka": "Jaký je nejdelsi zeleznicni tunel na svete?",
+          "moznosti": [
+            "A) Channel Tunnel (UK-Francie)",
+            "B) Seikan Tunnel (Japonsko)",
+            "C) Gotthard Base Tunnel (Svycarsko)",
+            "D) Brenner Base Tunnel (Rakousek-Itálie)"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Gotthard Base Tunnel (Svycarsko) = nejdelsi na svete s 57 km (otevren 2016). Prebil japonsky Seikan (54 km). Resí alpskou barieru a zkracuje cas na trase Milano-Zürich."
+        },
+        {
+          "otazka": "Kde je největší kontejnerovy pristav světa?",
+          "moznosti": [
+            "A) Rotterdam (Niederlándy)",
+            "B) Singapore",
+            "C) Los Angeles (USA)",
+            "D) Shanghai (Čína)"
+          ],
+          "spravna": 3,
+          "vysvetleni": "Shanghai je největší kontejnerovy pristav světa s kapacitou cca 47 mil. TEU rocne. V Evropě je největší Rotterdam - hlavni vstupni brana EU pro zboží z Asie."
+        },
+        {
+          "otazka": "Co je TEU?",
+          "moznosti": [
+            "A) Typ vysokorychlostniho vlaku v Japonsku",
+            "B) Standardni 20-stopý kontejner - merná jednotka kapacity přístavu a lodi",
+            "C) Letecky dopravní uzel (Terminal Equipment Unit)",
+            "D) Merná jednotka dopravních emisí"
+          ],
+          "spravna": 1,
+          "vysvetleni": "TEU = Twenty-foot Equivalent Unit = standardizovany 20-stopý ISO kontejner. Merí kapacitu kontejnerovych lodi a přístavu. Kontejnerizace od 50. let snizila naklady na prepravu o cca 90 % a umoznila rozvoj globalniho obchodu."
+        },
+        {
+          "otazka": "Který druh dopravy ma nejmensi emise CO2 na osobokilometr?",
+          "moznosti": [
+            "A) Letadlo (255 g/osobokm)",
+            "B) Osobni auto (170-200 g/osobokm)",
+            "C) Elektricka železnice (14 g/osobokm)",
+            "D) Autobus (68 g/osobokm)"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Elektrická železnice má nejmensi emise na osobokm (14 g) - je 10-15x uspornejsi nez letadlo a 10x nez auto. Proto EU prosazuje modal shift ze silnice a letecke dopravy na zeleznici."
+        },
+        {
+          "otazka": "Jak Alpy ovlivnuji evropsky dopravní system?",
+          "moznosti": [
+            "A) Tvorí prirozene jadro hustych dopravních sítí bez prekazek",
+            "B) Jsou hlavni geografickou barierou - vyžadují nakladne tunely a mosty",
+            "C) Nemají prakticky zadny vliv - letecka doprava barriery eliminuje",
+            "D) Jsou zdrojem laciné vodní energie pro elektrifikaci zeleznic"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Alpy jsou hlavni prirozena bariery v srdci Evropy. Reseni: Gotthard (57 km), Mont Blanc, Brenner tunely; definuji smery transevropskych dopravních koridoru a zvysuji naklady na prepravu zboží mezi S a J Evropou."
+        },
+        {
+          "otazka": "Jaká je výhoda letecke dopravy oproti namorni?",
+          "moznosti": [
+            "A) Levnejsi preprava na tonokm",
+            "B) Vetsi kapacita pro hromadné zboží",
+            "C) Rychlost - vhodna pro cenne zboží s krátkou trvanlivosti a pro osoby",
+            "D) Mensi emise CO2 na tonokm"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Letecka doprava je mnohonásobne drazsi na tonokm nez namorni, ale je 10-15x rychlejsi. Je vhodna pro: lidi, cenne zboží (elektronika, farmaceutika, diamanty) a zboží s krátkou trvanlivosti (kvetiny z Keni, ryby z Japonska)."
+        },
+        {
+          "otazka": "Co znamena modal shift v dopravní politice?",
+          "moznosti": [
+            "A) Zmena jizdenich planu na zeleznici",
+            "B) Přesun nákladů nebo pasazeru z jednoho druhů dopravy na jiny - typicky ze silnice na zeleznici",
+            "C) Modernizace floty dopravních prostředků",
+            "D) Digitalizace dopravniho systemu"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Modal shift = přesun nákladů nebo pasazeru z jednoho druhů dopravy na jiny. EU prosazuje modal shift ze silnice a letecke dopravy na zeleznici a vnitrozemske vodní cesty kvuli snizeni emisi CO2 a dopravních kongesci."
+        },
+        {
+          "otazka": "Který přírodní faktor je nejvíce limitující pro rozvoj pozemni dopravní sítě?",
+          "moznosti": [
+            "A) Klima (teplota)",
+            "B) Vzdalenost od pobřeží",
+            "C) Reliéf (hory a ricky)",
+            "D) Pudni slozeni"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Reliéf (hory a řeky) je nejdůležitější přírodní faktor limitujici pozemni dopravu. Hory = překážky vyžadují tunely nebo objizdky; nížiny a údolí = preferovane trase. Vliv reliéfu klesa s modernizaci technologiemi (tunely, mosty)."
+        }
+      ]
     }
   ]
 }

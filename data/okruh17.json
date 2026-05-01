@@ -1,6 +1,6 @@
 {
   "id": 17,
-  "nazev": "Okruh 17",
+  "nazev": "Regionální problém, georeliéf a cestovní ruch",
   "podotazky": [
     {
       "pismeno": "A",
@@ -24,13 +24,423 @@
     },
     {
       "pismeno": "C",
-      "zneni": "Na konkrétní formě cestovního ruchu vysvětlete, jak může přispívat k rozvoji regionu.",
+      "zneni": "Zhodnoťte cestovní ruch jako příspěvek k rozvoji regionu. Charakterizujte lokalizační předpoklady cestovního ruchu, formy, životní cyklus destinace a negativní dopady turistiky.",
       "studium": {
-        "sekce": [],
+        "sekce": [
+          {
+            "nadpis": "Definice a základní pojmy cestovního ruchu",
+            "obsah": "Turismus = kombinovany koncept zahrnujici nejen docasny pohyb lidi na misto urceni (destinace), ale take aktivity v destinaci a služby a zarizeni potrebna pro tyto cinnosti.\n\nMotivy ČR: regenerace (rekreace, lazne), poznani (kultura, historie, vzdelani), kontakty (pribuzenstvi, obchod, nabozenstvi).",
+            "tabulka": {
+              "sloupce": [
+                "Pojmy",
+                "Definice"
+              ],
+              "radky": [
+                [
+                  "Destinace (WTO)",
+                  "Geograficky prostor (stat, region, misto), ktery si navstevnik vybyra jako cíl cesty; typicka velka koncentrace atraktivit ČR"
+                ],
+                [
+                  "Navstevnik",
+                  "Turista nebo exkurzionista; turista = pobyt min. 1 noc; exkurzionista = pobyt bez noclehu"
+                ],
+                [
+                  "Domaci ČR",
+                  "Cestovani obcanu vlastního state v ramci vlastniho statu; obvykle 5-10x větší nez mezinárodní"
+                ],
+                [
+                  "Mezinarodni ČR",
+                  "Cestovani pres hranice statu; mereno prijizdovym a vyjezdovym ČR"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Destinace (WTO) → Navstevnik → Domaci ČR → Mezinarodni ČR."
+          },
+          {
+            "nadpis": "Lokalizační předpoklady cestovního ruchu",
+            "obsah": "Lokalizacni predpoklady jsou faktory které urcinaji navstevnost území.\nPřírodní predpoklady:\nSelektivni (socioekonomicke) faktory:- Demograficke: veková struktura, rodiny s detmi vs. seniori\n- Urbanizacní: mestske obyvatelstvo = 40 % kratke rekreace; venkovske = 5-10 %\n- Ekonomicke: disponibilní prí¸jmy a volny cas\n- Infrastruktura: doprava, ubytování, stravování, marketing",
+            "tabulka": {
+              "sloupce": [
+                "Faktor",
+                "Vliv",
+                "Priklady"
+              ],
+              "radky": [
+                [
+                  "Klima",
+                  "Zakladni podminka; teplo a slunce = primorska turistika",
+                  "Stredozemi, Karibik, Thajsko"
+                ],
+                [
+                  "Reliéf",
+                  "Hory = zimni sporty, trekking, VJN",
+                  "Alpy, Tatry, Himaláje"
+                ],
+                [
+                  "Hydrologicke pomery",
+                  "More, jezera, řeky = vodní rekreace",
+                  "Jadran, balaton, Vltava"
+                ],
+                [
+                  "Flora a fauna",
+                  "Ekoturismus, safari",
+                  "Kenya, Kostarika, Galapágy"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Klima → Reliéf → Hydrologicke pomery → Flora a fauna."
+          },
+          {
+            "nadpis": "Formy cestovního ruchu",
+            "obsah": "Dle motivace:\nDle organizace: organizovany (CK) vs. neorganizovany (individualni); volny vs. vázany (prispevky).",
+            "tabulka": {
+              "sloupce": [
+                "Forma",
+                "Motivace",
+                "Příklad destinaci"
+              ],
+              "radky": [
+                [
+                  "Primorsky a vodní ČR",
+                  "Slunce, more, koupani",
+                  "Stredozemi, Karibik, Jadran"
+                ],
+                [
+                  "Horsky a zimni ČR",
+                  "Lyovani, trekking, priroda",
+                  "Alpy, Tatry, Rocky Mountains"
+                ],
+                [
+                  "Kulturni a poznávaci ČR",
+                  "Pamatky, kultura, historia",
+                  "Praha, Rim, Pariz, Peking"
+                ],
+                [
+                  "Ekoturismus",
+                  "Priroda, udrzitelnost, minimalni dopad",
+                  "Kostarika, Nový Zeland, Galapágy"
+                ],
+                [
+                  "Zdravotní a lazenske",
+                  "Lecba, regenerace",
+                  "Karlovy Vary, Baden-Baden, Mariánské Lazne"
+                ],
+                [
+                  "Nabozens. ČR (poutnictvi)",
+                  "Nabozenstvi, duchovnost",
+                  "Mekka, Vatikán, Jeruzalém, Santiago"
+                ],
+                [
+                  "Temny turismus (dark tourism)",
+                  "Mista tragédii, valecne pamatky",
+                  "Auschwitz, Ground Zero, Chernobyl"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Primorsky a vodní ČR → Horsky a zimni ČR → Kulturni a poznávaci ČR → Ekoturismus → Zdravotní a lazenske."
+          },
+          {
+            "nadpis": "Životní cyklus destinace (Butler, 1980)",
+            "obsah": "Destinace prochází predvídatelnymi fázemi vyvoje - Butleruv model R(Af)ORC.",
+            "tabulka": {
+              "sloupce": [
+                "Fáze",
+                "Charakteristika",
+                "Příklad"
+              ],
+              "radky": [
+                [
+                  "Objevovani (Exploration)",
+                  "Male mnozstvi individualnich turistu; zadna infrastruktura",
+                  "Bhutan v 70. letech"
+                ],
+                [
+                  "Zapojeni (Involvement)",
+                  "Mistni podniky zacinaji nabizet služby; propagace",
+                  "Nové horske letovisko"
+                ],
+                [
+                  "Rozvoj (Development)",
+                  "Masovy turismus; externi firmy; ztrata misniho charakteru",
+                  "Barceloneta 90. leta"
+                ],
+                [
+                  "Konsolidace (Consolidation)",
+                  "ČR dominuje ekonomice; popularita klesa",
+                  "Rimini dnes"
+                ],
+                [
+                  "Stagnace (Stagnation)",
+                  "Max. kapacita dosažena; overturismus; ekologicke problémy",
+                  "Benátky soucasnost"
+                ],
+                [
+                  "Úpadek nebo Omlazeni",
+                  "Upadek nebo nova strategie (diversifikace)",
+                  "UK Blackpool = upadek; Marbella = omlazeni"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Objevovani (Exploration) → Zapojeni (Involvement) → Rozvoj (Development) → Konsolidace (Consolidation) → Stagnace (Stagnation)."
+          },
+          {
+            "nadpis": "Cestovní ruch jako nástroj regionálního rozvoje - pozitiva",
+            "obsah": "ČR je významným nástrojem rozvoje regionu, zvláště v oblastech bez průmyslu.\n- Na ČR přímo ekonomicky závisí cca 74 mil. lidi (doprava, ubytování, stravování, zábava)\n- ČR je prostředkem mezinárodní integrace a jednou z cest prosperity pro rozvojove zeme\n- Multiplikacni efekt: 1 turista generuje dalsi aktivitu v doprave, restauracích, obchodech",
+            "tabulka": {
+              "sloupce": [
+                "Prinos",
+                "Příklad"
+              ],
+              "radky": [
+                [
+                  "Zamestnanost",
+                  "Karibik, Stredozemi - ČR = 20-50 % HDP"
+                ],
+                [
+                  "Devizove prijmy",
+                  "Thajsko, Turecko, Spanelsko - hlavni exportni polozka"
+                ],
+                [
+                  "Infrastruktura",
+                  "ČR financuje letiste, silnice, hotely v jinak periferních oblastech"
+                ],
+                [
+                  "Zachovani kulturniho dédictví",
+                  "Restaurace pamatky, UNESCO, zachování tradicnich remesel"
+                ],
+                [
+                  "Venkovský ČR",
+                  "Diverzifikace venkovske ekonomiky mimo zemedelstvi"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Zamestnanost → Devizove prijmy → Infrastruktura → Zachovani kulturniho dédictví → Venkovský ČR."
+          },
+          {
+            "nadpis": "Negativní dopady cestovního ruchu - overturismus a udržitelnost",
+            "obsah": "ČR ma i vyznamne negativni dopady, které se stupnuji s rostem turistickych toků.\n\nReseni: nosna kapacita (carrying capacity), vstupní poplatky, rizeni turistickych toku, slow travel, off-season marketing.",
+            "tabulka": {
+              "sloupce": [
+                "Dopad",
+                "Mechanismus",
+                "Příklad"
+              ],
+              "radky": [
+                [
+                  "Overturismus",
+                  "Prekrocení nosné kapacity; zkraceni kvality zážitku, škoda na pamatech",
+                  "Benátky, Dubrovnik, Praha, Santorini"
+                ],
+                [
+                  "Turismofobia",
+                  "Odpor mistnich obyvatel; demonstrace, omezeni vstupu",
+                  "Barcelony (2017), Benátky - poplatky za vstup"
+                ],
+                [
+                  "Gentrification",
+                  "Airbnb vytlacuje bydlení v centrech; zdrazeni najmu",
+                  "Praha - Stare Město, Amsterdam, Lisabon"
+                ],
+                [
+                  "Ekologicka zatez",
+                  "Znecisteni, odpady, destruction ekosystemu",
+                  "Maya Bay (Thajsko) - uzavrenoost od 2018 do 2022"
+                ],
+                [
+                  "Kulturni trivializace",
+                  "Komercializace kultury; fake traditions, touristy traps",
+                  "Fado v Lisabonu, Flamenco v Sevilleji"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Overturismus → Turismofobia → Gentrification → Ekologicka zatez → Kulturni trivializace."
+          },
+          {
+            "nadpis": "Cestovní ruch v České republice a globální trendy",
+            "obsah": "ČR v ČR ma specifické rysy dané historii a geografii zeme.\nČR v ČR:\nGlobalni trendy ČR:- Europa = 51 % světových arrivals (UNWTO 2019); nasleduje Asie a Pacifik 25 %\n- Nejrychlejsi růst: Stredni Vychod (+8 % 2019), Asie a Pacifik (+4 %)\n- COVID-19 (2020-2022) = největší krize ČR v historii; pokles o 74 % arrivals\n- Obnoveni 2022-2024 - rychle dosažení pre-COVID urovni\n- Trendy: udrzitelný ČR, slow travel, ekoturismus, digitální nomadi",
+            "tabulka": {
+              "sloupce": [
+                "Aspekt",
+                "Data/Popis"
+              ],
+              "radky": [
+                [
+                  "Hlavni destinace",
+                  "Praha (cca 50 % vsech prijizdů), Karlovarsky trojuhelnik, Jihomoravský kraj (vino), Beskydy"
+                ],
+                [
+                  "Problem overturismu",
+                  "Praha - středověké centrum, Airbnb problematika, zdrazeni bytů"
+                ],
+                [
+                  "Potencial venkovského ČR",
+                  "Bile Karpaty, Sumava, Jeseniky - nedostatecne vyuzity"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Hlavni destinace → Problem overturismu → Potencial venkovského ČR."
+          }
+        ],
         "exam_checklist": []
       },
-      "flashcards": [],
-      "kviz": []
+      "flashcards": [
+        {
+          "otazka": "Jaký je rozdil mezi turistou a exkurzionistou?",
+          "odpoved": "Turista = navstevnik ktery stravi min. jednu noc v destinaci; exkurzionista = denní navstevník bez noclehu (např.. výlet z Prahy do Kutné Hory)"
+        },
+        {
+          "otazka": "Na kolik lidí se prima ekonomicka zavislost na ČR odhaduje?",
+          "odpoved": "Cca 74 milionů lidi (doprava, ubytování, stravování, zábava, atd.)"
+        },
+        {
+          "otazka": "Jaký je životní cyklus destinace dle Butlera (1980)?",
+          "odpoved": "Fazemi: Objevovani - Zapojeni - Rozvoj - Konsolidace - Stagnace - Upadek nebo Omlazení (RAFORC/DIRCSO)"
+        },
+        {
+          "otazka": "Co je overturismus a kde se projevuje?",
+          "odpoved": "Prekrocení nosné kapacity destinace; projevuje skodou na pamatech, nizkou kvalitou zážitku, turismofobii; Benátky, Dubrovnik, Praha, Santorini"
+        },
+        {
+          "otazka": "Co je turismofobia?",
+          "odpoved": "Odpor mistnich obyvatel vuci turistum; demonstrace, kampane za omezení poctu turistu; Barcelona (2017), Benátky - zavedeny poplatky za vstup do centra"
+        },
+        {
+          "otazka": "Jaký podíl svetových mezinarodnich arrivals tvori Europa?",
+          "odpoved": "Europa cca 51 % svetovych mezinarodnich arrivals; nasleduje Asie a Pacifik 25 %, Amerika 15 %, Afrika 5 %, Stredni Vychod 4 % (UNWTO 2019)"
+        },
+        {
+          "otazka": "Co jsou selektivni faktory ČR a co zahrnuji?",
+          "odpoved": "Socioekonomické zdroje ovlivnujici ucast obyvatelstva na ČR; zahrnuji: demograficke, urbanizacni, ekonomické faktory a socialne-kulturní podminky"
+        },
+        {
+          "otazka": "Proč je mestske obyvatelstvo aktivnejsi v ČR nez venkovske?",
+          "odpoved": "Kratka vikendová rekreace: 40 % městského vs. 5-10 % venkovskeho obyv. Druhé bydlení = doména městského obyv. (chaty, chalupy); venkovane maji vice prostoru a prirody u domu"
+        },
+        {
+          "otazka": "Co je dark tourism (temnÿ turismus)?",
+          "odpoved": "ČR spojený s místy tragédii, valecnými pamétkami, katastrofami; příklad: Auschwitz, Ground Zero (New York), Chernobyl (Ukraina) = jeden z nejrychleji rostoucích segmentu ČR"
+        },
+        {
+          "otazka": "Jaký je problem Prahy v kontextu ČR?",
+          "odpoved": "Overturismus v historickem centru - cca 50 % vsech prijizdů do ČR; Airbnb vytlacuje bydlení, zdrazeni bytů, turismofobia mezi residents, zahleneni historickeho centra"
+        },
+        {
+          "otazka": "Jaká destinace v ČR ma největší potencial pro lazné a ČR?",
+          "odpoved": "Karlovarsky trojuhelnik (Karlovy Vary, Mariánské Lazne, Frantiskovy Lazne) = jeden z nejznámejsich lazenstych okrshku v Evropě; UNESCO (2021)"
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Co je destinace ČR dle WTO?",
+          "moznosti": [
+            "A) Misto s hotelom nad 4 hvezdy",
+            "B) Geograficky prostor ktery si navstevnik vybira jako cíl cesty s velkou nabidkou atraktivit",
+            "C) Zeme ktera je clenem UNWTO",
+            "D) Region s minimalne 100 000 navstevniky rocne"
+          ],
+          "spravna": 1,
+          "vysvetleni": "WTO definuje destinaci jako geograficky prostor (stat, region, misto) ktery si navstevnik vybira jako cíl cesty; typická je velká koncentrace atraktivit ČR, rozvinuté služby a infrastruktura."
+        },
+        {
+          "otazka": "Jaká cast svetovych mezinarodnich turistickych arrivals smeruje do Evropy?",
+          "moznosti": [
+            "A) 25 %",
+            "B) 38 %",
+            "C) 51 %",
+            "D) 65 %"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Europa prijima cca 51 % svetovych mezinarodnich turistickych arrivals (UNWTO 2019). Druha je Asie a Pacifik s 25 %, tretiː Amerika s 15 %. Europa je nejpopularnejsi turistickou destinaci světa."
+        },
+        {
+          "otazka": "Který region mel nejrychlejsi růst turistickych arrivals v roce 2019 dle UNWTO?",
+          "moznosti": [
+            "A) Europa (+4 %)",
+            "B) Stredni Vychod (+8 %)",
+            "C) Afrika (+2 %)",
+            "D) Amerika (+2 %)"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Stredni Vychod zaznamenal nejrychlejsi růst arrivals v roce 2019 (+8 %), nasledovany Asii a Pacifikem (+4 %) a Evropou (+4 %). Arabske emiraty, Saudska Arabia a Katar agresivne rozvijeji turismus."
+        },
+        {
+          "otazka": "V jake fázi Butlerova životniho cyklu je destinace kdyz je dosažena nosna kapacita a roste overturismus?",
+          "moznosti": [
+            "A) Rozvoj",
+            "B) Konsolidace",
+            "C) Stagnace",
+            "D) Upadek"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Stagnace = maximalni kapacita je dosažena nebo prekrocena; roste overturismus, klesa kvalita zážitku, projevuje se turistická škoda na pamatech. Benátky jsou klasickým příkladem destinace ve fázi stagnace."
+        },
+        {
+          "otazka": "Co je turismofobia?",
+          "moznosti": [
+            "A) Strach z cestovani u nekterych skupin obyvatelstva",
+            "B) Odpor mistnich obyvatel vuci turistum a jejich demonstrace",
+            "C) Fobie z masoveho turismu u individualnich turistu",
+            "D) Obava ze ztráty kulturnich hodnot v destinacich"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Turismofobia = odpor mistnich obyvatel vuci turistum; projevuje se demonstracemi, kampanemi, politickymi rozhodnutimi. Příklad: Barcelona 2017 - demonstrace s transparenty; Benátky - vstupni poplatky; Dubrovnik - omezení lodnich vylety."
+        },
+        {
+          "otazka": "Proč urbaini obyvatelstvo participuje na ČR vice nez venkovske?",
+          "moznosti": [
+            "A) Mestane mají více penez na dopravu",
+            "B) Vesnice blízko prirody - kratka rekreace je snazsi; 40 % mestskych vs. 5-10 % venkovskych",
+            "C) Venkovane mají dovolene v jiném rocnim obdobi",
+            "D) Mestska turistická infrastruktura je lepší"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Krátkodobá vikendová rekreace je doménou mestského obyvatelstva (40 %) vs. venkovského (5-10 %), protoze vesnicané maji prirodu a prostor u domu. Druhe bydlení (chata, chalupa) = typicky městská doména."
+        },
+        {
+          "otazka": "Co je dark tourism (temný ČR)?",
+          "moznosti": [
+            "A) ČR v nocnich hodinach - bars, clubs",
+            "B) ČR spojeny s misty tragédii, katastrofami, valecnymi pamétkami",
+            "C) Ekoturismus v temnych lesich a jeskynich",
+            "D) Underground cestovani bez prukazu a viza"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Dark tourism = turismus spojeny s místy tragédii, katastrofami, valecnymi pamétkami. Priklady: Auschwitz (Polsko), Ground Zero (New York), Chernobyl (Ukraina). Je to jeden z nejrychleji rostoucích segmentu ČR."
+        },
+        {
+          "otazka": "Jak Airbnb ovlivnuje historická města?",
+          "moznosti": [
+            "A) Snizuje naklady na bydlení v městech",
+            "B) Vytlacuje bydlení z center měst, zdrazuje najmy a pfispiva k overturismu",
+            "C) Zvysuje dostupnost města pro nizko-primy turismus",
+            "D) Nema vliv na trh s byty"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Airbnb vytlacuje bydlení z center měst - majitele prevedou byty z dlouhodobého pronajmu na krátkodobe pro turisty (vyssí vynosnost). Snizuje pocet dostupnych bytů pro místní, zdrazuje najmy. Problematic v Praze, Amsterdamu, Lisabonu."
+        },
+        {
+          "otazka": "Jaká je hlavni turistická destinace ČR?",
+          "moznosti": [
+            "A) Brno - druhe největší město",
+            "B) Praha - cca 50 % vsech prijizdů do ČR",
+            "C) Karlovarsky kraj - lazne",
+            "D) Jihomoravský kraj - vinohradnictvi"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Praha je nejnavstevovanejsi destinaci ČR; prijima cca 50 % vsech zahranicnich turistu do ČR. Trpi overturismem v historickem centru. Další destinace: Karlovarsky trojuhelnik (lazne), Jihomoravský kraj (vino, UNESCO - slovácky folklor), Beskydy."
+        },
+        {
+          "otazka": "Jaký multiplikacni efekt ma ČR na ekonomiku regionu?",
+          "moznosti": [
+            "A) ČR nema multiplikacni efekt - penize odplynou zahranicnim hotelum",
+            "B) 1 turista generuje dalsi aktivitu v doprave, restauracich, obchodech, sluzbach",
+            "C) ČR ma negativni multiplikacni efekt kvuli importovany zboži",
+            "D) Multiplikacni efekt je vyhradne v luxusnich destinacich"
+          ],
+          "spravna": 1,
+          "vysvetleni": "ČR ma vyznamny multiplikacni efekt - kazde 1 EUR utracene turistou generuje dalsi aktivitu v navazanych odvetvich (doprava, stravování, obchod, služby). Vytvarí zamestnanost primy i neprime. Proto je ČR vzazne jako nastroj regionalniho rozvoje."
+        }
+      ]
     }
   ]
 }

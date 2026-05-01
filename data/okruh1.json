@@ -1,6 +1,6 @@
 {
   "id": 1,
-  "nazev": "Kartografie, biomy, terénní výuka",
+  "nazev": "Kartografie, biomy a terénní výuka",
   "podotazky": [
     {
       "pismeno": "A",
@@ -11,12 +11,27 @@
             "nadpis": "Definice kartografie",
             "obsah": "Kartografie je vědní obor s dlouhou historií – umění kresby map patří k nejstarším dovednostem člověka. Pojem 'kartografie' se poprvé objevuje v polovině 19. století.",
             "tabulka": {
-              "sloupce": ["Zdroj", "Definice"],
+              "sloupce": [
+                "Zdroj",
+                "Definice"
+              ],
               "radky": [
-                ["OSN 1949", "Věda o sestavování map všech druhů, zahrnuje veškeré operace od počátečního vyměřování až po vydání hotové produkce."],
-                ["ICA 1973", "Umění, věda a technologie vytváření map, včetně jejich studia jako vědeckých dokumentů a uměleckých prací. Za mapy jsou považovány všechny typy map, plány, náčrty, 3D modely a globusy."],
-                ["Sališčev 1976", "Věda o zobrazování a studiu prostorového rozmístění, spojení a vzájemných vazeb jevů přírody a společnosti prostřednictvím kartografických vyobrazení."],
-                ["ČSN 1984", "Vědní obor zabývající se znázorněním zemského povrchu a nebeských těles ve formě kartografického díla a soubor činností při zpracování a využívání map."]
+                [
+                  "OSN 1949",
+                  "Věda o sestavování map všech druhů, zahrnuje veškeré operace od počátečního vyměřování až po vydání hotové produkce."
+                ],
+                [
+                  "ICA 1973",
+                  "Umění, věda a technologie vytváření map, včetně jejich studia jako vědeckých dokumentů a uměleckých prací. Za mapy jsou považovány všechny typy map, plány, náčrty, 3D modely a globusy."
+                ],
+                [
+                  "Sališčev 1976",
+                  "Věda o zobrazování a studiu prostorového rozmístění, spojení a vzájemných vazeb jevů přírody a společnosti prostřednictvím kartografických vyobrazení."
+                ],
+                [
+                  "ČSN 1984",
+                  "Vědní obor zabývající se znázorněním zemského povrchu a nebeských těles ve formě kartografického díla a soubor činností při zpracování a využívání map."
+                ]
               ]
             },
             "mnemotechnika": "Etymologie: řec. chartés (list papyru) + graphein (rýt, psát) → kartografie"
@@ -24,14 +39,30 @@
           {
             "nadpis": "Předmět, objekt a cíl kartografie",
             "tabulka": {
-              "sloupce": ["Co", "Obsah"],
+              "sloupce": [
+                "Co",
+                "Obsah"
+              ],
               "radky": [
-                ["Předmět", "Tvorba a využívání map jako abstraktních modelů prostorového uspořádání skutečnosti"],
-                ["Objekt", "Reálné přírodní i společenské jevy vztahující se k Zemi nebo jiným vesmírným tělesům"],
-                ["Hlavní metody", "Matematické vztahy mezi referenční plochou a jejím obrazem v rovině mapy + jazyk mapy"],
-                ["Cíl", "Objektivní zobrazení skutečnosti pomocí mapy, včetně pozdějších analýz mapového obrazu"]
+                [
+                  "Předmět",
+                  "Tvorba a využívání map jako abstraktních modelů prostorového uspořádání skutečnosti"
+                ],
+                [
+                  "Objekt",
+                  "Reálné přírodní i společenské jevy vztahující se k Zemi nebo jiným vesmírným tělesům"
+                ],
+                [
+                  "Hlavní metody",
+                  "Matematické vztahy mezi referenční plochou a jejím obrazem v rovině mapy + jazyk mapy"
+                ],
+                [
+                  "Cíl",
+                  "Objektivní zobrazení skutečnosti pomocí mapy, včetně pozdějších analýz mapového obrazu"
+                ]
               ]
-            }
+            },
+            "mnemotechnika": "Pořadí: Předmět → Objekt → Hlavní metody → Cíl."
           },
           {
             "nadpis": "Kartografie v systému věd",
@@ -64,21 +95,49 @@
               "1. Kartografická dokumentace – shromažďuje publikovaná kartografická díla",
               "2. Sestavování a redakce map – práce spojené s tvorbou map",
               "3. Kartografická reprodukce – práce nutné k rozmnožení a rozšíření map"
-            ]
+            ],
+            "mnemotechnika": "Klíč: Struktura kartografie – praktická část. Řekni definici, příklad a dopad."
           },
           {
             "nadpis": "Druhy map a jejich využití v praxi",
             "tabulka": {
-              "sloupce": ["Druh mapy", "Využití v praxi"],
+              "sloupce": [
+                "Druh mapy",
+                "Využití v praxi"
+              ],
               "radky": [
-                ["Topografické (obecně zeměpisné)", "Armáda, turistika, územní plánování – ČÚZK vydává v měřítcích 1:10 000 a 1:50 000"],
-                ["Tematické – fyzickogeografické", "Klimatologie, pedologie, hydrologie (povodňové mapy)"],
-                ["Tematické – socioekonomické", "Hustota obyvatelstva, výsledky voleb, dopravní mapy, epidemiologie (COVID)"],
-                ["Katastrální", "Pozemkové právo, stavební povolení"],
-                ["Navigační (letecké, námořní)", "Letectví, lodní doprava"],
-                ["Vzdělávací / školní", "Výuka zeměpisu, atlasy pro ZŠ a SŠ"],
-                ["Vědecké", "Geologické průzkumy, epidemiologický výzkum"],
-                ["Reklamní / turistické", "Cestovní ruch, orientační plány měst"]
+                [
+                  "Topografické (obecně zeměpisné)",
+                  "Armáda, turistika, územní plánování – ČÚZK vydává v měřítcích 1:10 000 a 1:50 000"
+                ],
+                [
+                  "Tematické – fyzickogeografické",
+                  "Klimatologie, pedologie, hydrologie (povodňové mapy)"
+                ],
+                [
+                  "Tematické – socioekonomické",
+                  "Hustota obyvatelstva, výsledky voleb, dopravní mapy, epidemiologie (COVID)"
+                ],
+                [
+                  "Katastrální",
+                  "Pozemkové právo, stavební povolení"
+                ],
+                [
+                  "Navigační (letecké, námořní)",
+                  "Letectví, lodní doprava"
+                ],
+                [
+                  "Vzdělávací / školní",
+                  "Výuka zeměpisu, atlasy pro ZŠ a SŠ"
+                ],
+                [
+                  "Vědecké",
+                  "Geologické průzkumy, epidemiologický výzkum"
+                ],
+                [
+                  "Reklamní / turistické",
+                  "Cestovní ruch, orientační plány měst"
+                ]
               ]
             },
             "mnemotechnika": "Google Maps = hybridní navigační + topografická mapa pro veřejnost. COVID mapy = tematické socioekonomické mapy."
@@ -90,7 +149,8 @@
               "Geografie data sbírá a analyzuje, kartografie je vizualizuje a komunikuje",
               "Umožňuje prostorové myšlení – hledání vzorů v prostoru",
               "Kartografické vyjadřovací prostředky (znaky, barvy, izolinie) = klíč k pochopení geoprostoru"
-            ]
+            ],
+            "mnemotechnika": "Klíč: Kartografie a geografie – vztah. Řekni definici, příklad a dopad."
           }
         ],
         "exam_checklist": [
@@ -198,7 +258,12 @@
         },
         {
           "otazka": "Kolik disciplín tvoří TEORETICKOU část kartografie?",
-          "moznosti": ["3", "4", "5", "6"],
+          "moznosti": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
           "spravna": 3,
           "vysvetleni": "6 disciplín: Metakartografie, Matematická kartografie, Generalizace, Interpretace, Kartometrie, Dějiny kartografie. Mnemotechnika: M-G-I-K-D-M."
         },
@@ -214,7 +279,7 @@
           "vysvetleni": "Topografická (obecně zeměpisná) mapa zobrazuje terén komplexně – výškopis, polohopis, popis. Tematická se zaměřuje na jeden vybraný jev."
         },
         {
-          "otazka": "Mapy šíření COVID-19 jsou příkladem jakého druhu mapy?",
+          "otazka": "Mapy šíření COVID-19 jsou příkladem jakého druhů mapy?",
           "moznosti": [
             "Topografické – navigační",
             "Katastrální – evidenční",
@@ -261,260 +326,539 @@
     },
     {
       "pismeno": "B",
-  "zneni": "S využitím znalostí ekologických pravidel a adaptačních mechanismů organismů popište a srovnejte specifické přírodní podmínky dvou vybraných biomů.",
-  "studium": {
-    "sekce": [
-      {
-        "nadpis": "Základní pojmy: prostředí, faktor, podmínka",
-        "obsah": "Prostředí = souhrn všech vnějších činitelů působících na organismy. Faktor = činitel působící přímo na živé organismy (teplota, vítr, světlo). Podmínka = okolnost statického charakteru, působí nepřímo.",
-        "tabulka": {
-          "sloupce": ["Typ faktoru", "Příklady", "Tolerance"],
-          "radky": [
-            ["Světlo", "viditelné 400–700 nm, UV, IR", "euryfotní / stenofotní"],
-            ["Teplo", "sezónnost, termoregulace", "eurytermní / stenotermní"],
-            ["Voda", "srážky, mlha (Atacama), rosa", "euryhydrické / stenohydrické"],
-            ["Vítr", "anemofylie, anemochorie", "–"],
-            ["Půda (edafické)", "textura, pH, minerály", "petrofyt / psamofyt / pelofyt"]
-          ]
-        },
-        "mnemotechnika": "SVETVO Půda = Světlo, Vítr, Teplo (Warmth), Voda, Půda – pět hlavních abiotických faktorů."
+      "zneni": "S využitím znalostí ekologických pravidel a adaptačních mechanismů organismů popište a srovnejte specifické přírodní podmínky dvou vybraných biomů.",
+      "studium": {
+        "sekce": [
+          {
+            "nadpis": "Základní pojmy: prostředí, faktor, podmínka",
+            "obsah": "Prostředí = souhrn všech vnějších činitelů působících na organismy. Faktor = činitel působící přímo na živé organismy (teplota, vítr, světlo). Podmínka = okolnost statického charakteru, působí nepřímo.",
+            "tabulka": {
+              "sloupce": [
+                "Typ faktorů",
+                "Příklady",
+                "Tolerance"
+              ],
+              "radky": [
+                [
+                  "Světlo",
+                  "viditelné 400–700 nm, UV, IR",
+                  "euryfotní / stenofotní"
+                ],
+                [
+                  "Teplo",
+                  "sezónnost, termoregulace",
+                  "eurytermní / stenotermní"
+                ],
+                [
+                  "Voda",
+                  "srážky, mlha (Atacama), rosa",
+                  "euryhydrické / stenohydrické"
+                ],
+                [
+                  "Vítr",
+                  "anemofylie, anemochorie",
+                  "–"
+                ],
+                [
+                  "Půda (edafické)",
+                  "textura, pH, minerály",
+                  "petrofyt / psamofyt / pelofyt"
+                ]
+              ]
+            },
+            "mnemotechnika": "SVETVO Půda = Světlo, Vítr, Teplo (Warmth), Voda, Půda – pět hlavních abiotických faktorů."
+          },
+          {
+            "nadpis": "Adaptační mechanismy – světlo a teplo",
+            "obsah": "Nároky rostlin na teplo: megatermní >20°C (tropické lesy) / mezotermní 10–20°C (listnaté lesy) / mikrotermní 5–10°C (tajga, tundra). Živočichové: poikilotermní (studenokrevní) = ryby, plazi, obojživelníci – diapauza, anabióza. Homoiotermní (teplokrevní) = ptáci, savci – fyzikální + chemická termoregulace.",
+            "tabulka": {
+              "sloupce": [
+                "Organismus",
+                "Situace",
+                "Adaptace"
+              ],
+              "radky": [
+                [
+                  "Rostliny – nedostatek světla",
+                  "lesní podrost",
+                  "etiolizace, fototropismus (slunečnice), parazitismus (podbílek šupinatý), ztráta pigmentu (chřest)"
+                ],
+                [
+                  "Rostliny – nadbytek světla",
+                  "poušť, alpiny",
+                  "trichomy (chlupy), odrazová vrstva, natáčení listů (eukalyptus), zakrslý růst"
+                ],
+                [
+                  "Živočichové – jeskynní",
+                  "tmavé prostředí",
+                  "ztráta pigmentu: macarát jeskynní, rypoš lysý; bioluminiscence; echolokace (netopýři 14–110 kHz)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Rostliny – nedostatek světla → Rostliny – nadbytek světla → Živočichové – jeskynní."
+          },
+          {
+            "nadpis": "Hibernace a estivace – konkrétní hodnoty",
+            "obsah": "Pravá hibernace: teplota těla klesá téměř k nule. Nepravá hibernace: pokles jen o několik stupňů. Estivace = letní torpor jako reakce na horko.",
+            "tabulka": {
+              "sloupce": [
+                "Typ",
+                "Definice",
+                "Příklady (teplota těla)"
+              ],
+              "radky": [
+                [
+                  "Pravá hibernace",
+                  "Teplota těla klesá téměř k nule",
+                  "Sysel obecný (0,2°C), netopýr rezavý (0,1°C), plch velký (0,2°C), ježek západní (1,3°C)"
+                ],
+                [
+                  "Nepravá hibernace",
+                  "Teplota klesá jen o pár stupňů",
+                  "Medvěd hnědý (31,5°C), medvěd lední (33°C), jezevec"
+                ],
+                [
+                  "Estivace",
+                  "Letní torpor – reakce na horko",
+                  "Pouštní plazi, hmyz (Sahara, australské pouště)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Sysel spi skoro na nule = pravá hibernace. Medvěd jen dřímá = nepravá hibernace."
+          },
+          {
+            "nadpis": "Biogeografická (ekologická) pravidla",
+            "obsah": "Pět klíčových pravidel popisujících vztah mezi klimatem a morfologií/fyziologií živočichů. Platí zejména pro homoiotermní živočichy.",
+            "tabulka": {
+              "sloupce": [
+                "Pravidlo",
+                "Rok",
+                "Obsah",
+                "Příklad"
+              ],
+              "radky": [
+                [
+                  "Bergmannovo",
+                  "1847",
+                  "V chladnějších oblastech jsou jedinci téhož druhů větší (menší poměr povrchu k objemu = méně ztrácejí teplo)",
+                  "Tučňák císařský (Antarktida, 46 kg) vs. tučňák galapážský (rovník, 2,7 kg)"
+                ],
+                [
+                  "Allenovo",
+                  "1878",
+                  "Směrem k pólům se zkracují exponované orgány (uši, ocas, končetiny)",
+                  "Liška podélární (krátká ouška) vs. liška pouštní fennek (velká ouška)"
+                ],
+                [
+                  "Glogerovo",
+                  "–",
+                  "Teplejší a vlhčí klima = tmavší zbarvení (melanismus); platí i u člověka",
+                  "Strnadec zpěvný – tmavší populace v teplých vlhkých regionech"
+                ],
+                [
+                  "Jordanovo",
+                  "1892",
+                  "Počet obratlů mořských ryb roste od tropů k pólům",
+                  "Arktické mořské ryby; není zcela universální"
+                ],
+                [
+                  "Thorsonovo",
+                  "–",
+                  "Mořští bezobratlí: v tropech vývoj nepřímý (larvy), ve vyšších šířkách přímý (mládě = dospělec)",
+                  "Polární bezobratlí mají větší vajíčka, rychlejší růst, živorodost"
+                ]
+              ]
+            },
+            "mnemotechnika": "BAG-JT: Bergmann (Big body), Allen (Appendages zkrácené), Gloger (dark = tmavý), Jordan (joints/obratle), Thorson (přímý vývoj u pólů)."
+          },
+          {
+            "nadpis": "Přehled hlavních biomů světa",
+            "obsah": "Produktivita v jednotkách ×1000 kJ/m²/rok. Nejvyšší: tropický les 40–100. Nejnižší: pouště, tundra, podélární pustina méně než 2.",
+            "tabulka": {
+              "sloupce": [
+                "Biom",
+                "Poloha / Regiony",
+                "Teplota (°C) / Srážky (mm/rok)",
+                "Charakteristické organismy",
+                "Produktivita"
+              ],
+              "radky": [
+                [
+                  "Polární pustina",
+                  "Arktida, Antarktida",
+                  "pod -20 / méně než 250 (sníh)",
+                  "tučňáci, lední medvěd, lišejníky",
+                  "<2"
+                ],
+                [
+                  "Tundra",
+                  "sev. Kanada, Sibiř, sev. Skandinávie",
+                  "-10 až 5 / 150–250; permafrost",
+                  "sob, lemming, bělokur horský, mechy, zakrslá vrba",
+                  "<2"
+                ],
+                [
+                  "Tajga (boreální les)",
+                  "Kanada, Rusko, sev. Skandinávie",
+                  "-5 až 15 / 300–600",
+                  "los, vlk, rys; smrk, borovice, jedle, modřín",
+                  "2–10"
+                ],
+                [
+                  "Step (prérie, pampa)",
+                  "střední Eurasie, S. Amerika, Argentina",
+                  "-5 až 25 / 250–500",
+                  "bizon (Amerika), kůň Przewalského (Asie), orel stepní",
+                  "2–10"
+                ],
+                [
+                  "Opadavé lesy mírného pásu",
+                  "Evropa, vých. USA, Čína, Japonsko",
+                  "5–20 / 600–1500",
+                  "dub, buk, lípa; jelen, srnec, liška",
+                  "10–40"
+                ],
+                [
+                  "Pouště (tropické)",
+                  "Sahara, Arabský poloostrov, Atacama, Austrálie",
+                  "20–45 / méně než 250",
+                  "kaktus (Amerika), euforbije (Afrika), dromedár, ještěrky",
+                  "<2"
+                ],
+                [
+                  "Savana",
+                  "subsaharská Afrika, sev. Austrálie, Brazílie (cerrado)",
+                  "20–35 / 500–1500; 2 sezóny",
+                  "žirafa, slon, lev, zebra, akácie, sloní tráva",
+                  "2–10"
+                ],
+                [
+                  "Tropický deštný les",
+                  "Amazonie, Kongo, Indonésie/Borneo",
+                  "25–30 / více než 2000",
+                  "liána, orchidej, tukan, gorila, orangutan, jaguar",
+                  "40–100"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Polární pustina → Tundra → Tajga (boreální les) → Step (prérie, pampa) → Opadavé lesy mírného pásu."
+          },
+          {
+            "nadpis": "Podrobné srovnání: Tundra vs. Tropický deštný les",
+            "obsah": "Tundra a tropický deštný les představují dva extrémní póly biodiverzity a produktivity. Vhodné pro ilustraci biogeografických pravidel v praxi.",
+            "tabulka": {
+              "sloupce": [
+                "Parametr",
+                "Tundra",
+                "Tropický deštný les"
+              ],
+              "radky": [
+                [
+                  "Zeměpisná poloha",
+                  "60–75° s.š. (Kanada, Sibiř, Skandinávie)",
+                  "0–15° (Amazonie, Kongo, Borneo)"
+                ],
+                [
+                  "Průměrná teplota",
+                  "-5 až 5°C; zima -30°C",
+                  "25–30°C; minimální výkyvy"
+                ],
+                [
+                  "Srážky",
+                  "150–250 mm/rok",
+                  "2000–4000 mm/rok"
+                ],
+                [
+                  "Permafrost",
+                  "ANO",
+                  "NE"
+                ],
+                [
+                  "Vegetace",
+                  "zakrslé keříky, mechy, lišejníky, ostřice; bez stromů",
+                  "vícepatrová: stromy 40–60 m, liány, epifyty, orchideje"
+                ],
+                [
+                  "Adaptace rostlin",
+                  "dormance, anabióza, zakrslý růst, jednoletky",
+                  "velké listy (stín), vzdušné kořeny, mlžná vegetace"
+                ],
+                [
+                  "Typická fauna",
+                  "sob, lemming, lední sova, bělokur",
+                  "jaguar, tukan, gorila, orangutan"
+                ],
+                [
+                  "Adaptace živočichů",
+                  "Bergmannovo + Allenovo pravidlo; hibernace; hustá srst",
+                  "mimikry, pestré zbarvení (Glogerovo pravidlo); vertikální vrstvení nik"
+                ],
+                [
+                  "Primární produktivita",
+                  "méně než 2 (×1000 kJ/m²/rok)",
+                  "40–100 (×1000 kJ/m²/rok)"
+                ],
+                [
+                  "Biodiverzita",
+                  "nízká",
+                  "nejvyšší na Zemi"
+                ],
+                [
+                  "Hlavní hrozba",
+                  "tání permafrostu (uvolnění CH4) při glob. oteplování",
+                  "odlesňování (Amazonie: -20 % plochy od 1970)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Tundra = TICHA (málo druhů, málo srážek, permafrost, Bergmann + Allen). Tropický les = JAVA DŽUNGLE (MAX produktivita, MAX biodiverzita, Glogerovo pravidlo)."
+          },
+          {
+            "nadpis": "Trofické úrovně a energetický tok ekosystémem",
+            "obsah": "Energetické ztráty: rostliny zachytí ~1 % slunce, býložravci využijí 10 % rostlinné energie, masožravci jen 10 % z býložravců. Typy trofických řetězců: pastevně-kořistnický (větší tělo = menší počet), parazitický (hostitel = potrava; tělo menší, počet větší), dekompoziční (jako parazitický).",
+            "tabulka": {
+              "sloupce": [
+                "Trofická úroveň",
+                "Typ",
+                "Příklady"
+              ],
+              "radky": [
+                [
+                  "Producenti",
+                  "autotrofní",
+                  "zelené rostliny, řasy, sinice (fotosyntéza); chemosyntetizující bakterie (hydrotermální průduchy)"
+                ],
+                [
+                  "Konzumenti I. řádu (herbivoři)",
+                  "heterotrofní",
+                  "zebra, bizon, kůň Przewalského, velryba jižní"
+                ],
+                [
+                  "Konzumenti II. řádu (karnivoři)",
+                  "heterotrofní",
+                  "gepard štíhlý, lev africký, vlk"
+                ],
+                [
+                  "Konzumenti III. řádu (omnivoři)",
+                  "heterotrofní",
+                  "medvěd ledový, liška podélární, člověk"
+                ],
+                [
+                  "Dekompozitoři – likvidátoři",
+                  "heterotrofní",
+                  "supi, žížaly, mravenci, termiti – tvorba humusu"
+                ],
+                [
+                  "Dekompozitoři – rozkladači",
+                  "heterotrofní",
+                  "houby, bakterie – mineralizace (anorganické látky)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Producenti → Konzumenti I. řádu (herbivoři) → Konzumenti II. řádu (karnivoři) → Konzumenti III. řádu (omnivoři) → Dekompozitoři – likvidátoři."
+          }
+        ],
+        "exam_checklist": [
+          "Definovat abiotické faktory a uvést příklady (SVETVO Půda)",
+          "Vysvětlit rozdíl poikilotermní vs. homoiotermní",
+          "Vyjmenovat a vysvětlit 5 biogeografických pravidel (BAG-JT) s konkrétními příklady",
+          "Rozlišit pravou a nepravou hibernaci – konkrétní teploty těla",
+          "Popsat 2 vybrané biomy (poloha, teplota, srážky, vegetace, fauna, produktivita)",
+          "Srovnat tundru a tropický deštný les tabulkou",
+          "Vysvětlit trofické úrovně a energetický tok (10% pravidlo)"
+        ]
       },
-      {
-        "nadpis": "Adaptační mechanismy – světlo a teplo",
-        "obsah": "Nároky rostlin na teplo: megatermní >20°C (tropické lesy) / mezotermní 10–20°C (listnaté lesy) / mikrotermní 5–10°C (tajga, tundra). Živočichové: poikilotermní (studenokrevní) = ryby, plazi, obojživelníci – diapauza, anabióza. Homoiotermní (teplokrevní) = ptáci, savci – fyzikální + chemická termoregulace.",
-        "tabulka": {
-          "sloupce": ["Organismus", "Situace", "Adaptace"],
-          "radky": [
-            ["Rostliny – nedostatek světla", "lesní podrost", "etiolizace, fototropismus (slunečnice), parazitismus (podbílek šupinatý), ztráta pigmentu (chřest)"],
-            ["Rostliny – nadbytek světla", "poušť, alpiny", "trichomy (chlupy), odrazová vrstva, natáčení listů (eukalyptus), zakrslý růst"],
-            ["Živočichové – jeskynní", "tmavé prostředí", "ztráta pigmentu: macarát jeskynní, rypoš lysý; bioluminiscence; echolokace (netopýři 14–110 kHz)"]
-          ]
+      "flashcards": [
+        {
+          "otazka": "Co říká Bergmannovo pravidlo? Uveď příklad.",
+          "odpoved": "Živočichové téhož druhů jsou v chladnějších oblastech větší (menší poměr povrchu k objemu = méně ztrácejí teplo). Tučňák císařský (Antarktida, 46 kg) vs. tučňák galapážský (rovník, 2,7 kg)."
+        },
+        {
+          "otazka": "Co říká Allenovo pravidlo? Uveď příklad.",
+          "odpoved": "Směrem k pólům se zkracují exponované orgány (uši, ocas, končetiny). Liška podélární (krátká ouška) vs. liška pouštní fennek (velká ouška)."
+        },
+        {
+          "otazka": "Co říká Glogerovo pravidlo? Vztahuje se i na člověka?",
+          "odpoved": "Teplejší a vlhčí klima → tmavší zbarvení (melanismus). ANO, platí i u člověka."
+        },
+        {
+          "otazka": "Co říká Jordanovo pravidlo a kdy bylo formulováno?",
+          "odpoved": "1892: počet obratlů mořských ryb roste od tropů k pólům. Není zcela universální – liší se dle druhů a populace."
+        },
+        {
+          "otazka": "Co říká Thorsonovo pravidlo?",
+          "odpoved": "Mořští bezobratlí: v tropech vývoj nepřímý (přes larvu), ve vyšších šířkách přímý (mládě podobné dospělci). Polární druhy mají větší vajíčka, rychlejší růst, živorodost."
+        },
+        {
+          "otazka": "Jaký je rozdíl mezi pravou a nepravou hibernací? Uveď příklady s teplotami těla.",
+          "odpoved": "Pravá: teplota klesá k nule – sysel obecný (0,2°C), netopýr rezavý (0,1°C), plch velký (0,2°C). Nepravá: pokles jen o pár stupňů – medvěd hnědý (31,5°C), jezevec."
+        },
+        {
+          "otazka": "Jaká je primární produktivita tropického deštného lesa vs. tundry?",
+          "odpoved": "Tropický les: 40–100 (×1000 kJ/m²/rok) – nejvyšší. Tundra: méně než 2 – stejně nízká jako pouště a hluboký oceán."
+        },
+        {
+          "otazka": "Co je permafrost a kde se vyskytuje?",
+          "odpoved": "Trvale zmrzlá půda typická pro tundru (Kanada, Sibiř, Skandinávie). V létě rozmrzá jen povrchová vrstva. Hrozba: tání při glob. oteplování → uvolnění metanu."
+        },
+        {
+          "otazka": "Jak se liší heliofyty, sciafyty a heliosciafyty?",
+          "odpoved": "Heliofyty = světlomilné (stepní, alpinské, stromy). Sciafyty = stínomilné (lesní podrost). Heliosciafyty = neutrální."
+        },
+        {
+          "otazka": "Co je estivace a čím se liší od hibernace?",
+          "odpoved": "Estivace = klidový stav v létě při horku (pouštní oblasti, plazi). Hibernace = zimní torpor při chladu. Fyziologicky podobné procesy."
+        },
+        {
+          "otazka": "Jak se dělí dekompozitoři a jaká je jejich funkce?",
+          "odpoved": "1) Likvidátoři (supi, žížaly, mravenci) = tvoří humus z mrtvé hmoty. 2) Rozkladači (houby, bakterie) = mineralizace humusu na anorganické látky."
+        },
+        {
+          "otazka": "Jaký je rozdíl mezi savanou a stepí?",
+          "odpoved": "Savana: tropická/subtropická (Afrika, Brazílie), srážky 500–1500 mm, stromy (akácie), zebra, lev. Step: mírný pás (Eurasie, S. Amerika), srážky 250–500 mm, bez stromů, bizon, kůň Przewalského."
+        },
+        {
+          "otazka": "Jaké tři typy trofických řetězců existují?",
+          "odpoved": "1) Pastevně-kořistnický (větší tělo = menší počet). 2) Parazitický (hostitel = potrava; tělo menší, počet větší). 3) Dekompoziční (podobně jako parazitický)."
+        },
+        {
+          "otazka": "Kolik % slunečního záření zachytí rostliny fotosyntézou a kolik % energie využijí herbivoři?",
+          "odpoved": "Rostliny: ~1 % slunce. Herbivoři využijí jen 10 % z rostlinné energie. Masožravci opět jen 10 % z herbivorů."
         }
-      },
-      {
-        "nadpis": "Hibernace a estivace – konkrétní hodnoty",
-        "obsah": "Pravá hibernace: teplota těla klesá téměř k nule. Nepravá hibernace: pokles jen o několik stupňů. Estivace = letní torpor jako reakce na horko.",
-        "tabulka": {
-          "sloupce": ["Typ", "Definice", "Příklady (teplota těla)"],
-          "radky": [
-            ["Pravá hibernace", "Teplota těla klesá téměř k nule", "Sysel obecný (0,2°C), netopýr rezavý (0,1°C), plch velký (0,2°C), ježek západní (1,3°C)"],
-            ["Nepravá hibernace", "Teplota klesá jen o pár stupňů", "Medvěd hnědý (31,5°C), medvěd lední (33°C), jezevec"],
-            ["Estivace", "Letní torpor – reakce na horko", "Pouštní plazi, hmyz (Sahara, australské pouště)"]
-          ]
+      ],
+      "kviz": [
+        {
+          "otazka": "Bergmannovo pravidlo říká, že živočichové v chladnějších oblastech jsou:",
+          "moznosti": [
+            "A) menší",
+            "B) větší",
+            "C) světlejší",
+            "D) tmavší"
+          ],
+          "spravna": "B",
+          "vysvetleni": "Bergmannovo pravidlo (1847): větší tělo = menší poměr povrchu k objemu = méně ztrácí teplo. Tučňák císařský (Antarktida, 46 kg) vs. tučňák galapážský (2,7 kg)."
         },
-        "mnemotechnika": "Sysel spi skoro na nule = pravá hibernace. Medvěd jen dřímá = nepravá hibernace."
-      },
-      {
-        "nadpis": "Biogeografická (ekologická) pravidla",
-        "obsah": "Pět klíčových pravidel popisujících vztah mezi klimatem a morfologií/fyziologií živočichů. Platí zejména pro homoiotermní živočichy.",
-        "tabulka": {
-          "sloupce": ["Pravidlo", "Rok", "Obsah", "Příklad"],
-          "radky": [
-            ["Bergmannovo", "1847", "V chladnějších oblastech jsou jedinci téhož druhu větší (menší poměr povrchu k objemu = méně ztrácejí teplo)", "Tučňák císařský (Antarktida, 46 kg) vs. tučňák galapážský (rovník, 2,7 kg)"],
-            ["Allenovo", "1878", "Směrem k pólům se zkracují exponované orgány (uši, ocas, končetiny)", "Liška polární (krátká ouška) vs. liška pouštní fennek (velká ouška)"],
-            ["Glogerovo", "–", "Teplejší a vlhčí klima = tmavší zbarvení (melanismus); platí i u člověka", "Strnadec zpěvný – tmavší populace v teplých vlhkých regionech"],
-            ["Jordanovo", "1892", "Počet obratlů mořských ryb roste od tropů k pólům", "Arktické mořské ryby; není zcela universální"],
-            ["Thorsonovo", "–", "Mořští bezobratlí: v tropech vývoj nepřímý (larvy), ve vyšších šířkách přímý (mládě = dospělec)", "Polární bezobratlí mají větší vajíčka, rychlejší růst, živorodost"]
-          ]
+        {
+          "otazka": "Allenovo pravidlo se týká:",
+          "moznosti": [
+            "A) velikosti těla v závislosti na zeměpisné šířce",
+            "B) délky exponovaných orgánů v závislosti na zeměpisné šířce",
+            "C) zbarvení v závislosti na vlhkosti",
+            "D) počtu obratlů u mořských ryb"
+          ],
+          "spravna": "B",
+          "vysvetleni": "Allenovo pravidlo (1878): směrem k pólům se zkracují exponované orgány. Liška podélární má krátká ouška, liška fennek (poušť) má ouška velká."
         },
-        "mnemotechnika": "BAG-JT: Bergmann (Big body), Allen (Appendages zkrácené), Gloger (dark = tmavý), Jordan (joints/obratle), Thorson (přímý vývoj u pólů)."
-      },
-      {
-        "nadpis": "Přehled hlavních biomů světa",
-        "obsah": "Produktivita v jednotkách ×1000 kJ/m²/rok. Nejvyšší: tropický les 40–100. Nejnižší: pouště, tundra, polární pustina méně než 2.",
-        "tabulka": {
-          "sloupce": ["Biom", "Poloha / Regiony", "Teplota (°C) / Srážky (mm/rok)", "Charakteristické organismy", "Produktivita"],
-          "radky": [
-            ["Polární pustina", "Arktida, Antarktida", "pod -20 / méně než 250 (sníh)", "tučňáci, lední medvěd, lišejníky", "<2"],
-            ["Tundra", "sev. Kanada, Sibiř, sev. Skandinávie", "-10 až 5 / 150–250; permafrost", "sob, lemming, bělokur horský, mechy, zakrslá vrba", "<2"],
-            ["Tajga (boreální les)", "Kanada, Rusko, sev. Skandinávie", "-5 až 15 / 300–600", "los, vlk, rys; smrk, borovice, jedle, modřín", "2–10"],
-            ["Step (prérie, pampa)", "střední Eurasie, S. Amerika, Argentina", "-5 až 25 / 250–500", "bizon (Amerika), kůň Przewalského (Asie), orel stepní", "2–10"],
-            ["Opadavé lesy mírného pásu", "Evropa, vých. USA, Čína, Japonsko", "5–20 / 600–1500", "dub, buk, lípa; jelen, srnec, liška", "10–40"],
-            ["Pouště (tropické)", "Sahara, Arabský poloostrov, Atacama, Austrálie", "20–45 / méně než 250", "kaktus (Amerika), euforbije (Afrika), dromedár, ještěrky", "<2"],
-            ["Savana", "subsaharská Afrika, sev. Austrálie, Brazílie (cerrado)", "20–35 / 500–1500; 2 sezóny", "žirafa, slon, lev, zebra, akácie, sloní tráva", "2–10"],
-            ["Tropický deštný les", "Amazonie, Kongo, Indonésie/Borneo", "25–30 / více než 2000", "liána, orchidej, tukan, gorila, orangutan, jaguar", "40–100"]
-          ]
+        {
+          "otazka": "Která dvojice biomů má NEJNIŽŠÍ primární produktivitu?",
+          "moznosti": [
+            "A) Tropický deštný les a savana",
+            "B) Opadavé lesy mírného pásu a step",
+            "C) Tundra a podélární pustina",
+            "D) Tajga a opadavé lesy"
+          ],
+          "spravna": "C",
+          "vysvetleni": "Tundra i podélární pustina mají produktivitu méně než 2 (×1000 kJ/m²/rok), stejně jako pouště a hluboký oceán."
+        },
+        {
+          "otazka": "Pravou hibernací s teplotou těla blízko nuly prochází:",
+          "moznosti": [
+            "A) medvěd hnědý (31,5°C)",
+            "B) sysel obecný (0,2°C)",
+            "C) jezevec",
+            "D) vlk"
+          ],
+          "spravna": "B",
+          "vysvetleni": "Pravá hibernace: sysel obecný (0,2°C), netopýr rezavý (0,1°C), plch velký (0,2°C). Medvěd hnědý má nepravou hibernaci (31,5°C)."
+        },
+        {
+          "otazka": "Thorsonovo pravidlo popisuje:",
+          "moznosti": [
+            "A) zbarvení mořských živočichů podle klimatu",
+            "B) změnu vývoje mořských bezobratlých od tropů k pólům",
+            "C) počet obratlů mořských ryb",
+            "D) velikost vajíček ptáků v závislosti na zeměpisné šířce"
+          ],
+          "spravna": "B",
+          "vysvetleni": "V tropech vývoj nepřímý (přes larvu), ve vyšších šířkách přímý (mládě = dospělec). Polární druhy mají větší vajíčka a jsou živorodí."
+        },
+        {
+          "otazka": "Sukulenty (kaktusy, agáve) jsou příkladem adaptace rostlin na:",
+          "moznosti": [
+            "A) nedostatek světla",
+            "B) nadbytek vody",
+            "C) nedostatek vody",
+            "D) extrémní chlad"
+          ],
+          "spravna": "C",
+          "vysvetleni": "Sukulenty ukládají vodu v pletivech (až 98 % hmotnosti těla) jako adaptaci na aridní podmínky pouští."
+        },
+        {
+          "otazka": "Který biom má nejvyšší biodiverzitu na Zemi?",
+          "moznosti": [
+            "A) Opadavé lesy mírného pásu",
+            "B) Tajga",
+            "C) Tropický deštný les",
+            "D) Savana"
+          ],
+          "spravna": "C",
+          "vysvetleni": "Tropický deštný les (Amazonie, Kongo, Borneo) – stálá teplota 25–30°C, srážky >2000 mm. Nejvyšší druhová diverzita na Zemi."
+        },
+        {
+          "otazka": "Permafrost je typický pro:",
+          "moznosti": [
+            "A) tropický deštný les",
+            "B) tundru",
+            "C) step",
+            "D) poloarktické pouště"
+          ],
+          "spravna": "B",
+          "vysvetleni": "Permafrost = trvale zmrzlá půda v tundře (Sibiř, sev. Kanada, Skandinávie). Hrozba: tání při globálním oteplování → uvolnění metanu."
+        },
+        {
+          "otazka": "Organismy zvané likvidátoři (supi, žížaly, mravenci) v ekosystému:",
+          "moznosti": [
+            "A) jsou primárními producenty",
+            "B) jsou konzumenty II. řádu",
+            "C) tvoří humus z mrtvé hmoty",
+            "D) provádějí mineralizaci humusu na anorganické látky"
+          ],
+          "spravna": "C",
+          "vysvetleni": "Likvidátoři tvoří humus. Mineralizaci (rozklad humusu na anorganické látky) provádějí rozkladači – houby a bakterie."
+        },
+        {
+          "otazka": "Jaká je správná charakteristika tajgy?",
+          "moznosti": [
+            "A) Tropický les bez stromů, srážky >2000 mm",
+            "B) Boreální jehličnatý les, teplota -5 až 15°C, srážky 300–600 mm",
+            "C) Tropická travnatá vegetace s akáciemi",
+            "D) Mírný les opadavých stromů, teplota 5–20°C"
+          ],
+          "spravna": "B",
+          "vysvetleni": "Tajga (boreální les) roste v Kanadě, Rusku, sev. Skandinávii. Jehličnany (smrk, borovice, jedle, modřín), los, vlk, rys."
+        },
+        {
+          "otazka": "Kolik % dopadajícího slunečního záření rostliny využijí fotosyntézou?",
+          "moznosti": [
+            "A) 10 %",
+            "B) 5 %",
+            "C) přibližně 1 %",
+            "D) 30 %"
+          ],
+          "spravna": "C",
+          "vysvetleni": "Fotosyntéza: ~1 % dopadajícího světla. 70 % spotřebuje transpirace, 29 % se mění v teplo."
+        },
+        {
+          "otazka": "Savana se od stepi liší tím, že:",
+          "moznosti": [
+            "A) savana je v mírném pásu, step v tropickém",
+            "B) savana má stromy (akácie) a leží v tropech/subtropech, step je bezlesá v mírném pásu",
+            "C) savana nemá velkou faunu, step je bohatá na živočichy",
+            "D) step má vyšší produktivitu než savana"
+          ],
+          "spravna": "B",
+          "vysvetleni": "Savana: tropická/subtropická (Afrika, Brazílie), akácie, zebra, lev. Step: mírný pás (Eurasie, S. Amerika), bez stromů, bizon, kůň Przewalského."
         }
-      },
-      {
-        "nadpis": "Podrobné srovnání: Tundra vs. Tropický deštný les",
-        "obsah": "Tundra a tropický deštný les představují dva extrémní póly biodiverzity a produktivity. Vhodné pro ilustraci biogeografických pravidel v praxi.",
-        "tabulka": {
-          "sloupce": ["Parametr", "Tundra", "Tropický deštný les"],
-          "radky": [
-            ["Zeměpisná poloha", "60–75° s.š. (Kanada, Sibiř, Skandinávie)", "0–15° (Amazonie, Kongo, Borneo)"],
-            ["Průměrná teplota", "-5 až 5°C; zima -30°C", "25–30°C; minimální výkyvy"],
-            ["Srážky", "150–250 mm/rok", "2000–4000 mm/rok"],
-            ["Permafrost", "ANO", "NE"],
-            ["Vegetace", "zakrslé keříky, mechy, lišejníky, ostřice; bez stromů", "vícepatrová: stromy 40–60 m, liány, epifyty, orchideje"],
-            ["Adaptace rostlin", "dormance, anabióza, zakrslý růst, jednoletky", "velké listy (stín), vzdušné kořeny, mlžná vegetace"],
-            ["Typická fauna", "sob, lemming, lední sova, bělokur", "jaguar, tukan, gorila, orangutan"],
-            ["Adaptace živočichů", "Bergmannovo + Allenovo pravidlo; hibernace; hustá srst", "mimikry, pestré zbarvení (Glogerovo pravidlo); vertikální vrstvení nik"],
-            ["Primární produktivita", "méně než 2 (×1000 kJ/m²/rok)", "40–100 (×1000 kJ/m²/rok)"],
-            ["Biodiverzita", "nízká", "nejvyšší na Zemi"],
-            ["Hlavní hrozba", "tání permafrostu (uvolnění CH4) při glob. oteplování", "odlesňování (Amazonie: -20 % plochy od 1970)"]
-          ]
-        },
-        "mnemotechnika": "Tundra = TICHA (málo druhů, málo srážek, permafrost, Bergmann + Allen). Tropický les = JAVA DŽUNGLE (MAX produktivita, MAX biodiverzita, Glogerovo pravidlo)."
-      },
-      {
-        "nadpis": "Trofické úrovně a energetický tok ekosystémem",
-        "obsah": "Energetické ztráty: rostliny zachytí ~1 % slunce, býložravci využijí 10 % rostlinné energie, masožravci jen 10 % z býložravců. Typy trofických řetězců: pastevně-kořistnický (větší tělo = menší počet), parazitický (hostitel = potrava; tělo menší, počet větší), dekompoziční (jako parazitický).",
-        "tabulka": {
-          "sloupce": ["Trofická úroveň", "Typ", "Příklady"],
-          "radky": [
-            ["Producenti", "autotrofní", "zelené rostliny, řasy, sinice (fotosyntéza); chemosyntetizující bakterie (hydrotermální průduchy)"],
-            ["Konzumenti I. řádu (herbivoři)", "heterotrofní", "zebra, bizon, kůň Przewalského, velryba jižní"],
-            ["Konzumenti II. řádu (karnivoři)", "heterotrofní", "gepard štíhlý, lev africký, vlk"],
-            ["Konzumenti III. řádu (omnivoři)", "heterotrofní", "medvěd ledový, liška polární, člověk"],
-            ["Dekompozitoři – likvidátoři", "heterotrofní", "supi, žížaly, mravenci, termiti – tvorba humusu"],
-            ["Dekompozitoři – rozkladači", "heterotrofní", "houby, bakterie – mineralizace (anorganické látky)"]
-          ]
-        }
-      }
-    ],
-    "exam_checklist": [
-      "Definovat abiotické faktory a uvést příklady (SVETVO Půda)",
-      "Vysvětlit rozdíl poikilotermní vs. homoiotermní",
-      "Vyjmenovat a vysvětlit 5 biogeografických pravidel (BAG-JT) s konkrétními příklady",
-      "Rozlišit pravou a nepravou hibernaci – konkrétní teploty těla",
-      "Popsat 2 vybrané biomy (poloha, teplota, srážky, vegetace, fauna, produktivita)",
-      "Srovnat tundru a tropický deštný les tabulkou",
-      "Vysvětlit trofické úrovně a energetický tok (10% pravidlo)"
-    ]
-  },
-  "flashcards": [
-    {
-      "otazka": "Co říká Bergmannovo pravidlo? Uveď příklad.",
-      "odpoved": "Živočichové téhož druhu jsou v chladnějších oblastech větší (menší poměr povrchu k objemu = méně ztrácejí teplo). Tučňák císařský (Antarktida, 46 kg) vs. tučňák galapážský (rovník, 2,7 kg)."
-    },
-    {
-      "otazka": "Co říká Allenovo pravidlo? Uveď příklad.",
-      "odpoved": "Směrem k pólům se zkracují exponované orgány (uši, ocas, končetiny). Liška polární (krátká ouška) vs. liška pouštní fennek (velká ouška)."
-    },
-    {
-      "otazka": "Co říká Glogerovo pravidlo? Vztahuje se i na člověka?",
-      "odpoved": "Teplejší a vlhčí klima → tmavší zbarvení (melanismus). ANO, platí i u člověka."
-    },
-    {
-      "otazka": "Co říká Jordanovo pravidlo a kdy bylo formulováno?",
-      "odpoved": "1892: počet obratlů mořských ryb roste od tropů k pólům. Není zcela universální – liší se dle druhu a populace."
-    },
-    {
-      "otazka": "Co říká Thorsonovo pravidlo?",
-      "odpoved": "Mořští bezobratlí: v tropech vývoj nepřímý (přes larvu), ve vyšších šířkách přímý (mládě podobné dospělci). Polární druhy mají větší vajíčka, rychlejší růst, živorodost."
-    },
-    {
-      "otazka": "Jaký je rozdíl mezi pravou a nepravou hibernací? Uveď příklady s teplotami těla.",
-      "odpoved": "Pravá: teplota klesá k nule – sysel obecný (0,2°C), netopýr rezavý (0,1°C), plch velký (0,2°C). Nepravá: pokles jen o pár stupňů – medvěd hnědý (31,5°C), jezevec."
-    },
-    {
-      "otazka": "Jaká je primární produktivita tropického deštného lesa vs. tundry?",
-      "odpoved": "Tropický les: 40–100 (×1000 kJ/m²/rok) – nejvyšší. Tundra: méně než 2 – stejně nízká jako pouště a hluboký oceán."
-    },
-    {
-      "otazka": "Co je permafrost a kde se vyskytuje?",
-      "odpoved": "Trvale zmrzlá půda typická pro tundru (Kanada, Sibiř, Skandinávie). V létě rozmrzá jen povrchová vrstva. Hrozba: tání při glob. oteplování → uvolnění metanu."
-    },
-    {
-      "otazka": "Jak se liší heliofyty, sciafyty a heliosciafyty?",
-      "odpoved": "Heliofyty = světlomilné (stepní, alpinské, stromy). Sciafyty = stínomilné (lesní podrost). Heliosciafyty = neutrální."
-    },
-    {
-      "otazka": "Co je estivace a čím se liší od hibernace?",
-      "odpoved": "Estivace = klidový stav v létě při horku (pouštní oblasti, plazi). Hibernace = zimní torpor při chladu. Fyziologicky podobné procesy."
-    },
-    {
-      "otazka": "Jak se dělí dekompozitoři a jaká je jejich funkce?",
-      "odpoved": "1) Likvidátoři (supi, žížaly, mravenci) = tvoří humus z mrtvé hmoty. 2) Rozkladači (houby, bakterie) = mineralizace humusu na anorganické látky."
-    },
-    {
-      "otazka": "Jaký je rozdíl mezi savanou a stepí?",
-      "odpoved": "Savana: tropická/subtropická (Afrika, Brazílie), srážky 500–1500 mm, stromy (akácie), zebra, lev. Step: mírný pás (Eurasie, S. Amerika), srážky 250–500 mm, bez stromů, bizon, kůň Przewalského."
-    },
-    {
-      "otazka": "Jaké tři typy trofických řetězců existují?",
-      "odpoved": "1) Pastevně-kořistnický (větší tělo = menší počet). 2) Parazitický (hostitel = potrava; tělo menší, počet větší). 3) Dekompoziční (podobně jako parazitický)."
-    },
-    {
-      "otazka": "Kolik % slunečního záření zachytí rostliny fotosyntézou a kolik % energie využijí herbivoři?",
-      "odpoved": "Rostliny: ~1 % slunce. Herbivoři využijí jen 10 % z rostlinné energie. Masožravci opět jen 10 % z herbivorů."
-    }
-  ],
-  "kviz": [
-    {
-      "otazka": "Bergmannovo pravidlo říká, že živočichové v chladnějších oblastech jsou:",
-      "moznosti": ["A) menší", "B) větší", "C) světlejší", "D) tmavší"],
-      "spravna": "B",
-      "vysvetleni": "Bergmannovo pravidlo (1847): větší tělo = menší poměr povrchu k objemu = méně ztrácí teplo. Tučňák císařský (Antarktida, 46 kg) vs. tučňák galapážský (2,7 kg)."
-    },
-    {
-      "otazka": "Allenovo pravidlo se týká:",
-      "moznosti": ["A) velikosti těla v závislosti na zeměpisné šířce", "B) délky exponovaných orgánů v závislosti na zeměpisné šířce", "C) zbarvení v závislosti na vlhkosti", "D) počtu obratlů u mořských ryb"],
-      "spravna": "B",
-      "vysvetleni": "Allenovo pravidlo (1878): směrem k pólům se zkracují exponované orgány. Liška polární má krátká ouška, liška fennek (poušť) má ouška velká."
-    },
-    {
-      "otazka": "Která dvojice biomů má NEJNIŽŠÍ primární produktivitu?",
-      "moznosti": ["A) Tropický deštný les a savana", "B) Opadavé lesy mírného pásu a step", "C) Tundra a polární pustina", "D) Tajga a opadavé lesy"],
-      "spravna": "C",
-      "vysvetleni": "Tundra i polární pustina mají produktivitu méně než 2 (×1000 kJ/m²/rok), stejně jako pouště a hluboký oceán."
-    },
-    {
-      "otazka": "Pravou hibernací s teplotou těla blízko nuly prochází:",
-      "moznosti": ["A) medvěd hnědý (31,5°C)", "B) sysel obecný (0,2°C)", "C) jezevec", "D) vlk"],
-      "spravna": "B",
-      "vysvetleni": "Pravá hibernace: sysel obecný (0,2°C), netopýr rezavý (0,1°C), plch velký (0,2°C). Medvěd hnědý má nepravou hibernaci (31,5°C)."
-    },
-    {
-      "otazka": "Thorsonovo pravidlo popisuje:",
-      "moznosti": ["A) zbarvení mořských živočichů podle klimatu", "B) změnu vývoje mořských bezobratlých od tropů k pólům", "C) počet obratlů mořských ryb", "D) velikost vajíček ptáků v závislosti na zeměpisné šířce"],
-      "spravna": "B",
-      "vysvetleni": "V tropech vývoj nepřímý (přes larvu), ve vyšších šířkách přímý (mládě = dospělec). Polární druhy mají větší vajíčka a jsou živorodí."
-    },
-    {
-      "otazka": "Sukulenty (kaktusy, agáve) jsou příkladem adaptace rostlin na:",
-      "moznosti": ["A) nedostatek světla", "B) nadbytek vody", "C) nedostatek vody", "D) extrémní chlad"],
-      "spravna": "C",
-      "vysvetleni": "Sukulenty ukládají vodu v pletivech (až 98 % hmotnosti těla) jako adaptaci na aridní podmínky pouští."
-    },
-    {
-      "otazka": "Který biom má nejvyšší biodiverzitu na Zemi?",
-      "moznosti": ["A) Opadavé lesy mírného pásu", "B) Tajga", "C) Tropický deštný les", "D) Savana"],
-      "spravna": "C",
-      "vysvetleni": "Tropický deštný les (Amazonie, Kongo, Borneo) – stálá teplota 25–30°C, srážky >2000 mm. Nejvyšší druhová diverzita na Zemi."
-    },
-    {
-      "otazka": "Permafrost je typický pro:",
-      "moznosti": ["A) tropický deštný les", "B) tundru", "C) step", "D) poloarktické pouště"],
-      "spravna": "B",
-      "vysvetleni": "Permafrost = trvale zmrzlá půda v tundře (Sibiř, sev. Kanada, Skandinávie). Hrozba: tání při globálním oteplování → uvolnění metanu."
-    },
-    {
-      "otazka": "Organismy zvané likvidátoři (supi, žížaly, mravenci) v ekosystému:",
-      "moznosti": ["A) jsou primárními producenty", "B) jsou konzumenty II. řádu", "C) tvoří humus z mrtvé hmoty", "D) provádějí mineralizaci humusu na anorganické látky"],
-      "spravna": "C",
-      "vysvetleni": "Likvidátoři tvoří humus. Mineralizaci (rozklad humusu na anorganické látky) provádějí rozkladači – houby a bakterie."
-    },
-    {
-      "otazka": "Jaká je správná charakteristika tajgy?",
-      "moznosti": ["A) Tropický les bez stromů, srážky >2000 mm", "B) Boreální jehličnatý les, teplota -5 až 15°C, srážky 300–600 mm", "C) Tropická travnatá vegetace s akáciemi", "D) Mírný les opadavých stromů, teplota 5–20°C"],
-      "spravna": "B",
-      "vysvetleni": "Tajga (boreální les) roste v Kanadě, Rusku, sev. Skandinávii. Jehličnany (smrk, borovice, jedle, modřín), los, vlk, rys."
-    },
-    {
-      "otazka": "Kolik % dopadajícího slunečního záření rostliny využijí fotosyntézou?",
-      "moznosti": ["A) 10 %", "B) 5 %", "C) přibližně 1 %", "D) 30 %"],
-      "spravna": "C",
-      "vysvetleni": "Fotosyntéza: ~1 % dopadajícího světla. 70 % spotřebuje transpirace, 29 % se mění v teplo."
-    },
-    {
-      "otazka": "Savana se od stepi liší tím, že:",
-      "moznosti": ["A) savana je v mírném pásu, step v tropickém", "B) savana má stromy (akácie) a leží v tropech/subtropech, step je bezlesá v mírném pásu", "C) savana nemá velkou faunu, step je bohatá na živočichy", "D) step má vyšší produktivitu než savana"],
-      "spravna": "B",
-      "vysvetleni": "Savana: tropická/subtropická (Afrika, Brazílie), akácie, zebra, lev. Step: mírný pás (Eurasie, S. Amerika), bez stromů, bizon, kůň Przewalského."
-    }
-  ]
+      ]
     },
     {
       "pismeno": "C",

@@ -1,6 +1,6 @@
 {
   "id": 12,
-  "nazev": "Okruh 12",
+  "nazev": "Pohyby Země, počasí a průmysl",
   "podotazky": [
     {
       "pismeno": "A",
@@ -19,7 +19,7 @@
           },
           {
             "nadpis": "Ostatní pohyby Země",
-            "obsah": "Precese: kuželový pohyb zemské osy (jako roztočená káča). Způsobena gravitací Měsíce a Slunce. Perioda: ~26 000 let. Mění polohu jarního bodu.\n\nNutace: malé kolísavé pohyby osy (periodická změna gravitace Měsíce). Perioda: 18,6 roku.\n\nOběh se Měsícem: Země a Měsíc obíhají kolem společného těžiště – barycentra (cca 4700 km od středu Země).\n\nPohyb se Sluneční soustavou: Slunce se pohybuje v Galaxii, unáší s sebou Zemi.",
+            "obsah": "Precese: kuželový pohyb zemské osy (jako roztočená káča). Způsobena gravitací Měsíce a Slunce. Perioda: ~26 000 let. Mění poloh jarního bodu.\n\nNutace: malé kolísavé pohyby osy (periodická změna gravitace Měsíce). Perioda: 18,6 roku.\n\nOběh se Měsícem: Země a Měsíc obíhají kolem společného těžiště – barycentra (cca 4700 km od středu Země).\n\nPohyb se Sluneční soustavou: Slunce se pohybuje v Galaxii, unáší s sebou Zemi.",
             "mnemotechnika": "PrecNut = Precese (26 tis. let, osa jako káča) + Nutace (18,6 roku, menší kývání)"
           },
           {
@@ -185,23 +185,996 @@
     },
     {
       "pismeno": "B",
-      "zneni": "Popište meteorologické charakteristiky a jejich geografické rozložení ve světě.",
+      "zneni": "Charakterizujte meteorologické charakteristiky (ty, které měříme na profesionálních meteorologických stanicích) a popište možnosti jejich měření. Následně si vyberte dva z nich a s pomocí atlasu vysvětlete jejich geografické rozložení na světě.",
       "studium": {
-        "sekce": [],
+        "sekce": [
+          {
+            "nadpis": "1. Přehled meteorologických prvků a jejich měření",
+            "obsah": "Pomůcka pro výčet prvků: TiViTlaSrVíObZaDo = Teplota, Vlhkost, Tlak, Srážky, Vítr (rychlost + směr), Oblačnost, Záření, Dohlednost",
+            "tabulka": {
+              "sloupce": [
+                "Prvek",
+                "Jednotka",
+                "Přístroj / metoda",
+                "Výška / podmínky měření"
+              ],
+              "radky": [
+                [
+                  "Teplota vzduchu",
+                  "°C, K",
+                  "Teploměr (rtuťový, odporový, bimetalový); automatické stanice",
+                  "2 m nad zemí (přízemní teplota); ve stínu, v meteorologické budce"
+                ],
+                [
+                  "Vlhkost vzduchu",
+                  "% (relativní), g/m³ (abs.)",
+                  "Vlasový vlhkoměr, psychrometr (suchý + mokrý teploměr), kapacitní čidlo",
+                  "2 m nad zemí; ve stínu"
+                ],
+                [
+                  "Atmosférický tlak",
+                  "hPa (mbar, mm Hg)",
+                  "Rtuťový barometr, aneroid (kovový), tlakoměrné čidlo",
+                  "Přepočítává se na hladinu moře; průměr 1013,27 hPa"
+                ],
+                [
+                  "Srážky",
+                  "mm (= l/m²)",
+                  "Srážkoměr (ombrometr), totalizátor; radar",
+                  "Otvor 1 m nad zemí; 1 mm = 1 litr na 1 m²"
+                ],
+                [
+                  "Rychlost větru",
+                  "m/s, km/h, Beaufort",
+                  "Anemometr (miskovitý, ultrazvukový), anemograf (zápis)",
+                  "10 m nad zemí (standardní výška pro porovnání)"
+                ],
+                [
+                  "Směr větru",
+                  "stupně (°), světové strany",
+                  "Větrná korouhev (vána), elektronický snímač",
+                  "10 m nad zemí; udává se odkud vítr vane"
+                ],
+                [
+                  "Oblačnost",
+                  "desetiny (klimatologie) / osminy (synoptika)",
+                  "Vizuální pozorování; ceilometr (laserový výškoměr základny oblaků)",
+                  "0 = jasno, 10/10 nebo 8/8 = zataženo"
+                ],
+                [
+                  "Sluneční záření",
+                  "W/m², MJ/m²",
+                  "Pyranometr (globální záření), pyrheliometr (přímé)",
+                  "Volné nebe, bez stínění"
+                ],
+                [
+                  "Délka slunečního svitu",
+                  "hodiny",
+                  "Campbellův heliograf (skleněná koule + papír), fotoelektrický snímač",
+                  "Volné nebe"
+                ],
+                [
+                  "Dohlednost",
+                  "m, km",
+                  "Vizuální (pevné orientační body), transmisometr",
+                  "Horizontální meteorologická dohlednost"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Teplota vzduchu → Vlhkost vzduchu → Atmosférický tlak → Srážky → Rychlost větru."
+          },
+          {
+            "nadpis": "2. Teplota vzduchu – měření a charakteristiky",
+            "obsah": "Výška měření: 2 m nad zemí, ve stínu, v meteorologické budce (Stevensova budka = lamelová skříňka).\n\nKlíčové charakteristiky:\n\nFaktory ovlivňující denní amplitudu: charakter počasí (radiační > advekční), zeměpisná šířka, vzdálenost od pobřeží, tvar reliéfu (prohlubně > roviny > vypouklé tvary).",
+            "tabulka": {
+              "sloupce": [
+                "Charakteristika",
+                "Definice",
+                "Příklad"
+              ],
+              "radky": [
+                [
+                  "Denní amplituda",
+                  "Rozdíl max. a min. teploty za den",
+                  "Sahara: až 40 °C; oceánské ostrovy: 2–3 °C"
+                ],
+                [
+                  "Roční amplituda",
+                  "Rozdíl nejteplejšího a nejchladnějšího měsíce",
+                  "Jakutsk (RU): 62 °C; Singapur: 2 °C"
+                ],
+                [
+                  "Vertikální teplotní gradient",
+                  "Průměrný pokles 0,65 °C / 100 m v troposféře",
+                  "Hora Mont Blanc (4807 m): ~31 °C pod základnou"
+                ],
+                [
+                  "Inverze teploty",
+                  "Teplota s výškou roste (abnormální zvrstvení)",
+                  "Radiační: jasné noci; Advekční: teplý vzduch nad sněhem"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Denní amplituda → Roční amplituda → Vertikální teplotní gradient → Inverze teploty."
+          },
+          {
+            "nadpis": "3. Vlhkost vzduchu – měření a charakteristiky",
+            "obsah": "Typy vlhkostních charakteristik:\n\nDenní chod vodní páry: Jednoduchý (mořský/zimní) = max. kolem 13 h, min. kolem 4 h. Dvojitý (pevninský/letní) = ranní min., dopolední max., odpolední min. (turbulence), večerní max.\n\nPomůcka na vlhkostní veličiny: NRRAD = Napětí, Relativní, Rosný, Absolutní, Deficit (sytostní)",
+            "tabulka": {
+              "sloupce": [
+                "Veličina",
+                "Symbol",
+                "Definice",
+                "Typické hodnoty"
+              ],
+              "radky": [
+                [
+                  "Napětí vodních par",
+                  "e",
+                  "Parciální tlak vodní páry (hPa)",
+                  "Závisí na teplotě"
+                ],
+                [
+                  "Relativní vlhkost",
+                  "r (%)",
+                  "Poměr e/E × 100 (E = napětí nasycení)",
+                  "Rovník: ~85 %; Sahara léto: ~30 %"
+                ],
+                [
+                  "Rosný bod",
+                  "τ",
+                  "Teplota, při níž by vzduch byl nasycen",
+                  "Při r = 100 % → rosný bod = teplota vzduchu"
+                ],
+                [
+                  "Absolutní vlhkost",
+                  "a",
+                  "Hmotnost vodní páry v g/m³",
+                  "Tropický vzduch: 25 g/m³; podélární: 1 g/m³"
+                ],
+                [
+                  "Sytostní doplněk",
+                  "d",
+                  "E – e (chybějící množství do nasycení)",
+                  "Čím vyšší d, tím sušší vzduch"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Napětí vodních par → Relativní vlhkost → Rosný bod → Absolutní vlhkost → Sytostní doplněk."
+          },
+          {
+            "nadpis": "4. Atmosférický tlak a vítr",
+            "obsah": "Atmosférický tlak:\n\n- Průměr na hladině moře při 15 °C = 1013,27 hPa\n- S výškou klesá (vertikální barický gradient)\n- Měří se rtuťovým barometrem nebo aneroidy\n- Izobarou se spojují místa stejného tlaku (přepočtena na hladinu moře)\nZákladní tlakové útvary:\n\nBeaufortova stupnice větru (klíčové hodnoty):",
+            "tabulka": [
+              {
+                "sloupce": [
+                  "Útvar",
+                  "Tlak",
+                  "Proudění (SP)",
+                  "Počasí"
+                ],
+                "radky": [
+                  [
+                    "Cyklóna (níže)",
+                    "Minimum uprostřed",
+                    "Proti směru HRU (CCW)",
+                    "Oblačno, srážky"
+                  ],
+                  [
+                    "Anticyklóna (výše)",
+                    "Maximum uprostřed",
+                    "Po směru HRU (CW)",
+                    "Jasno, stabilní"
+                  ]
+                ]
+              },
+              {
+                "sloupce": [
+                  "Stupeň",
+                  "Název",
+                  "Rychlost (m/s)",
+                  "Projev"
+                ],
+                "radky": [
+                  [
+                    "0",
+                    "Bezvětří",
+                    "0–0,2",
+                    "Kouř stoupá přímo"
+                  ],
+                  [
+                    "6",
+                    "Silný vítr",
+                    "10,8–13,8",
+                    "Silnější větve se pohybují"
+                  ],
+                  [
+                    "9",
+                    "Vichřice",
+                    "20,8–24,4",
+                    "Strhává střešní krytiny"
+                  ],
+                  [
+                    "12",
+                    "Orkán",
+                    "32,7+",
+                    "Devastující účinky, nad 118 km/h"
+                  ]
+                ]
+              }
+            ],
+            "mnemotechnika": "Pořadí: Cyklóna (níže) → Anticyklóna (výše) → 0 → 6 → 9."
+          },
+          {
+            "nadpis": "5. Geografické rozložení teploty vzduchu na světě",
+            "obsah": "Hlavní zákonitosti:\n\n- Průměrná roční teplota klesá od rovníku k pólům (pásmovitost)\n- Pevniny se zahřívají a ochlazují rychleji než oceány → vyšší amplitudy na kontinentech\n- Teplé mořské proudy oteplují (Golfský proud → Skandinávie), studené ochlazují (Humboldtův proud → Atacama)\n- S nadmořskou výškou teplota klesá (~6,5 °C/km)\n\nIzothermy = čáry stejné teploty; v létě se nad pevninami prohýbají k pólům, v zimě k rovníku.",
+            "tabulka": {
+              "sloupce": [
+                "Oblast / stanice",
+                "Průměrná roční teplota",
+                "Roční amplituda",
+                "Poznámka"
+              ],
+              "radky": [
+                [
+                  "Singapur (1° s.š.)",
+                  "~27 °C",
+                  "~2 °C",
+                  "Rovníkové klima, minimální amplituda"
+                ],
+                [
+                  "Bejrút (34° s.š.)",
+                  "~20 °C",
+                  "~17 °C",
+                  "Středomořské klima (Cs)"
+                ],
+                [
+                  "Praha (50° s.š.)",
+                  "~10 °C",
+                  "~21 °C",
+                  "Mírné klima (Cfb)"
+                ],
+                [
+                  "Jakutsk (62° s.š.)",
+                  "~–8 °C",
+                  "~62 °C",
+                  "Největší roční amplituda na světě; kontinentální klima (Dfd)"
+                ],
+                [
+                  "Vostok (Antarktida)",
+                  "~–55 °C",
+                  "~35 °C",
+                  "Nejchladnější místo; rekord –89,2 °C (1983)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Singapur (1° s.š.) → Bejrút (34° s.š.) → Praha (50° s.š.) → Jakutsk (62° s.š.) → Vostok (Antarktida)."
+          },
+          {
+            "nadpis": "6. Geografické rozložení srážek na světě",
+            "obsah": "Zákonitosti rozložení srážek:\n\nSrážkový efekt vs. stín: Návětrná strana = více srážek (Jizerské hory, návětrné svahy Himalájí); závětrná strana = srážkový stín (Krušné hory → srážkový stín pro Středočeské kotliny).",
+            "tabulka": {
+              "sloupce": [
+                "Klimatická zóna",
+                "Typický úhrn",
+                "Příčina",
+                "Příklady"
+              ],
+              "radky": [
+                [
+                  "Rovníkové oblasti (0–10° z.š.)",
+                  "1 000–2 000 mm; až 3 000 mm",
+                  "Silná konvekce, ITC, vlhké pasáty",
+                  "Amazonie (Manaus: 2 000 mm), Kongo, Indonésie"
+                ],
+                [
+                  "Monzunové oblasti",
+                  "1 500–4 000+ mm",
+                  "Vlhké letní monzuny + orografie",
+                  "Čerápundží (Indie): rekord ~23 000 mm/rok; Mymensing, Bangladéš"
+                ],
+                [
+                  "Suché tropické/subtropické oblasti",
+                  "méně než 300 mm",
+                  "Subtropické výše, pasátová inverze, studené proudy",
+                  "Sahara (Káhira: 25 mm), Atacama (Arica: 0–1 mm)"
+                ],
+                [
+                  "Návětrné svahy (orografický efekt)",
+                  "1 200–3 000 mm",
+                  "Nucený výstup vzduchu, kondenzace",
+                  "Šumava (1 200 mm), Jizerské hory (1 600 mm), Havaj (Waialeale: 11 000 mm)"
+                ],
+                [
+                  "Mírné šířky (západ, oceánský)",
+                  "500–1 000 mm",
+                  "Cyklonální činnost, západní proudění",
+                  "Irsko (Dublin: 730 mm), Bergen (Norsko): 2 250 mm"
+                ],
+                [
+                  "Polární oblasti",
+                  "méně než 300 mm",
+                  "Malý obsah vodní páry, anticyklóna",
+                  "Antarktida: 50–200 mm (nejsušší kontinent)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Rovníkové oblasti (0–10° z.š.) → Monzunové oblasti → Suché tropické/subtropické oblasti → Návětrné svahy (orografický efekt) → Mírné šířky (západ, oceánský)."
+          },
+          {
+            "nadpis": "7. Oblačnost a srážky – typy a měření",
+            "obsah": "Druhy oblačnosti (Lucasova klasifikace – výška základny):\n\nTypy srážek:\n\n- Konvektivní (přeháňky): rychlé, intenzivní, lokální; Cb; léto\n- Advektivní (frontální): vytrvalé, plošné; As, Ns; přechod front\n- Orografické: nucený výstup vzduchu přes pohoří",
+            "tabulka": {
+              "sloupce": [
+                "Patro",
+                "Výška základny",
+                "Druhy",
+                "Typické srážky"
+              ],
+              "radky": [
+                [
+                  "Vysoké",
+                  "6 000–12 000 m",
+                  "Cirrus (Ci), Cirrostratus (Cs), Cirrocumulus (Cc)",
+                  "Žádné (ledové krystaly, nepadají k zemi)"
+                ],
+                [
+                  "Střední",
+                  "2 000–6 000 m",
+                  "Altocumulus (Ac), Altostratus (As)",
+                  "Mrholení, slabý déšť"
+                ],
+                [
+                  "Nízké",
+                  "pod 2 000 m",
+                  "Stratus (St), Stratocumulus (Sc), Nimbostratus (Ns)",
+                  "Ns = vytrvalý déšť/sníh"
+                ],
+                [
+                  "S vertikálním vývojem",
+                  "500–12 000 m",
+                  "Cumulus (Cu), Cumulonimbus (Cb)",
+                  "Cb = bouřky, kroupy, přívalové deště"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Vysoké → Střední → Nízké → S vertikálním vývojem."
+          }
+        ],
         "exam_checklist": []
       },
-      "flashcards": [],
-      "kviz": []
+      "flashcards": [
+        {
+          "otazka": "Ve které výšce se měří teplota vzduchu a proč?",
+          "odpoved": "2 m nad zemí (přízemní teplota), ve stínu, v meteorologické budce (Stevensova budka). Tato standardní výška umožňuje srovnatelnost měření po celém světě."
+        },
+        {
+          "otazka": "Co je relativní vlhkost vzduchu a co je rosný bod?",
+          "odpoved": "Relativní vlhkost (r) = poměr skutečného napětí vodní páry (e) k maximálnímu možnému napětí nasycení (E) × 100 %. Rosný bod (τ) = teplota, při níž by se vzduch stal nasyceným – při poklesu pod něj dochází ke kondenzaci."
+        },
+        {
+          "otazka": "Jaká je standardní výška měření větru na meteorologické stanici?",
+          "odpoved": "10 m nad zemí – tato standardní výška je mezinárodně sjednocena pro porovnatelnost dat. Rychlost větru s výškou roste (do ~1–1,5 km je zpomalován třením o zemský povrch)."
+        },
+        {
+          "otazka": "Jaký je průměrný atmosférický tlak na hladině moře a v jakých jednotkách se měří?",
+          "odpoved": "1013,27 hPa (hektopascal) při 15 °C. Historicky: mbar, mm Hg (milimetry rtuťového sloupce), torr. Tlak přepočítáváme vždy na hladinu moře pro srovnatelnost."
+        },
+        {
+          "otazka": "Jaký je význam čísla 1 mm srážek?",
+          "odpoved": "1 mm srážek = výška vodního sloupce 1 mm = 1 litr vody na 1 m² plochy. Roční srážkový úhrn ČR: průměrně 680 mm; Čerápundží (Indie) drží rekord ~23 000 mm/rok."
+        },
+        {
+          "otazka": "Co je vertikální teplotní gradient a jaká je jeho průměrná hodnota v troposféře?",
+          "odpoved": "Vertikální teplotní gradient = změna teploty s výškou. Průměrná hodnota v troposféře: 0,65 °C na každých 100 m výšky. Sucho-adiabatický gradient: 1 °C/100 m."
+        },
+        {
+          "otazka": "Co je inverze teploty? Uveďte dva typy.",
+          "odpoved": "Inverze = abnormální zvrstvení, kdy teplota s výškou roste (místo klesá). Radiační inverze: ochlazování přízemní vrstvy za jasných nocí. Advekční inverze: teplý vzduch se přemisťuje nad chladnější (teplý vzduch nad sněhovou pokrývkou v zimě)."
+        },
+        {
+          "otazka": "V čem se liší cyklóna od anticyklóny z hlediska tlaku, proudění a počasí?",
+          "odpoved": "Cyklóna (níže): minimum uprostřed, vzduch proudí CCW (SP), výstupné pohyby → oblačnost, srážky. Anticyklóna (výše): maximum uprostřed, vzduch proudí CW (SP), sestupné pohyby → jasno, sucho."
+        },
+        {
+          "otazka": "Co je Beaufortova stupnice? Jaká rychlost větru odpovídá orkánu (stupeň 12)?",
+          "odpoved": "Beaufortova stupnice je 13-stupňová škála (0–12) síly větru podle projevů na okolí. Orkán (B12) = rychlost větru 32,7 m/s a více (nad 118 km/h), devastující účinky."
+        },
+        {
+          "otazka": "Proč má Jakutsk (Rusko) největší roční amplitudu teplot na světě?",
+          "odpoved": "Extrémní kontinentalita (62° s.š., daleko od oceánů). Léto: až +38 °C; zima: –70 °C. Roční amplituda ~62 °C. Pevnina se rychle zahřívá i ochlazuje, bez tlumícího vlivu oceánské tepelné kapacity."
+        },
+        {
+          "otazka": "Kde jsou na světě nejsušší místa a proč?",
+          "odpoved": "Atacama (Chile) – Arica: pod 1 mm/rok. Důvody: subtropická tlaková výše (anticyklóna), studený Humboldtův proud (ochlazuje vzduch → malý výpar → málo srážek), orografický srážkový stín (Andy)."
+        },
+        {
+          "otazka": "Co je Nimbostratus a co je Cumulonimbus – jak se liší?",
+          "odpoved": "Nimbostratus (Ns): nízká vrstvová oblačnost (pod 2 000 m), tmavá, produkuje vytrvalý déšť nebo sníh; typický pro teplou frontu. Cumulonimbus (Cb): oblak s vertikálním vývojem (až 12 km), bouřky, krupobití, průtrže; supercely."
+        },
+        {
+          "otazka": "Jak se měří oblačnost v synoptické meteorologii vs. klimatologii?",
+          "odpoved": "Synoptická meteorologie: v osminách (0/8 = jasno, 8/8 = zataženo). Klimatologie: v desetinách (0/10 = jasno, 10/10 = zataženo). Vizuální odhad nebo ceilometrem (laser)."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Ve které výšce se standardně měří teplota vzduchu na meteorologické stanici?",
+          "moznosti": [
+            "A) 0,5 m nad zemí",
+            "B) 2 m nad zemí",
+            "C) 5 m nad zemí",
+            "D) 10 m nad zemí"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Teplota vzduchu se měří ve 2 m nad zemí (přízemní teplota), ve stínu, v meteorologické budce (Stevensova budka). Tato výška je mezinárodně standardizována pro porovnatelnost měření."
+        },
+        {
+          "otazka": "Co odpovídá 1 mm srážkového úhrnu?",
+          "moznosti": [
+            "A) 1 ml vody na 1 m²",
+            "B) 1 litr vody na 1 m²",
+            "C) 10 litrů vody na 1 m²",
+            "D) 1 litr vody na 1 km²"
+          ],
+          "spravna": 1,
+          "vysvetleni": "1 mm srážek = 1 litr vody na 1 m². Srážky se měří ombrometrem (srážkoměrem) a uvádí se v mm výšky vodního sloupce."
+        },
+        {
+          "otazka": "Která z těchto oblastí světa má největší průměrný roční srážkový úhrn?",
+          "moznosti": [
+            "A) Skandinávie",
+            "B) Amazonský prales (Manaus, Brazílie)",
+            "C) Monzunové oblasti Indie (okolí Čerápundží)",
+            "D) Rovníkové části Afriky (Kongo)"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Čerápundží v Indii drží rekord ~23 000 mm/rok díky kombinaci vlhkých letních monzunů a orografického zesílení na návětrných svazích Himalájí. V průměru má Čerápundží okolo 11 000 mm/rok."
+        },
+        {
+          "otazka": "Co je relativní vlhkost vzduchu 100 %?",
+          "moznosti": [
+            "A) Vzduch obsahuje maximální možné množství vodní páry při dané teplotě – je nasycený",
+            "B) Vzduch obsahuje 100 g vodní páry v 1 m³",
+            "C) Vzduch je zcela suchý",
+            "D) Rosný bod je 100 °C"
+          ],
+          "spravna": 0,
+          "vysvetleni": "Relativní vlhkost 100 % = vzduch je plně nasycen vodní párou při dané teplotě. Skutečné napětí vodní páry (e) se rovná napětí nasycení (E). Při poklesu teploty pod rosný bod dochází ke kondenzaci."
+        },
+        {
+          "otazka": "Proč jsou pouště Atacama a Namib na západních pobřežích kontinentů, přestože leží u oceánu?",
+          "moznosti": [
+            "A) Leží ve srážkovém stínu pohoří",
+            "B) Podél těchto pobřeží proudí studené mořské proudy, které ochlazují vzduch a brání konvekci a srážkám",
+            "C) Dominují zde silné pasáty z pevniny",
+            "D) Leží příliš blízko rovníku"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Studené proudy (Humboldtův podél Atacamy, Benguelský podél Namibu) ochlazují přízemní vzduch → pasátová inverze → vzduch se nestihl nasytit vlhkostí → minimum srážek. Atacama je nejsušší nepolární poušť světa."
+        },
+        {
+          "otazka": "Jaký je průměrný vertikální teplotní gradient v troposféře?",
+          "moznosti": [
+            "A) 0,1 °C na 100 m",
+            "B) 0,65 °C na 100 m",
+            "C) 1,0 °C na 100 m",
+            "D) 6,5 °C na 100 m"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Průměrný vertikální teplotní gradient v troposféře je 0,65 °C na 100 m výšky. Sucho-adiabatický gradient je 1 °C/100 m, vlhko-adiabatický je nižší (~0,5 °C/100 m) kvůli uvolnění latentního tepla při kondenzaci."
+        },
+        {
+          "otazka": "Proč vanou v Antarktidě nejsilnější trvalé větry na světě?",
+          "moznosti": [
+            "A) Antarktida je blízko rovníku s velkou konvekcí",
+            "B) Absence pevnin v jižních mírných šířkách snižuje tření; stálá anticyklóna nad Antarktidou generuje katabatické větry",
+            "C) El Niño způsobuje silné větry v Antarktidě",
+            "D) Sluneční záření je na jižním pólu nejsilnější"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Chladný vzduch nad Antarktidou klesá (anticyklóna) a stéká po ledovcových svazích jako katabatické větry. Absence pevnin v 40–60° j.š. snižuje tření, čímž vznikají tzv. revoucí čtyřicítky a besicí padesátky."
+        },
+        {
+          "otazka": "Který oblak produkuje vytrvalý déšť nebo sníh a je typický pro průchod teplé fronty?",
+          "moznosti": [
+            "A) Cumulonimbus (Cb)",
+            "B) Cirrus (Ci)",
+            "C) Nimbostratus (Ns)",
+            "D) Altocumulus (Ac)"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Nimbostratus (Ns) je tmavá vrstvová oblačnost v nízkém patře (pod 2 000 m) produkující vytrvalý déšť nebo sníh. Je typická pro sekvenci oblaků na teplé frontě: Ci → Cs → As → Ns."
+        },
+        {
+          "otazka": "Jaký stupeň Beaufortovy stupnice odpovídá větru trhajícímu střechy a rychlosti 20,8–24,4 m/s?",
+          "moznosti": [
+            "A) Stupeň 7 (prudký vítr)",
+            "B) Stupeň 9 (vichřice)",
+            "C) Stupeň 11 (mohutná vichřice)",
+            "D) Stupeň 12 (orkán)"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Stupeň 9 (vichřice, 20,8–24,4 m/s) strhává střešní krytiny a způsobuje menší škody na stavbách. Stupeň 12 (orkán) nastupuje od 32,7 m/s a způsobuje devastující účinky."
+        },
+        {
+          "otazka": "Ve které výšce se standardně měří rychlost a směr větru?",
+          "moznosti": [
+            "A) 2 m nad zemí",
+            "B) 5 m nad zemí",
+            "C) 10 m nad zemí",
+            "D) 50 m nad zemí"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Vítr se standardně měří v 10 m nad zemí (mezinárodní norma WMO). Ve vrstvě do 1–1,5 km je vítr zpomalován třením o zemský povrch, s výškou rychlost roste."
+        }
+      ]
     },
     {
       "pismeno": "C",
-      "zneni": "Na vybraném průmyslu doložte proměny lokalizačních faktorů v čase a prostoru.",
+      "zneni": "Charakterizujte proměny lokalizačních faktorů průmyslu v čase a prostoru. Uveďte příklady odvětví, kde dominuje surovinový faktor, energetický faktor, pracovní síla a trh.",
       "studium": {
-        "sekce": [],
+        "sekce": [
+          {
+            "nadpis": "Co je lokalizační faktor a jak se třídí",
+            "obsah": "Lokalizacni faktor = výhoda úspory nákladů, které dosáhneme tim, ze danou aktivitu lokalizujeme na určitém místě.\n\nTrend vlivu faktorů v čase:\nGeografická setrvačnost (inercie) = průmysl zůstává na místě i po zániku původních lokalizačních faktorů (např.. ostravské hutní kombináty po uzavření dolů).",
+            "tabulka": [
+              {
+                "sloupce": [
+                  "Trideni",
+                  "Kategorie",
+                  "Priklady"
+                ],
+                "radky": [
+                  [
+                    "Dle prostoroveho rozsahu",
+                    "Makrolokalizacni / Mikrolokalizacni",
+                    "Klimaticke podminky vs. dostupnost kanalizace"
+                  ],
+                  [
+                    "Dle dynamiky vlivu",
+                    "Klesajici / Nezmeneny / Rostouci",
+                    "viz tabulka nize"
+                  ],
+                  [
+                    "Dle vecneho charakteru",
+                    "Přírodní / Socioekonomické / Ostatni",
+                    "Reliéf vs. doprava vs. politické zajmy"
+                  ]
+                ]
+              },
+              {
+                "sloupce": [
+                  "Faktor",
+                  "Trend"
+                ],
+                "radky": [
+                  [
+                    "Klima, suroviny, dopravní naklady",
+                    "Klesajici význam"
+                  ],
+                  [
+                    "Voda, infrastruktura, kapital",
+                    "Nezmeneny význam"
+                  ],
+                  [
+                    "Informace, ZP, kvalifikovana prac. sila",
+                    "Rostouci význam"
+                  ]
+                ]
+              }
+            ],
+            "mnemotechnika": "Pořadí: Dle prostoroveho rozsahu → Dle dynamiky vlivu → Dle vecneho charakteru → Klima, suroviny, dopravní naklady → Voda, infrastruktura, kapital."
+          },
+          {
+            "nadpis": "Weberův lokalizační model (1909)",
+            "obsah": "Alfred Weber formuloval prvni formalni teorii průmyslové lokalizace - cíl: minimalizace dopravních nákladů.\n- Ubikvitní suroviny = rovnoměrně rozmístěné (písek, voda) = zpracování u spotřebitele\n- Lokalizované suroviny = dostupné jen na určitých místech\nPravidla lokalizace:\nNástroje: Izotimy = linie stejných dopravních nákladů ze zdroje; Izodapany = linie stejných celkovych dopravních nákladů. Weber doplnil model o vliv ceny práce a aglomeracnich vyhod.",
+            "tabulka": {
+              "sloupce": [
+                "Typ suroviny",
+                "Optimalni lokalizace",
+                "Duvod"
+              ],
+              "radky": [
+                [
+                  "Lokalizovana, NEZTRACI hmotnost",
+                  "U loziska, u trhu, nebo na spojnici",
+                  "Dopravni naklady stejne"
+                ],
+                [
+                  "Lokalizovana, TRACI hmotnost (mat. index nad 1)",
+                  "U loziska surovin",
+                  "Levnejsi dopravit hotovy vyrobek nez surovinu"
+                ],
+                [
+                  "2 lokalizovane suroviny neztraci hmotnost",
+                  "U trhu",
+                  "Lokalizace u jednoho loziska by zvysila naklady"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Lokalizovana, NEZTRACI hmotnost → 2 lokalizovane suroviny neztraci hmotnost."
+          },
+          {
+            "nadpis": "Význam lokalizačních faktorů dle odvětví - přehledová tabulka",
+            "obsah": "Stupen vlivu faktorů na rozmístění: X = cca 20 % lokalizacniho vlivu.\n\nMnemotechnická pomůcka: S-E-P-T = Suroviny-Energie-Pracovni sila-Trh",
+            "tabulka": {
+              "sloupce": [
+                "Odvétví",
+                "Suroviny",
+                "Energie",
+                "Prac. sila",
+                "Trh"
+              ],
+              "radky": [
+                [
+                  "Tezba nerost. surovin",
+                  "XXXXX",
+                  "-",
+                  "-",
+                  "-"
+                ],
+                [
+                  "Rafinace ropy",
+                  "X",
+                  "-",
+                  "-",
+                  "XXXX"
+                ],
+                [
+                  "Výroba hliníku",
+                  "X",
+                  "XXXX",
+                  "-",
+                  "-"
+                ],
+                [
+                  "Černá metalurgie plny cyklus",
+                  "X",
+                  "XX",
+                  "-",
+                  "XX"
+                ],
+                [
+                  "Stredni strojirenstvi",
+                  "-",
+                  "-",
+                  "XXX",
+                  "XX"
+                ],
+                [
+                  "Presne strojirenstvi",
+                  "-",
+                  "-",
+                  "XXXX",
+                  "X"
+                ],
+                [
+                  "Výroba cementu",
+                  "XXXX",
+                  "X",
+                  "-",
+                  "-"
+                ],
+                [
+                  "Výroba konfekce",
+                  "-",
+                  "-",
+                  "XX",
+                  "XXX"
+                ],
+                [
+                  "Výroba cukru",
+                  "XXXX",
+                  "-",
+                  "-",
+                  "X"
+                ],
+                [
+                  "Výroba pecivu",
+                  "-",
+                  "-",
+                  "X",
+                  "XXXX"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Tezba nerost. surovin → Rafinace ropy → Výroba hliníku → Černá metalurgie plny cyklus → Stredni strojirenstvi."
+          },
+          {
+            "nadpis": "Historické etapy průmyslu a proměny lokalizace",
+            "obsah": "Průmysl prosel třemi hlavnimi etapami, kazda mela jine dominantni lokalizační faktory.\n\nFordismus = masova pasova výroba, specializace pracovniku (Henry Ford, T-Model 1908).\nPostfordismus = flexibilni výroba, outsourcing, offshoring, deindustrializace vyspelych zemí, high-tech.",
+            "tabulka": {
+              "sloupce": [
+                "Etapa",
+                "Období",
+                "Dominantní faktory",
+                "Priklady oblasti"
+              ],
+              "radky": [
+                [
+                  "Manufaktury a vznik průmyslu",
+                  "do 1850",
+                  "Suroviny, energie (uhlí), ricni doprava",
+                  "S Anglie (Manchester), Porýní"
+                ],
+                [
+                  "Fordismus",
+                  "1920-1970",
+                  "Standardizovana prac. sila, dopravní sit, trh",
+                  "Detroit (automobilky), Ruhr"
+                ],
+                [
+                  "Postfordismus",
+                  "od 1970",
+                  "Kvalifikovana prac. sila, inovace, informace, ZP",
+                  "Silicon Valley, Baden-Württemberg"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Manufaktury a vznik průmyslu → Fordismus → Postfordismus."
+          },
+          {
+            "nadpis": "Deindustrializace, reindustrializace a globalizace výroby",
+            "obsah": "Průmyslová mapa světa se od 70. let 20. stol. dramaticky proměnila.\n- Deindustrializace = pokles zamestnanosti v průmyslu ve vyspelych zemích; přesun výrob s nižší přidanou hodnotou do tranzitních a rozvojových zemí\n- Outsourcing = najmuti zahranicniho dodavatele (Apple - Foxconn v Číně)\n- Offshoring = založení dceřiné společnosti v zahraničí (VW v Mladá Boleslav)\n- Reindustrializace = udržení průmyslového potenciálu přesun ke high-tech (Silicon Valley, Cambridge)\n- Glokalizace = globální strategie + lokální adaptace",
+            "tabulka": {
+              "sloupce": [
+                "Smer presunu",
+                "Duvod",
+                "Příklad"
+              ],
+              "radky": [
+                [
+                  "Vyspele -> JV Asie a Čína",
+                  "Levna pracovní sila",
+                  "Textil, elektronika, obuv"
+                ],
+                [
+                  "Čína -> jine rozvojove oblasti",
+                  "Rostouci cena práce v Číně",
+                  "Bangladesh (textil), Vietnam (elektronika)"
+                ],
+                [
+                  "Zpet do vyspelych (reshoring)",
+                  "Automatizace, kvalita, rychlost",
+                  "USA a Nemecko - automatizovane zavody"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Vyspele -> JV Asie a Čína → Čína -> jine rozvojove oblasti → Zpet do vyspelych (reshoring)."
+          },
+          {
+            "nadpis": "Příklad: surovinový faktor - metalurgie a cement",
+            "obsah": "Černá metalurgie a cement jsou vzorové příklady surovinově vázané lokalizace.\n- Černá metalurgie plného cyklu vyžaduje: železnou rudu + koksovatelne uhlí + vodu\n- Historicky lokalizace u uhlí (uhlí tezi vice hmotnosti nez ruda = Weber)\n- Soucasnost: pristavi hute (dovoz surovin lodi) nebo u trhu\n\nCement: viazany na loziska vápence (tezi hmotnost) = Ceskomoravska vrchovina, Alpy, Balkán.",
+            "tabulka": {
+              "sloupce": [
+                "Typ lokalizace",
+                "Logika",
+                "Příklad"
+              ],
+              "radky": [
+                [
+                  "U uhlí",
+                  "Uhli tezi vice hmotnosti nez ruda",
+                  "Ostrava, Ruhr, Horni Slezsko"
+                ],
+                [
+                  "U rudy",
+                  "Ruda tezsi nebo vzdalenejsi",
+                  "Krivoj Roh (Ukrajina)"
+                ],
+                [
+                  "Pristavni hute",
+                  "Dovoz oboji lodi = nejlevnejsi",
+                  "Tarent (Itálie), Pohang (J. Korea)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: U uhlí → U rudy → Pristavni hute."
+          },
+          {
+            "nadpis": "Příklad: energetický faktor - hliníkárna na Islandu",
+            "obsah": "Island je paradoxni příklad energetické lokalizace: hliníkárna bez hliníkové rudy v zemi.\n- Výroba hliníku elektrolýzou = extrémne náročná na el. energii (cca 14 MWh na 1 t hliníku)\n- Island: 100 % obnovitelna energie (geotermalni + vodní) = nejlevnejsi elektrina na svete\n- Bauxit (hlinikova ruda) se dovázi z Guineje, Austrálie, Brazílie\n- Logika: energie je drazsi item nez doprava bauxitu = lokalizovat u energie",
+            "tabulka": {
+              "sloupce": [
+                "Zeme",
+                "Duvod lokalizace hlikarny",
+                "Zdroj energie"
+              ],
+              "radky": [
+                [
+                  "Norsko",
+                  "Levna vodní energie",
+                  "Vodní elektrárny (fjordy)"
+                ],
+                [
+                  "Island",
+                  "Geotermalni + vodní energie",
+                  "Sopecka cinnost"
+                ],
+                [
+                  "Kanada (Quebec)",
+                  "Levna vodní energie",
+                  "Vodní elektrárny (St. Lawrence)"
+                ],
+                [
+                  "Bahrajn, Katar",
+                  "Levna energie z ropy a zemního plynu",
+                  "Fosilni paliva"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Norsko → Island → Kanada (Quebec) → Bahrajn, Katar."
+          }
+        ],
         "exam_checklist": []
       },
-      "flashcards": [],
-      "kviz": []
+      "flashcards": [
+        {
+          "otazka": "Co je lokalizační faktor?",
+          "odpoved": "Výhoda úspory nákladů dosažena lokalizaci aktivity na konkrétním místě; zahrnuje vše co ovlivnuje umístění výroby"
+        },
+        {
+          "otazka": "Co je Weberův model a jaký je jeho cíl?",
+          "odpoved": "Alfred Weber (1909) - minimalizace dopravních nákladů; nastroje: izotimy (stejne dopravní naklady ze zdroje) a izodapany (stejne celkove naklady)"
+        },
+        {
+          "otazka": "Co je materiálový index a co znaci jeho hodnota nad 1?",
+          "odpoved": "Mnozstvi vstupnich surovin na 1 t vyrobku; index nad 1 = surovina traci hmotnost = lokalizovat u loziska surovin"
+        },
+        {
+          "otazka": "Co jsou ubikvitní suroviny?",
+          "odpoved": "Suroviny rovnoměrně rozmístěného v uzemi (písek, voda, vzduch) - nezpusobuji lokalizační tlak, zpracování u spotřebitele"
+        },
+        {
+          "otazka": "Jaká odvétví jsou primarne vázaná na surovinový faktor?",
+          "odpoved": "Tezba nerostnych surovin (XXXXX), výroba cementu (XXXX), výroba cukru (XXXX), hutnictví"
+        },
+        {
+          "otazka": "Jaká odvétví jsou primarne vázaná na energeticky faktor?",
+          "odpoved": "Výroba hliníku (XXXX - elektrolyza), ferroslitiny - lokalizace u levné el. energie (vodní, geotermalni - Norsko, Island)"
+        },
+        {
+          "otazka": "Jaká odvétví jsou primarne vázaná na trh?",
+          "odpoved": "Výroba pecivu (XXXX), rafinace ropy (XXXX), konfekce (XXX), masny průmysl (XXX)"
+        },
+        {
+          "otazka": "Co je fordismus vs. postfordismus?",
+          "odpoved": "Fordismus = masova pasova výroba, specializace (1920-70); Postfordismus = flexibilni výroba, outsourcing, offshoring, high-tech (od 1970)"
+        },
+        {
+          "otazka": "Co je deindustrializace a kde probiha?",
+          "odpoved": "Pokles zamestnanosti v průmyslu a přesun výrob s nižší přidanou hodnotou; typicky vyspele zeme Z Evropy a USA"
+        },
+        {
+          "otazka": "Rozdil outsourcing vs. offshoring?",
+          "odpoved": "Outsourcing = najmutí zahranicniho dodavatele (Foxconn pro Apple); Offshoring = založení vlastni dceřiné společnosti v zahraničí (VW v ČR)"
+        },
+        {
+          "otazka": "Co je geograficka setrvačnost (inercie)?",
+          "odpoved": "Průmysl zůstává na místě i po zániku původních lokalizačních faktorů; příklad: hutní kombináty na Ostravsku po uzavření dolů"
+        },
+        {
+          "otazka": "Proč jsou hlikarny v Norsku a na Islandu bez hliníkové rudy?",
+          "odpoved": "Výroba hliníku vyžaduje enormni mnozstvi el. energie; Norsko a Island maji nejlevnejsi obnovitelnou energii na svete; bauxit se dovezi"
+        },
+        {
+          "otazka": "Jaká je logika lokalizace cerne metalurgie u uhlí (Ostrava)?",
+          "odpoved": "Weber: uhlí tezi vice hmotnosti nez zelezna ruda = levnejsi lokalizovat u uhlí; ruda se dovazi. Ostravsko-karvinska panev s koksovatelnym uhlim = ideal."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Jaký je hlavni cíl Weberova lokalizacniho modelu?",
+          "moznosti": [
+            "A) Maximalizace zisku podniku",
+            "B) Minimalizace dopravních nákladů",
+            "C) Maximalizace zamestnanosti v regionu",
+            "D) Minimalizace environmentalnich nákladů"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Alfred Weber (1909) hleda optimalni umístění podniku z hlediska minimalizace dopravních nákladů. Model doplnil o vliv ceny práce a aglomeracnich vyhod."
+        },
+        {
+          "otazka": "Kde by mela byt lokalizovana surovina ktera TRACI hmotnost při zpracování?",
+          "moznosti": [
+            "A) U trhu (místa spotřeby)",
+            "B) U loziska surovin",
+            "C) Na pulce cesty",
+            "D) Nezalezi na tom"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Surovina ktera traci hmotnost (mat. index nad 1) se vyplati zpracovat u loziska - pak se prepravi lehci finalny vyrobek. Příklad: zelezna ruda, drevo (celuloza), cukrova repa."
+        },
+        {
+          "otazka": "Které odvétví je primarne vazano na dostupnost levné elektricke energie?",
+          "moznosti": [
+            "A) Výroba cementu",
+            "B) Výroba pecivu",
+            "C) Výroba hliníku",
+            "D) Textilni průmysl"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Výroba hliníku elektrolýzou je extrémne energeticky náročná. Proto jsou hlikarny v Norsku, na Islandu, v Kanade - zeme s levnou vodní nebo geotermalni energií, i kdyz bauxit se dovázi."
+        },
+        {
+          "otazka": "Co je geograficka setrvačnost (inercie) v průmyslu?",
+          "moznosti": [
+            "A) Průmysl se nepresouva protoze je zakaz prestavby",
+            "B) Průmysl zůstává na místě i po zániku původních lokalizačních faktorů",
+            "C) Průmysl se presouva pomalu kvuli geografickym prekazkam",
+            "D) Průmysl musi zustavat u primych zahranicnich investic"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Geografická inercie = průmysl zůstává na místě i po zániku původních faktorů. Ostravske hutní kombináty zustavaly i po uzavření dolů - investice do infrastruktury, pracovní sila, specialni znalosti."
+        },
+        {
+          "otazka": "Který z procesu popisuje přesun výrob do zahranicni dceřiné společnosti?",
+          "moznosti": [
+            "A) Outsourcing",
+            "B) Offshoring",
+            "C) Reshoring",
+            "D) Glokalizace"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Offshoring = založení vlastni dceřiné společnosti v zahraničí (Volkswagen v ČR, Hyundai v Nosovicich). Outsourcing = najmutí zahranicniho dodavatele (Foxconn pro Apple)."
+        },
+        {
+          "otazka": "Které odvétví je v tabulce lokalizačních faktorů nejvice svazano s trhem?",
+          "moznosti": [
+            "A) Tezba nerostnych surovin",
+            "B) Výroba hliníku",
+            "C) Výroba pecivu",
+            "D) Černá metalurgie"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Výroba pecivu je nejvice vázaná na trh (XXXX) - kazy se rychle, vyžaduje cerstve zboží, krátká trvanlivost. Další silna trhova orientace: rafinace ropy, konfekce, masny průmysl."
+        },
+        {
+          "otazka": "Co charakterizuje etapu fordismu v průmyslu?",
+          "moznosti": [
+            "A) Flexibilni maloseriova výroba",
+            "B) Masova standardizovana pasova výroba, specializace delniku",
+            "C) Outsourcing a offshoring do rozvojových zemí",
+            "D) Dominance high-tech a IT odvétví"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Fordismus (1920-1970) = masova standardizovana pasova výroba, hluboká specializace pracovniku, nizke naklady na jednotku. Pojmenovan po Henry Fordovi a modelu T (1908)."
+        },
+        {
+          "otazka": "Proč je černá metalurgie historicky logicka u uhelnich lozisek (Ostrava, Ruhr)?",
+          "moznosti": [
+            "A) Blízkost trhu ve velkomestech",
+            "B) Uhli tezi vice hmotnosti nez zelezna ruda - levnejsi zpracování na místě",
+            "C) Dostupnost levné vodní energie",
+            "D) Politicke rozhodnutí"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Weber: uhlí tezi vice hmotnosti nez zelezna ruda = vyhodne lokalizovat hutní kombinat u uhelnich lozisek. Ruda se dovazela (Krivoj Roh, Svedsko). Ostravsko-karvinska panev s koksovatelnym uhlim = historicky idealni."
+        },
+        {
+          "otazka": "Co je glokalizace?",
+          "moznosti": [
+            "A) Přesun výroby zpet do puvodní zeme",
+            "B) Kombinace globální strategie s lokální adaptaci produktu a výroby",
+            "C) Lokalni průmyslové klastry bez zahranicnich vazeb",
+            "D) Privatizace statniho průmyslu"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Glokalizace = globální strategie + lokální adaptace. Příklad: McDonald's ma globální znacku, ale menu prizpusobuje mistnimu trhu. V průmyslu: globální NN společnosti prizpusobuji se lokalnim podminkam."
+        },
+        {
+          "otazka": "Který region je v 21. stol. hlavnim cilem presunu průmyslových výrob z vyspelych zemí?",
+          "moznosti": [
+            "A) Latinská Amerika",
+            "B) Subsaharská Afrika",
+            "C) Jihovýchodní Asie a Čína",
+            "D) Východní Evropa"
+          ],
+          "spravna": 2,
+          "vysvetleni": "JV Asie a Čína jsou hlavnim cilem presunu z vyspelych zemí - levna pracovní sila, rostouci infrastruktura, silna statni podpora. Jak rostou mzdy v Číně, přesun pokračuje do Vietnamu, Bangladese, Indonesie."
+        }
+      ]
     }
   ]
 }

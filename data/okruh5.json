@@ -1,6 +1,6 @@
 {
   "id": 5,
-  "nazev": "Okruh 5",
+  "nazev": "Obyvatelstvo, půdy ČR a demografie",
   "podotazky": [
     {
       "pismeno": "A",
@@ -24,7 +24,7 @@
           },
           {
             "nadpis": "Půdní typy ČR – černosoly a luvisoly",
-            "obsah": "ČERNOSOLY (ze sypkých karbonátových substrátů, stepy, mírný pás):\n- Černozem: nejúrodnější půda ČR, sorpčně nasycená, obsah humusu 2–4,5 %, sušší a teplejší oblasti pod travními porosty (jižní Morava, střední Čechy)\n  → Půdotvorný proces: humifikace (tvorba stabilního humusu), calcifikace\n- Černice: nezpevněné karbonátové substráty s černickým horizontem\n\nLUVISOLY (zonální půdy, nížiny a kotliny, ze středně těžkých sedimentů):\n- Šedozem: šedý melanický horizont, lesostep (periférie černozemí, jižní Morava)\n- Hnědozem: degradace černozemě, úrodná, zemědělsky využívaná, ~1/5 plochy ČR\n  → Půdotvorný proces: illimerizace (migrace jílu), degradace černozemě\n- Luvizem: podbeskydské pahorkatiny, pravděpodobně vznik rozmrzáním/promrzáním ke konci dob ledových\n  → Půdotvorný proces: illimerizace s argilickým horizontem",
+            "obsah": "ČERNOSOLY (ze sypkých karbonátových substrátů, stepy, mírný pás):\n- Černozem: nejúrodnější půda ČR, sorpčně nasycená, obsah humusu 2–4,5 %, sušší a teplejší oblasti pod travními porosty (jižní Morava, střední Čechy)\n  → Půdotvorný proces: humifikace (tvorba stabilního humusu), calcifikace\n- Černice: nezpevněné karbonátové substráty s černickým horizontem\n\nLUVISOLY (zónální půdy, nížiny a kotliny, ze středně těžkých sedimentů):\n- Šedozem: šedý melanický horizont, lesostep (periférie černozemí, jižní Morava)\n- Hnědozem: degradace černozemě, úrodná, zemědělsky využívaná, ~1/5 plochy ČR\n  → Půdotvorný proces: illimerizace (migrace jílu), degradace černozemě\n- Luvizem: podbeskydské pahorkatiny, pravděpodobně vznik rozmrzáním/promrzáním ke konci dob ledových\n  → Půdotvorný proces: illimerizace s argilickým horizontem",
             "mnemotechnika": "Černozem = nejúrodnější, jižní Morava, humifikace. Hnědozem = degradace černozemě, illimerizace."
           },
           {

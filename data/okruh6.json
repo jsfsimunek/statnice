@@ -1,6 +1,6 @@
 {
   "id": 6,
-  "nazev": "Okruh 6",
+  "nazev": "Mapová díla, krajinná rizika a urbanizace",
   "podotazky": [
     {
       "pismeno": "A",
@@ -315,13 +315,443 @@
     },
     {
       "pismeno": "C",
-      "zneni": "Popište fáze vývoje měst (od předindustriálního po postindustriální) a uveďte aktuální trendy v ČR a ve světě.",
+      "zneni": "Popište s využitím náčrtu fáze vývoje měst od preindustriálního po postindustriální a uveďte aktuální trendy a problémy rozvoje měst v Česku a ve světě.",
       "studium": {
-        "sekce": [],
+        "sekce": [
+          {
+            "nadpis": "Tři základní fáze vývoje měst",
+            "obsah": "Vývoj měst prochází třemi základními fázemi, které odráží proměny společnosti a ekonomiky.\n\nMnemotechnická pomůcka: P-I-P = Politika-Industrie-Pixels (postindustriální = digitální ekonomika)",
+            "tabulka": {
+              "sloupce": [
+                "Fáze",
+                "Období",
+                "Dominantní funkce",
+                "Prostorový vzorec",
+                "Příklad"
+              ],
+              "radky": [
+                [
+                  "Preindustriální",
+                  "do cca 1750",
+                  "politická, náboženská, obchodní",
+                  "kompaktní, centrum = moc (hrad, kostel)",
+                  "Praha, Siena, Damask"
+                ],
+                [
+                  "Industriální",
+                  "1750-1950",
+                  "průmyslová výroba",
+                  "oddělení práce a bydlení, dělnické periferie",
+                  "Manchester, Chicago, Brno"
+                ],
+                [
+                  "Postindustriální",
+                  "od 1950",
+                  "služby, spotřeba, informace",
+                  "rozptyl, polycentrismus, edge cities",
+                  "Los Angeles, Amsterdam"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Preindustriální → Industriální → Postindustriální."
+          },
+          {
+            "nadpis": "Preindustriální město",
+            "obsah": "Středověké a raně novověké město vznikalo jako koncentrace osídlení kolem opevněných jader.\n- Vznik: kolem sídel šlechty, kláštera, na kupeckých cestách a brodech\n- Funkce: multifunkční - politická, náboženská, administrativní, kulturní\n- Land use: elity v centru (hrad, kostel), cechy a trhy v okolí centra\n- Poloha: obranná (vyvýšeniny, meandry řek) nebo dopravní (brody, kupecké cesty)",
+            "tabulka": {
+              "sloupce": [
+                "Kritérium výběru místa",
+                "Příklad sídla"
+              ],
+              "radky": [
+                [
+                  "Obranná vyvýšenina",
+                  "Praha (Hradcany), Edinburgh"
+                ],
+                [
+                  "Meander řeky",
+                  "Bern, Durham"
+                ],
+                [
+                  "Kupecká křižovatka",
+                  "Brno, Frankfurt"
+                ],
+                [
+                  "Ložiska kovu",
+                  "Kutna Hora, Příbram"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Obranná vyvýšenina → Meander řeky → Kupecká křižovatka → Ložiska kovu."
+          },
+          {
+            "nadpis": "Industriální město",
+            "obsah": "Průmyslová revoluce zásadně proměnila strukturu měst. Klíčová změna: oddělení místa práce a bydlení.\n- Rozvoj levné hromadné dopravy (železnice, tramvaj) umožnil vznik dělnických kolonií mimo továrny\n- Centrum = komerční srdce, symbol ekonomické úspěšnosti\n- Vznik sociální stratifikace v prostoru: CBD - přechodná zóna - dělnické čtvrti - střední třída - předměstí\n- Velké hygienické a urbanistické problémy (přeplnění, znečištění)\nBurgessov model koncentrických zón (Chicago, 1925):\nPříklad Brno: 1869 = 74 000 obyvatel, 25 000 v průmyslu; demolice hradeb 1852, připojení předměstí 1850.",
+            "tabulka": {
+              "sloupce": [
+                "Zona",
+                "Obsah"
+              ],
+              "radky": [
+                [
+                  "1. CBD",
+                  "Obchod, administrativa, kultura"
+                ],
+                [
+                  "2. Přechodná",
+                  "Průmysl, chudinské čtvrti"
+                ],
+                [
+                  "3. Dělnická",
+                  "Levne bydlení blízko práce"
+                ],
+                [
+                  "4. Obytná",
+                  "Stredni třída, lepší bydlení"
+                ],
+                [
+                  "5. Dojížďková",
+                  "Vyšší třída, rodinné domy"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: CBD → Přechodná → Dělnická → Obytná → Dojížďková."
+          },
+          {
+            "nadpis": "Postindustriální město",
+            "obsah": "Od 2. poloviny 20. století dominují nové principy organizace městského prostoru.\n- Ekonomika služeb nahrazuje průmysl\n- Smrt vzdálenosti - telekomunikace neutralizují vliv vzdálenosti na lokalizaci aktivit\n- Město = jednotka spotřeby (ne produkce)\n- Stírání rozdílů město-venkov (rurbanizace)\n\nVzorový příklad postindustriálního města: Los Angeles - chaotické seskupování funkcí bez výrazné centrality.",
+            "tabulka": {
+              "sloupce": [
+                "Prvek postind. města",
+                "Definice",
+                "Příklad"
+              ],
+              "radky": [
+                [
+                  "Edge cities",
+                  "Nová komerční centra v suburbánu, bez historie",
+                  "Tysons Corner (Washington DC)"
+                ],
+                [
+                  "Gated communities",
+                  "Oplocene rezidenční oblasti s kontrolou vstupu",
+                  "USA, ČR - Průhonice"
+                ],
+                [
+                  "Master planned communities",
+                  "Velké obytné zóny jednoho developera",
+                  "Milton Keynes (UK)"
+                ],
+                [
+                  "Corporate campuses",
+                  "Firemní sídla na zelené louce",
+                  "Apple Park, Google Campus"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Edge cities → Gated communities → Master planned communities → Corporate campuses."
+          },
+          {
+            "nadpis": "Procesy proměny městského prostoru",
+            "obsah": "Aktuální procesy probíhají paralelně a mohou působit protichůdně.",
+            "tabulka": {
+              "sloupce": [
+                "Proces",
+                "Definice",
+                "Projev v ČR"
+              ],
+              "radky": [
+                [
+                  "Suburbanizace",
+                  "Přesun obyvatel do zázemí měst, zachování vazby na město",
+                  "Okolí Prahy, Brna - obce Modřice, Popovice"
+                ],
+                [
+                  "Urban sprawl",
+                  "Nekontrolované rozlézání zástavby do krajiny (sídelní kaše)",
+                  "Středočeský kraj, Jihomoravský kraj"
+                ],
+                [
+                  "Gentrifikace",
+                  "Nahrazení původního obyvatelstva střední a vyšší třídou",
+                  "Praha - Žižkov, Vinohrady; Brno - Bratislavska"
+                ],
+                [
+                  "Komercionalizace",
+                  "Vytlačování bydlení komerční zastavbou v centru",
+                  "Praha - historicke centrum"
+                ],
+                [
+                  "Revitalizace",
+                  "Oživení zástavby, rekonstrukce zanedbaných čtvrti",
+                  "Brno - nábřeží Svratky"
+                ],
+                [
+                  "Desurbanizace",
+                  "Přesun aktivit z přesycených center",
+                  "Silnější v USA nez v Evropě"
+                ],
+                [
+                  "Reurbanizace",
+                  "Návrat obyvatel do center po cílené renovaci",
+                  "Berlin, Praha - Holešovice"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Suburbanizace → Urban sprawl → Gentrifikace → Komercionalizace → Revitalizace."
+          },
+          {
+            "nadpis": "Aktuální trendy a problémy měst v Česku",
+            "obsah": "ČR čelí specifické kombinaci postsocialistické transformace a obecně evropských trendů.\n- Suburbanizace Prahy a Brna: rychlý růst zázemí od 90. let, urban sprawl, dopravní kongesce\n- Brownfields: opuštěné průmyslové areály v centrech měst (Brno - Zbrojovka, Svitava; Praha - Holešovice)\n- Bydlení: dramaticky růst cen bytů v Praze a Brně - Brno patří k nejdražším v EU relativně k příjmům\n- Doprava: přetížení silniční sítě, rozvoj cyklodopravy, plány na metro v Brně\n- Smart city: Brno - projekty chytrého měření, digitalizace MHD",
+            "tabulka": {
+              "sloupce": [
+                "Problem",
+                "Cesko",
+                "Svet"
+              ],
+              "radky": [
+                [
+                  "Bydlení",
+                  "Nedostupnost v Praze a Brně",
+                  "Londýn, San Francisco, Sydney"
+                ],
+                [
+                  "Doprava",
+                  "Suburbanizace bez infrastruktury",
+                  "Megacities - Bangkok, Sao Paulo"
+                ],
+                [
+                  "Sociální segregace",
+                  "Vyloucene lokality",
+                  "Favely, slums, banlieues"
+                ],
+                [
+                  "Klimatická adaptace",
+                  "Tepelne ostrovy, zadrzovani vody",
+                  "Zaplavy v asijskych megamestech"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Bydlení → Doprava → Sociální segregace → Klimatická adaptace."
+          },
+          {
+            "nadpis": "Globální urbanizace a megazóna",
+            "obsah": "Světová urbanizace pokračuje, ale s výraznými regionálními rozdíly.\n\n- 2050: odhadováno 66 % světové populace ve městech (2015: 54 %, 1980: 39 %)\n- Zákon vedoucího města (Jefferson 1939): vedoucí město neúměrně větší - Londýn 7x Liverpool, Kodaň 9x Aarhus; nefunguje v USA, Rusku, Španělsku, Číně\n- Megamesta (nad 10 mil.): Tokio (37 mil.), Dilli (32 mil.), Shanghai (29 mil.)",
+            "tabulka": {
+              "sloupce": [
+                "Region",
+                "Mira urbanizace",
+                "Hlavni problem"
+              ],
+              "radky": [
+                [
+                  "S. a J. Amerika",
+                  "80-82 %",
+                  "Urban sprawl (USA), megamestsle slums (Brazilie)"
+                ],
+                [
+                  "Evropa",
+                  "74 %",
+                  "Starnuti populace, suburbanizace"
+                ],
+                [
+                  "Asie",
+                  "48 %",
+                  "Rychla urbanizace bez infrastruktury"
+                ],
+                [
+                  "subsaharská Afrika",
+                  "38 %",
+                  "Nejrychlejsi růst, absence infrastruktury"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: S. a J. Amerika → Evropa → Asie → subsaharská Afrika."
+          }
+        ],
         "exam_checklist": []
       },
-      "flashcards": [],
-      "kviz": []
+      "flashcards": [
+        {
+          "otazka": "Jake jsou tri zakladni faze vyvoje měst?",
+          "odpoved": "Preindustriální, industrialni, postindustriální"
+        },
+        {
+          "otazka": "Co je charakteristicke pro preindustrialni město?",
+          "odpoved": "Multifunkcnost, centrum = moc (hrad/kostel), elity v centru, obranná nebo dopravní poloha"
+        },
+        {
+          "otazka": "Co je Burgessov model koncentrických zón?",
+          "odpoved": "Model industrialniho města (Chicago 1925) s 5 zonami: CBD - přechodná - delnicka - obytna - dojizd'kova"
+        },
+        {
+          "otazka": "Co je gentrifikace?",
+          "odpoved": "Revitalizace městského centra spojena s nahrazenim původního obyvatelstva obyvateli s vyssim socialnim statusem (manazeri, yuppies)"
+        },
+        {
+          "otazka": "Co jsou edge cities?",
+          "odpoved": "Nová komerční nebo administrativní centra v suburbánu podel komunikacnich tras, bez historickeho jadra"
+        },
+        {
+          "otazka": "Co je urban sprawl (sídelní kaše)?",
+          "odpoved": "Nerizen a nepromyslene rozlézání zástavby do volne krajiny, forma nezadouci suburbanizace"
+        },
+        {
+          "otazka": "Jaký je vzorový příklad postindustriálního města?",
+          "odpoved": "Los Angeles - chaotické seskupování funkcí bez výrazné centrality, neutralizace vzdálenosti dopravou a telekomunikacemi"
+        },
+        {
+          "otazka": "Co je smrt vzdálenosti v postindustrialnim meste?",
+          "odpoved": "Neutralizace vlivu vzdálenosti na lokalizaci aktivit vlivem telekomunikaci a internetu"
+        },
+        {
+          "otazka": "Zákon vedoucího města - co rika a kdo ho formuloval?",
+          "odpoved": "Jefferson (1939): vedoucí město je neomerene větší nez ostatni (Londýn 7x Liverpool, Kodaň 9x Aarhus); nefunguje v USA, Rusku, Číně"
+        },
+        {
+          "otazka": "Jake jsou brownfields a kde se nachazeji v Brně?",
+          "odpoved": "Opuštěné průmyslové areály v centru měst; v Brně: Zbrojovka, areal Svitava, Vlnena"
+        },
+        {
+          "otazka": "Jak se lisi suburbanizace od urban sprawl?",
+          "odpoved": "Suburbanizace = planovany/prirozeny přesun do zázemí; urban sprawl = nekontrolovane, chaotické rozrustani bez infrastruktury"
+        },
+        {
+          "otazka": "Co je reurbanizace?",
+          "odpoved": "Návrat obyvatel do center měst po cílené renovaci historickych jader; probiha zejm. v Z Evropě"
+        },
+        {
+          "otazka": "Kolik % světové populace zilo ve městech v 2015 a odhad pro 2050?",
+          "odpoved": "2015: 54 %, 2050: odhadováno 66 %"
+        },
+        {
+          "otazka": "Co je desurbanizace a jak se lisi od reurbanizace?",
+          "odpoved": "Desurbanizace = přesun aktivit z přesycených center (silnejsi v USA); reurbanizace = navrat po cílené renovaci (Z Evropa)"
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Které město je klasickým příkladem postindustriálního města?",
+          "moznosti": [
+            "A) Manchester",
+            "B) Los Angeles",
+            "C) Brno",
+            "D) Chicago"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Los Angeles je vzorový příklad postindustriálního města - chaotické seskupování funkcí bez výrazné centrality, neutralizace vzdálenosti dopravou a telekomunikacemi."
+        },
+        {
+          "otazka": "Co je charakteristickym znakem preindustrialniho města?",
+          "moznosti": [
+            "A) Oddeleni místa práce a bydlení",
+            "B) Multifunkcnost s dominanci politické a nabozenske funkce",
+            "C) Rozptyl aktivit do suburbánu",
+            "D) Gentrifikace historickeho centra"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Preindustriální město bylo multifunkční - dominovaly funkce politické, nabozenske, administrativní a kulturní. Centrum symbolizovalo moc (hrad, kostel). Oddeleni práce a bydlení nastalo az s industrializaci."
+        },
+        {
+          "otazka": "Kdo formuloval model koncentrických zón a pro které město?",
+          "moznosti": [
+            "A) Jefferson pro Londýn",
+            "B) Weber pro Mnichov",
+            "C) Burgess pro Chicago",
+            "D) Christaller pro Norimberk"
+          ],
+          "spravna": 2,
+          "vysvetleni": "E. W. Burgess (1925) popsal model industrialniho města na příkladu Chicaga: 5 koncentrických zón od CBD po dojizd'kovou oblast."
+        },
+        {
+          "otazka": "Co popisuje Jeffersonuv zakon vedoucího města?",
+          "moznosti": [
+            "A) Vedouci město ma vzdy nejlepsi infrastrukturu",
+            "B) Vedouci město je neomerene větší nez ostatni města v systemu",
+            "C) Vedouci město lezi vzdy na pobřeží",
+            "D) Vedouci město ma nejvyssi index gentrifikace"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Jefferson (1939): vedoucí město je neúměrně větší - Londýn 7x větší nez Liverpool, Kodaň 9x větší nez Aarhus. Nefunguje v USA, Rusku, Španělsku nebo Číně."
+        },
+        {
+          "otazka": "Která z forem premeny městského prostoru znamena navrat bydlení do centra po renovaci?",
+          "moznosti": [
+            "A) Suburbanizace",
+            "B) Desurbanizace",
+            "C) Reurbanizace",
+            "D) Komercionalizace"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Reurbanizace je alternativa desurbanizace - projevuje se v Z Evropě jako vysledek cilenych renovacnich programu historickych jader, vedoucí k navratu obyvatel do center."
+        },
+        {
+          "otazka": "Jak velký podíl světové populace zil ve městech v roce 2015?",
+          "moznosti": [
+            "A) 39 %",
+            "B) 48 %",
+            "C) 54 %",
+            "D) 66 %"
+          ],
+          "spravna": 2,
+          "vysvetleni": "V roce 2015 zilo ve městech 54 % světové populace (v roce 1980 to bylo 39 %). Do roku 2050 se odhaduje narust na 66 %."
+        },
+        {
+          "otazka": "Co jsou gated communities?",
+          "moznosti": [
+            "A) Nakupni centra na okraji měst",
+            "B) Rezidencni oblasti s omezenym vstupem",
+            "C) Opuštěné průmyslové areály",
+            "D) Historicka jadra s omezenym provozem"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Gated communities jsou rezidencni oblasti s omezenym vstupem - oplocene, s bezpecnostni kontrolou. Jsou typickym prvkem postindustriálního města."
+        },
+        {
+          "otazka": "Jaká je hlavni pricina suburbanizace v industrialnim obdobi?",
+          "moznosti": [
+            "A) Nedostatek bytů v centru",
+            "B) Rozvoj automobiloveho průmyslu a motorizace",
+            "C) Gentrifikace centra",
+            "D) Průmyslová krize"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Suburbanizace je spojena s industrialnim obdobim - zvysujici se zivotni uroven a rozvoj automobilu umoznily odlouceni místa bydliste od pracoviste. V zap. zemích masové jev od 30. let 20. stol."
+        },
+        {
+          "otazka": "Který region světa je nejvice urbanizovany?",
+          "moznosti": [
+            "A) Asie (48 %)",
+            "B) Evropa (74 %)",
+            "C) Severni Amerika (82 %)",
+            "D) Latinská Amerika (80 %)"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Severni Amerika ma nejvyssi miru urbanizace - 82 %. Latinská Amerika 80 %, Evropa 74 %, Asie 48 %, subsaharská Afrika 38 %."
+        },
+        {
+          "otazka": "Co jsou brownfields a jaký je příklad v Brně?",
+          "moznosti": [
+            "A) Nová sídliště na okraji - příklad Bystrc",
+            "B) Opuštěné průmyslové areály v centru - příklad Zbrojovka",
+            "C) Rekreační oblasti v zázemí - příklad Brněnská přehrada",
+            "D) Komerční zóny u dálnic - příklad Cernov. terasa"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Brownfields jsou opuštěné průmyslové nebo komerční areály cekajici na nové vyuziti. V Brně: Zbrojovka (Kounicova), areal Svitava, Vlnena - klíčové rozvojove lokality."
+        },
+        {
+          "otazka": "Co je specifickym problemem postindustriálního města oproti industrialnimu?",
+          "moznosti": [
+            "A) Nadmerne znečištění ovzdusi z tovaren",
+            "B) Nedostatek pracovnich sil",
+            "C) Rozptyl a ztrata komunitniho charakteru města",
+            "D) Nedostatecna zeleznicni sit"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Postindustriální město je charakterizovano prostorovym a hodnotovym rozptylem - chaotické seskupování funkcí bez centrality, ztrata komunitniho charakteru, dominance komunikaci."
+        }
+      ]
     }
   ]
 }

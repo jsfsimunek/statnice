@@ -1,6 +1,6 @@
 {
   "id": 3,
-  "nazev": "Okruh 3",
+  "nazev": "Mapový obsah, geologie a data",
   "podotazky": [
     {
       "pismeno": "A",
@@ -9,7 +9,7 @@
         "sekce": [
           {
             "nadpis": "Definice mapy a 3Z",
-            "obsah": "Mapa je zmenšený, generalizovaný, konvenční obraz Země (nebo nebeských těles), převedený do roviny pomocí matematicky definovaných vztahů, ukazující polohu, stav a vztahy přírodních, socioekonomických a technických objektů. (ČSN 730402)\n\nTři klíčové vlastnosti mapy:\n1. Zmenšení (měřítko)\n2. Zkreslení (zobrazení)\n3. Zjednodušení (generalizace)\n\nMapa není fotografie – je to abstraktní model reality selektivně zobrazující jen to, co je pro daný účel důležité.",
+            "obsah": "Mapa je zmenšený, generalizovaný, konvenční obraz Země (nebo nebeských těles), převedený do roviny pomocí matematicky definovaných vztahů, ukazující poloh, stav a vztahy přírodních, socioekonomických a technických objektů. (ČSN 730402)\n\nTři klíčové vlastnosti mapy:\n1. Zmenšení (měřítko)\n2. Zkreslení (zobrazení)\n3. Zjednodušení (generalizace)\n\nMapa není fotografie – je to abstraktní model reality selektivně zobrazující jen to, co je pro daný účel důležité.",
             "mnemotechnika": "3Z mapy: Zmenšení + Zkreslení + Zjednodušení"
           },
           {
@@ -24,7 +24,7 @@
           },
           {
             "nadpis": "Metody tematické kartografie",
-            "obsah": "1. Bodová metoda: 1 bod = N jednotek (počet obyvatel, kusů dobytka). Vhodná pro absolutní hodnoty.\n\n2. Kartogram: plošné jednotky barveny podle relativní hodnoty (hustota/km², %). Příklad: hustota obyvatel států světa.\n\n3. Kartodiagram: do plošných jednotek vloženy diagramy (sloupcové, kruhové). Příklad: objem sklizně dle krajů.\n\n4. Metoda izolinií: čáry spojují místa se stejnou hodnotou. Izohypsy (výšky), izobary (tlak), izotermy (teplota), izobaty (hloubky oceánu). Vhodná pro spojité jevy.\n\n5. Metoda barevných vrstev: barevné odlišení ploch mezi izoliniemi. Zvláštní případ: hypsometrie.\n\n6. Metoda areálů: ohraničení ploch výskytu jevu (areál rozšíření druhu).\n\n7. Stuhová metoda (tokové diagramy): šířka linie = intenzita pohybu. Migrace, obchod, doprava.\n\n8. Metoda pohybových šipek: směr a intenzita pohybu.",
+            "obsah": "1. Bodová metoda: 1 bod = N jednotek (počet obyvatel, kusů dobytka). Vhodná pro absolutní hodnoty.\n\n2. Kartogram: plošné jednotky barveny podle relativní hodnoty (hustota/km², %). Příklad: hustota obyvatel států světa.\n\n3. Kartodiagram: do plošných jednotek vloženy diagramy (sloupcové, kruhové). Příklad: objem sklizně dle krajů.\n\n4. Metoda izolinií: čáry spojují místa se stejnou hodnotou. Izohypsy (výšky), izobary (tlak), izotermy (teplota), izobaty (hloubky oceánu). Vhodná pro spojité jevy.\n\n5. Metoda barevných vrstev: barevné odlišení ploch mezi izoliniemi. Zvláštní případ: hypsometrie.\n\n6. Metoda areálů: ohraničení ploch výskytu jevu (areál rozšíření druhů).\n\n7. Stuhová metoda (tokové diagramy): šířka linie = intenzita pohybu. Migrace, obchod, doprava.\n\n8. Metoda pohybových šipek: směr a intenzita pohybu.",
             "mnemotechnika": "BodKarKartIzoBarAreaStu = 7 hlavních metod tematické kartografie"
           },
           {
@@ -78,7 +78,7 @@
         },
         {
           "otazka": "Co je metoda areálů?",
-          "odpoved": "Ohraničení a vyplnění ploch výskytu jevu – areál rozšíření živočišného druhu."
+          "odpoved": "Ohraničení a vyplnění ploch výskytu jevu – areál rozšíření živočišného druhů."
         },
         {
           "otazka": "Jaké jsou 5 povinných kompozičních prvků mapy?",

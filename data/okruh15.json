@@ -1,6 +1,6 @@
 {
   "id": 15,
-  "nazev": "Okruh 15",
+  "nazev": "Slapové jevy, voda a doprava",
   "podotazky": [
     {
       "pismeno": "A",
@@ -14,23 +14,830 @@
     },
     {
       "pismeno": "B",
-      "zneni": "Popište rozložení zásob vody na Zemi. Vysvětlete malý a velký oběh vody.",
+      "zneni": "Popište rozložení zásob vody na Zemi. S využitím schématu vysvětlete malý i velký oběh vody na Zemi na konkrétních příkladech.",
       "studium": {
-        "sekce": [],
+        "sekce": [
+          {
+            "nadpis": "1. Rozložení zemského povrchu – pevnina vs. oceán",
+            "obsah": "Pomůcka: 70-30 = Voda-Pevnina; Jižní polkoule je více vodní než severní.",
+            "tabulka": {
+              "sloupce": [
+                "Parametr",
+                "Hodnota"
+              ],
+              "radky": [
+                [
+                  "Celková plocha povrchu Země",
+                  "510 mil. km²"
+                ],
+                [
+                  "Oceány a moře",
+                  "361 mil. km² = 70,8 %"
+                ],
+                [
+                  "Pevnina",
+                  "149 mil. km² = 29,2 %"
+                ],
+                [
+                  "Severní polokoule (oceán:pevnina)",
+                  "61 : 39 % (100 mil. km² pevnina, 155 mil. km² oceán)"
+                ],
+                [
+                  "Jižní polokoule (oceán:pevnina)",
+                  "81 : 19 % (49 mil. km² pevnina, 206 mil. km² oceán)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Celková plocha povrchu Země → Oceány a moře → Pevnina → Severní polokoule (oceán:pevnina) → Jižní polokoule (oceán:pevnina)."
+          },
+          {
+            "nadpis": "2. Zásoby vody na Zemi – klíčová čísla",
+            "obsah": "Sladká voda celkem: ~35 mil. km³ (z celkové pevniny 47,9 mil. km³)\nNejvětší zásoby sladké vody: povrchové ledovce (~24 mil. km³) > podpovrchová voda (~23,7 mil. km³) > jezera a řeky (~13,5 mil. km³)\n\nPomůcka na pořadí: LED-PŮD-JEZERA = Ledovce, Půdní (podzemní), Jezera+řeky",
+            "tabulka": {
+              "sloupce": [
+                "Kategorie",
+                "Objem (km³)",
+                "Podíl z celku",
+                "Poznámka"
+              ],
+              "radky": [
+                [
+                  "Oceány a moře",
+                  "1 338 000 000",
+                  "~96,5 %",
+                  "0,1 % objemu Země; slaná voda"
+                ],
+                [
+                  "Ledovce a sněhová pole",
+                  "26 350 000",
+                  "~1,74 %",
+                  "Největší zásoby sladké vody; Antarktida, Grónsko"
+                ],
+                [
+                  "Podzemní voda",
+                  "23 400 000",
+                  "~1,69 %",
+                  "Z toho ~10 mil. km³ sladká (zóna aktivní výměny)"
+                ],
+                [
+                  "Permafrost",
+                  "300 000",
+                  "~0,02 %",
+                  "Zmrzlá voda v trvale zmrzlé půdě"
+                ],
+                [
+                  "Povrchová voda pevnin",
+                  "93 100",
+                  "~0,007 %",
+                  "Jezera, řeky, bažiny"
+                ],
+                [
+                  "Atmosférická voda",
+                  "12 900",
+                  "~0,001 %",
+                  "Vodní pára; průměrná délka pobytu: 10 dní"
+                ],
+                [
+                  "Biologická voda",
+                  "1 120",
+                  "nepatrné",
+                  "Voda vázaná v živých organismech"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Oceány a moře → Ledovce a sněhová pole → Podzemní voda → Permafrost → Povrchová voda pevnin."
+          },
+          {
+            "nadpis": "3. Malý oběh vody",
+            "obsah": "Malý oběh = lokální oběh bez přenosu vody mezi oceánem a pevninou. Voda se pohybuje v rámci jednoho systému.\n\nDva typy malého oběhu:\n\n- Oceánský malý oběh: oceán → výpar z hladiny oceánu → vodní pára → kondenzace → srážky → zpět do oceánu\nSchéma: oceán – atmosféra – oceán\n- Pevninský malý oběh (v bezodtokových oblastech): pevnina → výpar → srážky → zpět na pevninu bez odtoku do oceánu\nSchéma: pevnina – atmosféra – pevnina\nBezodtokové oblasti = cca 20 % plochy pevniny; srážky neodtékají do světového oceánu, končí v jezerech nebo se vypaří (Kaspické moře, Aralské jezero, Čadské jezero, Turkmenistán).\n\nPříklady malého oběhu: Středomoří v létě (výpar z Mediteránu → srážky zpět do Mediteránu), povodí Kaspického moře.",
+            "mnemotechnika": "Klíč: 3. Malý oběh vody. Řekni definici, příklad a dopad."
+          },
+          {
+            "nadpis": "4. Velký oběh vody",
+            "obsah": "Velký oběh = globální výměna vody mezi oceánem a pevninou prostřednictvím atmosféry.\n\nSchéma: oceán → výpar → vodní pára přenesena větrem nad pevninu → kondenzace → srážky → povrchový/podzemní odtok → zpět do oceánu\n\nKlíčová čísla velkého oběhu:",
+            "tabulka": {
+              "sloupce": [
+                "Veličina",
+                "Hodnota"
+              ],
+              "radky": [
+                [
+                  "Celkový výpar z povrchu Země/rok",
+                  "496 000 km³"
+                ],
+                [
+                  "Výpar z oceánu",
+                  "~425 000 km³/rok"
+                ],
+                [
+                  "Výpar z pevniny (evapotranspirace)",
+                  "~71 000 km³/rok"
+                ],
+                [
+                  "Voda vázaná v atmosféře (stabilně)",
+                  "~13 000 km³; z toho 3/4 nad oceánem, 1/4 nad souší"
+                ],
+                [
+                  "Srážky nad pevninou celkem",
+                  "~111 000 km³/rok (71 000 z pevniny + 40 000 z oceánu)"
+                ],
+                [
+                  "Průměrný čas setrvání vody v atmosféře",
+                  "~10 dní"
+                ],
+                [
+                  "Povrchový odtok pevnin do oceánu/rok",
+                  "~40 000 km³; průměrný čas oběhu: 12 dní"
+                ],
+                [
+                  "Podzemní odtok do oceánu/rok",
+                  "~12 000 km³; průměrný čas oběhu: 5 000 let"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Celkový výpar z povrchu Země/rok → Výpar z oceánu → Výpar z pevniny (evapotranspirace) → Voda vázaná v atmosféře (stabilně) → Srážky nad pevninou celkem."
+          },
+          {
+            "nadpis": "5. Úmoří a rozvodnice",
+            "obsah": "Úmoří = část pevniny, ze které odtékají vody do konkrétního oceánu. Oddělena kontinentálními rozvodnicemi.\n\nBezodtokové oblasti (endoreické): ~20 % pevniny. Příklady: povodí Kaspického moře, Aralské jezero, pouštní oblasti Střední Asie, Sahara.\n\nNerovnoměrnost přítoku: Severní ledový oceán dostává o létě 56 % ročního přítoku (tání sněhu), v zimě jen 7 %.",
+            "tabulka": {
+              "sloupce": [
+                "Oceán",
+                "Přítok (mm/rok)",
+                "Hodnocení",
+                "Příklady řek"
+              ],
+              "radky": [
+                [
+                  "Severní ledový oceán",
+                  "355 mm/rok",
+                  "Nadprůměrný",
+                  "Ob, Jenisej, Lena (Sibiř); největší sezonní výkyv: léto 56 %, zima 7 % ročního odtoku"
+                ],
+                [
+                  "Atlantický oceán",
+                  "226 mm/rok",
+                  "Nadprůměrný",
+                  "Amazonie, Kongo, Mississippi, Dunaj; nejrovnoměrnější přítok"
+                ],
+                [
+                  "Tichý oceán",
+                  "83 mm/rok",
+                  "Podprůměrný",
+                  "Yangtze, Huang He, Amur, Colorado"
+                ],
+                [
+                  "Indický oceán",
+                  "80 mm/rok",
+                  "Podprůměrný",
+                  "Ganga, Brahmaputra, Zambezi"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Severní ledový oceán → Atlantický oceán → Tichý oceán → Indický oceán."
+          },
+          {
+            "nadpis": "6. Hydrologický cyklus v povodí – rovnice bilance",
+            "obsah": "Rovnice hydrologické bilance povodí:\n\nHZ = HE + Ho ± R\n\n- HZ = výška srážek (mm)\n- HE = výška evapotranspirace (mm)\n- Ho = výška odtoku (mm)\n- R = změna zásob vody v povodí (mm)\nPlatí pro hydrologicky uzavřené povodí za libovolné časové období. Hydrologický rok = 1. listopadu – 31. října (začíná po vegetačním období, zásoby vody jsou na minimu).\n\nPovrchový vs. podzemní odtok:\n\nFaktory ovlivňující hydrologický cyklus v povodí: poloha povodí (zeměpisná, hydrologická), klimatické poměry, vegetační pokryv (intercepce), půdní vlastnosti (propustnost, kapilárnost).",
+            "tabulka": {
+              "sloupce": [
+                "Typ odtoku",
+                "Schéma",
+                "Objem vody",
+                "Průměrný čas oběhu"
+              ],
+              "radky": [
+                [
+                  "Povrchový odtok",
+                  "oceán – atm. – pevnina – povrch. odtok – oceán",
+                  "~40 000 km³",
+                  "12 dní"
+                ],
+                [
+                  "Podzemní odtok",
+                  "oceán – atm. – pevnina – infiltrace – podz. odtok – oceán",
+                  "~12 000 km³",
+                  "5 000 let (průměr); zóna aktivní výměny: 330 let"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Povrchový odtok → Podzemní odtok."
+          },
+          {
+            "nadpis": "7. Atmosférický cyklus vody a evapotranspirace",
+            "obsah": "Procesy výparu:\n\nPrůměrný čas setrvání vody v různých zásobnících:",
+            "tabulka": [
+              {
+                "sloupce": [
+                  "Typ výparu",
+                  "Definice",
+                  "Podmínky"
+                ],
+                "radky": [
+                  [
+                    "Evaporace",
+                    "Fyzikální výpar z neživého substrátu (vodní hladina, půda, sníh)",
+                    "Závisí na teplotě, rychlosti větru, vlhkosti vzduchu, tlaku par"
+                  ],
+                  [
+                    "Transpirace",
+                    "Fyziologický výpar z nadzemních částí rostlin",
+                    "V mírných šířkách převažuje nad evaporací"
+                  ],
+                  [
+                    "Evapotranspirace",
+                    "Souhrnný výpar (evaporace + transpirace)",
+                    "Závisí na vegetaci, teplotě, dostupnosti vody"
+                  ],
+                  [
+                    "Sublimace",
+                    "Přechod z pevného skupenství (led, sníh) přímo do plynného",
+                    "Nízká teplota, nízká vlhkost vzduchu; typická pro podélární oblasti"
+                  ]
+                ]
+              },
+              {
+                "sloupce": [
+                  "Zásobník",
+                  "Průměrný čas"
+                ],
+                "radky": [
+                  [
+                    "Atmosféra",
+                    "10 dní"
+                  ],
+                  [
+                    "Řeky (povrchový odtok)",
+                    "12–20 dní"
+                  ],
+                  [
+                    "Světový oceán",
+                    "2 500–3 000 let"
+                  ],
+                  [
+                    "Podzemní voda (aktivní zóna)",
+                    "330 let"
+                  ],
+                  [
+                    "Podzemní voda (celkový průměr)",
+                    "5 000 let"
+                  ],
+                  [
+                    "Ledovce",
+                    "10 000–100 000 let"
+                  ]
+                ]
+              }
+            ],
+            "mnemotechnika": "Pořadí: Evaporace → Transpirace → Evapotranspirace → Sublimace → Atmosféra."
+          }
+        ],
         "exam_checklist": []
       },
-      "flashcards": [],
-      "kviz": []
+      "flashcards": [
+        {
+          "otazka": "Jaký je podíl oceánů a pevniny na celkovém povrchu Země?",
+          "odpoved": "Oceány a moře: 361 mil. km² = 70,8 %. Pevnina: 149 mil. km² = 29,2 %. Jižní polokoule je 'vodnatější' (81 % oceán) než severní (61 % oceán)."
+        },
+        {
+          "otazka": "Kde jsou největší zásoby sladké vody na Zemi?",
+          "odpoved": "1. Povrchové ledovce (Antarktida, Grónsko): ~24 mil. km³. 2. Podpovrchová (podzemní) voda: ~23,7 mil. km³. 3. Jezera a řeky: ~13,5 mil. km³. Lidé mohou využívat jen zlomek! Pomůcka: LED-PŮD-JEZERA."
+        },
+        {
+          "otazka": "Co je malý a velký oběh vody? Uveď schémata.",
+          "odpoved": "Malý oběh: oceán–atmosféra–oceán NEBO pevnina–atmosféra–pevnina (bezodtokové oblasti). Velký oběh: oceán–atmosféra–pevnina–odtok–oceán. Velký oběh přenáší vodu mezi oceánem a pevninou."
+        },
+        {
+          "otazka": "Kolik km³ vody se ročně vypaří ze Země celkem? Jak se dělí mezi oceán a pevninu?",
+          "odpoved": "Celkový výpar: 496 000 km³/rok. Z oceánu: ~425 000 km³ (86 %). Z pevniny (evapotranspirace): ~71 000 km³ (14 %). Vodní pára setrvá v atmosféře průměrně 10 dní."
+        },
+        {
+          "otazka": "Co jsou bezodtokové (endoreické) oblasti a jak velkou část pevniny tvoří?",
+          "odpoved": "Oblasti, kde voda neodtéká do světového oceánu (končí v jezerech, vypaří se). ~20 % plochy pevniny. Příklady: povodí Kaspického moře, Aralské jezero, povodí Čadského jezera, Střední Asie."
+        },
+        {
+          "otazka": "Která část světového oceánu dostává nejvíce přítoku z pevnin a proč?",
+          "odpoved": "Severní ledový oceán: 355 mm/rok. Důvod: velké sibiřské řeky (Ob, Jenisej, Lena) odtékají na sever; navíc silné sezonní tání sněhu → léto 56 % ročního odtoku, zima jen 7 %."
+        },
+        {
+          "otazka": "Co je rovnice hydrologické bilance povodí a kdy se používá?",
+          "odpoved": "HZ = HE + Ho ± R. HZ = srážky, HE = evapotranspirace, Ho = odtok, R = změna zásob. Platí pro hydrologicky uzavřené povodí za libovolné časové období. Hydrologický rok: 1. 11. – 31. 10."
+        },
+        {
+          "otazka": "Jak dlouho setrvává voda průměrně v atmosféře vs. v podzemních vodách?",
+          "odpoved": "Atmosféra: ~10 dní. Povrchový odtok (řeky): 12–20 dní. Podzemní voda (aktivní zóna): 330 let. Podzemní voda (celkový průměr): 5 000 let. Ledovce: 10 000–100 000 let."
+        },
+        {
+          "otazka": "Co je evaporace vs. transpirace vs. evapotranspirace?",
+          "odpoved": "Evaporace = fyzikální výpar z neživého substrátu. Transpirace = fyziologický výpar z rostlin (v mírných šířkách převažuje nad evaporací). Evapotranspirace = jejich součet = celkový výpar z aktivního povrchu."
+        },
+        {
+          "otazka": "Jaký je celkový objem vody ve světovém oceánu a kolik % objemu Země tvoří?",
+          "odpoved": "Oceány: 1 338 milionů km³ = ~96,5 % veškeré vody na Zemi = 0,1 % objemu celé planety. Pro srovnání: Zemi je pevná skála, voda je jen tenký film na povrchu."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Kde jsou uloženy největší zásoby sladké vody na Zemi?",
+          "moznosti": [
+            "A) Ve světovém oceánu",
+            "B) V jezerech a řekách",
+            "C) V podélárních ledovcích a ledovcích (Antarktida, Grónsko)",
+            "D) V atmosféře jako vodní pára"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Povrchové ledovce ukrývají ~24 mil. km³ sladké vody – největší zásobárna sladké vody. Na druhém místě je podzemní voda (~23,7 mil. km³). Jezera a řeky tvoří pouhých ~13,5 mil. km³."
+        },
+        {
+          "otazka": "Co je velký oběh vody? Vyberte správné schéma.",
+          "moznosti": [
+            "A) Oceán – atmosféra – oceán (voda se neodvozuje na pevninu)",
+            "B) Oceán – atmosféra – pevnina – povrchový odtok – oceán",
+            "C) Pevnina – atmosféra – pevnina (bezodtoková oblast)",
+            "D) Pevnina – podzemní vody – oceán (bez atmosféry)"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Velký oběh (globální) přenáší vodu mezi oceánem a pevninou. Výpar z oceánu → vodní pára přenesena větrem nad pevninu → srážky → povrchový/podzemní odtok → zpět do oceánu. To je základní schéma velkého oběhu."
+        },
+        {
+          "otazka": "Kolik % povrchu Země pokrývají oceány a moře?",
+          "moznosti": [
+            "A) 50 %",
+            "B) 61 %",
+            "C) 70,8 %",
+            "D) 81 %"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Oceány a moře pokrývají 361 mil. km² = 70,8 % povrchu Země. Pevnina = 149 mil. km² = 29,2 %. Na jižní polokouli je poměr 81:19 ve prospěch oceánů."
+        },
+        {
+          "otazka": "Jak dlouho setrvává vodní pára průměrně v atmosféře?",
+          "moznosti": [
+            "A) 1 rok",
+            "B) 30 dní",
+            "C) Přibližně 10 dní",
+            "D) 1 000 let"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Průměrná délka pobytu vodní páry v atmosférickém cyklu je ~10 dní – velmi krátký čas. Srovnání: podzemní voda ~5 000 let, ledovce 10 000–100 000 let. Krátká dobá oběhu v atmosféře = rychlý hydrologický cyklus."
+        },
+        {
+          "otazka": "Proč Severní ledový oceán dostává nejvíce přítoku z pevnin (355 mm/rok)?",
+          "moznosti": [
+            "A) Leží blízko rovníku s intenzivním výparem",
+            "B) Velké sibiřské řeky (Ob, Jenisej, Lena) a silné sezónní tání sněhu na severní polokouli",
+            "C) Atlantský oceán přivádí vlhkost do Arktidy",
+            "D) El Niño způsobuje příliv do Arktidy"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Sibiřské velké řeky odtékají severním směrem. Navíc na severní polokouli dochází k silnému jarnímu tání sněhu a ledovců → letní maximum přítoku (56 % ročního odtoku v létě, jen 7 % v zimě)."
+        },
+        {
+          "otazka": "Co je rovnice hydrologické bilance povodí HZ = HE + Ho ± R? Co znamená R?",
+          "moznosti": [
+            "A) Rychlost odtoku vody v říčním korytě",
+            "B) Roční úhrn srážek v povodí",
+            "C) Změna zásob vody v povodí (zásoby mohou přibývat nebo ubývat)",
+            "D) Relativní vlhkost vzduchu nad povodím"
+          ],
+          "spravna": 2,
+          "vysvetleni": "R = změna zásob vody v povodí. Může být kladná (zásoby přibývají – více pršelo, více se vsáklo) nebo záporná (zásoby ubývají – sucho, odtok bez doplnění). HZ = srážky, HE = evapotranspirace, Ho = odtok."
+        },
+        {
+          "otazka": "Co je hydrologický rok a proč začíná 1. listopadu?",
+          "moznosti": [
+            "A) Začíná 1. ledna – odpovídá kalendářnímu roku",
+            "B) Začíná 1. listopadu, protože po vegetačním období jsou zásoby vody v povodí na minimu – vhodný počáteční stav",
+            "C) Začíná 1. dubna – po zimním tání sněhu",
+            "D) Začíná 1. července – uprostřed srážkového maxima"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Hydrologický rok začíná 1. 11. a končí 31. 10. V listopadu jsou zásoby půdní vody po vegetačním období minimální → vhodný referenční stav pro výpočet bilance. Sníh, který napadne od listopadu, je zahrnut do bilance nastávajícího roku."
+        },
+        {
+          "otazka": "Kolik procent plochy pevniny tvoří bezodtokové (endoreické) oblasti?",
+          "moznosti": [
+            "A) 5 %",
+            "B) 20 %",
+            "C) 35 %",
+            "D) 50 %"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Bezodtokové oblasti = ~20 % plochy pevniny. Voda zde neodtéká do světového oceánu – končí v jezerech (Kaspické moře, Aralské jezero, Mrtvé moře) nebo se vypaří. Tvoří lokální malé oběhy vody."
+        },
+        {
+          "otazka": "Jaký je celkový roční výpar z povrchu Země?",
+          "moznosti": [
+            "A) 71 000 km³",
+            "B) 111 000 km³",
+            "C) 496 000 km³",
+            "D) 1 338 000 km³"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Celkový výpar ze Země = 496 000 km³/rok. Z toho oceány = ~425 000 km³ (86 %), pevnina (evapotranspirace) = ~71 000 km³. Celkové srážky nad pevninou = ~111 000 km³ (71 000 z pevniny + ~40 000 přeneseno z oceánu větrem)."
+        },
+        {
+          "otazka": "Co je transpirace a proč je ekologicky důležitá?",
+          "moznosti": [
+            "A) Fyzikální výpar z vodní hladiny",
+            "B) Fyziologický výpar z rostlin; v mírných šířkách převažuje nad evaporací; vegetace tak vrací vodu do atmosféry a podporuje koloběh vody",
+            "C) Kondenzace vodní páry v atmosféře",
+            "D) Výpar z ledovců a sněhu (sublimace)"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Transpirace = fyziologický výpar z nadzemních částí rostlin (listy, stonky). V mírných šířkách převažuje nad evaporací. Lesy, zejm. tropické, vrací obrovské množství vody do atmosféry – podporují lokální oběh vody. Odlesňování proto narušuje hydrologický cyklus."
+        }
+      ]
     },
     {
       "pismeno": "C",
-      "zneni": "Charakterizujte a zdůvodněte aktuální trendy v dopravě a jejich vliv na rozmístění ekonomických aktivit.",
+      "zneni": "Charakterizujte aktuální trendy v dopravě a jejich vliv na rozmístění ekonomických aktivit. Zhodnoťte význam logistiky a informačních technologií v současném dopravním systému.",
       "studium": {
-        "sekce": [],
+        "sekce": [
+          {
+            "nadpis": "Aktuální trendy v osobní dopravě",
+            "obsah": "Osobni doprava prodela v poslednich desetiletich zasadni zmeny.",
+            "tabulka": {
+              "sloupce": [
+                "Trend",
+                "Popis",
+                "Příklad/Dopad"
+              ],
+              "radky": [
+                [
+                  "Nízkonakladove letectvi",
+                  "Demokratizace letecke dopravy; boom od 90. let",
+                  "Ryanair, easyJet, Wizz Air; masové turismus"
+                ],
+                [
+                  "Vysokorychlostni železnice",
+                  "Nad 250 km/h; alternativa letadlum do 700 km",
+                  "TGV (Francie 1981), shinkansen (Japonsko), sit v Číně (40 000 km)"
+                ],
+                [
+                  "Ride-sharing a MaaS",
+                  "Mobility as a Service - integrace vsech modu dopravy do jedne aplikace",
+                  "Uber, Bolt, Liftago; Whim (Helsinki)"
+                ],
+                [
+                  "E-mobilita",
+                  "Elektricka vozidla - snizeni emisi, změna energetiky dopravy",
+                  "Tesla, Norsko (80 % nových aut EV), rozvoj nabijeci infrastruktury"
+                ],
+                [
+                  "Sdilena mikromobilita",
+                  "Kolobelky a kola na sdileni v městech",
+                  "Bolt, Lime, Rekola; vliv na mestsky prostor"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Nízkonakladove letectvi → Vysokorychlostni železnice → Ride-sharing a MaaS → E-mobilita → Sdilena mikromobilita."
+          },
+          {
+            "nadpis": "Aktuální trendy v nákladní dopravě a logistice",
+            "obsah": "Nakladni doprava je kicovym prvkem globalniho hodnotoveho retezce.\n- E-commerce boom: Amazon, Alibaba = obri logisticke systemy; same-day a next-day delivery\n- Just-in-time (JIT): minimalizace skladů, dodat v presny cas; vyžaduje spolehlivou logistiku; vulnerabilni vuci krizi (COVID, Ever Given)\n- Last-mile delivery: nejdrazsi a nejkomplikovanejsi cast prepravy; inovace: kuryrni roboti, drony (Amazon Prime Air)\n- Logisticke parky: koncentrace skladovacich a distribucnich kapacit u dálnicních krizovatek, letist, přístavu",
+            "tabulka": {
+              "sloupce": [
+                "Firma",
+                "Specialita"
+              ],
+              "radky": [
+                [
+                  "DHL",
+                  "Globalni expresni doprava, logistika"
+                ],
+                [
+                  "Amazon Logistics",
+                  "Vlastni logisticka sit pro e-commerce"
+                ],
+                [
+                  "Maersk",
+                  "Nejvetsi namorni kontejnerovy prepravce"
+                ],
+                [
+                  "UPS, FedEx",
+                  "Globalni kuryrni a expresni doprava"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: DHL → Amazon Logistics → Maersk → UPS, FedEx."
+          },
+          {
+            "nadpis": "Logistika - definice a vývoj",
+            "obsah": "Logistika = nákladově efektivní časově podmínene rozmísťování podnikových zdrojů v prostoru umožňující dosažení konkurencni výhody.\n- Vznik v armádě - zasobovani front (staroveke Recko, Rim, Byzancie)\n- 50. leta USA - prechod logistiky do obchodu za ucelem minimalizace nákladů\n- Dnes = komplexni disciplína zahrnujici: skladovani, manipulaci, prepravni baleni, dopravu, rizeni zasob, poradenstvi\nLogisticke technologie:",
+            "tabulka": {
+              "sloupce": [
+                "Technologie",
+                "Funkce"
+              ],
+              "radky": [
+                [
+                  "RFID (Radio Frequency Identification)",
+                  "Identifikace zboží bez kontaktu; sledovani zboží v reálném čase"
+                ],
+                [
+                  "EPC (Electronic Product Code)",
+                  "Digitalni cislo na baleni oznacujici vyrobce, vyrobek, verzi, serii"
+                ],
+                [
+                  "WMS (Warehouse Mgmt Systém)",
+                  "Řízení skladů - optimalizace umístění, pohybu zboží"
+                ],
+                [
+                  "GPS tracking",
+                  "Sledování dopravních prostředků a zásilek v reálném čase"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: RFID (Radio Frequency Identification) → EPC (Electronic Product Code) → WMS (Warehouse Mgmt Systém) → GPS tracking."
+          },
+          {
+            "nadpis": "Vliv dopravy na rozmístění ekonomických aktivit",
+            "obsah": "Doprava byla a je jedním z klicovych lokalizačních faktorů ekonomickych aktivit.\n\nKlic: dopravní dostupnost = konkurencni výhoda; oblasti s dobrou dostupnosti lakaji investice.",
+            "tabulka": {
+              "sloupce": [
+                "Období",
+                "Klicový dopravní faktor",
+                "Vliv na rozmístění"
+              ],
+              "radky": [
+                [
+                  "Pred-industrialni",
+                  "Ricni doprava, morske cesty",
+                  "Mesta u řek a přístavu (Hamburk, Londýn, Amsterdam)"
+                ],
+                [
+                  "Industriální",
+                  "Zeleznice (od 1830)",
+                  "Prumyslovy rozvoj u zeleznicnich uzlu; Ostrava, Ruhr, Manchester"
+                ],
+                [
+                  "20. stol.",
+                  "Silnicni doprava (auta, nakladaky)",
+                  "Suburbanizace, průmyslové zóny u dálnic"
+                ],
+                [
+                  "Soucasnost",
+                  "Multimodalni logistika, letecka doprava, internet",
+                  "Logisticke parky u dálnicních krizovatek, letist; e-commerce hub"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Pred-industrialni → Industriální → stol. → Soucasnost."
+          },
+          {
+            "nadpis": "Doprava a trvalá udržitelnost - zelená doprava",
+            "obsah": "Doprava je největší tvurce environmentalnich problemu a klíčové tema soucasne politiky.",
+            "tabulka": {
+              "sloupce": [
+                "Iniciativa",
+                "Popis",
+                "Příklad"
+              ],
+              "radky": [
+                [
+                  "Elektrifikace dopravy",
+                  "EV, e-bussy, e-trucks; snizeni emisí CO2"
+                ],
+                [
+                  "Norsko: 80 % nových aut EV (2023)",
+                  ""
+                ],
+                [
+                  "Vodikova energie (H2)",
+                  "Vodikove autobusy a vlaky; bezemsne palivo",
+                  "Alstom Coradia iLint (vlak na vodík, Nemecko)"
+                ],
+                [
+                  "Modal shift",
+                  "Přesun ze silnice na zeleznici a vodu",
+                  "EU cíl: 75 % silniční naklady presunut do 2050"
+                ],
+                [
+                  "Sustainable Aviation Fuel (SAF)",
+                  "Biopaliva pro letecký průmysl",
+                  "Povinné přimíchávání SAF v EU od 2025"
+                ],
+                [
+                  "Slow steaming",
+                  "Snížení rychlosti kontejnerovych lodi = mensi spotřeba paliva",
+                  "Maersk, CMA CGM - standardni praxe"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Elektrifikace dopravy → Norsko: 80 % nových aut EV (2023) → Vodikova energie (H2) → Modal shift → Sustainable Aviation Fuel (SAF)."
+          },
+          {
+            "nadpis": "Digitální transformace dopravy",
+            "obsah": "Digitalizace meni nejen logy ale i cely dopravní system.\n- Autonomni vozidla: samoridicí auta a nakladaky (Tesla Semi, Waymo); zatim ve fázi testování; potencial pro zmenu last-mile logistiky\n- Dronova doprava: Amazon Prime Air, Wing (Google); kratka preprava baliku; regulacni překážky\n- Hyperloop: vakuová trubice pro supersonický transport (Virgin Hyperloop, Elon Musk); ve vyvoji; Brno - Praha do 25 min.\n- Smart traffic management: AI rizeni dopravy v městech; snizeni kongesci; Singapore, Amsterdam\n- MaaS (Mobility as a Service): integrace vsech dopravních modu do jedne aplikace/predplatne; Helsinki pilotni město (Whim)",
+            "tabulka": {
+              "sloupce": [
+                "Technologie",
+                "Časový horizont",
+                "Dopad na geogr. aktivit"
+              ],
+              "radky": [
+                [
+                  "EV masové nasazeni",
+                  "2025-2035",
+                  "Zmena energetiky, konec benzinek"
+                ],
+                [
+                  "Autonomni vozidla",
+                  "2030-2040",
+                  "Zmena last-mile, ridici povolani"
+                ],
+                [
+                  "Hyperloop",
+                  "2035-2050",
+                  "Smrsteni vzdálenosti mezi mesety, dekoncentrace"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: EV masové nasazeni → Autonomni vozidla → Hyperloop."
+          },
+          {
+            "nadpis": "Doprava v České republice - trendy",
+            "obsah": "ČR ma specifické vyzvy v doprave dany svou polohou v srdci Evropy.\n- Poloha: ČR je tranzitni zemí - hlavni koridor V-Z (Drezdany-Praha-Brno-Bratislava-Budapeszt) a S-J (Nemecko-Polsko-Slovensko)\n- Dalnicni sit: z 97 % dokoncena; rozsirovani probíha; D35 (Praha-Olomouc alternativa D1)\n- Zeleznice: zaostala infrastruktura; modernizace koridoru; priority: Praha-Brno (HSR planovana - uzel Praha, 160 min -> 60 min)\n- Letecka: Praha Ruzyne (Vaclav Havel Airport) = hlavni hub; Brno Turany, Ostrava; omezena kapacita PRG\n- Logistika: ČR je atraktivni logisticka destinace pro strední Evropu; velke logisticke parky u D1 (Pardubice, Prostejov), D5 (Rozvadov), D8",
+            "tabulka": {
+              "sloupce": [
+                "Klicový projekt",
+                "Status"
+              ],
+              "radky": [
+                [
+                  "Vysoka železnice Praha-Brno",
+                  "Projektovani, planovane 2040+"
+                ],
+                [
+                  "Dostavba D35",
+                  "Probíha"
+                ],
+                [
+                  "Rozsireni PRG (Terminal 3)",
+                  "V diskusi"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Vysoka železnice Praha-Brno → Dostavba D35 → Rozsireni PRG (Terminal 3)."
+          }
+        ],
         "exam_checklist": []
       },
-      "flashcards": [],
-      "kviz": []
+      "flashcards": [
+        {
+          "otazka": "Co je MaaS (Mobility as a Service)?",
+          "odpoved": "Integrace vsech druhů dopravy (metro, autobus, sdilena kola, taxi) do jedne aplikace nebo predplatneho; pilotni město Helsinki (aplikace Whim)"
+        },
+        {
+          "otazka": "Co je just-in-time (JIT) logistika?",
+          "odpoved": "Systém minimalizace skladů - dodání materiálu nebo zboží přesně v okamžiku potřeby; vyžaduje spolehlivou logistiku; vulnerabilni při krizi (COVID, Ever Given 2021)"
+        },
+        {
+          "otazka": "Jaká je výhoda RFID oproti tradičním čárovým kódům?",
+          "odpoved": "RFID identifikuje zboží bez kontaktu ve velkem objemu najednou (cele palety); ciarovy kod vyžaduje primy opticky kontakt s kazdem kusom"
+        },
+        {
+          "otazka": "Co je last-mile delivery a proč je drahy?",
+          "odpoved": "Posledni usek prepravy od distribucniho skladů ke koncovemu zakaznikovi; nejnakladnejsi a nejkomplikovanejsi cást - velký pocet malych dopadek, ruzne adresy"
+        },
+        {
+          "otazka": "Jaká zeme ma nejvyssi podíl EV na nových prodejich aut?",
+          "odpoved": "Norsko - cca 80 % nových aut je elektrickych nebo hybridních (2023); stimulovano danymi ulevami a rozvinutou nabijeci infrastrukturou"
+        },
+        {
+          "otazka": "Co je Hyperloop a jaka by byla cast Praha-Brno?",
+          "odpoved": "Vakuova trubice pro supersonicky transport (Virgin Hyperloop, Musk); Praha-Brno cca 25 min; zatim ve fázi vyvoje a testování"
+        },
+        {
+          "otazka": "Proč je e-commerce revoluci v doprave?",
+          "odpoved": "Amazon, Alibaba vytvorily obri logisticke systemy s miliony zásilek denni; vyžaduje nové logisticke parky, same-day delivery, zmenu last-mile; silny růst objemu kuryrni dopravy"
+        },
+        {
+          "otazka": "Jaký je cíl EU v modal shiftu do 2050?",
+          "odpoved": "EU chce do 2050 presunut 75 % nakladni silniční dopravy na zeleznici a vnitrozemske vodní cesty kvuli snizeni emisi CO2 a kongesci"
+        },
+        {
+          "otazka": "Proč je ČR atraktivni pro logistiku?",
+          "odpoved": "Poloha v srdci Evropy, tranzitni koridor V-Z i S-J, dokoncena dalnicni sit, dobra zeleznicni dostupnost; velke logisticke parky u D1 (Pardubice), D5 (Rozvadov)"
+        },
+        {
+          "otazka": "Co je slow steaming a k cemu slouzi?",
+          "odpoved": "Snížení rychlosti kontejnerovych lodi o 10-15 % = snizeni spotřeby paliva az o 20-30 %; standardni praxe Maersk, CMA CGM jako reakce na energie naklady a climate commitments"
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Co je MaaS (Mobility as a Service)?",
+          "moznosti": [
+            "A) Marketing dopravních služeb pro turisty",
+            "B) Integrace vsech druhů dopravy do jedne aplikace nebo predplatneho",
+            "C) Mereni vykonnosti dopravních firem",
+            "D) Sprava leteckeho prostoru"
+          ],
+          "spravna": 1,
+          "vysvetleni": "MaaS = Mobility as a Service = integrace vsech dopravních modu (metro, bus, sdilena kola, taxi, vlak) do jedne aplikace nebo predplatneho. Pilotni město je Helsinki s aplikaci Whim."
+        },
+        {
+          "otazka": "Co je just-in-time logistika a jaký je jeji problem?",
+          "moznosti": [
+            "A) Okamzite doruceni zboží, nema zadny problem",
+            "B) Minimalizace skladů dodánim v presný cas; vulnerabilni při disrupcich (COVID, Ever Given)",
+            "C) Rychla letecka doprava pro urgentni zboží",
+            "D) Automatizace skladů pomoci robotu"
+          ],
+          "spravna": 1,
+          "vysvetleni": "JIT = minimalizace skladů, dodání v presny okamzik potřeby. Problem: velka vulnerabilita při jakychkoli narustecich v supply chain - COVID (uzavření tovaren) nebo Ever Given (Suezsky kanal 2021) zpusobily globální krize dodavek."
+        },
+        {
+          "otazka": "Jaká zeme ma nejvyssi podíl elektrickych aut na nových prodejich?",
+          "moznosti": [
+            "A) Nemecko",
+            "B) Čína",
+            "C) Norsko",
+            "D) USA"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Norsko ma kolem 80 % podíl EV na nových prodejich aut (2023) - největší na svete. Dosahlo toho kombinaci danovych ulev, bezplast. nabijeni ve verejnem prostoru a vysoke povedomí o ZP. Čína je absolutni největší trh EV, ale relativně je nižší."
+        },
+        {
+          "otazka": "Proč je last-mile delivery nejdrazsi casti logistickeho retezce?",
+          "moznosti": [
+            "A) Pouziva se nejdrazsi druh dopravy - letecka",
+            "B) Velky pocet malych dopadek na ruzne adresy, nizka hustota, casova narocnost",
+            "C) Vyzaduje specialne vycvicene ridicke",
+            "D) Zakaznici casto odmitaji platit za posledni usek"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Last-mile = posledni usek ke koncovemu zakaznikovi. Je nejnakladnejsi protoze zahrnuje velke mnozstvi malych zásilek na ruzne adresy s nizkou hustotou, nutnost osobniho doruceni, cekani, opetovne pokusy. Tvorí az 50 % celkovych logistickych nákladů."
+        },
+        {
+          "otazka": "Co je RFID technologie v logistice?",
+          "moznosti": [
+            "A) Rychla zeleznicni doprava pro nadmerne zboží",
+            "B) Radio Frequency Identification - bezdotykova identifikace zboží",
+            "C) Systém automatickeho riadenia skladů",
+            "D) Sledování teplot v chladirenskych retezci"
+          ],
+          "spravna": 1,
+          "vysvetleni": "RFID = Radio Frequency Identification = bezdotykova identifikace zboží pomoci radiovych cipu. Umoznuje sledovat zboží v reálném čase, identifikovat cele palety najednou. EPC = Electronic Product Code - cislo na baleni s informacemi o vyrobci a vyrobku."
+        },
+        {
+          "otazka": "Který typ dopravy ma nejvyssi potencial pro snizeni emisi CO2 v mestske doprave?",
+          "moznosti": [
+            "A) Silnicni elektricka doprava",
+            "B) Mestska železnice (metro, tramvaj) pohanena obnovitelnou energii",
+            "C) Nízkonakladove letecke spoje",
+            "D) Vodikove autobusy"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Mestska železnice (metro, tramvaj) pohyy elektrikou z obnovitelnych zdrojů ma nejmensi emise na osobokm a největší kapacitu. Je idealnim resenim pro hromadnou mestskou mobilitu. Elektricka železnice = 14 g CO2/osobokm vs. auto = 170-200 g."
+        },
+        {
+          "otazka": "Proč je ČR atraktivni jako logisticke centrum pro strední Evropu?",
+          "moznosti": [
+            "A) Levna pracovní sila a zadna legislativa",
+            "B) Poloha v srdci Evropy, tranzitni koridor, dokoncena dalnicni sit",
+            "C) Velké morske pristavy na Jadranu",
+            "D) Nejrozvinutejsi sitova infrastruktura EU"
+          ],
+          "spravna": 1,
+          "vysvetleni": "ČR = tranzitni zeme pro hlavni koridory (V-Z: Dresden-Praha-Brno-Bratislava-Budapest; S-J: Polsko-Nemecko). Dokoncena dalnicni sit, dobre zeleznicni koridory, poloha = velke logisticke parky u D1 (Pardubice, Prostejov), D5 (Rozvadov)."
+        },
+        {
+          "otazka": "Co je slow steaming v namorni doprave?",
+          "moznosti": [
+            "A) Preprava zboží v nizke priorite bez garantovaneho casu",
+            "B) Snížení rychlosti lodi = snizeni spotřeby paliva az o 30 %",
+            "C) Pouziti starych lodi s nizkou spotrebou",
+            "D) Ekologicky namorni pristav bez emisnich zón"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Slow steaming = snizeni rychlosti kontejnerovych lodi o cca 10-15 % (z 25 na 20 uzlu). Snizi spotřeby paliva az o 20-30 % protoze spotřeba roste s kubem rychlosti. Standardni praxe velcych prepravcu (Maersk, CMA CGM) jako klimatické opatreni."
+        },
+        {
+          "otazka": "Kdy zacala budovat vysokorychlostni zeleznici TGV ve Francii?",
+          "moznosti": [
+            "A) 1962",
+            "B) 1981",
+            "C) 1994",
+            "D) 2001"
+          ],
+          "spravna": 1,
+          "vysvetleni": "TGV (Train a Grande Vitesse) byl spusten 1981 na trase Paris-Lyon. Stal se vzorem pro HSR v cele Evropě. Čína ma dnes největší HSR sit na svete (cca 40 000 km), Japonsko ma nejstarsi (shinkansen od 1964)."
+        },
+        {
+          "otazka": "Jaký je ocekavany dopad autonomnich vozidel na logistiku?",
+          "moznosti": [
+            "A) Eliminace letecke nakladni dopravy",
+            "B) Zmena last-mile logistiky a ohrozeni ridicskeho povolani",
+            "C) Zvyseni cen za prepravu kvuli slozite technologií",
+            "D) Přesun vsech nákladů na zeleznici"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Autonomni vozidla (Tesla Semi, Waymo) maji potencial revolucionalizovat last-mile dopravu - samoridicí dodavaci vozidla a drony pro posledni usek. Zaroven ohrozuji profesi řidiče náklaďáků (v USA cca 3,5 mil. lidi). Zatím ve fázi testování a časově rozmístění je nejisté."
+        }
+      ]
     }
   ]
 }

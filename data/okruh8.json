@@ -1,6 +1,6 @@
 {
   "id": 8,
-  "nazev": "Okruh 8",
+  "nazev": "DPZ, geomorfologie a průmysl",
   "podotazky": [
     {
       "pismeno": "A",
@@ -19,7 +19,7 @@
           },
           {
             "nadpis": "Znaky při interpretaci snímků",
-            "obsah": "Interpretační znaky satelitních a leteckých snímků:\n1. Tón/barva – světlost nebo barva objektu na snímku\n2. Textura – jemnost/hrubost povrchu (les = hrubá, moře = jemná)\n3. Tvar – geometrie objektu (obdélníkové = budovy, kruhovité = nádrže)\n4. Velikost – absolutní nebo relativní velikost\n5. Vzor – pravidelné/nepravidelné uspořádání (zemědělská políčka)\n6. Stín – tvar stínu napovídá výšku a tvar objektu\n7. Poloha/kontext – co je v sousedství (dům u silnice vs. dům u lesa)\n8. Asociace – co je typicky spojeno s daným objektem",
+            "obsah": "Interpretační znaky satelitních a leteckých snímků:\n1. Tón/barva – světlost nebo barva objektu na snímku\n2. Textura – jemnost/hrubost povrchu (les = hrubá, moře = jemná)\n3. Tvar – geometrie objektu (obdélníkové = budovy, kruhovité = nádrže)\n4. Velikost – absolutní nebo relativní velikost\n5. Vzor – pravidelné/nepravidelné uspořádání (zemědělská podélíčka)\n6. Stín – tvar stínu napovídá výšku a tvar objektu\n7. Poloha/kontext – co je v sousedství (dům u silnice vs. dům u lesa)\n8. Asociace – co je typicky spojeno s daným objektem",
             "mnemotechnika": "ToBaTvVeVzStPoAs = Tón, Barva, Tvar, Velikost, Vzor, Stín, Poloha, Asociace"
           },
           {
