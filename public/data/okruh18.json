@@ -47,7 +47,7 @@
         },
         {
           "otazka": "Co je Collector for ArcGIS?",
-          "odpoved": "Mobilní aplikace Esri pro sběr geodat v terénu – žáci zaznamenávají polohu a atributy objektů."
+          "odpoved": "Mobilní aplikace Esri pro sběr geodat v terénu – žáci zaznamenávají poloh a atributy objektů."
         },
         {
           "otazka": "Jak lze využít NASA Worldview ve výuce?",
@@ -109,13 +109,390 @@
     },
     {
       "pismeno": "B",
-      "zneni": "Popište mořské proudění ve vazbě na VCA a vysvětlete El Niño.",
+      "zneni": "Popište princip a zákonitosti mořského proudění ve vazbě na všeobecnou cirkulaci atmosféry. Schematicky znázorněte a vysvětlete působení El Niña.",
       "studium": {
-        "sekce": [],
+        "sekce": [
+          {
+            "nadpis": "1. Světový oceán – základní fyzikální vlastnosti",
+            "obsah": "Pomůcka na salinity: Rudé moře = REkordní sůl (43 ‰); Baltské moře = Brzy Málo soli (8 ‰)",
+            "tabulka": {
+              "sloupce": [
+                "Vlastnost",
+                "Hodnota / detail"
+              ],
+              "radky": [
+                [
+                  "Průměrná hloubka",
+                  "~3 700 m; největší: Challengerova hlubina (Mariana Trench) –10 935 m"
+                ],
+                [
+                  "Průměrná salinita",
+                  "35 ‰ (35 g soli / 1 kg vody); max. v Rudém moři (43 ‰), min. v Baltském moři (8 ‰)"
+                ],
+                [
+                  "Průměrná teplota povrchu",
+                  "~17 °C; klesá od rovníku k pólům"
+                ],
+                [
+                  "Hustota oceánské vody",
+                  "Závisí na teplotě a salinitě; chladnější a slanější voda = hustší = klesá"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Průměrná hloubka → Průměrná salinita → Průměrná teplota povrchu → Hustota oceánské vody."
+          },
+          {
+            "nadpis": "2. Typy mořského proudění",
+            "obsah": "",
+            "tabulka": {
+              "sloupce": [
+                "Typ",
+                "Příčina",
+                "Charakteristika"
+              ],
+              "radky": [
+                [
+                  "Povrchové (vítrové) proudy",
+                  "Pasáty a westerlies třením pohybují povrchovou vrstvou oceánu (do 200 m hloubky)",
+                  "Rychlé (až 8 km/h); cirkulace ve velkých gyres (gyrech); odklonění Coriolisovou silou"
+                ],
+                [
+                  "Termohalinní cirkulace (THC)",
+                  "Rozdíly hustoty (teplota + salinita); studená/slaná voda klesá, teplá/málo slaná stoupá",
+                  "Hluboký globální pás (Thermohaline Conveyor Belt = Globální dopravníkový pás); velmi pomalý (stovky až tisíce let)"
+                ],
+                [
+                  "Slapové proudy",
+                  "Gravitace Měsíce a Slunce; přílivy a odlivy",
+                  "Lokální; výrazné v průlivech a zálivech; La Manche, záliv Fundy"
+                ],
+                [
+                  "Upwelling",
+                  "Povrchový vítr odfoukne teplou povrchovou vodu, studená voda vystoupí ze dna",
+                  "Výstupné proudění; obohacuje povrch živinami → bohaté rybářské oblasti; Peru, Namibie, Kalifornie"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Povrchové (vítrové) proudy → Termohalinní cirkulace (THC) → Slapové proudy → Upwelling."
+          },
+          {
+            "nadpis": "3. Povrchové oceánské proudy – vliv pasátů a westerlies",
+            "obsah": "Pasáty žene vodu westward (na západ) v tropech → hromadění teplé vody na západ → kompenzační pohyb podél poledníků.\n\nCoriolisova síla odkloňuje cirkulaci oceánů: SP = po směru HRU (CW gyre), JP = CCW gyre.\n\nPomůcka na teplé vs. studené proudy: Teplé proudy = od rovníku k pólům (po ZS stranách pevnin na SP); Studené = od pólů k rovníku (po VV stranách pevnin na SP)",
+            "tabulka": {
+              "sloupce": [
+                "Gyres (velký okruh)",
+                "Oblast",
+                "Klíčové proudy",
+                "Dopad na klima"
+              ],
+              "radky": [
+                [
+                  "Severní Atlantik",
+                  "SP, Atlantik",
+                  "Golfský proud (teplý, sever), Kanarský proud (studený, západ Afriky)",
+                  "Golfský proud: otepluje ZV Evropu; Kanarský: ochlazuje S Afriku (Sahara u moře)"
+                ],
+                [
+                  "Jižní Atlantik",
+                  "JP, Atlantik",
+                  "Benguelský proud (studený), Brazilský proud (teplý)",
+                  "Benguelský: Namibská poušť; Brazilský: tropické pralesy JV Brazílie"
+                ],
+                [
+                  "Severní Pacifik",
+                  "SP, Pacifik",
+                  "Kuroshio (teplý, západ), Kalifornský proud (studený)",
+                  "Kuroshio: otepluje Japonsko; Kalifornský: ochlazuje západ USA"
+                ],
+                [
+                  "Jižní Pacifik",
+                  "JP, Pacifik",
+                  "Humboldtův proud (studený, západ J.A.)",
+                  "Humboldtův: Atacama – nejsušší poušť; základ produktivního rybolovu"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Severní Atlantik → Jižní Atlantik → Severní Pacifik → Jižní Pacifik."
+          },
+          {
+            "nadpis": "4. Termohalinní cirkulace (Globální dopravníkový pás)",
+            "obsah": "Termohalinní cirkulace (THC) = globální oceánské proudění řízené hustotními rozdíly vody (teplota + salinita).\n\nMechanismus:\n\n- Golfský proud přináší teplou slanou vodu ze subtropů do N. Atlantiku\n- V Severním Atlantiku (u Grónska, v Norském moři) se voda ochlazuje → stává se hustší → klesá ke dnu\n- Hluboká voda proudí na jih podél dna → do Tichého a Indického oceánu\n- Tam pomalu stoupá (upwelling) a ohřívá se → vrací se povrchově zpět\n- Jeden cyklus: ~1 500 let\nKlimatický dopad: THC přenáší teplo z tropů do mírných a vysokých šířek → ZV Evropa je o 5–10 °C teplejší, než by odpovídalo zeměpisné šířce. Oslabení THC (tání Grónska → příliv sladké vody → snížení hustoty → méně klesání) → ochlazen ZV Evropy → scénář jako v klimatické katastrofickém filmu Zítra nepřijde.",
+            "mnemotechnika": "Klíč: 4. Termohalinní cirkulace (Globální dopravníkový pás). Řekni definici, příklad a dopad."
+          },
+          {
+            "nadpis": "5. El Niño – mechanismus a důsledky",
+            "obsah": "ENSO = El Niño-Southern Oscillation; periodická klimatická anomálie v tropickém Tichém oceánu. Frekvence: 3–7 let.\n\nNormální stav (bez El Niña):\n\n- Silné jihovýchodní pasáty žene teplou povrchovou vodu na západ (k Indonésii/Austrálii)\n- U pobřeží Peru funguje upwelling – studená živinami bohatá voda vystupuje → bohaté rybářství\n- Západ Pacifiku (Indonésie): teplé vlhké klima, hojné srážky\n- Východ Pacifiku (Peru): suché klima, minimální srážky\nEl Niño (teplejší fáze):\n\n- Pasáty zeslabí nebo se otočí\n- Teplá voda se šíří na východ k Peru; blokuje upwelling\n- Povrch u Peru se otepluje o 2–5 °C (normálně ~18 °C → 22–25 °C)\n\nNázev El Niño = Chlapec (španělsky), protože se projevuje kolem Vánoc u Peru",
+            "tabulka": {
+              "sloupce": [
+                "Region",
+                "Normální stav",
+                "Při El Niño"
+              ],
+              "radky": [
+                [
+                  "Peru, Ekvádor",
+                  "Sucho; bohaté rybářství",
+                  "Silné záplavy, srážky; kolaps sardinkového rybolovu"
+                ],
+                [
+                  "Indonésie, Austrálie",
+                  "Deštivo; vegetace bohatá",
+                  "Sucho; lesní požáry (Austrálie 2019–2020)"
+                ],
+                [
+                  "JV Asie (Vietnam, Filipíny)",
+                  "Vlhké monzuny",
+                  "Oslabené monzuny; sucho"
+                ],
+                [
+                  "Indie",
+                  "Normální monzun",
+                  "Oslabený monzun → sucho → hrozba hladomoru"
+                ],
+                [
+                  "Západ USA",
+                  "Sucho v Kalifornii",
+                  "Více srážek; povodně v Kalifornii"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Peru, Ekvádor → Indonésie, Austrálie → JV Asie (Vietnam, Filipíny) → Indie → Západ USA."
+          },
+          {
+            "nadpis": "6. La Niña a Southern Oscillation",
+            "obsah": "La Niña (Dívka) = opačná fáze ENSO; posílené pasáty, ještě silnější upwelling u Peru.\n\nSouthern Oscillation = atmosferická složka ENSO; oscilace tlakového rozdílu mezi východním Pacifikem (Tahiti) a západním Pacifikem (Darwin, Austrálie). Index SOI: záporný = El Niño, kladný = La Niña.\n\nFrekvence a intenzita: Silné El Niño 1982–83, 1997–98 (největší 20. stol.), 2015–16. Předpovídá se pomocí sledování teploty povrchu oceánu a SOI indexu.",
+            "tabulka": {
+              "sloupce": [
+                "Jev",
+                "Peru/Ekvádor",
+                "Austrálie/Indonésie",
+                "Indie"
+              ],
+              "radky": [
+                [
+                  "El Niño",
+                  "Záplavy",
+                  "Sucho, požáry",
+                  "Slabý monzun"
+                ],
+                [
+                  "La Niña",
+                  "Sucho",
+                  "Záplavy, silný monzun",
+                  "Silný monzun"
+                ],
+                [
+                  "Normální stav",
+                  "Mírné sucho (upwelling)",
+                  "Průměrné srážky",
+                  "Průměrný monzun"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: El Niño → La Niña → Normální stav."
+          },
+          {
+            "nadpis": "7. Vliv mořských proudů na klima a biomy",
+            "obsah": "Klíčové pravidlo: Teplé proudy na ZS pobřeží pevnin SP → přinášejí vlhkost a teplo (Golfský, Kuroshio). Studené proudy na VV pobřeží pevnin SP → způsobují ariditu a chlad (Humboldtův, Benguelský, Kanarský).",
+            "tabulka": {
+              "sloupce": [
+                "Proud",
+                "Typ",
+                "Region",
+                "Klimatický/ekologický dopad"
+              ],
+              "radky": [
+                [
+                  "Golfský proud",
+                  "Teplý",
+                  "Atlantik SP → ZV Evropa",
+                  "ZV Evropa 5–10 °C teplejší; Norsko bez zamrzání přístavů na 70° s.š."
+                ],
+                [
+                  "Humboldtův proud",
+                  "Studený",
+                  "Pacifik JP, pobřeží Chile a Peru",
+                  "Atacama: nejsušší poušť; bohatý upwelling → nejproduktivnější rybářská oblast světa (ančovičky Peru)"
+                ],
+                [
+                  "Benguelský proud",
+                  "Studený",
+                  "Atlantik JP, západ Afriky",
+                  "Namibská poušť přímo u oceánu; husté mlhy; tučňáci na západním pobřeží Afriky"
+                ],
+                [
+                  "Kuroshio",
+                  "Teplý",
+                  "Pacifik SP, Japonsko",
+                  "Japonsko mírné klima na 35° s.š.; analog Golfského proudu pro Pacifik"
+                ],
+                [
+                  "Kanarský proud",
+                  "Studený",
+                  "Atlantik SP, západ Afriky",
+                  "Ochlazuje pobřeží Maroka, Sahary; upwelling rybářství (Mauretánie)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Golfský proud → Humboldtův proud → Benguelský proud → Kuroshio → Kanarský proud."
+          }
+        ],
         "exam_checklist": []
       },
-      "flashcards": [],
-      "kviz": []
+      "flashcards": [
+        {
+          "otazka": "Co způsobuje termohalinní cirkulaci (THC) a jak dlouho trvá jeden cyklus?",
+          "odpoved": "THC je poháněna hustotními rozdíly oceánské vody: studená + slaná voda klesá (Severní Atlantik u Grónska), teplá + méně slaná stoupá. Jeden cyklus truje ~1 500 let. Přenáší teplo z tropů do mírných a vysokých šířek."
+        },
+        {
+          "otazka": "Proč je západní Evropa teplejší, než odpovídá zeměpisné šířce?",
+          "odpoved": "Golfský proud přináší teplou vodu ze subtropů do SV Atlantiku + převládající jihozápadní proudění přenáší teplo na ZV Evropu. Norsko (70° s.š.) má nezamrzající přístavy, zatímco Hudson Bay (60° s.š.) v Kanadě zamrzá 6 měsíců."
+        },
+        {
+          "otazka": "Co je upwelling a kde se vyskytuje?",
+          "odpoved": "Upwelling = výstupné proudění studené vody ze dna, způsobené odfouknutím povrchové vody větrem. Voda bohatá živinami → extrémní biologická produktivita → nejbohatší rybářské oblasti. Příklady: pobřeží Peru (Humboldtův proud), Namibie (Benguelský), Kalifornie."
+        },
+        {
+          "otazka": "Co se děje s pasáty a teplou vodou v Pacifiku při El Niño?",
+          "odpoved": "Pasáty zeslabí → teplá voda se šíří na VÝCHOD k Peru (normálně je hromadí na západ k Indonésii). Blokuje se upwelling u Peru → teplota povrchu + 2–5 °C → záplavy v Peru, sucho v Austrálii."
+        },
+        {
+          "otazka": "Proč je Atacama nejsušší poušť světa, přestože leží u Tichého oceánu?",
+          "odpoved": "Humboldtův studený proud ochlazuje povrch oceánu → malý výpar → studený vzduch bez vlhkosti → minimum srážek. Navíc Andy na východě tvoří srážkový stín. Arica (Chile) průměr < 1 mm srážek/rok."
+        },
+        {
+          "otazka": "Co je Southern Oscillation (SO) a jak se měří?",
+          "odpoved": "Atmosférická složka ENSO = oscilace tlakového rozdílu mezi VZ Pacifikem (Tahiti) a ZZ Pacifikem (Darwin, Austrálie). Měří se indexem SOI: záporný SOI = El Niño (nižší tlak na V), kladný SOI = La Niña."
+        },
+        {
+          "otazka": "Jak se liší dopad El Niño a La Niña na Austrálii?",
+          "odpoved": "El Niño: sucho v Austrálii a Indonésii (teplá voda odešla na východ → méně výparu nad záp. Pacifikem → méně srážek). La Niña: záplavy v Austrálii (posíleny pasáty, více teplé vody na západ → více srážek)."
+        },
+        {
+          "otazka": "Které proudy jsou teplé a které studené v Atlantském oceánu na severní polokouli?",
+          "odpoved": "Teplé (od rovníku k pólům): Golfský proud (záp. část, nese teplo k Evropě), Severoatlantský proud (pokračování Golfského). Studené (od pólů k rovníku): Labradorský proud (ZZ strana SP Atlantiku), Kanarský proud (V Atlantiku, záp. Afrika)."
+        },
+        {
+          "otazka": "Co je Kuroshio a s čím je srovnatelný?",
+          "odpoved": "Kuroshio = teplý mořský proud v SZ Pacifiku podél Japonska (záp. hranice gyre SP Pacifiku). Analogie Golfského proudu pro Pacifik – přináší teplou tropickou vodu na 35–40° s.š. Japonsko má díky němu mírné klima."
+        },
+        {
+          "otazka": "Jaká je průměrná salinita světového oceánu a kde jsou extrémy?",
+          "odpoved": "Průměr: 35 ‰ (35 g soli/kg vody). Maximum: Rudé moře (43 ‰) – intenzivní výpar, málo srážek, málo přítoku sladké vody. Minimum: Baltské moře (8 ‰) – velký přítok sladkých vod z pevniny, málo odparu."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Co je příčinou termohalinní cirkulace?",
+          "moznosti": [
+            "A) Pasáty třením pohybují povrchovou vrstvou oceánu",
+            "B) Rozdíly hustoty způsobené teplotou a salinitou – chladná slaná voda klesá",
+            "C) Gravitace Měsíce způsobuje přílivy a odlivy",
+            "D) Vítr způsobuje upwelling studené vody"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Termohalinní cirkulace je řízena hustotními rozdíly. Chladná + slaná voda = hustší → klesá ke dnu (Severní Atlantik u Grónska). Teplá + méně slaná = lehčí → stoupá. Tím vzniká globální dopravníkový pás s cyklem ~1 500 let."
+        },
+        {
+          "otazka": "Proč při El Niño nastávají záplavy v Peru a Ekvádoru?",
+          "moznosti": [
+            "A) Posílené pasáty přinášejí více vlhkosti z oceánu",
+            "B) Zeslabení pasátů → teplá voda se šíří na východ k Peru → blokování upwellingu → oteplení → více výparu a srážek",
+            "C) La Niña přináší srážky z Indie",
+            "D) Termohalinní cirkulace se zrychlí a přinese teplou vodu"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Při El Niño pasáty zeslabí → teplá voda se přesouvá na východ k Peru. Teplota povrchu moře u Peru stoupne o 2–5 °C → intenzivní výpar → hojné srážky → záplavy. Rybářství kolabuje kvůli zániku upwellingu."
+        },
+        {
+          "otazka": "Proč má Namibská poušť (Namib) poušť přímo u Atlantického oceánu?",
+          "moznosti": [
+            "A) Silný Golfský proud ochlazuje vzduch nad Namibií",
+            "B) Benguelský studený proud ochlazuje vzduch → malý výpar → aridita → Namibská poušť",
+            "C) El Niño způsobuje sucho v Africe",
+            "D) Subtropická tlaková výše brání srážkám celý rok"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Benguelský studený proud teče podél jihozápadního pobřeží Afriky. Ochlazuje přízemní vzduch → pasátová inverze → vzduch je stabilní a suchý → žádné srážky → poušť Namib přímo u moře. Analogie: Atacama (Humboldtův proud) v Jižní Americe."
+        },
+        {
+          "otazka": "Golfský proud přináší teplo do ZV Evropy. Odkud proudí a kam?",
+          "moznosti": [
+            "A) Z Arktidy na jih; přináší chladné vody do Středomoří",
+            "B) Ze subtropů (Mexický záliv/Karibik) podél VV pobřeží Severní Ameriky na sever, pak na východ k Evropě",
+            "C) Ze Středomoří přes Gibraltar do Atlantiku",
+            "D) Z antarktických vod na sever podél Evropy"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Golfský proud: vychází z Floridského průlivu → podél VV pobřeží USA → SV Atlantik (Severoatlantský proud) → k ZV Evropě a Norsku. Přenáší teplou vodu a teplo z tropů a otepluje Evropu o 5–10 °C oproti stejným šířkám na ZZ Amerika."
+        },
+        {
+          "otazka": "Co je upwelling a proč podporuje bohaté rybářství?",
+          "moznosti": [
+            "A) Sestupné proudění teplé vody ke dnu oceánu",
+            "B) Výstupné proudění studené vody ze dna – přináší živiny (NO₃, PO₄) k povrchu → rozvoj fytoplanktonu → bohatý potravní řetězec",
+            "C) Povrchový proud způsobený větrem bez vertikálního složky",
+            "D) Termohalinní cirkulace v mělkých oblastech"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Upwelling = výstup studené, živinami bohaté vody ze dna. Živiny (dusičnany, fosfáty) živí fytoplankton → zooplankton → ryby. Pobřeží Peru (ančovičky) a Namibie/Maroka jsou díky upwellingu mezi nejproduktivnějšími rybářskými oblastmi světa."
+        },
+        {
+          "otazka": "Jaká je průměrná salinita světového oceánu?",
+          "moznosti": [
+            "A) 10 ‰",
+            "B) 25 ‰",
+            "C) 35 ‰",
+            "D) 50 ‰"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Průměrná salinita světového oceánu je 35 ‰ (35 gramů soli na kilogram vody). Maximum: Rudé moře (43 ‰), minimum: Baltské moře (8 ‰). Salinita závisí na výparu (zvyšuje) a přítoku sladké vody (snižuje)."
+        },
+        {
+          "otazka": "Co je La Niña a jaký je její dopad na Austrálii?",
+          "moznosti": [
+            "A) La Niña = zánik upwellingu u Peru; v Austrálii záplavy",
+            "B) La Niña = posílení pasátů, více teplé vody u Austrálie → silnější srážky a záplavy",
+            "C) La Niña = ochlazeníseverního Atlantiku; v Austrálii sucho",
+            "D) La Niña = oslabení termohalinní cirkulace"
+          ],
+          "spravna": 1,
+          "vysvetleni": "La Niña = posílení pasátů → více teplé vody hromadí u Austrálie/Indonésie → intenzivní výpar → hojné srážky, záplavy, silnější monzuny. Opak El Niño. Austrálie 2010–2011 pod La Niñou: rekordní záplavy na QLD a NSW."
+        },
+        {
+          "otazka": "Jak velký vliv má Golfský proud na teplotu v ZV Evropě?",
+          "moznosti": [
+            "A) Snižuje teplotu o 2 °C (je studený proud)",
+            "B) Zvyšuje průměrnou teplotu o 5–10 °C oproti stejné zeměpisné šířce",
+            "C) Nemá vliv – o klima Evropy rozhoduje zeměpisná šířka",
+            "D) Způsobuje pouze pokles srážek v Evropě"
+          ],
+          "spravna": 1,
+          "vysvetleni": "ZV Evropa je díky Golfskému proudu a jihozápadnímu proudění o 5–10 °C teplejší, než by odpovídalo zeměpisné šířce. Bergen (Norsko, 60° s.š.) = nezamrzající přístav. Aljašský Fairbanks (stejná šířka) = průměrná teplota v lednu –23 °C."
+        },
+        {
+          "otazka": "Proč mají velké oceánské gyres (cirkulace) na severní polokouli smysl po směru hodinových ručiček?",
+          "moznosti": [
+            "A) Golfský proud je rychlejší na západ než na východ",
+            "B) Coriolisova síla na SP odkloňuje proudění doprava → cyklonální pohyb po směru HRU",
+            "C) Pasáty fouají na sever a otočí vodu po směru HRU",
+            "D) Termohalinní cirkulace se pohybuje po směru HRU"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Na SP Coriolisova síla odkloňuje pohybující se tělesa doprava. Pasáty pohánějí vodu na západ v tropech, westerlies na východ v mírných šířkách. Výsledná cirkulace gyres = po směru HRU (CW) na SP. Na JP = CCW (proti HRU)."
+        },
+        {
+          "otazka": "Jak oslabení termohalinní cirkulace (THC) ovlivní klima ZV Evropy?",
+          "moznosti": [
+            "A) Způsobí tropické léto díky úspoře teplé vody",
+            "B) Ochladí ZV Evropu o 5–10 °C – tání grónského ledu přivádí sladkou vodu → snížení hustoty → méně klesání → oslabení THC",
+            "C) Nemá vliv – klima závisí jen na slunečním záření",
+            "D) Přiblíží monzunové deště k Evropě"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Tání Grónského ledovce přivádí sladkou vodu do S. Atlantiku → snižuje salinitu a hustotu → voda méně klesá ke dnu → THC se zpomalí/zastaví → méně teplé vody přivezeno k Evropě → výrazné ochlazení ZV Evropy. Vědecky podložený scénář, ne sci-fi."
+        }
+      ]
     },
     {
       "pismeno": "C",

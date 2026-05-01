@@ -13,7 +13,7 @@
             "mnemotechnika": "NázMapMěřLegTirDopl = 6 kroků interpretace kompozice"
           },
           {
-            "nadpis": "Příklady kompozic dle druhu mapy",
+            "nadpis": "Příklady kompozic dle druhů mapy",
             "obsah": "Turistická mapa (1:25 000–1:50 000):\n- Výrazné bodové znaky turistické infrastruktury\n- Vrstevnice pro terén, barevná hypsometrie\n- Podrobná silniční a turistická síť\n- Legenda zaměřená na turistické objekty\n\nTopografická mapa (ZM10, 1:10 000):\n- Všechny prvky obecně zeměpisného obsahu\n- Hustá vrstevnicová kresba (ekvidistance 2 m nebo 5 m)\n- Koordinátní síť S-JTSK\n\nTematická mapa (hustota obyvatelstva):\n- Kartogram – plošné jednotky barveny dle hustoty\n- Barevná stupnice v legendě (škála od světlé po tmavou)\n- Jednoduchý geografický podklad\n\nŠkolní nástěnná mapa:\n- Velký formát, výrazné barvy pro dálkovou čitelnost\n- Omezený obsah (generalizace)\n- Lokalizační mapka nebo výřez",
             "mnemotechnika": "Turistická = terén + turistika. ZM10 = detail. Kartogram = barva = hustota. Nástěnná = velká = jednoduchá."
           },
@@ -114,23 +114,888 @@
     },
     {
       "pismeno": "B",
-      "zneni": "Popište vodní tok a jeho hydrologické charakteristiky.",
+      "zneni": "S využitím portfolia popište vodní tok a jeho hydrologické charakteristiky, které můžeme u toků určovat.",
       "studium": {
-        "sekce": [],
+        "sekce": [
+          {
+            "nadpis": "1. Základní pojmy – povodí, rozvodnice, říční síť",
+            "obsah": "",
+            "tabulka": {
+              "sloupce": [
+                "Pojem",
+                "Definice",
+                "Příklad"
+              ],
+              "radky": [
+                [
+                  "Povodí",
+                  "Plocha, ze které voda odtéká do daného vodního toku (nebo jezera, moře). Ohraničeno rozvodnicí.",
+                  "Povodí Labe, povodí Amazonky (7 mil. km²)"
+                ],
+                [
+                  "Rozvodnice",
+                  "Linie dělící povodí dvou různých toků; probíhá po hřebenech",
+                  "Hlavní evropská rozvodnice: Alpy, Šumava, Krkonoše"
+                ],
+                [
+                  "Úmoří",
+                  "Část pevniny odtékající do jednoho oceánu",
+                  "ČR: Úmoří Severního moře (Labe), Černého moře (Morava → Dunaj), Baltského moře (Odra)"
+                ],
+                [
+                  "Říční síť",
+                  "Systém všech toků v povodí (hlavní tok + přítoky)",
+                  "Hustota říční sítě: km/km² = délka toků / plocha povodí"
+                ],
+                [
+                  "Bezodtoková oblast",
+                  "Voda neodtéká do světového oceánu",
+                  "Povodí Kaspického moře, Aralské jezero, Mrtvé moře"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Povodí → Rozvodnice → Úmoří → Říční síť → Bezodtoková oblast."
+          },
+          {
+            "nadpis": "2. Průtok a průtočnost – základní hydrologická charakteristika",
+            "obsah": "Průtok (Q) = objem vody protékající průřezem toku za jednotku času.\n\nJednotka: m³/s (kubické metry za sekundu)\n\nVýpočet: Q = v × A, kde v = rychlost proudění (m/s), A = průřez koryta (m²)\n\nPomůcka: Q = Velký Tok, q = malý specifický",
+            "tabulka": {
+              "sloupce": [
+                "Charakteristika",
+                "Symbol",
+                "Definice",
+                "Příklady"
+              ],
+              "radky": [
+                [
+                  "Průměrný roční průtok",
+                  "Qa",
+                  "Aritmetický průměr všech průtoků za rok",
+                  "Labe u Děčína: ~310 m³/s; Amazonie (Óbidos): ~175 000 m³/s (1. na světě)"
+                ],
+                [
+                  "Maximální průtok",
+                  "Qmax",
+                  "Nejvyšší zaznamenaný průtok (povodně)",
+                  "Vltava Praha 2002: ~5 300 m³/s (povodeň)"
+                ],
+                [
+                  "Minimální průtok",
+                  "Qmin",
+                  "Nejnižší průtok (sucho)",
+                  "Vltava Praha 2018: ~30 m³/s (sucho)"
+                ],
+                [
+                  "Specifický odtok",
+                  "q",
+                  "Průtok vztažený na plochu povodí (l/s/km²)",
+                  "Amazonie: ~20 l/s/km²; suché povodí: < 1 l/s/km²"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Průměrný roční průtok → Maximální průtok → Minimální průtok → Specifický odtok."
+          },
+          {
+            "nadpis": "3. Vodní stav a průtočný režim",
+            "obsah": "Vodní stav (H) = výška hladiny vody v toku měřená na vodočtu (limnigraf, lať). Vyjadřuje se v cm nad nulem vodočtu.\n\nStupně povodňové aktivity:\n\nPrůtočný režim = zákonitost v rozložení průtoků v průběhu roku. Závisí na klimatu (srážky, teplota), geologii, vegetaci, nadmořské výšce.",
+            "tabulka": [
+              {
+                "sloupce": [
+                  "Stupeň",
+                  "Stav",
+                  "Popis"
+                ],
+                "radky": [
+                  [
+                    "SPA 1",
+                    "Bdělost",
+                    "Hladina dosahuje předem stanoveného limitu; pozorování"
+                  ],
+                  [
+                    "SPA 2",
+                    "Pohotovost",
+                    "Voda se blíží k vyplnění koryta; varování"
+                  ],
+                  [
+                    "SPA 3",
+                    "Ohrožení",
+                    "Voda přelévá koryto; evakuace"
+                  ]
+                ]
+              },
+              {
+                "sloupce": [
+                  "Typ režimu",
+                  "Maximum",
+                  "Příklady řek"
+                ],
+                "radky": [
+                  [
+                    "Sněhový (nivální)",
+                    "Jaro (tání sněhu)",
+                    "Ob, Jenisej, Lena; horské toky ČR"
+                  ],
+                  [
+                    "Dešťový (pluviální)",
+                    "Dle sezóny dešťů",
+                    "Kongo (2 maxima/rok – ITC); Niger (1 maximum)"
+                  ],
+                  [
+                    "Ledovcový (glaciální)",
+                    "Léto (tání ledovce)",
+                    "Rhona (Alpy), Brahmaputra (Himaláje)"
+                  ],
+                  [
+                    "Smíšený",
+                    "Více zdrojů",
+                    "Dunaj (jaro = sníh + léto = ledovce)"
+                  ]
+                ]
+              }
+            ],
+            "mnemotechnika": "Pořadí: SPA 1 → SPA 2 → SPA 3 → Sněhový (nivální) → Dešťový (pluviální)."
+          },
+          {
+            "nadpis": "4. Výškový profil toku – pramen, střední a dolní tok",
+            "obsah": "Pramen = místo, kde se tok poprvé dostává na povrch. Typy: soustředěný výron (typický pramen), rozptýlený výron, mokřad.\n\nDelta = akumulační útvar na ústí řeky (Nil, Mississippi, Ganga). Estuár = rozšířené ústí bez delty kvůli silnému mořskému příboji (Temže, La Plata).\n\nŘíční terasy = stupňovité plošiny podél říčního koryta; vznikají střídáním eroze a akumulace vlivem změn hladiny základní eróze (moře, jezero).",
+            "tabulka": {
+              "sloupce": [
+                "Část toku",
+                "Spád",
+                "Energie toku",
+                "Morfologie",
+                "Procesy"
+              ],
+              "radky": [
+                [
+                  "Horní tok",
+                  "Velký",
+                  "Vysoká",
+                  "Úzké V-údolí, peřeje, vodopády",
+                  "Eroze (hloubková), transport materiálu"
+                ],
+                [
+                  "Střední tok",
+                  "Střední",
+                  "Střední",
+                  "Meandry, niva, říční terasy",
+                  "Boční eroze, meandrování"
+                ],
+                [
+                  "Dolní tok",
+                  "Malý",
+                  "Nízká",
+                  "Široká niva, delta, estuár",
+                  "Akumulace (usazování sedimentů)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Horní tok → Střední tok → Dolní tok."
+          },
+          {
+            "nadpis": "5. Měrné jednotky odtoku",
+            "obsah": "Příklady specifického odtoku: Amazonie: ~20 l/s/km² (vysoké srážky, málo výparu); ČR průměr: ~5 l/s/km²; suché oblasti Sahelu: < 1 l/s/km².",
+            "tabulka": {
+              "sloupce": [
+                "Veličina",
+                "Symbol",
+                "Jednotka",
+                "Popis"
+              ],
+              "radky": [
+                [
+                  "Průtok",
+                  "Q",
+                  "m³/s",
+                  "Objem za čas; základní hydrologická veličina"
+                ],
+                [
+                  "Specifický odtok",
+                  "q",
+                  "l/s/km²",
+                  "Průtok na km² povodí; umožňuje srovnání povodí různé velikosti"
+                ],
+                [
+                  "Výška odtoku",
+                  "Ho",
+                  "mm",
+                  "Objem odtoku vztažený na plochu povodí; srovnatelné se srážkovým úhrnem"
+                ],
+                [
+                  "Součinitel odtoku",
+                  "C",
+                  "bezrozměrný (0–1)",
+                  "Poměr odteklé vody ke srážkám; závisí na vegetaci, půdě, reliéfu"
+                ],
+                [
+                  "Odtokový koeficient",
+                  "α",
+                  "%",
+                  "Ho/HZ × 100; kolik % srážek odteče"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Průtok → Specifický odtok → Výška odtoku → Součinitel odtoku → Odtokový koeficient."
+          },
+          {
+            "nadpis": "6. Teplotní poměry řek a ledové jevy",
+            "obsah": "Teplota vody v řekách závisí na: klimatické oblasti, průtoku (rychlé toky chladnější), nadmořské výšce, slunečním záření, podzemních přítocích.\n\nLedové jevy na řekách (pořadí vznik → zánik):\n\nV ČR jsou ledové jevy výjimečné, v posledních dekádách ubývají (klimatická změna).",
+            "tabulka": {
+              "sloupce": [
+                "Jev",
+                "Popis",
+                "Podmínky"
+              ],
+              "radky": [
+                [
+                  "Ledové kaše (frazil)",
+                  "Drobné ledové krystalky ve vodě",
+                  "Ochlazení vody pod 0 °C při proudění"
+                ],
+                [
+                  "Ledy na dně (anchor ice)",
+                  "Led přilepený na dně toku",
+                  "Silné ochlazení, mělký tok"
+                ],
+                [
+                  "Sálový led",
+                  "Led u břehů",
+                  "Ochlazení okrajů"
+                ],
+                [
+                  "Ledová pokrývka",
+                  "Tok zcela zamrzne (led od břehů ke středu)",
+                  "Dlouhodobé mrazy; typické pro Sibiř, Kanadu; v ČR výjimečné"
+                ],
+                [
+                  "Ledochod (jarní)",
+                  "Pohyb ledových ker po toku",
+                  "Jarní oteplení; nebezpečné pro mosty"
+                ],
+                [
+                  "Ledová zácpa (ledový jam)",
+                  "Nahrnutí ker; prudký vzestup hladiny",
+                  "Zúžení koryta, meandry"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Ledové kaše (frazil) → Ledy na dně (anchor ice) → Sálový led → Ledová pokrývka → Ledochod (jarní)."
+          },
+          {
+            "nadpis": "7. Splaveniny a erozní procesy",
+            "obsah": "Splaveniny = materiál unášený vodním tokem. Dělení:\n\nFaktory ovlivňující množství splavenin: rychlost proudění (Hjulstromův diagram), geologie povodí, vegetační kryt (lesy redukují odnos), srážkový režim.\n\nPříklady vysoké sedimentace: Huang He (Žlutá řeka, Čína) = největší zákal na světě díky eroze spraše; Nil – delta z nilských sedimentů; Mississippi Delta.",
+            "tabulka": {
+              "sloupce": [
+                "Typ",
+                "Transport",
+                "Popis"
+              ],
+              "radky": [
+                [
+                  "Suspended load (plaveniny)",
+                  "Suspenzí (v proudu)",
+                  "Jemné částice (jíl, prach, jemný písek); barví vodu; závisí na rychlosti toku"
+                ],
+                [
+                  "Bed load (dnové splaveniny)",
+                  "Po dně (saltace, trakce)",
+                  "Písek, štěrk, kameny; valem se kutálí nebo poskakují"
+                ],
+                [
+                  "Dissolved load (rozpuštěné látky)",
+                  "Rozpuštěny ve vodě",
+                  "Minerály, soli; neviditelné"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Suspended load (plaveniny) → Bed load (dnové splaveniny) → Dissolved load (rozpuštěné látky)."
+          }
+        ],
         "exam_checklist": []
       },
-      "flashcards": [],
-      "kviz": []
+      "flashcards": [
+        {
+          "otazka": "Co je průtok (Q) a v jakých jednotkách se vyjadřuje?",
+          "odpoved": "Průtok Q = objem vody protékající průřezem toku za jednotku času. Jednotka: m³/s. Výpočet: Q = v × A (rychlost × průřez). Největší průtok na světě: Amazonie ~175 000 m³/s."
+        },
+        {
+          "otazka": "Co je specifický odtok (q) a proč je výhodný pro srovnání povodí?",
+          "odpoved": "Specifický odtok q = průtok na km² plochy povodí. Jednotka: l/s/km². Umožňuje srovnání povodí různých velikostí. Amazonie: ~20 l/s/km²; ČR průměr: ~5 l/s/km²."
+        },
+        {
+          "otazka": "Vyjmenuj tři části vodního toku a jejich hlavní procesy.",
+          "odpoved": "Horní tok: velký spád, hloubková eroze, V-údolí, vodopády. Střední tok: meandry, boční eroze, niva. Dolní tok: malý spád, akumulace sedimentů, delta nebo estuár."
+        },
+        {
+          "otazka": "Co je delta a estuár – jaký je mezi nimi rozdíl?",
+          "odpoved": "Delta = akumulační útvar při ústí řeky do moře, kde sedimenty tvoří trojúhelníkový útvar (Nil, Mississippi, Ganga). Estuár = rozšířené ústí bez delty, kde silné přílivy a vlny sedimenty odnášejí (Temže, La Plata, Seina)."
+        },
+        {
+          "otazka": "Co jsou říční terasy a jak vznikají?",
+          "odpoved": "Stupňovité plošiny podél říčního koryta, zbytky starší nivy. Vznikají střídáním eroze (zahlubování koryta) a akumulace vlivem změn hladiny základní eroze (moře, jezero) nebo klimatických výkyvů."
+        },
+        {
+          "otazka": "Jaké tři typy splavenin unáší řeky?",
+          "odpoved": "1. Plaveniny (suspended load) = jemné částice nesené v suspenzi, barví vodu. 2. Dnové splaveniny (bed load) = písek, štěrk, kameny pohybující se po dně (saltace, trakce). 3. Rozpuštěné látky (dissolved load) = neviditelné minerály ve vodě."
+        },
+        {
+          "otazka": "Proč má Huang He (Žlutá řeka) v Číně tak vysoký zákal?",
+          "odpoved": "Huang He protéká přes Lössovou plošinu – nejrozsáhlejší výskyt spraše na světě. Spraš je extrémně erozivní (lehký, hlinito-prachový sediment), snadno se odplavuje → největší zákal na světě, 35 kg sedimentů/m³ vody."
+        },
+        {
+          "otazka": "Co je vodní stav (H) a jak se měří?",
+          "odpoved": "Vodní stav H = výška hladiny vody nad nulem vodočtu (v cm). Měří se na vodočtu (lať, limnigraf = automatický záznam). Pozor: vodní stav ≠ průtok (stejný H může odpovídat různým Q při různém profilu koryta)."
+        },
+        {
+          "otazka": "Jaký je typ průtočného režimu pro řeky Ob, Jenisej, Lena?",
+          "odpoved": "Sněhový (nivální) režim – maximum průtoku na jaře díky tání sněhu. Typické pro sibiřské řeky, řeky severní Kanady, horské toky ČR. Zima = minimum průtoku (voda vázána jako sníh)."
+        },
+        {
+          "otazka": "Jaký je součinitel odtoku (C) a co ovlivňuje jeho hodnotu?",
+          "odpoved": "C = poměr odteklé vody ke srážkám (0–1). Závisí na: vegetaci (lesy zvyšují výpar a intercepci → nižší C), půdě (propustné půdy → nižší C), reliéfu (strmý terén → vyšší C), srážkové intenzitě. Hodnota 0 = vše se vypaří/vsákne; 1 = vše odteče."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Co je průtok (Q) vodního toku?",
+          "moznosti": [
+            "A) Výška hladiny vody v cm nad nulem vodočtu",
+            "B) Objem vody protékající průřezem toku za sekundu (m³/s)",
+            "C) Délka vodního toku v km",
+            "D) Plocha povodí v km²"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Průtok Q = objem vody protékající průřezem toku za jednotku času. Jednotka: m³/s. Výpočet: Q = v × A (rychlost proudění × průřez koryta). Jde o základní hydrologickou charakteristiku toku."
+        },
+        {
+          "otazka": "Proč je specifický odtok (q) výhodný pro porovnání různých povodí?",
+          "moznosti": [
+            "A) Je větší než průtok Q",
+            "B) Vztahuje průtok na plochu povodí (l/s/km²) – umožňuje srovnání povodí různých velikostí",
+            "C) Měří se jednodušeji než průtok",
+            "D) Vyjadřuje výšku vody v mm – stejné jako srážky"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Amazonie má průtok 175 000 m³/s, ale specifický odtok ~20 l/s/km². Malá alpská řeka má průtok třeba 10 m³/s, ale specifický odtok 50 l/s/km² – tedy je intenzivnější. Specifický odtok srovná jablka s jablky."
+        },
+        {
+          "otazka": "V dolním toku řeky převažuje akumulace sedimentů. Co to způsobuje?",
+          "moznosti": [
+            "A) Vysoký spád – rychlé proudění eroduje dno",
+            "B) Malý spád – nízká energie toku nestačí unášet materiál → usazuje se",
+            "C) Přítomnost ledovců, které přivádějí sedimenty",
+            "D) Srážková voda přináší materiál ze svahů"
+          ],
+          "spravna": 1,
+          "vysvetleni": "V dolním toku klesá spád → klesá rychlost proudění → klesá transportní kapacita → sedimenty se usazují. Vznikají delty (Nil, Ganga, Mississippi) nebo rozsáhlé aluviální roviny (Ganžská nížina)."
+        },
+        {
+          "otazka": "Co je estuár a kde se vyskytuje?",
+          "moznosti": [
+            "A) Delta řeky s trojúhelníkovým tvarem",
+            "B) Rozšířené ústí řeky bez delty – silné přílivy a vlny odnášejí sedimenty",
+            "C) Horní část toku s peřejemi a vodopády",
+            "D) Jezero v uzavřeném povodí"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Estuár = rozšířené ústí toku, kde silné přílivy a vlny brání hromadění sedimentů. Příklady: Temže (Londýn), La Plata (Buenos Aires), Gironde (Francie), Seina. Delta naopak vzniká tam, kde je moře klidné a sedimentace převažuje."
+        },
+        {
+          "otazka": "Jaký průtočný režim mají řeky v oblasti rovníkového klimatu (Kongo, Amazonie)?",
+          "moznosti": [
+            "A) Sněhový – maximum na jaře při tání sněhu",
+            "B) Dešťový s jedním ročním maximem v létě",
+            "C) Dešťový s dvěma ročními maximy – odpovídá dvěma průchodům ITC",
+            "D) Ledovcový – maximum v létě při tání ledovce"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Rovníkové řeky (Kongo, Amazonie) mají dvě roční srážková maxima, protože ITC prochází nad dané místo dvakrát (na jaře a na podzim). Výsledkem jsou dvě povodňové vlny ročně. Kongo má proto jeden z nejrovnoměrnějších průtoků na světě."
+        },
+        {
+          "otazka": "Co jsou plaveniny (suspended load) a od čeho závisí jejich množství?",
+          "moznosti": [
+            "A) Kameny a štěrk pohybující se saltací po dně",
+            "B) Jemné částice (jíl, prach) nesené v suspenzi – závisí na rychlosti proudění",
+            "C) Chemicky rozpuštěné látky v říční vodě",
+            "D) Plovoucí organický materiál (kmeny stromů)"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Plaveniny = jemné pevné částice (jíl, prach, jemný písek) nesené v suspenzi ve vodním proudu. Jejich množství závisí na rychlosti proudění (Hjulstromův diagram) a erozivitě hornin v povodí. Huang He = nejvyšší zákal na světě díky sprašovému podloží."
+        },
+        {
+          "otazka": "Jaká je správná posloupnostледových jevů na řece při ochlazování?",
+          "moznosti": [
+            "A) Ledová pokrývka → sálový led → ledová kaše",
+            "B) Ledová kaše → sálový led → ledová pokrývka",
+            "C) Sálový led → ledová kaše → ledová pokrývka",
+            "D) Ledochod → ledová kaše → sálový led"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Správná posloupnost: ledová kaše (frazil – drobné krystalky v proudu) → sálový led (led u břehů) → ledová pokrývka (kompletní zamrznutí od břehů ke středu). Na jaře v opačném pořadí + ledochod (pohyb ker) a případná ledová zácpa."
+        },
+        {
+          "otazka": "Co je součinitel odtoku (C) a kdy je jeho hodnota blízká 1?",
+          "moznosti": [
+            "A) Vyjadřuje průtok v m³/s; hodnota 1 = maximální průtok při povodni",
+            "B) Poměr odteklé vody ke srážkám; blízká 1 = téměř vše odteče (nepropustný povrch, holé skály, intenzivní déšť)",
+            "C) Specifický odtok na km²; hodnota 1 = velmi nízký odtok",
+            "D) Teplota vody v °C; hodnota 1 = mrznutí"
+          ],
+          "spravna": 1,
+          "vysvetleni": "C = Ho/HZ (výška odtoku / výška srážek). Blízká 1 = téměř všechna voda odteče – nastane při: nepropustném povrchu (asfalt, skála), nasycené půdě, intenzivním dešti. Nízká hodnota: propustné půdy, hustá vegetace, pomalý déšť."
+        },
+        {
+          "otazka": "Co jsou říční terasy a jak vznikají?",
+          "moznosti": [
+            "A) Přehrazení toku sesuvy; vznik přehradního jezera",
+            "B) Stupňovité plošiny podél koryta; zbytky starší nivy vzniklé střídáním eroze a akumulace",
+            "C) Meandrové zátavy (mrtvá ramena)",
+            "D) Naplavené ostrůvky v korytě toku"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Říční terasy jsou stupňovité plošiny podél koryta, zbytky starší nivy. Vznikají při zahlubování toku do svého aluviálního pokryvu vlivem změn hladiny základní eroze (pokles hladiny moře, tektonické výzdvihy) nebo klimatických výkyvů. Dokladují historii toku."
+        },
+        {
+          "otazka": "ČR leží ve třech úmořích. Která jsou to?",
+          "moznosti": [
+            "A) Severní moře, Jaderské moře, Baltské moře",
+            "B) Severního moře (Labe), Černého moře (Morava-Dunaj), Baltského moře (Odra)",
+            "C) Středozemního moře, Černého moře, Severního moře",
+            "D) Baltského moře, Atlantiku, Severního ledového oceánu"
+          ],
+          "spravna": 1,
+          "vysvetleni": "ČR leží ve třech úmořích: Severního moře (přes Labe/Vltavu/Ohři), Černého moře (přes Moravu/Dyji/Dunaj), Baltského moře (přes Odru). Přibližně 2/3 území odtékají do Severního moře, zbytek do Černého a jen malá část do Baltského."
+        }
+      ]
     },
     {
       "pismeno": "C",
-      "zneni": "Na příkladu vybraného místa zdůvodněte rozmístění maloobchodních jednotek a jejich vliv na morfologickou strukturu města.",
+      "zneni": "Charakterizujte rozmístění maloobchodních jednotek a jeho vývoj v čase a prostoru. Zhodnoťte vliv maloobchodu na morfologii města.",
       "studium": {
-        "sekce": [],
+        "sekce": [
+          {
+            "nadpis": "Typy maloobchodních jednotek - přehled",
+            "obsah": "Maloobchod se cleni dle kombinace sortimentni specializace, velikosti a provozniho charakteru.",
+            "tabulka": {
+              "sloupce": [
+                "Typ",
+                "Plocha",
+                "Sortiment",
+                "Lokalizace"
+              ],
+              "radky": [
+                [
+                  "Uzce specializovana prodejna",
+                  "male",
+                  "Uzky a hluboki (např.. pouze sportovni obuv)",
+                  "Centrum města, nakupni centrum"
+                ],
+                [
+                  "Smisena prodejna",
+                  "male",
+                  "Siroky, melky",
+                  "Venkov, mala sídla, sídliste"
+                ],
+                [
+                  "Supereta",
+                  "200-400 m2",
+                  "Potraviny + zakladni nepotravinarske",
+                  "Nadrazi, letiste, odpocivadla u dálnic"
+                ],
+                [
+                  "Supermarket",
+                  "400-2 500 m2",
+                  "Potraviny + nízký podíl průmyslu; 5-10 tis. druhů",
+                  "Siroká - obytné čtvrti, sidliste"
+                ],
+                [
+                  "Hypermarket",
+                  "nad 2 500 m2",
+                  "Potraviny + velký podíl průmyslového zboží; 25-50 tis. druhů",
+                  "Okraje měst, u dálnic"
+                ],
+                [
+                  "Diskonter",
+                  "600-1 200 m2",
+                  "Uzky, male zkratky, nizke ceny",
+                  "Siroká"
+                ],
+                [
+                  "Nakupni centrum",
+                  "nad 5 000 m2",
+                  "Soustredeni vice prodejcu",
+                  "Okraje měst, u dalnicnich krizovatek"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Uzce specializovana prodejna → Smisena prodejna → Supereta → Supermarket → Hypermarket."
+          },
+          {
+            "nadpis": "Hierarchie maloobchodní vybavenosti v sídle",
+            "obsah": "Maloobchodni sit je hierarchicky usporadana dle velikosti obsluhovaného uzemi.\n\nKlic: vyssí stupen vybavenosti obsluhuje i nižší stupne; logika Christallerovy teorie centralních míst.",
+            "tabulka": {
+              "sloupce": [
+                "Stupen",
+                "Obsluhovaná populace",
+                "Typicke jednotky",
+                "Frekvence navstev"
+              ],
+              "radky": [
+                [
+                  "Okrsková (zakladni) vybavenost",
+                  "3-10 tis. ob.",
+                  "Potraviny, drogerie, pekarna",
+                  "Denní"
+                ],
+                [
+                  "Obvodová (sekundarnI) vybavenost",
+                  "10-20 tis. ob.",
+                  "Supermarket, nepotravinárske zboží",
+                  "Tydenne"
+                ],
+                [
+                  "Ctvrtova (sektorova) vybavenost",
+                  "nad 40 tis. ob.",
+                  "Hypermarket, specializovany obchodní dum",
+                  "Mesicne"
+                ],
+                [
+                  "Centralni vybavenost",
+                  "celé město + dojezdová oblast",
+                  "Obchodni dum, luxusni specialiyzace, nakupni centrum",
+                  "Obcasna, vylety"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Okrsková (zakladni) vybavenost → Obvodová (sekundarnI) vybavenost → Ctvrtova (sektorova) vybavenost → Centralni vybavenost."
+          },
+          {
+            "nadpis": "Prostorové uspořádání maloobchodu v městě",
+            "obsah": "Pro formovani prostoroveho uspořádání maloobchodní sítě platí zakladni principy.\n- Relativni rovnomernost: rovnovaha mezi poptávkou a kapacitou sítě; prostorová, provozni a sortimentni koncentrace\n- Komplexnost: kazdy stupen by mel byt komplexni - vyšší uroven obsluhuje i nižší\n- Podmínenost sídelní strukturou: vybavenost roste s velikosti obce a jeji funkcí v sidelnim systemu\nTypy sítí dle osídlení:",
+            "tabulka": {
+              "sloupce": [
+                "Typ",
+                "Charakteristika"
+              ],
+              "radky": [
+                [
+                  "Urbanni sit",
+                  "Velka koncentrace poptávky, sirokoSortimentní nabídka, větší jednotky"
+                ],
+                [
+                  "Ruralni sit",
+                  "Mala, rozprostrenená poptávka; mensi jednotky; vyšší naklady na zboží"
+                ],
+                [
+                  "Stacionarni sit",
+                  "Pevne prodejny fungujici cely rok"
+                ],
+                [
+                  "Ambulantni sit",
+                  "Trhove a sezónni prodejny (rekreacni zóny, festivaly)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Urbanni sit → Ruralni sit → Stacionarni sit → Ambulantni sit."
+          },
+          {
+            "nadpis": "Vývoj maloobchodu v čase",
+            "obsah": "Maloobchod prodělal v 2. podél. 20. stol. zasadni transformaci.\n\nČR specificka: supermarkety neexistovaly za socialismu; po 1989 rychlý vstup zahranicnich retezcu (Albert, Kaufland, Lidl, Tesco) = transformace maloobchodu za 10 let misto 50.",
+            "tabulka": {
+              "sloupce": [
+                "Etapa",
+                "Charakteristika",
+                "Klic. změna"
+              ],
+              "radky": [
+                [
+                  "Tradicni maloobchod (do 1950)",
+                  "Male lokální prodejny, obsluha pultém, uzkosortimentni",
+                  "Dominance maleho podnikani"
+                ],
+                [
+                  "Self-service revoluce (50.-70. léta)",
+                  "Supermarkety, samoobsluha, standardizace zboží",
+                  "USA -> W Evropa; vyvoj v ČR opozden"
+                ],
+                [
+                  "Hypermarket era (70.-90. léta)",
+                  "Velkoloch. prodejny na okrajích měst; shopping malls",
+                  "Automobilizace, suburbanizace"
+                ],
+                [
+                  "E-commerce era (od 2000)",
+                  "Online nakupovani; Amazon, Alza; last-mile delivery",
+                  "Ohrozeni tradicnich prodejen"
+                ],
+                [
+                  "Omnichannel (soucasnost)",
+                  "Integrace online a offline; click&collect; same-day",
+                  "Fúze e-commerce a kamenného obchodu"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Tradicni maloobchod (do 1950) → Self-service revoluce (50.-70. léta) → Hypermarket era (70.-90. léta) → E-commerce era (od 2000) → Omnichannel (soucasnost)."
+          },
+          {
+            "nadpis": "Vliv maloobchodu na morfologii města",
+            "obsah": "Maloobchod je jedním z nejdůležitějších faktorů formujících podobu mestského prostoru.\n\nAktuální trend: dead mall syndrome v USA - opuštěnost suburbánních shopping mallů; v Evropě spíše transformace na mixeduse",
+            "tabulka": {
+              "sloupce": [
+                "Fenomen",
+                "Vliv na morfologii",
+                "Příklad"
+              ],
+              "radky": [
+                [
+                  "Pesi zóny v centrech",
+                  "Komercializace historickeho centra, vytlaceni bydlení",
+                  "Praha Vaclavske nam., Brno nam. Svobody"
+                ],
+                [
+                  "Nakupni centra",
+                  "Suburbanni shopping mally = nové centrality mimo centrum",
+                  "Avion (Brno-Slatina), Olympia (Brno-Modřice)"
+                ],
+                [
+                  "Retail parky",
+                  "Stripová komerci podél pristaupnich komunikaci",
+                  "Podél Ring Road v britskych městech"
+                ],
+                [
+                  "E-commerce",
+                  "Uzavirani kamen. prodejen, smrt high street v UK; posun k logistickym parkum",
+                  "High Street UK - vysoka vacancnost"
+                ],
+                [
+                  "Gentrifikace",
+                  "Luxusni maloobchod = signal gentrifikace",
+                  "Praha Josefov, Brno Husova ulice"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Pesi zóny v centrech → Nakupni centra → Retail parky → E-commerce → Gentrifikace."
+          },
+          {
+            "nadpis": "Privátní značky a soudobé trendy",
+            "obsah": "Maloobchod dnes prochází dalsi transformaci ve strukturaci sortimentu a organizaci prodeje.\nTypy privátních znacek:\nSoucasne trendy:- Konveniencni obchod (convenience stores) - malé, drahsi, ale 24/7\n- Online nakupovani - Rohlik.cz, Kosik.cz, Amazon Fresh\n- RFID a automatizone prodejny bez pokladniku (Amazon Go)\n- Sustainability - snizeni obalov, zero-waste shopy",
+            "tabulka": {
+              "sloupce": [
+                "Trida",
+                "Popis",
+                "Příklad"
+              ],
+              "radky": [
+                [
+                  "Ekonomicka",
+                  "Prijatelna kvalita za diskontni cenu",
+                  "Clever (Albert), Basic (Penny)"
+                ],
+                [
+                  "Standardní",
+                  "Dobra kvalita za nižší cenu nez znacky",
+                  "Tesco Value, Kaufland vlastni znacka"
+                ],
+                [
+                  "Prémiová",
+                  "Hezci obal, vyšší kvalita; pribliZuje se znackam",
+                  "Albert Excellent, Tesco Finest"
+                ],
+                [
+                  "Specializovana",
+                  "Bio, bez laktózy, veganská",
+                  "Albert Bio, Exquisit"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Ekonomicka → Standardní → Prémiová → Specializovana."
+          },
+          {
+            "nadpis": "Internacionalizace maloobchodu",
+            "obsah": "Od 2. podél. 20. stol. probiha intenzivni internacionalizace maloobchodu.\n\nČR po 1989: rychlý vstup zahranicnich retezcu = vytlaceni malych domacich obchodniku; dominance Lidl, Albert, Kaufland, Tesco, Penny, Billa. Nástup domaciho e-commerce: Alza, Mall.cz, Rohlik.",
+            "tabulka": {
+              "sloupce": [
+                "Typ retezce",
+                "Strategie",
+                "Priklady"
+              ],
+              "radky": [
+                [
+                  "Globalni generalisti",
+                  "Hypermkety po celem svete",
+                  "Walmart (USA), Carrefour (Francie), Tesco (UK)"
+                ],
+                [
+                  "Diskonteri",
+                  "Standardizovana globální sítě nízkonakladovych prodejen",
+                  "Lidl, Aldi (Nemecko)"
+                ],
+                [
+                  "Specializovane retezce",
+                  "Specificky sortiment globalne",
+                  "IKEA (nab.), Zara (modá), H&M (moda)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Globalni generalisti → Diskonteri → Specializovane retezce."
+          }
+        ],
         "exam_checklist": []
       },
-      "flashcards": [],
-      "kviz": []
+      "flashcards": [
+        {
+          "otazka": "Jaký je rozdil mezi supermarketem a hypermarketem?",
+          "odpoved": "Supermarket: 400-2500 m2, 5-10 tis. druhů zboží, prevaha potravin, siroká lokalizace. Hypermarket: nad 2500 m2, 25-50 tis. druhů, velký podíl průmyslového zboží, okraje měst."
+        },
+        {
+          "otazka": "Co je okrsková vs. centralni vybavenost maloobchodu?",
+          "odpoved": "Okrsková (zakladni): 3-10 tis. ob., zboží denni potřeby. Centralni: cela městská oblast + dojezdova zóna, obchodní domy, luxusni, nakupni centrum."
+        },
+        {
+          "otazka": "Co je ambulantni vs. stacionarni maloobchodní sit?",
+          "odpoved": "Stacionarni = pevne prodejny fungujici cely rok. Ambulantni = sezonni a trh. jednotky pro krátkodobé navyseni poptávky (rekreacni zóny, festivaly, vanoce)."
+        },
+        {
+          "otazka": "Jak ovlivnil vstup zahranicnich retezcu maloobchod v ČR po 1989?",
+          "odpoved": "Rychla transformace: Albert, Kaufland, Lidl, Tesco, Billa = vytlaceni malych domacich obchodniku; ČR prodelala za 10 let zmeny, které Z Evropa za 50 let."
+        },
+        {
+          "otazka": "Co je dead mall syndrome a kde probiha?",
+          "odpoved": "Fenomen opustenych suburbánních shopping mallů; typicky USA - automobilizovana předměstí; v Evropě mene caste, caste transformace na mixed-use."
+        },
+        {
+          "otazka": "Jaký je vztah maloobchodu a gentrifikace?",
+          "odpoved": "Luxusni maloobchod (designérské obchody, specialty food, kavárny) je signálem a motorem gentrifikace; příklad Praha - Josefov, Pařížská ulice; Brno - Husova ul."
+        },
+        {
+          "otazka": "Co je omnichannel strategie v maloobchodu?",
+          "odpoved": "Integrace online (e-shop) a offline (kamenna prodejna) do seamless zakaznicke zkusenosti; např.. click&collect, vraceni online zboží v prodejne; reakce na rozvoj e-commerce."
+        },
+        {
+          "otazka": "Jaká jsou 4 tridy privátních znacek?",
+          "odpoved": "Ekonomicka (nizka cena), standardní (dobra kvalita nižší cena), prémiova (vyšší kvalita), specializovana (bio, bez laktózy, vegánska)."
+        },
+        {
+          "otazka": "Proč se hypermarkety lokalizuji na okrajích měst?",
+          "odpoved": "Potrebuji velké pozemky za nizsí cenu, dostupnost autem (parkoviste), blízkost dalnicnich uzlu; zpusobují transformaci okraju města - retail parks, shopping malls."
+        },
+        {
+          "otazka": "Kolik procent podiluji mezinárodní turisté z Evropy na svetovych arrivaloch?",
+          "odpoved": "Europa tvori cca 51 % svetovych prijizdov mezinarodnich turistu (UNWTO, 2019); nasleduje Asie a Pacifik 25 %, Amerika 15 %, Afrika 5 %, Stredni Vychod 4 %."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Jaká je velikostní hranice supermarketu?",
+          "moznosti": [
+            "A) 100-400 m2",
+            "B) 400-2 500 m2",
+            "C) 2 500-10 000 m2",
+            "D) nad 10 000 m2"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Supermarket = 400-2 500 m2; prevazuji potraviny, nižší podíl průmyslového zboží je rozhodujicim krit. pro odliseni od hypermarketu. Sortiment 5-10 tis. druhů zboží."
+        },
+        {
+          "otazka": "Kde se typicky lokalizuji superety?",
+          "moznosti": [
+            "A) Na okrajích měst u dalnicnich krizovatek",
+            "B) V centrech měst, na nadrazích, letistích a u dálnic",
+            "C) Pouze v malych vesnicích",
+            "D) V exkluzivnich obchodních zónách"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Superety (200-400 m2) se lokalizuji v místech větší koncentrace osob - nadrazi, letiste, odpocivadla u dálnic, benzínky. Nabizí potraviny sirokeho sortimentu a zakladni nepotravinárske zboží."
+        },
+        {
+          "otazka": "Co je centralni vybavenost maloobchodu?",
+          "moznosti": [
+            "A) Zakladni potraviny v kazdem okrsku",
+            "B) Centrum obsluhuje cele město vcetne dojezd. oblasti; obchodní domy, luxusni specializace",
+            "C) Obchody v administrativnim centru statu",
+            "D) Centralizovany sklad pro distribucni retezec"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Centralni vybavenost = nejvyssi stupen; centrum města obsluhuje rezidenty, dojizd. lidi i navstevniky. Nabizi zakladni az ocasnou poptávku. Typicke: obchodní dum, specializovane a uzce specializovane jednotky, luxusni segmenty."
+        },
+        {
+          "otazka": "Jak ovlivnil vznik nakupnich center (shopping malls) morfologii měst?",
+          "moznosti": [
+            "A) Posilil obchodní funkcí historickych center",
+            "B) Vytvoril nové centrality na okrajích měst mimo tradicni centrum",
+            "C) Snizil potrebu automobilove dopravy",
+            "D) Zpusobil rozkvét malych remesel v centrech"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Shopping malls na okrajich měst (u dálnicnich krizovatek) vytvorily nové centrality mimo tradicni centrum. Příklad ČR: Avion Brno-Slatina, Olympia Brno-Modřice. Nasledek: ztrata atraktivity tradicnich obchodních ulic."
+        },
+        {
+          "otazka": "Co je dead mall syndrome?",
+          "moznosti": [
+            "A) Uzavirani prodejen v čase COVID",
+            "B) Fenomen opustenych suburbánních shopping mallů hlavne v USA",
+            "C) Zanik tradičnich trzisí v mestskych centrech",
+            "D) Bankrot maloobchodnich retezcu"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Dead mall syndrome = fenomen opustenych suburbánních shopping mallů, typicky v USA. Priciny: rozvoj e-commerce, demograficke zmeny v suburbiu, neudrzitelny model. V Evropě mene caste, probiha spíše transformace na mixeduse."
+        },
+        {
+          "otazka": "Jaká je specificita vyvoje maloobchodu v ČR po roce 1989?",
+          "moznosti": [
+            "A) ČR vyvinula vlastni retezce které se pak internacionalizovaly",
+            "B) Rychla transformace vstupem zahranicnich retezcu - prodelala za 10 let co Z Evropa za 50",
+            "C) ČR odmitla vstup zahranicnich retezcu az do 2000",
+            "D) Maloobchod byl privatizovan az v roce 2000"
+          ],
+          "spravna": 1,
+          "vysvetleni": "ČR po 1989 zazila rychlou transformaci - Albert, Kaufland, Lidl, Tesco, Billa, Penny vstoupily behem 90. let. ČR prodelala transformaci za cca 10 let, ktera Z Evropa realizovala za 50 let (50.-90. leta). Vytlaceni malych domacich obchodniku."
+        },
+        {
+          "otazka": "Co je omnichannel strategie?",
+          "moznosti": [
+            "A) Prodej v mnoha ruznych typech prodejen",
+            "B) Integrace online a offline prodeje do jedne seamless zkusenosti zakaznika",
+            "C) Distribuce pres vice logistickych kanalu",
+            "D) Mezinarodni expanze maloobchodnich retezcu"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Omnichannel = integrace online (e-shop) a offline (kamenna prodejna) do bezesve zakaznicke zkusenosti. Napr. click&collect (objednat online, vyzvednout v prodejne), vraceni online zboží v kamenem obchode."
+        },
+        {
+          "otazka": "Jaký je vztah privatnich znacek a diskonteru?",
+          "moznosti": [
+            "A) Diskontery maji vylucne znacky vyrobcu, ne privátní",
+            "B) Diskonteri se spoléhají prevazne na privátní znacky k dosažení nizkych cen",
+            "C) Privátní znacky jsou vylucne v prémiovych supermarketech",
+            "D) Privátní znacky jsou zakazany v EU"
+          ],
+          "spravna": 1,
+          "vysvetleni": ""
+        },
+        {
+          "otazka": "Jaká je lokalizační logika hypermarketu?",
+          "moznosti": [
+            "A) Centrum města kvuli pedestrian traffic",
+            "B) Okraje měst - velke pozemky za nižší cenu, dostupnost autem, blízkost dalnicnich uzlu",
+            "C) Prumyslove zóny - blízkost dodavatelU",
+            "D) Historicka jadra - tradicni obchodní plochy"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Hypermarkety se lokalizuji na okrajích měst protoze potrebuji velke pozemky za prijatelnou cenu, obrovske parkovi, dostupnost autem a blízkost dopravních uzlu. Lokalizace v centru by byla prilis draha a prostorové nemozna."
+        },
+        {
+          "otazka": "Co tvorí Amazon Go a jake technologie pouziva?",
+          "moznosti": [
+            "A) Prémium e-shop s doruci same-day",
+            "B) Automatizovaná prodejna bez pokladniku - RFID, pocitacové videni, AI",
+            "C) Logisticky park pro last-mile delivery",
+            "D) Predplaceny service pro potravinove dodavky"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Amazon Go = automatizovana prodejna bez pokladniku - zakazník vstoupi, vezme zboží a odejde; ucet se automaticky strha. Pouziva kombinaci RFID, pocitacoveho videni (cameras), senzoru na policich a AI. Prvni Amazon Go otevren 2018 v Seattlu."
+        }
+      ]
     }
   ]
 }

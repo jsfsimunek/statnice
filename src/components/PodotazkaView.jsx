@@ -2,17 +2,19 @@ import { useState } from 'react'
 import FlashcardsTab from './FlashcardsTab.jsx'
 import KvizTab from './KvizTab.jsx'
 import NotesPanel from './NotesPanel.jsx'
+import SwipeTab from './SwipeTab.jsx'
 import UcivoTab from './UcivoTab.jsx'
 import { useUserProgress } from '../hooks/useUserProgress.js'
 
 const TABS = [
   { id: 'ucivo', label: 'Učivo' },
+  { id: 'swipe', label: 'Swipe' },
   { id: 'flashcards', label: 'Flashcards' },
   { id: 'kviz', label: 'Kvíz' },
   { id: 'notes', label: 'Poznámky' },
 ]
 
-export default function PodotazkaView({ podotazka, okruhId }) {
+export default function PodotazkaView({ podotazka, okruhId, okruhTitle }) {
   const [activeTab, setActiveTab] = useState('ucivo')
   const progressKey = `${okruhId}-${podotazka.pismeno}`
   const { progress, updateProgress, loading, error } = useUserProgress(progressKey)
@@ -23,6 +25,11 @@ export default function PodotazkaView({ podotazka, okruhId }) {
         <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">
           Podotázka {podotazka.pismeno}
         </p>
+        {okruhTitle && (
+          <p className="mb-2 text-xs font-medium text-brand-500">
+            {okruhTitle}
+          </p>
+        )}
         <p className="text-slate-700 text-base leading-relaxed">{podotazka.zneni}</p>
         {error && (
           <p className="mt-3 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">
@@ -48,6 +55,13 @@ export default function PodotazkaView({ podotazka, okruhId }) {
           studium={podotazka.studium}
           checked={progress.checklistDone}
           onCheckedChange={next => updateProgress(current => ({ ...current, checklistDone: next }))}
+        />
+      </div>
+      <div className={activeTab === 'swipe' ? '' : 'hidden'}>
+        <SwipeTab
+          studium={podotazka.studium}
+          progressKey={progressKey}
+          onOpenDetail={() => setActiveTab('ucivo')}
         />
       </div>
       <div className={activeTab === 'flashcards' ? '' : 'hidden'}>

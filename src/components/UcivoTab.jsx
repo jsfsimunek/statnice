@@ -22,13 +22,13 @@ export default function UcivoTab({ studium, checked: controlledChecked, onChecke
   return (
     <div className="space-y-5">
       {sekce.map((section, index) => (
-        <SekceCard key={index} sekce={section} />
+        <SekceCard key={index} sekce={section} index={index} />
       ))}
 
       {checklist.length > 0 && (
         <div className="card border-l-4 border-brand-500">
           <div className="flex items-center justify-between mb-3">
-            <h3 className="font-semibold text-brand-700">Co musim umet ke zkousce</h3>
+            <h3 className="font-semibold text-brand-700">Co musím umět ke zkoušce</h3>
             <span className="text-xs text-slate-400">{checked.length}/{checklist.length}</span>
           </div>
           <ul className="space-y-2">
@@ -37,7 +37,7 @@ export default function UcivoTab({ studium, checked: controlledChecked, onChecke
             ))}
           </ul>
           {checked.length === checklist.length && (
-            <p className="mt-3 text-xs text-emerald-600 font-medium">Vse zvladnuto.</p>
+            <p className="mt-3 text-xs text-emerald-600 font-medium">Vše zvládnuto.</p>
           )}
         </div>
       )}
@@ -45,20 +45,34 @@ export default function UcivoTab({ studium, checked: controlledChecked, onChecke
   )
 }
 
-function SekceCard({ sekce }) {
+function SekceCard({ sekce, index }) {
+  const tables = Array.isArray(sekce.tabulka) ? sekce.tabulka : sekce.tabulka ? [sekce.tabulka] : []
+  const mnemonic = sekce.mnemotechnika || createMnemonic(sekce, index)
+
   return (
-    <div className="card space-y-3">
-      {sekce.nadpis && <h2 className="section-heading">{sekce.nadpis}</h2>}
+    <article className="card space-y-4">
+      <div className="flex items-start gap-3">
+        <span className="mt-0.5 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-brand-50 text-xs font-bold text-brand-700">
+          {index + 1}
+        </span>
+        <div className="min-w-0">
+          {sekce.nadpis && <h2 className="section-heading mb-1">{sekce.nadpis}</h2>}
+          {sekce.obsah && <LeadSentence text={sekce.obsah} />}
+        </div>
+      </div>
+
       {sekce.obsah && <ObsahBlock text={sekce.obsah} />}
+
       {sekce.seznam?.length > 0 && (
-        <ul className="list-disc list-inside space-y-1 text-sm text-slate-700 pl-1">
-          {sekce.seznam.map((item, index) => <li key={index}>{item}</li>)}
+        <ul className="list-disc space-y-1 pl-5 text-sm text-slate-700">
+          {sekce.seznam.map((item, itemIndex) => <li key={itemIndex}>{item}</li>)}
         </ul>
       )}
+
       {sekce.obrazky?.length > 0 && (
         <div className="flex flex-wrap gap-3">
-          {sekce.obrazky.map((image, index) => (
-            <figure key={index} className="rounded-xl overflow-hidden border border-slate-200 bg-slate-50 max-w-full">
+          {sekce.obrazky.map((image, imageIndex) => (
+            <figure key={imageIndex} className="rounded-xl overflow-hidden border border-slate-200 bg-slate-50 max-w-full">
               <img
                 src={image.src}
                 alt={image.popis ?? ''}
@@ -72,30 +86,68 @@ function SekceCard({ sekce }) {
           ))}
         </div>
       )}
-      {(Array.isArray(sekce.tabulka) ? sekce.tabulka : sekce.tabulka ? [sekce.tabulka] : []).map((table, index) => (
-        <Tabulka key={index} tabulka={table} />
+
+      {tables.map((table, tableIndex) => (
+        <Tabulka key={tableIndex} tabulka={table} />
       ))}
-      {sekce.mnemotechnika && (
+
+      {mnemonic && (
         <div className="mt-2 bg-amber-50 border border-amber-200 rounded-xl px-4 py-3">
-          <p className="text-xs font-semibold text-amber-700 mb-0.5">Mnemotechnika</p>
-          <p className="text-sm text-amber-900">{sekce.mnemotechnika}</p>
+          <p className="text-xs font-semibold text-amber-700 mb-0.5">
+            {sekce.mnemotechnika ? 'Mnemotechnika' : 'Pomůcka k zapamatování'}
+          </p>
+          <p className="text-sm text-amber-900">{mnemonic}</p>
         </div>
       )}
-    </div>
+    </article>
+  )
+}
+
+function LeadSentence({ text }) {
+  const sentence = text
+    .replace(/\s+/g, ' ')
+    .split(/(?<=[.!?])\s+/)
+    .find(item => item.length > 35)
+
+  if (!sentence) return null
+
+  return (
+    <p className="text-sm leading-6 text-slate-500">
+      {sentence.length > 220 ? `${sentence.slice(0, 220).trim()}...` : sentence}
+    </p>
   )
 }
 
 function ObsahBlock({ text }) {
-  const paragraphs = text.split(/\n\n+/)
+  const blocks = text.split(/\n\n+/).map(item => item.trim()).filter(Boolean)
   return (
-    <div className="space-y-2 text-slate-700 leading-relaxed text-sm sm:text-base">
-      {paragraphs.map((paragraph, paragraphIndex) => {
-        const lines = paragraph.split('\n')
+    <div className="space-y-3 text-slate-700 leading-relaxed text-sm sm:text-base">
+      {blocks.map((block, blockIndex) => {
+        const lines = block.split('\n').map(line => line.trim()).filter(Boolean)
+        const introLine = lines.length > 1 && /[:：]$/.test(lines[0]) ? lines[0] : null
+        const listLines = introLine ? lines.slice(1) : lines
+        const isList = listLines.length > 1 && listLines.every(isListLine)
+
+        if (isList) {
+          return (
+            <div key={blockIndex} className="space-y-1.5">
+              {introLine && <p className="font-medium text-slate-800">{introLine}</p>}
+              <ul className="list-disc space-y-1 pl-5">
+                {listLines.map((line, lineIndex) => (
+                  <li key={lineIndex}>
+                    <InlineEmphasis text={cleanListMarker(line)} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
+
         return (
-          <p key={paragraphIndex}>
+          <p key={blockIndex}>
             {lines.map((line, lineIndex) => (
               <span key={lineIndex}>
-                {line}
+                <InlineEmphasis text={line} />
                 {lineIndex < lines.length - 1 && <br />}
               </span>
             ))}
@@ -104,6 +156,25 @@ function ObsahBlock({ text }) {
       })}
     </div>
   )
+}
+
+function InlineEmphasis({ text }) {
+  const match = text.match(/^([^:]{2,48}):\s+(.+)$/)
+  if (!match) return text
+
+  return (
+    <>
+      <strong className="font-semibold text-slate-800">{match[1]}:</strong> {match[2]}
+    </>
+  )
+}
+
+function isListLine(line) {
+  return /^(-|[0-9]+[.)]|[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]\))\s+/.test(line)
+}
+
+function cleanListMarker(line) {
+  return line.replace(/^-\s+/, '').replace(/^([0-9]+[.)]|[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]\))\s+/, '$1 ')
 }
 
 function Tabulka({ tabulka }) {
@@ -157,7 +228,38 @@ function ChecklistItem({ text, done, onToggle }) {
 function EmptyState() {
   return (
     <div className="card text-center py-12 text-slate-400">
-      <p className="text-sm">Studijni obsah pro tuto podotazku zatim neni k dispozici.</p>
+      <p className="text-sm">Studijní obsah pro tuto podotázku zatím není k dispozici.</p>
     </div>
   )
+}
+
+function createMnemonic(sekce, index) {
+  const rows = Array.isArray(sekce.tabulka)
+    ? sekce.tabulka.flatMap(table => table.radky ?? [])
+    : sekce.tabulka?.radky ?? []
+
+  const terms = rows
+    .map(row => row?.[0])
+    .filter(item => typeof item === 'string' && item.length > 1 && item.length < 42)
+    .slice(0, 5)
+
+  if (terms.length >= 3) {
+    const initials = terms.map(term => term.trim()[0]?.toUpperCase()).join('-')
+    return `${initials}: ${terms.join(', ')}.`
+  }
+
+  if (Array.isArray(sekce.seznam) && sekce.seznam.length >= 3) {
+    const listTerms = sekce.seznam
+      .map(item => item.split(/[–:-]/)[0].trim())
+      .filter(Boolean)
+      .slice(0, 5)
+    const initials = listTerms.map(term => term[0]?.toUpperCase()).join('-')
+    return `${initials}: ${listTerms.join(', ')}.`
+  }
+
+  if (sekce.nadpis) {
+    return `Sekce ${index + 1}: zapamatuj si ji přes klíčové slovo „${sekce.nadpis.replace(/^\d+\.\s*/, '')}“.`
+  }
+
+  return ''
 }

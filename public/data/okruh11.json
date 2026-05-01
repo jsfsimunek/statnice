@@ -14,17 +14,467 @@
     },
     {
       "pismeno": "B",
-      "zneni": "S využitím náčrtku popište složení a stavbu atmosféry a příčiny extrémních atmosférických jevů.",
+      "zneni": "S využitím náčrtku popište složení a stavbu atmosféry (např. vertikální teplotní zvrstvení), a její význam pro život na Zemi. Vysvětlete příčiny nejvýznamnějších extrémních atmosférických jevů a jejich dopady na konkrétní regiony na světě.",
       "studium": {
-        "sekce": [],
+        "sekce": [
+          {
+            "nadpis": "1. Základní fyzikální vlastnosti atmosféry",
+            "obsah": "Atmosféra (z řeckého atmos = pára, sphaira = obal) je plynný obal Země.\n\nKlíčový zákon: Hustota a tlak vzduchu s výškou klesají. Vertikální barický gradient = pokles tlaku na každých 100 m výšky (~1 hPa/8 m v přízemí).\n\nPomůcka na procenta hmotnosti: 6-11-30 = 50-75-99 %",
+            "tabulka": {
+              "sloupce": [
+                "Vlastnost",
+                "Hodnota / detail"
+              ],
+              "radky": [
+                [
+                  "Celková hmotnost",
+                  "1/1 000 000 hmotnosti Země"
+                ],
+                [
+                  "50 % hmotnosti",
+                  "do 6 km výšky"
+                ],
+                [
+                  "75 % hmotnosti",
+                  "do 11 km výšky"
+                ],
+                [
+                  "99 % hmotnosti",
+                  "do 30 km výšky"
+                ],
+                [
+                  "Průměrný tlak na hladině moře",
+                  "1013,27 hPa (při 15 °C)"
+                ],
+                [
+                  "Stálost chemického složení",
+                  "do 50–80 km (homosféra); nad 80 km proměnlivé (heterosféra)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Celková hmotnost → 50 % hmotnosti → 75 % hmotnosti → 99 % hmotnosti → Průměrný tlak na hladině moře."
+          },
+          {
+            "nadpis": "2. Chemické složení atmosféry",
+            "obsah": "Pomůcka na pořadí složek: N-K-A-C-O-V = Nebe Kryje Argon, CO₂ Ozon Vzduch",
+            "tabulka": {
+              "sloupce": [
+                "Složka",
+                "Vzorec",
+                "Podíl (suchý vzduch)",
+                "Vlastnosti a role"
+              ],
+              "radky": [
+                [
+                  "Dusík",
+                  "N₂",
+                  "78,09 %",
+                  "Inertní; nepodílí se na energetické výměně; vzniká z vulkanické činnosti"
+                ],
+                [
+                  "Kyslík",
+                  "O₂",
+                  "20,95 %",
+                  "Reaktivní; nezbytný pro život; pohlcuje část slunečního záření (disociace)"
+                ],
+                [
+                  "Argon",
+                  "Ar",
+                  "0,93 %",
+                  "Inertní; vzniká rozpadem radioaktivního K⁴⁰"
+                ],
+                [
+                  "Oxid uhlíčitý",
+                  "CO₂",
+                  "0,042 % (421 ppm, 2022)",
+                  "Pohlcuje dlouhovlnné záření; skleníkový efekt; zdroj z vulkanismu + anthropogeni"
+                ],
+                [
+                  "Ozon",
+                  "O₃",
+                  "stopové množství",
+                  "Chrání před UV-B a UV-C zářením; ozonosféra ve stratosféře (20–30 km); troposferický O₃ je škodlivý"
+                ],
+                [
+                  "Vodní pára",
+                  "H₂O",
+                  "0–4 % (proměnlivý)",
+                  "Pohlcuje dlouhovlnné záření; u nás 1,3 % v létě, 0,4 % v zimě"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Dusík → Kyslík → Argon → Oxid uhlíčitý → Ozon."
+          },
+          {
+            "nadpis": "3. Vertikální členění atmosféry podle teploty (hlavní klasifikace)",
+            "obsah": "Pomůcka na vrstvy od Země výš: Tro-Stra-Mezo-Termo-Exo → Trochu Stará Metla Teprve Exceluje",
+            "tabulka": {
+              "sloupce": [
+                "Vrstva",
+                "Výška",
+                "Teplota",
+                "Klíčové jevy"
+              ],
+              "radky": [
+                [
+                  "Troposféra",
+                  "0 – ~12 km (podélární: 8 km, rovník: 18 km)",
+                  "Klesá s výškou (~6,5 °C/km); u tropopauzy –60 °C",
+                  "Veškeré počasí, oblačnost, srážky; jet-streamy na hranici s tropopauzou; letadla létají ve spodní stratosféře"
+                ],
+                [
+                  "Stratosféra",
+                  "~12 – 50–55 km",
+                  "Nejprve stálá (–60 °C), od 25 km roste; nahoře až 0 °C",
+                  "Ozonosféra (20–30 km); perleťová oblaka; ozón pohltí UV záření → oteplení; komerční letadla"
+                ],
+                [
+                  "Mezosféra",
+                  "~55 – 80–85 km",
+                  "Klesá na –80 až –90 °C (nejchladnější místo atmosféry)",
+                  "Hoří meteory → bolidy; stříbřitá oblaka (NLC)"
+                ],
+                [
+                  "Termosféra",
+                  "~85 – 500–700 km",
+                  "Prudce roste (až stovky °C, ale řídký vzduch)",
+                  "Polární záře (aurora borealis/australis); ISS; ionosféra (odraz rádiových vln)"
+                ],
+                [
+                  "Exosféra",
+                  "nad 800 km",
+                  "Extrémně vysoká; atomy unikají do vesmíru",
+                  "Přechod do meziplanetárního prostoru; lehké plyny (H, He) unikají"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Troposféra → Stratosféra → Mezosféra → Termosféra → Exosféra."
+          },
+          {
+            "nadpis": "4. Další způsoby členění atmosféry a ozonová vrstva",
+            "obsah": "Atmosféru lze členit různými způsoby:\n\nOzonová vrstva a ozonová díra:\n\n- 90 % ozonu soustředěno ve stratosféře ve výšce 20–30 km (ozonosféra); měřeno v Dobsonových jednotkách (DU)\n- Chrání před UV-B a UV-C (karcinogenním) zářením\n- Ozonová díra: pozorována od 80. let, zejména nad Antarktidou (září–listopad); ale i Arktida, J. Amerika, Austrálie (jaro 2011)\n- Příčina: halogenované uhlovodíky – freony (CFC) → pronikají do stratosféry → odštěpení Cl → katalytický rozklad O₃\n- Řešení: Montrealský protokol (1987); ale CFC vydrží v atmosféře stovky let",
+            "tabulka": {
+              "sloupce": [
+                "Kritérium",
+                "Vrstvy",
+                "Rozhraní"
+              ],
+              "radky": [
+                [
+                  "Teplota",
+                  "Troposféra, stratosféra, mezosféra, termosféra, exosféra",
+                  "Tropopauza, stratopauza, mezopauza, termopauza"
+                ],
+                [
+                  "Chemické složení",
+                  "Homosféra (stálé složení)",
+                  "do 80 km / nad 80 km = heterosféra"
+                ],
+                [
+                  "Fyz.-chem. procesy",
+                  "Neutrosféra, chemosféra, ionosféra",
+                  "Různě vymezené"
+                ],
+                [
+                  "Interakce s povrchem",
+                  "Planetární mezní vrstva, volná atmosféra",
+                  "cca do 1–2 km"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Teplota → Chemické složení → Fyz.-chem. procesy → Interakce s povrchem."
+          },
+          {
+            "nadpis": "5. Tropické cyklóny (hurikány, tajfuny)",
+            "obsah": "Nejničivější atmosférický jev na Zemi z hlediska plošného dosahu.\n\nPodmínky vzniku:\n\n- Oblast 5–30° zeměpisné šířky (87 % do 20° z.š.); bez Coriolisovy síly pod 5° nemohou vzniknout\n- Teplota povrchu moře: 26–27 °C, min. hloubka 50 m\n- Rychlý pokles teploty s výškou\n- Dostatek vlhkosti ve střední troposféře (2–8 km)\n- Předchozí slabý cyklonální systém\n\nRegionální názvy: hurikán (S Amerika a Karibik), tajfun (SZ Tichý oceán, Filipíny, Japonsko), cyklóna (Indický oceán, Austrálie), willy-willy (Austrálie), bagyo (Filipíny).\n\nPříklady: Hurikán Katrina (2005, New Orleans, 1 800 mrtvých), Harvey (2017, Texas, škody 125 mld. USD), Typhoon Haiyan (2013, Filipíny, 6 000+ mrtvých).",
+            "tabulka": {
+              "sloupce": [
+                "Stádium",
+                "Rychlost větru",
+                "Charakteristika"
+              ],
+              "radky": [
+                [
+                  "Tropická porucha",
+                  "–",
+                  "Konvektivní oblačnost, počátek organizace"
+                ],
+                [
+                  "Tropická deprese",
+                  "do 62 km/h",
+                  "Cirkulace bez oka, bez spirálních ramen"
+                ],
+                [
+                  "Tropická bouře",
+                  "62–117 km/h",
+                  "Spirální ramena, stále bez oka"
+                ],
+                [
+                  "Tropická cyklóna",
+                  "nad 118 km/h",
+                  "Vyvinuto oko; Saffir-Simpsonova stupnice 1–5"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Tropická porucha → Tropická deprese → Tropická bouře → Tropická cyklóna."
+          },
+          {
+            "nadpis": "6. Tornáda a bouřkové jevy",
+            "obsah": "Tornádo (velká tromba) – vírové proudění vázané na konvektivní bouři (Cumulonimbus):\n\n- Vzniká při labilním teplotním zvrstvení a silném vertikálním střihu větru\n- Chobot se spouští z Cb k zemskému povrchu; vzduch rotuje (na S polokouli CCW)\n- Ve středu tornáda je tlak nižší → nasávání okolního vzduchu + destrukce objektů přetlakem\n- Klasifikace: Fujitova stupnice F0–F5 (F5 = rychlost větru nad 420 km/h)\nTornádo Alley (USA): Oklahoma, Texas, Kansas – nejintenzivnější tornáda na světě díky střetu arktického a tropického vzduchu. Průměrně 1 200 tornád/rok v USA.\n\nTromby nad mořem = smrště. V ČR výskyt malých tromb (bez vazby na Cb), vzácně velká tornáda – Hodonínsko (24. 6. 2021, F3–F4, 6 mrtvých, 1 200 poškozených domů).\n\nKonvektivní bouře – typy:",
+            "tabulka": {
+              "sloupce": [
+                "Typ",
+                "Charakteristika",
+                "Nebezpečnost"
+              ],
+              "radky": [
+                [
+                  "Jednobuněčná",
+                  "Jedna buňka, krátká životnost",
+                  "Nízká"
+                ],
+                [
+                  "Multicela",
+                  "Několik vzájemně ovlivňujících se buněk",
+                  "Střední"
+                ],
+                [
+                  "Supercela",
+                  "Jedna buňka mezoměřítkového víru (mezocyklon)",
+                  "Nejvyšší – tornáda, krupobití"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Jednobuněčná → Multicela → Supercela."
+          },
+          {
+            "nadpis": "7. Cyklóny mimotropické a jejich vliv na Evropu",
+            "obsah": "Mimotropické (frontální) cyklóny – vznikají na podélární frontě (hranice podélárního a tropického vzduchu):\n\n- Stádia: vlna → mladá cyklóna → okluzní cyklóna → zánik (nebo regenerace)\n- Pohybují se rychlostí 30–40 km/h ve střední a horní troposféře\n- Na jedné frontě vzniká série cyklón (ne jen jedna)\n\nKonkrétní dopady na Evropu: Orkán Kyrill (2007, ČR, 13 mrtvých, škody 10 mld. Kč), bouře Lothar+Martin (1999, Francie, 150 mrtvých), orkán Xaver (2013, sev. Evropa).\n\nPomůcka na stádia frontální cyklóny: V-M-O-Z = Vlna, Mladá, Okluzní, Zánik",
+            "tabulka": {
+              "sloupce": [
+                "Typ fronty",
+                "Průchod",
+                "Projevy počasí"
+              ],
+              "radky": [
+                [
+                  "Teplá fronta",
+                  "Teplý vzduch stoupá nad studený (mírně)",
+                  "Postupné zatažení Ci → Cs → As → Ns; vytrvalé srážky; oteplení po průchodu"
+                ],
+                [
+                  "Studená fronta",
+                  "Studený vzduch prudce podráží teplý",
+                  "Cumulonimbus, bouřky, průtrže; rychlé ochlazení po průchodu; zlepšení"
+                ],
+                [
+                  "Okluzní fronta",
+                  "Studená dohání teplou; teplý vzduch vytlačen",
+                  "Srážky; cyklóna odumírá"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Teplá fronta → Studená fronta → Okluzní fronta."
+          }
+        ],
         "exam_checklist": []
       },
-      "flashcards": [],
-      "kviz": []
+      "flashcards": [
+        {
+          "otazka": "Vyjmenuj 5 vrstev atmosféry od zemského povrchu výš.",
+          "odpoved": "Troposféra → Stratosféra → Mezosféra → Termosféra → Exosféra. Pomůcka: Trochu Stará Metla Teprve Exceluje."
+        },
+        {
+          "otazka": "V jaké vrstvě atmosféry se odehrává veškeré počasí a jak se tam mění teplota?",
+          "odpoved": "Troposféra (0 až ~12 km). Teplota klesá s výškou přibližně 6,5 °C na každý km. U tropopauzy dosahuje asi –60 °C."
+        },
+        {
+          "otazka": "Proč teplota ve stratosféře od 25 km výšky roste?",
+          "odpoved": "Ozonosféra (20–30 km) pohlcuje UV záření, čímž se ohřívá vzduch ve stratosféře. Nahoře u stratopauzy může teplota dosáhnout až 0 °C."
+        },
+        {
+          "otazka": "Co jsou stříbřitá oblaka a ve které vrstvě se tvoří?",
+          "odpoved": "Stříbřitá oblaka (NLC – noctilucent clouds) jsou nejvýše položená oblaka (80–85 km), tvoří se v mezosféře. Jsou viditelná krátce po západu slunce."
+        },
+        {
+          "otazka": "Jaká je příčina vzniku ozonové díry a kde se vyskytuje?",
+          "odpoved": "Freony (CFC) pronikají do stratosféry, kde se z nich odštěpuje chlór, který katalyticky rozkládá ozon. Hlavně nad Antarktidou (září–listopad). Řeší Montrealský protokol (1987)."
+        },
+        {
+          "otazka": "Jaké jsou podmínky vzniku tropické cyklóny?",
+          "odpoved": "Teplota moře 26–27 °C, poloha 5–30° z.š. (Coriolisova síla), hloubka moře min. 50 m, rychlý pokles teploty s výškou, dostatek vlhkosti ve 2–8 km výšky."
+        },
+        {
+          "otazka": "Jak se liší pojmenování tropické cyklóny podle oblasti vzniku?",
+          "odpoved": "Hurikán = Atlantik/S Amerika. Tajfun = SZ Tichý oceán (Japonsko, Filipíny, Čína). Cyklóna = Indický oceán, Austrálie. Bagyo = Filipíny. Willy-willy = Austrálie/NZ."
+        },
+        {
+          "otazka": "Co je tornádo a ve které vrstvě oblačnosti vzniká?",
+          "odpoved": "Tornádo = velká tromba, vzdušný vír vázaný na Cumulonimbus (Cb). Vzniká při labilním zvrstvení a silném střihu větru. Rotuje CCW (S polokoule). Centrum: nízký tlak."
+        },
+        {
+          "otazka": "Co je Tornádo Alley a proč tam tornáda vznikají tak často?",
+          "odpoved": "Oblast Oklahoma, Texas, Kansas (USA). Setkávají se zde studené arktické vzduchové hmoty ze severu s teplým vlhkým vzduchem z Mexického zálivu → silná teplotní nestabilita. ~1 200 tornád/rok."
+        },
+        {
+          "otazka": "Jaká je hmotnostní koncentrace atmosféry? Kde je 99 % hmotnosti?",
+          "odpoved": "Atmosféra = 1/1 000 000 hmotnosti Země. 50 % do 6 km, 75 % do 11 km, 99 % do 30 km výšky. Přes 99 % veškerého vzduchu je tak pod 30 km."
+        },
+        {
+          "otazka": "Jaký je rozdíl mezi troposférickým a stratosférickým ozonem?",
+          "odpoved": "Stratosférický ozon (20–30 km) = prospěšný, chrání před UV-B/C. Troposférický ozon = škodlivý, vzniká antropogenně (NO₂ + UV → O₃), poškozuje dýchací ústrojí a je skleníkovým plynem."
+        },
+        {
+          "otazka": "Co je supercela a proč je nejnebezpečnějším typem konvektivní bouře?",
+          "odpoved": "Supercela = konvektivní bouře tvořená jednou buňkou mezoměřítkového víru (mezocyklon). Má nejdelší životnost, produkuje nejsilnější krupobití a je hlavním zdrojem tornád F3–F5."
+        },
+        {
+          "otazka": "Jaké plyny tvoří suchý čistý vzduch a v jakém poměru?",
+          "odpoved": "N₂ 78,09 %, O₂ 20,95 %, Ar 0,93 %, CO₂ 0,042 % (421 ppm). Zbytek: Ne, He, CH₄, N₂O, O₃ a další stopové plyny."
+        },
+        {
+          "otazka": "Tornádo v ČR – co se stalo 24. 6. 2021?",
+          "odpoved": "Silné tornádo F3–F4 zasáhlo Hodonínsko (Moravská Nová Ves, Mikulčice, Lužice a další). 6 mrtvých, přes 1 200 poškozených domů. Nejsilnější tornádo na území ČR v moderní historii."
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Ve které vrstvě atmosféry dochází k hoření meteorů (bolidy)?",
+          "moznosti": [
+            "A) Stratosféra",
+            "B) Termosféra",
+            "C) Mezosféra",
+            "D) Troposféra"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Meteory shoří v mezosféře (55–85 km), kde je vzduch ještě dostatečně hustý pro tření. Teplota zde klesá na –80 až –90 °C."
+        },
+        {
+          "otazka": "Proč nemohou tropické cyklóny vznikat na rovníku (pod 5° z.š.)?",
+          "moznosti": [
+            "A) Teplota moře je tam příliš nízká",
+            "B) Coriolisova síla je na rovníku nulová a nemůže způsobit rotaci",
+            "C) Na rovníku je příliš vysoký atmosférický tlak",
+            "D) Rovníkový vzduch je příliš suchý"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Coriolisova síla (uchylující síla zemské rotace) je na rovníku nulová. Pro vytvoření cyklonálního víru tropické cyklóny je nutná alespoň minimální hodnota, proto nevznikají pod 5° z.š."
+        },
+        {
+          "otazka": "Kolik procent hmotnosti atmosféry je soustředěno do výšky 30 km?",
+          "moznosti": [
+            "A) 50 %",
+            "B) 75 %",
+            "C) 90 %",
+            "D) 99 %"
+          ],
+          "spravna": 3,
+          "vysvetleni": "99 % hmotnosti atmosféry je soustředěno do 30 km. 50 % do 6 km, 75 % do 11 km. Atmosféra je tedy extrémně tenká ve srovnání s průměrem Země (12 742 km)."
+        },
+        {
+          "otazka": "V jaké výšce se nachází ozonosféra a před čím chrání?",
+          "moznosti": [
+            "A) 5–10 km, před infračerveným zářením",
+            "B) 20–30 km, před UV-B a UV-C zářením",
+            "C) 50–60 km, před rentgenovým zářením",
+            "D) 80–90 km, před kosmickým zářením"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Ozonosféra leží ve stratosféře ve výšce 20–30 km a chrání organismy před UV-B a UV-C (karcinogenním) zářením. 90 % veškerého atmosférického ozonu je zde."
+        },
+        {
+          "otazka": "Která látka je hlavní příčinou vzniku ozonové díry?",
+          "moznosti": [
+            "A) Oxid uhlíčitý (CO₂)",
+            "B) Oxid dusný (N₂O)",
+            "C) Halogenované uhlovodíky – freony (CFC)",
+            "D) Troposférický ozon"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Freony (CFC = chlorfluoruhlovodíky) pronikají do stratosféry, kde UV záření odštěpí chlór, který katalyticky ničí molekuly ozonu. Jeden atom Cl může zničit až 100 000 molekul O₃."
+        },
+        {
+          "otazka": "Kde se nachází nejchladnější místo zemské atmosféry?",
+          "moznosti": [
+            "A) Tropopauza (~–60 °C)",
+            "B) Vrchol mezosféry (~–80 až –90 °C)",
+            "C) Exosféra",
+            "D) Stratopauza"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Nejvyšší část mezosféry (mezopauza, ~85 km) je nejchladnějším místem atmosféry s teplotami –80 až –90 °C. Zde se tvoří stříbřitá oblaka z ledových krystalků."
+        },
+        {
+          "otazka": "Jaká minimální teplota povrchu moře je nutná pro vznik tropické cyklóny?",
+          "moznosti": [
+            "A) 18–20 °C",
+            "B) 22–24 °C",
+            "C) 26–27 °C",
+            "D) 30–32 °C"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Teplota povrchu moře musí dosahovat 26–27 °C do hloubky alespoň 50 m. Teplo moře pohání konvekci, kondenzaci vodní páry a zásobuje cyklónu energií."
+        },
+        {
+          "otazka": "Co způsobuje v termosféře podélární záře?",
+          "moznosti": [
+            "A) Hoření meteorů při vstupu do atmosféry",
+            "B) Interakce nabitých částic slunečního větru s atomy ionosféry",
+            "C) Odraz slunečního světla od stříbřitých oblaků",
+            "D) Rozklad freonů UV zářením"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Polární záře (aurora borealis/australis) vzniká v termosféře (85–500 km), kde nabité částice slunečního větru excitují atomy (O, N) v ionosféře, které pak vyzáří světlo."
+        },
+        {
+          "otazka": "Jak se nazývá nejnebezpečnější typ konvektivní bouře, vázaný na mezocyklon?",
+          "moznosti": [
+            "A) Jednobuněčná bouře",
+            "B) Multicela",
+            "C) Supercela",
+            "D) Frontální bouře"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Supercela je konvektivní bouře tvořená jednou buňkou s mezoměřítkovým vírem (mezocyklónem). Je zdrojem nejsilnějších tornád (F4–F5) a velkého krupobití."
+        },
+        {
+          "otazka": "Co nastane se stavem atmosféry při průchodu studené fronty?",
+          "moznosti": [
+            "A) Oblaky Ci a Cs, vytrvalé srážky, postupné oteplení",
+            "B) Cumulonimbus, bouřky, průtrže, rychlé ochlazení a poté zlepšení",
+            "C) Mlha, mrholení a trvalé zatažení bez srážek",
+            "D) Bezoblačné počasí a výrazné oteplení"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Studená fronta = studený vzduch prudce podráží teplý vzduch → silná konvekce → Cumulonimbus, bouřky, průtrže. Po průchodu fronty prudké ochlazení a zlepšení počasí (projasnění)."
+        },
+        {
+          "otazka": "Jaký je třetí nejhojnější plyn v suchém čistém vzduchu a jak vzniká?",
+          "moznosti": [
+            "A) Oxid uhlíčitý (CO₂) – z vulkanické činnosti",
+            "B) Argon (Ar) – rozpadem radioaktivního izotopu K⁴⁰",
+            "C) Ozon (O₃) – disociací kyslíku UV zářením",
+            "D) Metan (CH₄) – z biologické činnosti"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Argon (Ar) tvoří 0,93 % suchého vzduchu a je třetím nejhojnějším plynem. Vzniká radioaktivním rozpadem draslíku-40 (K⁴⁰). Je chemicky inertní."
+        },
+        {
+          "otazka": "Na co navazuje pojem homosféra v členění atmosféry?",
+          "moznosti": [
+            "A) Vrstva s konstantní teplotou",
+            "B) Vrstva se stálým chemickým složením vzduchu (do ~80 km)",
+            "C) Vrstva, kde probíhá fotosyntéza",
+            "D) Spodní vrstva troposféry s největší hustotou"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Homosféra (do 50–80 km) má stálé chemické složení vzduchu. Nad ní leží heterosféra, kde se složení mění vlivem disociace a ionizace molekul krátkovlnným slunečním zářením."
+        }
+      ]
     },
     {
       "pismeno": "C",
-      "zneni": "S pomocí atlasu zdůvodněte lokalizaci zemědělských oblastí světa a dopady zemědělství na ŽP.",
+      "zneni": "S pomocí atlasu zdůvodněte lokalizací zemědělských oblastí světa a dopady zemědělství na ŽP.",
       "studium": {
         "sekce": [],
         "exam_checklist": []

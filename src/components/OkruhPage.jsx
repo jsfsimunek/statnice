@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import PodotazkaView from './PodotazkaView.jsx'
 import { getTopic } from '../lib/contentRepository.js'
+import { getSubquestionShortTitle } from '../config/subquestionTitles.js'
 
 export default function OkruhPage({ subjectSlug, okruhId, onTitleLoaded }) {
   const [data, setData] = useState(null)
@@ -50,15 +51,29 @@ export default function OkruhPage({ subjectSlug, okruhId, onTitleLoaded }) {
 
       {podotazky.length > 1 && (
         <div className="flex gap-2 mb-6 flex-wrap">
-          {podotazky.map((podotazka, index) => (
-            <button
-              key={podotazka.pismeno}
-              onClick={() => setActivePodotazka(index)}
-              className={`tab-btn ${activePodotazka === index ? 'tab-btn-active' : 'tab-btn-inactive'}`}
-            >
-              Podotázka {podotazka.pismeno}
-            </button>
-          ))}
+          {podotazky.map((podotazka, index) => {
+            const shortTitle = getSubquestionShortTitle(data.id, podotazka.pismeno)
+            return (
+              <button
+                key={podotazka.pismeno}
+                onClick={() => setActivePodotazka(index)}
+                className={`rounded-2xl px-4 py-2 text-left text-sm font-semibold transition-colors duration-150 ${
+                  activePodotazka === index
+                    ? 'bg-brand-600 text-white shadow-sm'
+                    : 'text-slate-500 hover:bg-slate-100 hover:text-slate-900'
+                }`}
+              >
+                <span className="block leading-5">Podotázka {podotazka.pismeno}</span>
+                {shortTitle && (
+                  <span className={`mt-0.5 block max-w-44 truncate text-[11px] font-medium leading-4 ${
+                    activePodotazka === index ? 'text-brand-100' : 'text-slate-400'
+                  }`}>
+                    {shortTitle}
+                  </span>
+                )}
+              </button>
+            )
+          })}
         </div>
       )}
 
@@ -67,6 +82,7 @@ export default function OkruhPage({ subjectSlug, okruhId, onTitleLoaded }) {
           key={`${subjectSlug}-${okruhId}-${activePodotazka}`}
           podotazka={podotazky[activePodotazka]}
           okruhId={`${subjectSlug}-${okruhId}`}
+          okruhTitle={data.nazev ?? data.title}
         />
       )}
     </div>

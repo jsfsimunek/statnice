@@ -195,13 +195,416 @@
     },
     {
       "pismeno": "C",
-      "zneni": "Zhodnoťte vliv přírodních podmínek na vznik a vývoj sídel. Na příkladu regionu charakterizujte prostorovou koncentraci aktivit.",
+      "zneni": "Zhodnoťte vliv přírodních podmínek na vznik a vývoj sídel v minulosti a v současnosti. Na příkladu vybraného regionu světa charakterizujte prostorovou koncentraci a disperzi aktivit lidské společnosti.",
       "studium": {
-        "sekce": [],
+        "sekce": [
+          {
+            "nadpis": "Faktory ovlivňující vznik sídel - přehled",
+            "obsah": "Vznik a lokalizace sídel je vysledkem působení komplexu faktorů, jejich význam se v čase menil.\n\nMnemotechnická pomůcka pro středověké faktory: O-D-L = Obrana, Doprava, Ložiska",
+            "tabulka": {
+              "sloupce": [
+                "Období",
+                "Klicove faktory",
+                "Priklady sídel"
+              ],
+              "radky": [
+                [
+                  "Pravek / neolit",
+                  "Dostupnost vody, úrodná půda, mírné klima",
+                  "údolí Nilu, Mezopotamie, jižní Morava"
+                ],
+                [
+                  "Stredovek",
+                  "Obranná poloha, kupecké cesty, loziska kovu",
+                  "Praha (Hradcany), Kutna Hora, Bern"
+                ],
+                [
+                  "2. podél. 19. stol.",
+                  "Dopravni poloha (železnice, voda), uhlí, ruda, prac. sila",
+                  "Manchester, Ostrava, Kladno"
+                ],
+                [
+                  "Soucasnost",
+                  "Kvalita ZP, voda, telekomunikace, vzdelanost, dalnice",
+                  "Silicon Valley, Cambridge UK"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Pravek / neolit → Stredovek → podél. 19. stol. → Soucasnost."
+          },
+          {
+            "nadpis": "Přírodní podmínky a rozmístění obyvatelstva",
+            "obsah": "Přírodní faktory pusobi na rozmístění sídel jak prime, tak neprime (prostrednictvim zemedelstvi).\n1. Klimaticke podminky:- Vice nez 50 % obyvatel: oblast mírné teplého podnebí (jen 17 % rozlohy souce) = nejvyssi hustota\n- Stepni, pustni a tundrove podnebí: 38 % rozlohy, ale jen 8,4 % obyvatel\n- Z pobrezí (pasaty): nehostinne, redce osidlene (sev. Chile) x V pobrezí (monzuny): huste osidlene (Rio de Janeiro)\n2. Reliéf a nadmořská výška:\nVyjimka tropickych kontinentu: Afrika, J. Amerika - lidé casto nad 500 m (Peru: polovina nad 2000 m).\n3. Vzdalenost od pobřeží:- Do 50 km: 28 % obyvatel (12 % rozlohy)\n- Do 200 km: 50 % obyvatel (16 % rozlohy)\n- Nad 1000 km od more: 20 % rozlohy, jen 8,5 % obyvatel\n- Austrálie: 80 % obyvatel do 50 km od pobřeží",
+            "tabulka": {
+              "sloupce": [
+                "Vyska",
+                "Podil obyvatel",
+                "Podil souce"
+              ],
+              "radky": [
+                [
+                  "do 200 m n. m.",
+                  "~60 %",
+                  "28 %"
+                ],
+                [
+                  "do 500 m n. m.",
+                  "~80 %",
+                  "57 %"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: do 200 m n. m. → do 500 m n. m.."
+          },
+          {
+            "nadpis": "Vývoj osídlení na území ČR",
+            "obsah": "Ceske zeme ukazuji jak postupne prechazela dominance prirodnich faktorů k socioekonomickym.\n\nKlíčová historicka udalost: 30-leta valka = ztrata az 43 % ceske populace.",
+            "tabulka": {
+              "sloupce": [
+                "Fáze",
+                "Faktory",
+                "Oblasti osídlení"
+              ],
+              "radky": [
+                [
+                  "Pravek - stredovek",
+                  "Urodna půda, mírné klima, voda",
+                  "Stredni Čechy, jižní Morava, Polabí, Poohri, Hana"
+                ],
+                [
+                  "Slovanska kolonizace",
+                  "Zemedelske podminky, otevrene krajiny",
+                  "2 vlny: ze Z Ukrajiny a z Podunaji"
+                ],
+                [
+                  "13.-14. stol.",
+                  "Nemecka kolonizace - loziska kovu, obchod",
+                  "Horske oblasti, pohranici: Kutna Hora, Jachymov"
+                ],
+                [
+                  "19. stol.",
+                  "Uhli, zeleznicni dostupnost, pracovní sila",
+                  "Ostravsko, Kladensko, Plzensko, Brno"
+                ],
+                [
+                  "Po 1945",
+                  "Politicke rozhodnutí, dosidlovani",
+                  "Pohranici po odsunu Nemcu - Cheb, Sokolov, Tachov (-55 % obyvatel)"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Pravek - stredovek → Slovanska kolonizace → -14. stol. → stol. → Po 1945."
+          },
+          {
+            "nadpis": "Teorie centrálních míst a hierarchie sídel",
+            "obsah": "Christallerova teorie (1933) vysvetluje prostorové uspořádání sídel v zavislosti na poskytovanych sluzbach.\n- Princip: kazde stredisko poskytuje zboží a služby sveho radu; poptavka klesa se vzdálenosti - vzniká kuzel poptavky\n- Vysledek: pravidelna hexagonální (6tiuhelnikova) sit obslužných oblasti\n- Hierarchie: lokální - regionalni - nadregionalni strediska; vyšší rad pokryva i nižší urovne\n\nModifikace: Lösch (1940) - teorie trznich zón; Haggett (1965) - behavioralni pristup.",
+            "tabulka": {
+              "sloupce": [
+                "Uroven",
+                "Typ strediska",
+                "Příklad v ČR"
+              ],
+              "radky": [
+                [
+                  "Lokalni",
+                  "Mala města, velke obce",
+                  "Tisnov, Mikulov"
+                ],
+                [
+                  "Regionalni",
+                  "Krajska a okresni města",
+                  "Jihlava, Znojmo"
+                ],
+                [
+                  "Nadregionalni",
+                  "Velké mestske aglomerace",
+                  "Praha, Brno, Ostrava"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Lokalni → Regionalni → Nadregionalni."
+          },
+          {
+            "nadpis": "Prostorová koncentrace aktivit - mechanismy a příklady",
+            "obsah": "Koncentrace aktivit je jednou z nejtypictejsich vlastnosti ekonomickeho prostoru.\n\nDisperze = rovnoměrně rozlozeni aktivit; typicka pro venkovske zemedelstvi a soucasne trendy (remote work, e-commerce).",
+            "tabulka": {
+              "sloupce": [
+                "Typ koncentrace",
+                "Mechanismus",
+                "Světový příklad"
+              ],
+              "radky": [
+                [
+                  "Zemedelska",
+                  "Urodna půda, dostupnost vody, klima",
+                  "Nil, Ganga, Polabí, Hana"
+                ],
+                [
+                  "Průmyslová",
+                  "Suroviny, energie, pracovní sila",
+                  "Porýní, Horni Slezsko, S Anglie, region Osakay"
+                ],
+                [
+                  "Obchodni a dopravní",
+                  "Pristav, prekladiste, křížení tras",
+                  "Hamburk, Singapur, Hongkong, Vancouver"
+                ],
+                [
+                  "Tercierni",
+                  "Administrativa, služby, informace, V+V",
+                  "Metropole: Pariz, Londýn, Tokio, Bos-Wash"
+                ],
+                [
+                  "Rekreační",
+                  "Klima, reliéf, kulturní dedictvì",
+                  "Florida, Stredozemi, Alpy"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Zemedelska → Průmyslová → Obchodni a dopravní → Tercierni → Rekreační."
+          },
+          {
+            "nadpis": "Příklad regionu: Megalopolis Bos-Wash (východní pobřeží USA)",
+            "obsah": "Megalopolis Bos-Wash je vzorový příklad prostorové koncentrace aktivit v globálním měřítku.\n- Rozsah: Boston - New York - Philadelphia - Baltimore - Washington DC (cca 700 km)\n- Obyvatelstvo: cca 50 mil. obyvatel (asi 15 % USA), na relativně malom uzemi\n- Faktory vzniku: historicky prvni evropske osídlení V pobřeží (17. stol.), pristav a mezinárodní obchod, industrializace 19. stol., koncentrace financiho kapitalu, vzdelani a politické moci\n\nSoucasnost: postindustriální ekonomika - finance, IT, media, vzdelani, zdravotnictvi.",
+            "tabulka": {
+              "sloupce": [
+                "Město",
+                "Dominantní specialni funkce"
+              ],
+              "radky": [
+                [
+                  "New York",
+                  "Finance (Wall St.), media, kultura - globální alpha city"
+                ],
+                [
+                  "Washington DC",
+                  "Federalni administrativa, politická moc"
+                ],
+                [
+                  "Boston",
+                  "Vzdelani (Harvard, MIT), zdravotnictvi, biotech"
+                ],
+                [
+                  "Philadelphia",
+                  "Farmacie, pojistovnictvi, kulturní instituce"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: New York → Washington DC → Boston → Philadelphia."
+          },
+          {
+            "nadpis": "Změna vlivu přírodních podmínek v současnosti",
+            "obsah": "V soucasnosti se význam nekterych prirodnich faktorů menil - nektere klesaji, jine rostou.\n\nKlicovy trend: smrt vzdálenosti umoznuje castecnou disperzi (remote work), ale zaroven posiluji se globální uzly (alpha cities: Londýn, New York, Tokio, Pariz).",
+            "tabulka": {
+              "sloupce": [
+                "Faktor",
+                "Trend vlivu",
+                "Duvod"
+              ],
+              "radky": [
+                [
+                  "Klima (teplo, srazky)",
+                  "Klesa",
+                  "Technologie (vytapeni, klimatizace, zavlaha)"
+                ],
+                [
+                  "Suroviny, uhlí",
+                  "Klesa",
+                  "Prechod k postindustr. ekonomice, globální doprava"
+                ],
+                [
+                  "Dopravni naklady",
+                  "Klesa",
+                  "Levna letecka a lodní doprava (kontejnerizace)"
+                ],
+                [
+                  "Kvalita ZP, voda",
+                  "Roste",
+                  "Rostouci naroky na kvalitu zivota"
+                ],
+                [
+                  "Telekomunikace, internet",
+                  "Roste",
+                  "Digitalni ekonomika vyžaduje konektivitu"
+                ],
+                [
+                  "Vzdelanost, V+V",
+                  "Roste",
+                  "Znalostni ekonomika - Silicon Valley, Cambridge"
+                ]
+              ]
+            },
+            "mnemotechnika": "Pořadí: Klima (teplo, srazky) → Suroviny, uhlí → Dopravni naklady → Kvalita ZP, voda → Telekomunikace, internet."
+          }
+        ],
         "exam_checklist": []
       },
-      "flashcards": [],
-      "kviz": []
+      "flashcards": [
+        {
+          "otazka": "Jake jsou klíčové přírodní faktory pro vznik sídel ve středověku (mnemonicka pomůcka)?",
+          "odpoved": "O-D-L: Obrana (vyvýšeniny, meandry), Doprava (brody, kupecké cesty), Ložiska drahých kovu"
+        },
+        {
+          "otazka": "Kolik procent obyvatel zije do 200 m n. m. a kolik procent souce to predstavuje?",
+          "odpoved": "Asi 60 % obyvatel, ale jen 28 % rozlohy souce - vyrazna prostorova koncentrace v nizinach"
+        },
+        {
+          "otazka": "Co je Christallerova teorie centralních míst (1933)?",
+          "odpoved": "Teorie vysvetlujici pocet, rozmístění a velikost sídel na zaklade hierarchie obslužných oblasti; vzniká hexagonální (6tiuhelnikova) sit"
+        },
+        {
+          "otazka": "Jaká je Megalopolis Bos-Wash?",
+          "odpoved": "Nejvetsi městská aglomerace na svete: Boston-NY-Philadelphia-Baltimore-Washington, cca 50 mil. obyvatel, 700 km"
+        },
+        {
+          "otazka": "Kde jsou nejstarsi osidlene oblasti ČR a proč?",
+          "odpoved": "Stredni Čechy, jižní Morava, Polabí, Poohri, Hana - úrodná půda, mírné klima, dostupnost vody"
+        },
+        {
+          "otazka": "Jak ovlivnil odsun Nemcu osídlení pohranici ČR?",
+          "odpoved": "Okresy Cheb, Sokolov, Tachov ztratily az 55 % původního obyvatelstva; nedostatecne dosidleni = trvale socioekonomicke problémy"
+        },
+        {
+          "otazka": "Jaký je vztah vzdálenosti od pobřeží a hustoty osídlení (konkretni cisla)?",
+          "odpoved": "Do 50 km: 28 % obyvatel na 12 % rozlohy; nad 1000 km od more: 20 % rozlohy, jen 8,5 % obyvatel"
+        },
+        {
+          "otazka": "Které faktory v soucasnosti rostouci význam pro lokalizaci aktivit?",
+          "odpoved": "Kvalita ZP a vody, telekomunikace, vzdelanost a V+V strediska, křížení dopravních tras (dalnice)"
+        },
+        {
+          "otazka": "Co je disperze aktivit a kdy je typicka?",
+          "odpoved": "Rovnomerne rozlozeni aktivit v prostoru; typicka pro venkovske zemedelstvi a soucasne trendy (remote work, home office)"
+        },
+        {
+          "otazka": "Co je ekumena, anekumena a subekumena?",
+          "odpoved": "Ekumena = trvale osidlene uzemi (43 % souce); anekumena = trvale neosidlene (pousti, ledovce); subekumena = docasne osidlene (pastviny, 37 % souce)"
+        },
+        {
+          "otazka": "Jak se lisi Löschuv (1940) pristup od Christallera (1933)?",
+          "odpoved": "Christaller = hierarchie sídel, hexagonální sit; Lösch = teorie trznich zón, optimalni pro jedno zboží; obecnejsi a flexibilnejsi model"
+        },
+        {
+          "otazka": "Proč Austrálie ma tak specifické rozlozeni obyvatelstva?",
+          "odpoved": "80 % obyvatel do 50 km od pobřeží - ohromne vnitrokontinentalni aride a semiaridni prostory jsou prakticky neosidlene"
+        },
+        {
+          "otazka": "Jaký typ koncentrace aktivit reprezentuji města Hamburk, Singapur a Hongkong?",
+          "odpoved": "Obchodni a dopravní koncentrace - pristav, prekladiste zboží, křížení mořských obchodních tras"
+        }
+      ],
+      "kviz": [
+        {
+          "otazka": "Kolik procent světové populace zije v oblasti mírné teplého podnebí (jen 17 % rozlohy souce)?",
+          "moznosti": [
+            "A) 30 %",
+            "B) vice nez 50 %",
+            "C) 70 %",
+            "D) 8,4 %"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Vice nez polovina obyvatel světa zije v oblasti mírné teplého podnebí, ktera tvorí jen 17 % rozlohy souce. Stepni, pustni a tundrove podnebí ma 38 % rozlohy, ale jen 8,4 % obyvatel."
+        },
+        {
+          "otazka": "Jaká polohovà charakteristika byla klicova pro stredoveka sídla?",
+          "moznosti": [
+            "A) Blízkost dalnice a logistickeho centra",
+            "B) Obranná poloha na vyvysenine nebo v meandru řeky",
+            "C) Dostupnost internetu a coworkingu",
+            "D) Tepelny ostrov a mestske teplo"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Ve středověku dominovala obranná poloha (vyvýšeniny, meandry), dopravní poloha (brody, kupecké cesty) a blizkost lozisek kovu. Prikladem je Praha na Hradcanech nebo Bern v meandru Aare."
+        },
+        {
+          "otazka": "O kolik procent populace prisla pohranicni oblast ČR (Cheb, Sokolov, Tachov) po 2. sv. valce?",
+          "moznosti": [
+            "A) 10-15 %",
+            "B) 25-30 %",
+            "C) az 55 %",
+            "D) 80 %"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Odsun nemeckeho obyvatelstva a nedostatecne dosidleni zpusobilo, ze pohranicni okresy ztratily az 55 % původního obyvatelstva, coz melo trvale socioekonomicke dopady."
+        },
+        {
+          "otazka": "Co predpoklada Christallerova teorie centralních míst (1933)?",
+          "moznosti": [
+            "A) Minimalizaci dopravních nákladů průmyslových podniku",
+            "B) Hierarchické uspořádání sídel s hexagonální sítí obslužných oblasti",
+            "C) Koncentraci průmyslu do přístavových poloh",
+            "D) Rozvoj služeb pouze ve velkych městech"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Christaller (1933) formuloval teorii, kde poptavka klesa se vzdálenosti a vzniká hierarchicka sit sídel s obsluznou oblastí ve tvaru 6tiuhelnika. Kazde stredisko vyssiho radu poskytuje i služby nizsiho radu."
+        },
+        {
+          "otazka": "Který z techto faktorů ma v soucasnosti ROSTOUCI význam pro lokalizací ekonomickych aktivit?",
+          "moznosti": [
+            "A) Blizkost uhelnych lozisek",
+            "B) Nizke dopravní naklady",
+            "C) Kvalita ZP a vzdelanost",
+            "D) Dostupnost zemedelske pudy"
+          ],
+          "spravna": 2,
+          "vysvetleni": "V soucasne postindustriální ekonomice roste význam kvality ZP, vody, telekomunikaci a vzdelanostnich a vyzkumnych stredisek. Naopak klesa význam surovin, uhlí a dopravních nákladů."
+        },
+        {
+          "otazka": "Co je Megalopolis Bos-Wash?",
+          "moznosti": [
+            "A) Administrativní region východu USA s jedním centrem",
+            "B) Spojitá městská aglomerace Boston-NY-Philadelphia-Baltimore-Washington (cca 50 mil. ob.)",
+            "C) Mestska aglomerace na západním pobřeží USA",
+            "D) Historicky nazev pro New York City"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Bos-Wash je největší městská aglomerace světa - spojité osídlení podél 700 km východoamerického pobřeží s cca 50 mil. obyvateli (asi 15 % USA)."
+        },
+        {
+          "otazka": "Která nadmořská výška je pro světové osídlení nejpříznivější?",
+          "moznosti": [
+            "A) Do 100 m n. m.",
+            "B) Do 200 m n. m.",
+            "C) 200-500 m n. m.",
+            "D) 500-1000 m n. m."
+          ],
+          "spravna": 1,
+          "vysvetleni": "Do 200 m n. m. zije zhruba 60 % obyvatel, ale tato zóna tvorí jen 28 % rozlohy souce. Vyjimkou jsou tropicke oblasti, kde lidé casto ziji ve vyskach nad 500 m."
+        },
+        {
+          "otazka": "Které oblasti ČR tvorily jadra nejstarsiho osídlení?",
+          "moznosti": [
+            "A) Pohranicni hory kvuli obranne poloze",
+            "B) Stredni Čechy, jižní Morava, Polabí - úrodná půda a mírné klima",
+            "C) Severovýchodní Čechy kvuli uhelnému průmyslu",
+            "D) Jihozápadní Morava kvuli římským cestám"
+          ],
+          "spravna": 1,
+          "vysvetleni": "Nejstarsi centra osídlení v ČR se nachazela tam, kde přírodní podminky umoznily zemedelstvi: střední Čechy, jižní Morava, Polabí, Poohri, Hana. Pohranicni hory byly kolonizovany az od 13. stol."
+        },
+        {
+          "otazka": "Jaký typ prostorové koncentrace predstavuji města Singapur a Hamburk?",
+          "moznosti": [
+            "A) Zemedelska koncentrace u urodne pudy",
+            "B) Průmyslová koncentrace u uhelnich lozisek",
+            "C) Obchodni a dopravní koncentrace pristav a prekladiste",
+            "D) Rekreační koncentrace u more"
+          ],
+          "spravna": 2,
+          "vysvetleni": "Singapur a Hamburk jsou klasickými příklady koncentrace založené na přístavu, překladišti zboží a křížení mořských obchodních tras. Další příklady: Hongkong, Vancouver, Rio de Janeiro."
+        },
+        {
+          "otazka": "Proč Austrálie ma specifické rozlozeni obyvatelstva s 80 % u pobřeží?",
+          "moznosti": [
+            "A) Historicke duvody - britska kolonizace probihala pouze u pobřeží",
+            "B) Obrovske vnitrozemske aridni a semiaridni prostory jsou prakticky neosidlene",
+            "C) Australska vlada zakázala osídlení vnitrozemi",
+            "D) Vnitrozemske hory jsou prilis vysoke"
+          ],
+          "spravna": 1,
+          "vysvetleni": "80 % Australanu zije do 50 km od pobřeží, protoze vnitrozemí je z velke casti pousti (Simpson Desert, Gibson Desert, Great Victoria Desert) a semiaridni savana - pro trvale osídlení je nevhodne."
+        }
+      ]
     }
   ]
 }

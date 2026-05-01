@@ -61,7 +61,8 @@
                   "Objektivní zobrazení skutečnosti pomocí mapy, včetně pozdějších analýz mapového obrazu"
                 ]
               ]
-            }
+            },
+            "mnemotechnika": "Pořadí: Předmět → Objekt → Hlavní metody → Cíl."
           },
           {
             "nadpis": "Kartografie v systému věd",
@@ -94,7 +95,8 @@
               "1. Kartografická dokumentace – shromažďuje publikovaná kartografická díla",
               "2. Sestavování a redakce map – práce spojené s tvorbou map",
               "3. Kartografická reprodukce – práce nutné k rozmnožení a rozšíření map"
-            ]
+            ],
+            "mnemotechnika": "Klíč: Struktura kartografie – praktická část. Řekni definici, příklad a dopad."
           },
           {
             "nadpis": "Druhy map a jejich využití v praxi",
@@ -147,7 +149,8 @@
               "Geografie data sbírá a analyzuje, kartografie je vizualizuje a komunikuje",
               "Umožňuje prostorové myšlení – hledání vzorů v prostoru",
               "Kartografické vyjadřovací prostředky (znaky, barvy, izolinie) = klíč k pochopení geoprostoru"
-            ]
+            ],
+            "mnemotechnika": "Klíč: Kartografie a geografie – vztah. Řekni definici, příklad a dopad."
           }
         ],
         "exam_checklist": [
@@ -276,7 +279,7 @@
           "vysvetleni": "Topografická (obecně zeměpisná) mapa zobrazuje terén komplexně – výškopis, polohopis, popis. Tematická se zaměřuje na jeden vybraný jev."
         },
         {
-          "otazka": "Mapy šíření COVID-19 jsou příkladem jakého druhu mapy?",
+          "otazka": "Mapy šíření COVID-19 jsou příkladem jakého druhů mapy?",
           "moznosti": [
             "Topografické – navigační",
             "Katastrální – evidenční",
@@ -331,7 +334,7 @@
             "obsah": "Prostředí = souhrn všech vnějších činitelů působících na organismy. Faktor = činitel působící přímo na živé organismy (teplota, vítr, světlo). Podmínka = okolnost statického charakteru, působí nepřímo.",
             "tabulka": {
               "sloupce": [
-                "Typ faktoru",
+                "Typ faktorů",
                 "Příklady",
                 "Tolerance"
               ],
@@ -391,7 +394,8 @@
                   "ztráta pigmentu: macarát jeskynní, rypoš lysý; bioluminiscence; echolokace (netopýři 14–110 kHz)"
                 ]
               ]
-            }
+            },
+            "mnemotechnika": "Pořadí: Rostliny – nedostatek světla → Rostliny – nadbytek světla → Živočichové – jeskynní."
           },
           {
             "nadpis": "Hibernace a estivace – konkrétní hodnoty",
@@ -436,14 +440,14 @@
                 [
                   "Bergmannovo",
                   "1847",
-                  "V chladnějších oblastech jsou jedinci téhož druhu větší (menší poměr povrchu k objemu = méně ztrácejí teplo)",
+                  "V chladnějších oblastech jsou jedinci téhož druhů větší (menší poměr povrchu k objemu = méně ztrácejí teplo)",
                   "Tučňák císařský (Antarktida, 46 kg) vs. tučňák galapážský (rovník, 2,7 kg)"
                 ],
                 [
                   "Allenovo",
                   "1878",
                   "Směrem k pólům se zkracují exponované orgány (uši, ocas, končetiny)",
-                  "Liška polární (krátká ouška) vs. liška pouštní fennek (velká ouška)"
+                  "Liška podélární (krátká ouška) vs. liška pouštní fennek (velká ouška)"
                 ],
                 [
                   "Glogerovo",
@@ -469,7 +473,7 @@
           },
           {
             "nadpis": "Přehled hlavních biomů světa",
-            "obsah": "Produktivita v jednotkách ×1000 kJ/m²/rok. Nejvyšší: tropický les 40–100. Nejnižší: pouště, tundra, polární pustina méně než 2.",
+            "obsah": "Produktivita v jednotkách ×1000 kJ/m²/rok. Nejvyšší: tropický les 40–100. Nejnižší: pouště, tundra, podélární pustina méně než 2.",
             "tabulka": {
               "sloupce": [
                 "Biom",
@@ -536,7 +540,8 @@
                   "40–100"
                 ]
               ]
-            }
+            },
+            "mnemotechnika": "Pořadí: Polární pustina → Tundra → Tajga (boreální les) → Step (prérie, pampa) → Opadavé lesy mírného pásu."
           },
           {
             "nadpis": "Podrobné srovnání: Tundra vs. Tropický deštný les",
@@ -635,7 +640,7 @@
                 [
                   "Konzumenti III. řádu (omnivoři)",
                   "heterotrofní",
-                  "medvěd ledový, liška polární, člověk"
+                  "medvěd ledový, liška podélární, člověk"
                 ],
                 [
                   "Dekompozitoři – likvidátoři",
@@ -648,7 +653,8 @@
                   "houby, bakterie – mineralizace (anorganické látky)"
                 ]
               ]
-            }
+            },
+            "mnemotechnika": "Pořadí: Producenti → Konzumenti I. řádu (herbivoři) → Konzumenti II. řádu (karnivoři) → Konzumenti III. řádu (omnivoři) → Dekompozitoři – likvidátoři."
           }
         ],
         "exam_checklist": [
@@ -664,11 +670,11 @@
       "flashcards": [
         {
           "otazka": "Co říká Bergmannovo pravidlo? Uveď příklad.",
-          "odpoved": "Živočichové téhož druhu jsou v chladnějších oblastech větší (menší poměr povrchu k objemu = méně ztrácejí teplo). Tučňák císařský (Antarktida, 46 kg) vs. tučňák galapážský (rovník, 2,7 kg)."
+          "odpoved": "Živočichové téhož druhů jsou v chladnějších oblastech větší (menší poměr povrchu k objemu = méně ztrácejí teplo). Tučňák císařský (Antarktida, 46 kg) vs. tučňák galapážský (rovník, 2,7 kg)."
         },
         {
           "otazka": "Co říká Allenovo pravidlo? Uveď příklad.",
-          "odpoved": "Směrem k pólům se zkracují exponované orgány (uši, ocas, končetiny). Liška polární (krátká ouška) vs. liška pouštní fennek (velká ouška)."
+          "odpoved": "Směrem k pólům se zkracují exponované orgány (uši, ocas, končetiny). Liška podélární (krátká ouška) vs. liška pouštní fennek (velká ouška)."
         },
         {
           "otazka": "Co říká Glogerovo pravidlo? Vztahuje se i na člověka?",
@@ -676,7 +682,7 @@
         },
         {
           "otazka": "Co říká Jordanovo pravidlo a kdy bylo formulováno?",
-          "odpoved": "1892: počet obratlů mořských ryb roste od tropů k pólům. Není zcela universální – liší se dle druhu a populace."
+          "odpoved": "1892: počet obratlů mořských ryb roste od tropů k pólům. Není zcela universální – liší se dle druhů a populace."
         },
         {
           "otazka": "Co říká Thorsonovo pravidlo?",
@@ -740,18 +746,18 @@
             "D) počtu obratlů u mořských ryb"
           ],
           "spravna": "B",
-          "vysvetleni": "Allenovo pravidlo (1878): směrem k pólům se zkracují exponované orgány. Liška polární má krátká ouška, liška fennek (poušť) má ouška velká."
+          "vysvetleni": "Allenovo pravidlo (1878): směrem k pólům se zkracují exponované orgány. Liška podélární má krátká ouška, liška fennek (poušť) má ouška velká."
         },
         {
           "otazka": "Která dvojice biomů má NEJNIŽŠÍ primární produktivitu?",
           "moznosti": [
             "A) Tropický deštný les a savana",
             "B) Opadavé lesy mírného pásu a step",
-            "C) Tundra a polární pustina",
+            "C) Tundra a podélární pustina",
             "D) Tajga a opadavé lesy"
           ],
           "spravna": "C",
-          "vysvetleni": "Tundra i polární pustina mají produktivitu méně než 2 (×1000 kJ/m²/rok), stejně jako pouště a hluboký oceán."
+          "vysvetleni": "Tundra i podélární pustina mají produktivitu méně než 2 (×1000 kJ/m²/rok), stejně jako pouště a hluboký oceán."
         },
         {
           "otazka": "Pravou hibernací s teplotou těla blízko nuly prochází:",

@@ -53,6 +53,12 @@ function AppShell() {
     setSidebarOpen(false)
   }
 
+  function handleTopicSelect(topicNumber) {
+    setActiveOkruh(topicNumber)
+    setActiveMode('study')
+    setSidebarOpen(false)
+  }
+
   return (
     <div className="min-h-screen flex flex-col">
       <header className="bg-white/95 backdrop-blur border-b border-slate-200 sticky top-0 z-30">
@@ -138,14 +144,14 @@ function AppShell() {
       <div className="flex flex-1 max-w-6xl mx-auto w-full px-4 py-6 gap-6">
         {isSignedIn && (
           <aside className="hidden md:block w-56 shrink-0">
-            <div className="sticky top-20">
+            <div className="sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto pr-2">
               <Navigation
                 subjects={SUBJECTS}
                 activeSubject={activeSubject}
                 onSubjectSelect={handleSubjectChange}
                 okruhyCount={subject.topicCount}
                 activeOkruh={activeOkruh}
-                onSelect={setActiveOkruh}
+                onSelect={handleTopicSelect}
                 titles={titles[activeSubject]}
               />
             </div>
@@ -177,7 +183,7 @@ function AppShell() {
                 onSubjectSelect={handleSubjectChange}
                 okruhyCount={subject.topicCount}
                 activeOkruh={activeOkruh}
-                onSelect={topicNumber => { setActiveOkruh(topicNumber); setSidebarOpen(false) }}
+                onSelect={handleTopicSelect}
                 titles={titles[activeSubject]}
               />
             </aside>
