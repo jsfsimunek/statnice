@@ -107,7 +107,7 @@ function QuestionCard({ question, questionIndex, selected, showResults, onAnswer
           }
 
           return (
-            <button key={optionIndex} onClick={() => onAnswer(optionIndex)} className={cls} disabled={isAnswered && !showResults}>
+            <button key={optionIndex} onClick={() => onAnswer(optionIndex)} className={cls} disabled={showResults}>
               <span className="font-bold mr-2 opacity-60">{String.fromCharCode(65 + optionIndex)}.</span>
               {option}
               {showResults && isCorrect && <span className="ml-2">OK</span>}
